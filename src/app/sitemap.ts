@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { bosses } from "@/data/bosses";
 import { builds } from "@/data/builds";
 import { skills } from "@/data/skills";
+import { getAllMarkdownGuides } from "@/lib/markdown";
 import { absoluteUrl } from "@/lib/seo";
 
 const lastModified = new Date();
@@ -20,6 +21,8 @@ function sitemapEntry(
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const guides = getAllMarkdownGuides();
+
   return [
     sitemapEntry("/", 1, "daily"),
     sitemapEntry("/builds", 0.9),
@@ -29,5 +32,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...builds.map((build) => sitemapEntry(`/builds/${build.slug}`, 0.8)),
     ...bosses.map((boss) => sitemapEntry(`/bosses/${boss.slug}`, 0.8)),
     ...skills.map((skill) => sitemapEntry(`/skills/${skill.slug}`, 0.75)),
+    ...guides.map((guide) => sitemapEntry(guide.path, 0.75)),
   ];
 }
