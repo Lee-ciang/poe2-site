@@ -1,3 +1,6 @@
+import { bosses } from "../src/data/bosses";
+import { builds } from "../src/data/builds";
+import { skills } from "../src/data/skills";
 import { getAllMarkdownGuides } from "../src/lib/markdown";
 
 const MIN_DESCRIPTION_LENGTH = 80;
@@ -9,6 +12,10 @@ const warnings: string[] = [];
 
 const seenPaths = new Set<string>();
 const seenSlugs = new Map<string, string>();
+
+const buildSlugs = new Set(builds.map((build) => build.slug));
+const bossSlugs = new Set(bosses.map((boss) => boss.slug));
+const skillSlugs = new Set(skills.map((skill) => skill.slug));
 
 for (const guide of guides) {
   const { metadata, body, path } = guide;
@@ -59,6 +66,24 @@ for (const guide of guides) {
 
   if (relatedCount === 0) {
     warnings.push(`${path}: no related links`);
+  }
+
+  for (const relatedBuild of metadata.relatedBuilds) {
+    if (!buildSlugs.has(relatedBuild)) {
+      errors.push(`${path}: broken relatedBuilds slug "${relatedBuild}"`);
+    }
+  }
+
+  for (const relatedBoss of metadata.relatedBosses) {
+    if (!bossSlugs.has(relatedBoss)) {
+      errors.push(`${path}: broken relatedBosses slug "${relatedBoss}"`);
+    }
+  }
+
+  for (const relatedSkill of metadata.relatedSkills) {
+    if (!skillSlugs.has(relatedSkill)) {
+      errors.push(`${path}: broken relatedSkills slug "${relatedSkill}"`);
+    }
   }
 
   if (body.length < MIN_BODY_LENGTH) {
