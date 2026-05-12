@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     sitemapEntry("/builds", 0.9),
     sitemapEntry("/bosses", 0.9),
     sitemapEntry("/skills", 0.9),
+    sitemapEntry("/guides", 0.9),
     ...builds.map((build) => sitemapEntry(`/builds/${build.slug}`, 0.8)),
     ...bosses.map((boss) => sitemapEntry(`/bosses/${boss.slug}`, 0.8)),
     ...skills.map((skill) => sitemapEntry(`/skills/${skill.slug}`, 0.75)),

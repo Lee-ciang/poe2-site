@@ -93,3 +93,23 @@ The site now uses:
 - internal topic graph
 - AI-assisted content workflow
 - cluster-based internal linking
+
+## Immediate Next Task
+
+Next major step:
+- unify URL structure
+- keep:
+/guides/skills/[slug]
+
+- keep:
+/skills as hub
+/skills/category/[type] as category pages
+
+- remove:
+/skills/[slug]
+
+- convert all skill links to:
+/guides/skills/[slug]
+
+Reason:
+avoid duplicate SEO intent and improve canonical architecture.
