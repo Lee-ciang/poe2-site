@@ -1,0 +1,41 @@
+export const buildContentTemplate = {
+  seoTitlePattern: "{Build Name} Guide - Best {Class} Build for POE2",
+  metaDescriptionPattern:
+    "Learn how to play the {Build Name} in Path of Exile 2, including core skills, gear priorities, strengths, weaknesses, leveling tips, and endgame notes.",
+  pageSections: [
+    "Overview",
+    "Build Snapshot",
+    "Playstyle",
+    "Strengths",
+    "Weaknesses",
+    "Core Skills",
+    "Recommended Gear",
+    "Passive and Stat Priorities",
+    "Leveling Tips",
+    "Endgame Notes",
+    "Recommended Bosses and Content",
+    "FAQ",
+  ],
+  faqQuestionPatterns: [
+    "Is {Build Name} beginner friendly?",
+    "What class is best for {Build Name}?",
+    "What stats should {Build Name} prioritize?",
+    "Can {Build Name} clear endgame bosses?",
+    "What should I upgrade first on {Build Name}?",
+  ],
+  internalLinkingSuggestions: [
+    "Link to 2-3 relevant boss guides that the build handles well.",
+    "Link each named core skill to a matching skill detail page when available.",
+    "Link to related builds for the same class or playstyle.",
+    "Link to the builds index with descriptive anchor text.",
+  ],
+  contentQualityChecklist: [
+    "Explains who the build is for and who should avoid it.",
+    "Separates verified facts from assumptions or patch-sensitive advice.",
+    "Gives practical gear and stat priorities instead of vague optimization language.",
+    "Includes real tradeoffs, not only benefits.",
+    "Mentions leveling and endgame differences.",
+    "Avoids inventing exact damage numbers, drop rates, or patch changes.",
+    "Uses internal links only when they help the player make a decision.",
+  ],
+} as const;

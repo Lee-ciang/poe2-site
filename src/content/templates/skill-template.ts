@@ -1,0 +1,42 @@
+export const skillContentTemplate = {
+  seoTitlePattern: "{Skill Name} Skill Guide - Scaling, Supports, and Builds",
+  metaDescriptionPattern:
+    "Learn how {Skill Name} works in Path of Exile 2, including damage type, weapon requirements, scaling stats, best supports, recommended builds, and endgame use.",
+  pageSections: [
+    "Overview",
+    "Category",
+    "Damage Type",
+    "Weapon Requirement",
+    "How the Skill Plays",
+    "Scaling Stats",
+    "Best Supports",
+    "Recommended Builds",
+    "Strengths",
+    "Weaknesses",
+    "Leveling Notes",
+    "Endgame Use",
+    "FAQ",
+  ],
+  faqQuestionPatterns: [
+    "Is {Skill Name} good for leveling?",
+    "What supports work best with {Skill Name}?",
+    "What stats scale {Skill Name}?",
+    "Which builds should use {Skill Name}?",
+    "Is {Skill Name} better for mapping or bossing?",
+  ],
+  internalLinkingSuggestions: [
+    "Link builds that use the skill as a core or supporting ability.",
+    "Link boss guides where the skill has a clear advantage or limitation.",
+    "Link related skills with the same damage type or weapon requirement.",
+    "Link to the skills index with descriptive anchor text.",
+  ],
+  contentQualityChecklist: [
+    "Explains the skill's role in plain player language.",
+    "Lists scaling stats without implying unverified exact formulas.",
+    "Separates leveling value from endgame value.",
+    "Mentions weapon requirements and practical limitations.",
+    "Includes support recommendations with reasons.",
+    "Avoids claiming interactions that have not been verified in-game.",
+    "Uses internal links to connect skills, builds, and boss use cases.",
+  ],
+} as const;

@@ -1,0 +1,41 @@
+export const bossContentTemplate = {
+  seoTitlePattern: "{Boss Name} Boss Guide - Mechanics, Weaknesses, and Tips",
+  metaDescriptionPattern:
+    "Defeat {Boss Name} in Path of Exile 2 with phase breakdowns, damage types, weaknesses, recommended builds, rewards, and practical fight tips.",
+  pageSections: [
+    "Overview",
+    "Location",
+    "Difficulty",
+    "Damage Types",
+    "Weaknesses",
+    "Phase Breakdown",
+    "Key Mechanics",
+    "Recommended Builds",
+    "Rewards",
+    "Common Mistakes",
+    "Tips",
+    "FAQ",
+  ],
+  faqQuestionPatterns: [
+    "Where do you find {Boss Name}?",
+    "What damage types does {Boss Name} use?",
+    "What resistance should I prioritize for {Boss Name}?",
+    "Which builds are best for {Boss Name}?",
+    "What is the safest strategy for {Boss Name}?",
+  ],
+  internalLinkingSuggestions: [
+    "Link recommended builds that match the boss weaknesses.",
+    "Link skill pages for defensive or damage tools mentioned in the strategy.",
+    "Link to adjacent campaign or endgame boss guides.",
+    "Link to the bosses index with descriptive anchor text.",
+  ],
+  contentQualityChecklist: [
+    "Names the location and progression context clearly.",
+    "Breaks mechanics into readable player actions.",
+    "Explains what to dodge, when to attack, and when to reset.",
+    "Avoids claiming unverified rewards or exact drop rates.",
+    "Includes build recommendations with a reason for each.",
+    "Flags patch-sensitive mechanics or uncertain details.",
+    "Answers common failure points in the FAQ.",
+  ],
+} as const;
