@@ -6,7 +6,7 @@ import {
   getMarkdownGuide,
   getMarkdownGuideParams,
 } from "@/lib/markdown";
-import { createSeoMetadata } from "@/lib/seo";
+import { createFaqJsonLd, createSeoMetadata, stringifyJsonLd } from "@/lib/seo";
 
 type GuidePageProps = {
   params: Promise<{
@@ -140,7 +140,7 @@ export async function generateMetadata({
       title: "Guide Not Found",
     };
   }
-
+  
   return createSeoMetadata({
     title: guide.metadata.seoTitle ?? guide.metadata.title,
     description:
@@ -165,8 +165,19 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
     notFound();
   }
 
+  const faqJsonLd =
+  guide.faqItems.length > 0 ? createFaqJsonLd(guide.faqItems) : null;
+
   return (
     <main className="flex-1 bg-black text-white">
+      {faqJsonLd ? (
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: stringifyJsonLd(faqJsonLd),
+    }}
+  />
+) : null}
       <section className="border-b border-zinc-800 bg-zinc-950">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
           <Link

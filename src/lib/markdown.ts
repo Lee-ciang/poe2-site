@@ -18,10 +18,16 @@ export type GuideFrontmatter = {
   contentStatus?: ContentStatus;
 };
 
+export type FaqItem = {
+  question: string;
+  answer: string;
+};
+
 export type MarkdownGuide = {
   metadata: GuideFrontmatter;
   body: string;
   path: string;
+  faqItems: FaqItem[];
 };
 
 const guideTypes = ["builds", "bosses", "skills"] as const;
@@ -101,6 +107,35 @@ function parseFrontmatter(source: string) {
   };
 }
 
+function extractFaqItems(body: string): FaqItem[] {
+  const faqMatch = body.match(/## FAQ\s*([\s\S]*)$/i);
+
+  if (!faqMatch) {
+    return [];
+  }
+
+  const faqSection = faqMatch[1];
+  const questionBlocks = faqSection.split(/\n### /).filter(Boolean);
+
+  return questionBlocks
+    .map((block) => {
+      const normalizedBlock = block.replace(/^### /, "").trim();
+      const [questionLine, ...answerLines] = normalizedBlock.split(/\r?\n/);
+      const question = questionLine?.trim();
+      const answer = answerLines.join("\n").trim();
+
+      if (!question || !answer) {
+        return null;
+      }
+
+      return {
+        question,
+        answer,
+      };
+    })
+    .filter((item): item is FaqItem => Boolean(item));
+}
+
 export function getMarkdownGuide(type: GuideType, slug: string): MarkdownGuide | null {
   const filePath = path.join(guidesDirectory, type, `${slug}.md`);
 
@@ -111,10 +146,11 @@ export function getMarkdownGuide(type: GuideType, slug: string): MarkdownGuide |
   const source = fs.readFileSync(filePath, "utf8");
   const parsed = parseFrontmatter(source);
 
-  return {
-    ...parsed,
-    path: `/guides/${type}/${slug}`,
-  };
+return {
+  ...parsed,
+  path: `/guides/${type}/${slug}`,
+  faqItems: extractFaqItems(parsed.body),
+};
 }
 
 export function getAllMarkdownGuides(): MarkdownGuide[] {
