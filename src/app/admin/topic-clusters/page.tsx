@@ -10,6 +10,39 @@ const topicKeywords = {
   ranger: ["ranger", "bow", "arrow", "projectile", "poison"],
 } as const;
 
+const expansionIdeas = {
+  lightning: {
+    builds: "Lightning Endgame Build Guide",
+    bosses: "Lightning Bossing Strategy Guide",
+    skills: "Best Lightning Skills Guide",
+  },
+  cold: {
+    builds: "Cold Endgame Build Guide",
+    bosses: "Cold Bossing Strategy Guide",
+    skills: "Best Cold Skills Guide",
+  },
+  fire: {
+    builds: "Fire Endgame Build Guide",
+    bosses: "Fire Bossing Strategy Guide",
+    skills: "Best Fire Skills Guide",
+  },
+  melee: {
+    builds: "Melee Endgame Build Guide",
+    bosses: "Melee Bossing Strategy Guide",
+    skills: "Best Melee Skills Guide",
+  },
+  bossing: {
+    builds: "Best Bossing Builds Guide",
+    bosses: "POE2 Boss Progression Guide",
+    skills: "Best Bossing Skills Guide",
+  },
+  ranger: {
+    builds: "Ranger Endgame Build Guide",
+    bosses: "Ranger Bossing Strategy Guide",
+    skills: "Best Ranger Skills Guide",
+  },
+} as const;
+
 function getGuideText(guide: ReturnType<typeof getAllMarkdownGuides>[number]) {
   return [
     guide.metadata.title,
@@ -75,6 +108,20 @@ const gapWarnings = [
   skillCount === 0 ? "Missing skill coverage" : null,
 ].filter((warning): warning is string => Boolean(warning));
 
+const expansionQueue = [
+  buildCount === 0
+    ? expansionIdeas[topic as keyof typeof expansionIdeas].builds
+    : null,
+
+  bossCount === 0
+    ? expansionIdeas[topic as keyof typeof expansionIdeas].bosses
+    : null,
+
+  skillCount === 0
+    ? expansionIdeas[topic as keyof typeof expansionIdeas].skills
+    : null,
+].filter((item): item is string => Boolean(item));
+
 const averageQualityScore =
   items.length > 0
     ? Math.round(
@@ -96,6 +143,7 @@ return {
   bossCount,
   skillCount,
   gapWarnings,
+  expansionQueue,
 };
   });
 
@@ -151,6 +199,25 @@ return {
              ))}
             </div>
              ) : null}
+
+             {cluster.expansionQueue.length > 0 ? (
+  <div className="mt-4 rounded-2xl border border-orange-500/20 bg-orange-500/5 p-5">
+    <p className="text-sm font-bold uppercase tracking-[0.2em] text-orange-400">
+      AI Expansion Recommendations
+    </p>
+
+    <div className="mt-4 flex flex-wrap gap-3">
+      {cluster.expansionQueue.map((idea) => (
+        <span
+          key={idea}
+          className="rounded-full border border-orange-500/20 bg-orange-500/10 px-4 py-2 text-sm font-bold text-orange-300"
+        >
+          {idea}
+        </span>
+      ))}
+    </div>
+  </div>
+) : null}
 
               <div className="mt-6 grid gap-4">
                 {cluster.items.slice(0, 10).map(({ guide, score }) => (
