@@ -81,12 +81,16 @@ function getDraftStatus(source: string) {
 
   const computedStatus = warnings.length ? "Needs Review" : "Publish Ready";
 
+  const autoApprovalEligible =
+  computedStatus === "Publish Ready" && publishScore >= 90;
+
   return {
-    status: contentStatus,
-    computedStatus,
-    warnings,
-    publishScore,
-  };
+  status: contentStatus,
+  computedStatus,
+  warnings,
+  publishScore,
+  autoApprovalEligible,
+};
 }
 
 function getDraftFiles() {
@@ -103,13 +107,14 @@ function getDraftFiles() {
       const draftStatus = getDraftStatus(source);
 
       return {
-        file,
-        path: draftPath,
-        status: draftStatus.status,
-        computedStatus: draftStatus.computedStatus,
-        warnings: draftStatus.warnings,
-        publishScore: draftStatus.publishScore,
-      };
+  file,
+  path: draftPath,
+  status: draftStatus.status,
+  computedStatus: draftStatus.computedStatus,
+  warnings: draftStatus.warnings,
+  publishScore: draftStatus.publishScore,
+  autoApprovalEligible: draftStatus.autoApprovalEligible,
+};
     });
 }
 
@@ -164,6 +169,12 @@ export default function PublishQueuePage() {
                   <span className="rounded-full border border-zinc-700 bg-zinc-950 px-3 py-1 text-xs font-bold text-zinc-300">
                     Publish Score {draft.publishScore}/100
                   </span>
+
+                  {draft.autoApprovalEligible ? (
+  <span className="rounded-full border border-green-500/30 bg-green-500/10 px-3 py-1 text-xs font-bold text-green-300">
+    Auto Approval Eligible
+  </span>
+) : null}
 
                   {draft.warnings.map((warning) => (
                     <span
