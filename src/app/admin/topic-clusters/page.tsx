@@ -57,6 +57,24 @@ const lowQualityCount = items.filter(
   (item) => item.guide.metrics.qualityScore < 70,
 ).length;
 
+const buildCount = items.filter(
+  (item) => item.guide.metadata.type === "builds",
+).length;
+
+const bossCount = items.filter(
+  (item) => item.guide.metadata.type === "bosses",
+).length;
+
+const skillCount = items.filter(
+  (item) => item.guide.metadata.type === "skills",
+).length;
+
+const gapWarnings = [
+  buildCount === 0 ? "Missing build coverage" : null,
+  bossCount === 0 ? "Missing boss coverage" : null,
+  skillCount === 0 ? "Missing skill coverage" : null,
+].filter((warning): warning is string => Boolean(warning));
+
 const averageQualityScore =
   items.length > 0
     ? Math.round(
@@ -74,6 +92,10 @@ return {
   outdatedPatchCount,
   lowQualityCount,
   averageQualityScore,
+  buildCount,
+  bossCount,
+  skillCount,
+  gapWarnings,
 };
   });
 
@@ -111,8 +133,24 @@ return {
                    <ClusterMetric label="Stale" value={cluster.staleCount} />
                    <ClusterMetric label="Outdated" value={cluster.outdatedPatchCount} />
                    <ClusterMetric label="Low Quality" value={cluster.lowQualityCount} />
-</div>
+                   <ClusterMetric label="Builds" value={cluster.buildCount} />
+                   <ClusterMetric label="Bosses" value={cluster.bossCount} />
+                   <ClusterMetric label="Skills" value={cluster.skillCount} />
+                </div>
               </div>
+
+              {cluster.gapWarnings.length > 0 ? (
+             <div className="mt-6 flex flex-wrap gap-3">
+             {cluster.gapWarnings.map((warning) => (
+             <span
+             key={warning}
+             className="rounded-full border border-red-500/30 bg-red-500/10 px-4 py-2 text-sm font-bold text-red-300"
+      >
+             {warning}
+            </span>
+             ))}
+            </div>
+             ) : null}
 
               <div className="mt-6 grid gap-4">
                 {cluster.items.slice(0, 10).map(({ guide, score }) => (
