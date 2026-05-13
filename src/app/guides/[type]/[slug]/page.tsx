@@ -201,6 +201,9 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
                 Updated {guide.metadata.lastUpdated}
               </span>
             ) : null}
+            <span className="rounded-full border border-zinc-700 bg-zinc-950 px-3 py-1 text-xs font-bold text-zinc-300">
+           {guide.metrics.readingTimeMinutes} min read
+              </span>
           </div>
 
           <h1 className="mt-5 max-w-5xl text-4xl font-black tracking-tight sm:text-6xl">

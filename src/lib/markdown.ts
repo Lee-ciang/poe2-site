@@ -23,11 +23,17 @@ export type FaqItem = {
   answer: string;
 };
 
+export type ContentMetrics = {
+  wordCount: number;
+  readingTimeMinutes: number;
+};
+
 export type MarkdownGuide = {
   metadata: GuideFrontmatter;
   body: string;
   path: string;
   faqItems: FaqItem[];
+  metrics: ContentMetrics;
 };
 
 const guideTypes = ["builds", "bosses", "skills"] as const;
@@ -136,6 +142,21 @@ function extractFaqItems(body: string): FaqItem[] {
     .filter((item): item is FaqItem => Boolean(item));
 }
 
+function calculateContentMetrics(body: string): ContentMetrics {
+  const words = body
+    .replace(/[#*`[\]()>\-]/g, " ")
+    .split(/\s+/)
+    .filter(Boolean);
+
+  const wordCount = words.length;
+  const readingTimeMinutes = Math.max(1, Math.ceil(wordCount / 200));
+
+  return {
+    wordCount,
+    readingTimeMinutes,
+  };
+}
+
 export function getMarkdownGuide(type: GuideType, slug: string): MarkdownGuide | null {
   const filePath = path.join(guidesDirectory, type, `${slug}.md`);
 
@@ -150,6 +171,7 @@ return {
   ...parsed,
   path: `/guides/${type}/${slug}`,
   faqItems: extractFaqItems(parsed.body),
+  metrics: calculateContentMetrics(parsed.body),
 };
 }
 
