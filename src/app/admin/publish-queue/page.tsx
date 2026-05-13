@@ -32,11 +32,37 @@ function getDraftStatus(source: string) {
   const faqCount = (source.match(/^### /gm) ?? []).length;
 
   if (!frontmatter) {
-    return {
-      status: "Blocked",
-      warnings: ["Missing frontmatter"],
-    };
-  }
+  return {
+    status: "Blocked",
+    warnings: ["Missing frontmatter"],
+    publishScore: 0,
+  };
+}
+
+  const body = source.replace(/^---\r?\n[\s\S]*?\r?\n---/, "").trim();
+const wordCount = body.split(/\s+/).filter(Boolean).length;
+
+let publishScore = 0;
+
+if (frontmatter.get("seoDescription")) {
+  publishScore += 20;
+}
+
+if (frontmatter.get("patchVersion")) {
+  publishScore += 15;
+}
+
+if (frontmatter.get("lastUpdated")) {
+  publishScore += 15;
+}
+
+if (hasFaq && faqCount >= 2) {
+  publishScore += 25;
+}
+
+if (wordCount >= 300) {
+  publishScore += 25;
+}
 
   const warnings = [
     !frontmatter.get("seoDescription") ? "Missing seoDescription" : null,
@@ -47,9 +73,10 @@ function getDraftStatus(source: string) {
   ].filter((warning): warning is string => Boolean(warning));
 
   return {
-    status: warnings.length ? "Needs Review" : "Publish Ready",
-    warnings,
-  };
+  status: warnings.length ? "Needs Review" : "Publish Ready",
+  warnings,
+  publishScore,
+};
 }
 
 const draftsDirectory = path.join(process.cwd(), "src", "content", "drafts");
@@ -68,11 +95,12 @@ function getDraftFiles() {
   const draftStatus = getDraftStatus(source);
 
   return {
-    file,
-    path: draftPath,
-    status: draftStatus.status,
-    warnings: draftStatus.warnings,
-  };
+  file,
+  path: draftPath,
+  status: draftStatus.status,
+  warnings: draftStatus.warnings,
+  publishScore: draftStatus.publishScore,
+};
 });
 }
 
@@ -118,6 +146,10 @@ export default function PublishQueuePage() {
   <span className="rounded-full border border-orange-500/20 bg-orange-500/10 px-3 py-1 text-xs font-bold text-orange-400">
     {draft.status}
   </span>
+
+  <span className="rounded-full border border-zinc-700 bg-zinc-950 px-3 py-1 text-xs font-bold text-zinc-300">
+  Publish Score {draft.publishScore}/100
+</span>
 
   {draft.warnings.map((warning) => (
     <span
