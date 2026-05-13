@@ -1,6 +1,33 @@
 import Link from "next/link";
 import { getAllMarkdownGuides } from "@/lib/markdown";
 
+function getRefreshPriority(guide: ReturnType<typeof getAllMarkdownGuides>[number]) {
+  let priority = 0;
+
+  if (guide.metrics.isStale) {
+    priority += 40;
+  }
+
+  if (guide.metrics.qualityScore < 70) {
+    priority += 30;
+  }
+
+  if (guide.faqItems.length < 2) {
+    priority += 15;
+  }
+
+  const relatedCount =
+    guide.metadata.relatedBuilds.length +
+    guide.metadata.relatedBosses.length +
+    guide.metadata.relatedSkills.length;
+
+  if (relatedCount === 0) {
+    priority += 15;
+  }
+
+  return priority;
+}
+
 export default function ContentHealthDashboardPage() {
   const guides = getAllMarkdownGuides();
 
@@ -22,6 +49,14 @@ export default function ContentHealthDashboardPage() {
 
     return relatedCount === 0;
   });
+
+const refreshQueue = guides
+  .map((guide) => ({
+    guide,
+    priority: getRefreshPriority(guide),
+  }))
+  .filter((item) => item.priority > 0)
+  .sort((a, b) => b.priority - a.priority);
 
   return (
     <main className="min-h-screen bg-black px-6 py-10 text-white">
@@ -54,6 +89,11 @@ export default function ContentHealthDashboardPage() {
             title="Weak FAQ"
             value={weakFaqGuides.length}
           />
+
+          <MetricCard
+            title="Refresh Queue"
+            value={refreshQueue.length}
+          />
         </div>
 
         <DashboardSection
@@ -70,6 +110,46 @@ export default function ContentHealthDashboardPage() {
           title="Missing Related Links"
           guides={missingRelatedGuides}
         />
+
+        <section className="mt-12">
+        <h2 className="text-2xl font-black text-white">
+        Refresh Priority Queue
+        </h2>
+
+        <div className="mt-5 grid gap-4">
+        {refreshQueue.map(({ guide, priority }) => (
+        <Link
+        key={`refresh-${guide.path}`}
+        href={guide.path}
+        className="rounded-xl border border-zinc-800 bg-zinc-950 p-5 transition hover:border-orange-500"
+        >
+        <div className="flex flex-wrap items-center gap-3">
+          <span className="rounded-full border border-red-500/20 bg-red-500/10 px-3 py-1 text-xs font-bold text-red-400">
+            Priority {priority}
+          </span>
+
+          <span className="text-sm font-bold text-zinc-500">
+            SEO Score {guide.metrics.qualityScore}/100
+          </span>
+
+          {guide.metrics.isStale ? (
+            <span className="rounded-full border border-yellow-500/30 bg-yellow-500/10 px-3 py-1 text-xs font-bold text-yellow-300">
+              Stale
+            </span>
+          ) : null}
+        </div>
+
+        <h3 className="mt-4 text-xl font-black text-white">
+          {guide.metadata.title}
+        </h3>
+
+        <p className="mt-2 text-sm text-zinc-400">
+          {guide.path}
+        </p>
+         </Link>
+        ))}
+  </div>
+</section>
       </div>
     </main>
   );
