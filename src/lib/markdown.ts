@@ -38,6 +38,7 @@ export type MarkdownGuide = {
   path: string;
   faqItems: FaqItem[];
   metrics: ContentMetrics;
+  suggestedGuidePaths: string[];
 };
 
 const guideTypes = ["builds", "bosses", "skills"] as const;
@@ -265,6 +266,72 @@ const isOutdatedPatch = isOutdatedPatchVersion(
 };
 }
 
+function tokenizeGuideText(text: string) {
+  return new Set(
+    text
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, " ")
+      .split(/\s+/)
+      .filter((word) => word.length >= 4),
+  );
+}
+
+function getGuideSearchText(guide: {
+  metadata: GuideFrontmatter;
+  body: string;
+}) {
+  return [
+    guide.metadata.title,
+    guide.metadata.seoTitle,
+    guide.metadata.seoDescription,
+    guide.metadata.type,
+    guide.body,
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
+
+function getSimilarityScore(a: Set<string>, b: Set<string>) {
+  const overlap = [...a].filter((word) => b.has(word)).length;
+  const denominator = Math.sqrt(a.size * b.size);
+
+  if (denominator === 0) {
+    return 0;
+  }
+
+  return overlap / denominator;
+}
+
+function getSuggestedGuidePaths(
+  currentGuide: {
+    metadata: GuideFrontmatter;
+    body: string;
+    path: string;
+  },
+  allGuides: {
+    metadata: GuideFrontmatter;
+    body: string;
+    path: string;
+  }[],
+) {
+  const currentTokens = tokenizeGuideText(getGuideSearchText(currentGuide));
+
+  return allGuides
+    .filter((candidate) => candidate.path !== currentGuide.path)
+    .map((candidate) => {
+      const candidateTokens = tokenizeGuideText(getGuideSearchText(candidate));
+
+      return {
+        path: candidate.path,
+        score: getSimilarityScore(currentTokens, candidateTokens),
+      };
+    })
+    .filter((item) => item.score > 0.08)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 5)
+    .map((item) => item.path);
+}
+
 export function getMarkdownGuide(type: GuideType, slug: string): MarkdownGuide | null {
   const filePath = path.join(guidesDirectory, type, `${slug}.md`);
 
@@ -286,7 +353,7 @@ return {
 }
 
 export function getAllMarkdownGuides(): MarkdownGuide[] {
-  return guideTypes.flatMap((type) => {
+  const guidesWithoutSuggestions = guideTypes.flatMap((type) => {
     const directory = path.join(guidesDirectory, type);
 
     if (!fs.existsSync(directory)) {
@@ -297,8 +364,20 @@ export function getAllMarkdownGuides(): MarkdownGuide[] {
       .readdirSync(directory)
       .filter((file) => file.endsWith(".md"))
       .map((file) => getMarkdownGuide(type, file.replace(/\.md$/, "")))
-      .filter((guide): guide is MarkdownGuide => Boolean(guide));
+      .filter((guide): guide is MarkdownGuide => Boolean(guide))
+      .map((guide) => ({
+        ...guide,
+        suggestedGuidePaths: [],
+      }));
   });
+
+  return guidesWithoutSuggestions.map((guide) => ({
+    ...guide,
+    suggestedGuidePaths: getSuggestedGuidePaths(
+      guide,
+      guidesWithoutSuggestions,
+    ),
+  }));
 }
 
 export function getMarkdownGuideParams() {

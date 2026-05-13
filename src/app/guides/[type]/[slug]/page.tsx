@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   type GuideType,
+  getAllMarkdownGuides,
   getMarkdownGuide,
   getMarkdownGuideParams,
 } from "@/lib/markdown";
@@ -168,6 +169,10 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
   const faqJsonLd =
   guide.faqItems.length > 0 ? createFaqJsonLd(guide.faqItems) : null;
 
+  const suggestedGuides = getAllMarkdownGuides().filter((candidate) =>
+  guide.suggestedGuidePaths.includes(candidate.path),
+  );
+
   return (
     <main className="flex-1 bg-black text-white">
       {faqJsonLd ? (
@@ -279,6 +284,43 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
   </section>
 ) : null}
       </div>
+
+<section className="border-t border-zinc-800 bg-zinc-950/50">
+  <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <h2 className="text-2xl font-black text-white">
+      Recommended Related Guides
+    </h2>
+
+    <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+      {suggestedGuides.map((suggestedGuide) => (
+        <Link
+          key={suggestedGuide.path}
+          href={suggestedGuide.path}
+          className="rounded-2xl border border-zinc-800 bg-zinc-900/70 p-5 transition hover:border-orange-500"
+        >
+          <div className="flex flex-wrap gap-2">
+            <span className="rounded-full border border-orange-500/20 bg-orange-500/10 px-3 py-1 text-xs font-bold text-orange-400">
+              {suggestedGuide.metadata.type}
+            </span>
+
+            <span className="rounded-full border border-zinc-700 bg-zinc-950 px-3 py-1 text-xs font-bold text-zinc-300">
+              SEO {suggestedGuide.metrics.qualityScore}
+            </span>
+          </div>
+
+          <h3 className="mt-4 text-xl font-black text-white">
+            {suggestedGuide.metadata.title}
+          </h3>
+
+          <p className="mt-3 text-sm leading-6 text-zinc-400">
+            {suggestedGuide.metadata.seoDescription}
+          </p>
+        </Link>
+      ))}
+    </div>
+  </div>
+</section>
+
     </main>
   );
 }
