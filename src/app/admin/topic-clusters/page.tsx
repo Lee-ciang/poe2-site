@@ -47,10 +47,34 @@ export default function TopicClustersPage() {
       .filter((item) => item.score > 0)
       .sort((a, b) => b.score - a.score);
 
-    return {
-      topic,
-      items,
-    };
+    const staleCount = items.filter((item) => item.guide.metrics.isStale).length;
+
+const outdatedPatchCount = items.filter(
+  (item) => item.guide.metrics.isOutdatedPatch,
+).length;
+
+const lowQualityCount = items.filter(
+  (item) => item.guide.metrics.qualityScore < 70,
+).length;
+
+const averageQualityScore =
+  items.length > 0
+    ? Math.round(
+        items.reduce(
+          (total, item) => total + item.guide.metrics.qualityScore,
+          0,
+        ) / items.length,
+      )
+    : 0;
+
+return {
+  topic,
+  items,
+  staleCount,
+  outdatedPatchCount,
+  lowQualityCount,
+  averageQualityScore,
+};
   });
 
   return (
@@ -81,14 +105,13 @@ export default function TopicClustersPage() {
                   </h2>
                 </div>
 
-                <div className="rounded-xl border border-zinc-800 bg-black px-4 py-3 text-right">
-                  <p className="text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">
-                    Pages
-                  </p>
-                  <p className="mt-1 text-2xl font-black">
-                    {cluster.items.length}
-                  </p>
-                </div>
+                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+                   <ClusterMetric label="Pages" value={cluster.items.length} />
+                   <ClusterMetric label="Avg SEO" value={cluster.averageQualityScore} />
+                   <ClusterMetric label="Stale" value={cluster.staleCount} />
+                   <ClusterMetric label="Outdated" value={cluster.outdatedPatchCount} />
+                   <ClusterMetric label="Low Quality" value={cluster.lowQualityCount} />
+</div>
               </div>
 
               <div className="mt-6 grid gap-4">
@@ -137,5 +160,21 @@ export default function TopicClustersPage() {
         </div>
       </div>
     </main>
+  );
+}
+function ClusterMetric({
+  label,
+  value,
+}: {
+  label: string;
+  value: number;
+}) {
+  return (
+    <div className="rounded-xl border border-zinc-800 bg-black px-4 py-3 text-right">
+      <p className="text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">
+        {label}
+      </p>
+      <p className="mt-1 text-2xl font-black">{value}</p>
+    </div>
   );
 }
