@@ -27,6 +27,8 @@ export type ContentMetrics = {
   wordCount: number;
   readingTimeMinutes: number;
   qualityScore: number;
+  daysSinceUpdate: number | null;
+  isStale: boolean;
 };
 
 export type MarkdownGuide = {
@@ -143,6 +145,25 @@ function extractFaqItems(body: string): FaqItem[] {
     .filter((item): item is FaqItem => Boolean(item));
 }
 
+function getDaysSinceUpdate(lastUpdated: string | undefined) {
+  if (!lastUpdated) {
+    return null;
+  }
+
+  const updatedDate = new Date(lastUpdated);
+
+  if (Number.isNaN(updatedDate.getTime())) {
+    return null;
+  }
+
+  const now = new Date();
+  const millisecondsPerDay = 1000 * 60 * 60 * 24;
+
+  return Math.floor(
+    (now.getTime() - updatedDate.getTime()) / millisecondsPerDay,
+  );
+}
+
 function calculateQualityScore({
   body,
   faqCount,
@@ -209,6 +230,9 @@ function calculateContentMetrics(
     metadata.relatedBosses.length +
     metadata.relatedSkills.length;
 
+const daysSinceUpdate = getDaysSinceUpdate(metadata.lastUpdated);
+const isStale = daysSinceUpdate !== null && daysSinceUpdate > 90;
+
   const qualityScore = calculateQualityScore({
     body,
     faqCount: faqItems.length,
@@ -217,10 +241,12 @@ function calculateContentMetrics(
   });
 
   return {
-    wordCount,
-    readingTimeMinutes,
-    qualityScore,
-  };
+  wordCount,
+  readingTimeMinutes,
+  qualityScore,
+  daysSinceUpdate,
+  isStale,
+};
 }
 
 export function getMarkdownGuide(type: GuideType, slug: string): MarkdownGuide | null {

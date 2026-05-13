@@ -207,6 +207,11 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
               <span className="rounded-full border border-zinc-700 bg-zinc-950 px-3 py-1 text-xs font-bold text-zinc-300">
               SEO Score {guide.metrics.qualityScore}/100
               </span>
+              {guide.metrics.isStale ? (
+             <span className="rounded-full border border-yellow-500/30 bg-yellow-500/10 px-3 py-1 text-xs font-bold text-yellow-300">
+              Needs update
+             </span>
+            ) : null}
           </div>
 
           <h1 className="mt-5 max-w-5xl text-4xl font-black tracking-tight sm:text-6xl">
