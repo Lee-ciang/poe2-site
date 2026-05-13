@@ -26,6 +26,7 @@ export type FaqItem = {
 export type ContentMetrics = {
   wordCount: number;
   readingTimeMinutes: number;
+  qualityScore: number;
 };
 
 export type MarkdownGuide = {
@@ -142,7 +143,59 @@ function extractFaqItems(body: string): FaqItem[] {
     .filter((item): item is FaqItem => Boolean(item));
 }
 
-function calculateContentMetrics(body: string): ContentMetrics {
+function calculateQualityScore({
+  body,
+  faqCount,
+  relatedCount,
+  metadata,
+}: {
+  body: string;
+  faqCount: number;
+  relatedCount: number;
+  metadata: GuideFrontmatter;
+}) {
+  let score = 0;
+
+  if (body.length >= 500) {
+    score += 25;
+  }
+
+  if (body.length >= 1000) {
+    score += 15;
+  }
+
+  if (metadata.seoTitle?.trim()) {
+    score += 10;
+  }
+
+  if ((metadata.seoDescription?.length ?? 0) >= 80) {
+    score += 15;
+  }
+
+  if (metadata.patchVersion?.trim()) {
+    score += 10;
+  }
+
+  if (metadata.lastUpdated?.trim()) {
+    score += 10;
+  }
+
+  if (faqCount >= 2) {
+    score += 10;
+  }
+
+  if (relatedCount >= 1) {
+    score += 5;
+  }
+
+  return score;
+}
+
+function calculateContentMetrics(
+  body: string,
+  metadata: GuideFrontmatter,
+  faqItems: FaqItem[],
+): ContentMetrics {
   const words = body
     .replace(/[#*`[\]()>\-]/g, " ")
     .split(/\s+/)
@@ -151,9 +204,22 @@ function calculateContentMetrics(body: string): ContentMetrics {
   const wordCount = words.length;
   const readingTimeMinutes = Math.max(1, Math.ceil(wordCount / 200));
 
+  const relatedCount =
+    metadata.relatedBuilds.length +
+    metadata.relatedBosses.length +
+    metadata.relatedSkills.length;
+
+  const qualityScore = calculateQualityScore({
+    body,
+    faqCount: faqItems.length,
+    relatedCount,
+    metadata,
+  });
+
   return {
     wordCount,
     readingTimeMinutes,
+    qualityScore,
   };
 }
 
@@ -167,11 +233,13 @@ export function getMarkdownGuide(type: GuideType, slug: string): MarkdownGuide |
   const source = fs.readFileSync(filePath, "utf8");
   const parsed = parseFrontmatter(source);
 
+const faqItems = extractFaqItems(parsed.body);
+
 return {
   ...parsed,
   path: `/guides/${type}/${slug}`,
-  faqItems: extractFaqItems(parsed.body),
-  metrics: calculateContentMetrics(parsed.body),
+  faqItems,
+  metrics: calculateContentMetrics(parsed.body, parsed.metadata, faqItems),
 };
 }
 
