@@ -5,6 +5,8 @@ import { getAllMarkdownGuides } from "../src/lib/markdown";
 
 const MIN_DESCRIPTION_LENGTH = 80;
 const MIN_BODY_LENGTH = 500;
+const MIN_FAQ_ITEMS = 2;
+const MIN_FAQ_ANSWER_LENGTH = 40;
 
 const guides = getAllMarkdownGuides();
 const errors: string[] = [];
@@ -89,6 +91,31 @@ for (const guide of guides) {
   if (body.length < MIN_BODY_LENGTH) {
     warnings.push(`${path}: body is short (${body.length} chars)`);
   }
+  if (guide.faqItems.length < MIN_FAQ_ITEMS) {
+  warnings.push(
+    `${path}: has only ${guide.faqItems.length} FAQ items`,
+  );
+}
+
+const seenQuestions = new Set<string>();
+
+for (const faq of guide.faqItems) {
+  const normalizedQuestion = faq.question.trim().toLowerCase();
+
+  if (seenQuestions.has(normalizedQuestion)) {
+    warnings.push(
+      `${path}: duplicate FAQ question "${faq.question}"`,
+    );
+  }
+
+  seenQuestions.add(normalizedQuestion);
+
+  if (faq.answer.length < MIN_FAQ_ANSWER_LENGTH) {
+    warnings.push(
+      `${path}: FAQ answer too short for "${faq.question}"`,
+    );
+  }
+}
 }
 
 console.log(`Checked ${guides.length} markdown guides.`);
