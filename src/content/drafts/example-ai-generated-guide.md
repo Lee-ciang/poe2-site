@@ -9,7 +9,7 @@ lastUpdated: "2026-05-13"
 relatedBuilds: []
 relatedBosses: []
 relatedSkills: []
-contentStatus: "draft"
+contentStatus: "needs-review"
 ---
 
 ## Overview
