@@ -8,6 +8,10 @@ function getRefreshPriority(guide: ReturnType<typeof getAllMarkdownGuides>[numbe
     priority += 40;
   }
 
+  if (guide.metrics.isOutdatedPatch) {
+    priority += 50;
+  }
+
   if (guide.metrics.qualityScore < 70) {
     priority += 30;
   }
@@ -32,6 +36,10 @@ export default function ContentHealthDashboardPage() {
   const guides = getAllMarkdownGuides();
 
   const staleGuides = guides.filter((guide) => guide.metrics.isStale);
+
+  const outdatedPatchGuides = guides.filter(
+  (guide) => guide.metrics.isOutdatedPatch,
+  );
 
   const lowQualityGuides = guides.filter(
     (guide) => guide.metrics.qualityScore < 70,
@@ -81,6 +89,11 @@ const refreshQueue = guides
           />
 
           <MetricCard
+           title="Outdated Patch"
+           value={outdatedPatchGuides.length}
+          />
+
+          <MetricCard
             title="Low Quality"
             value={lowQualityGuides.length}
           />
@@ -99,6 +112,11 @@ const refreshQueue = guides
         <DashboardSection
           title="Stale Content"
           guides={staleGuides}
+        />
+
+        <DashboardSection
+          title="Outdated Patch Content"
+          guides={outdatedPatchGuides}
         />
 
         <DashboardSection

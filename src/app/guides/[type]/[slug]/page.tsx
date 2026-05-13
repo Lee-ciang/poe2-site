@@ -212,6 +212,11 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
               Needs update
              </span>
             ) : null}
+            {guide.metrics.isOutdatedPatch ? (
+            <span className="rounded-full border border-red-500/30 bg-red-500/10 px-3 py-1 text-xs font-bold text-red-300">
+            Outdated patch
+            </span>
+            ) : null}
           </div>
 
           <h1 className="mt-5 max-w-5xl text-4xl font-black tracking-tight sm:text-6xl">

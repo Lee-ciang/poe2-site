@@ -29,6 +29,7 @@ export type ContentMetrics = {
   qualityScore: number;
   daysSinceUpdate: number | null;
   isStale: boolean;
+  isOutdatedPatch: boolean;
 };
 
 export type MarkdownGuide = {
@@ -40,6 +41,7 @@ export type MarkdownGuide = {
 };
 
 const guideTypes = ["builds", "bosses", "skills"] as const;
+const CURRENT_PATCH_VERSION = "0.2.0";
 const guidesDirectory = path.join(process.cwd(), "src", "content", "guides");
 
 function parseArray(value: string | undefined) {
@@ -164,6 +166,16 @@ function getDaysSinceUpdate(lastUpdated: string | undefined) {
   );
 }
 
+function isOutdatedPatchVersion(
+  patchVersion: string | undefined,
+) {
+  if (!patchVersion) {
+    return false;
+  }
+
+  return patchVersion !== CURRENT_PATCH_VERSION;
+}
+
 function calculateQualityScore({
   body,
   faqCount,
@@ -232,6 +244,9 @@ function calculateContentMetrics(
 
 const daysSinceUpdate = getDaysSinceUpdate(metadata.lastUpdated);
 const isStale = daysSinceUpdate !== null && daysSinceUpdate > 90;
+const isOutdatedPatch = isOutdatedPatchVersion(
+  metadata.patchVersion,
+);
 
   const qualityScore = calculateQualityScore({
     body,
@@ -240,12 +255,13 @@ const isStale = daysSinceUpdate !== null && daysSinceUpdate > 90;
     metadata,
   });
 
-  return {
+ return {
   wordCount,
   readingTimeMinutes,
   qualityScore,
   daysSinceUpdate,
   isStale,
+  isOutdatedPatch,
 };
 }
 
