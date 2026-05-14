@@ -1,0 +1,551 @@
+[
+  {
+    "cluster": "builds",
+    "from": "/guides/builds/frost-monk",
+    "to": "/guides/builds/lightning-ranger",
+    "anchorText": "Lightning Ranger Build",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "builds",
+    "from": "/guides/builds/lightning-ranger",
+    "to": "/guides/builds/frost-monk",
+    "anchorText": "Frost Monk Build",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "bosses",
+    "from": "/guides/bosses/count-geonor",
+    "to": "/guides/bosses/trialmaster",
+    "anchorText": "Trialmaster Boss",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "bosses",
+    "from": "/guides/bosses/trialmaster",
+    "to": "/guides/bosses/count-geonor",
+    "anchorText": "Count Geonor Boss",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/arc",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/arc",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/arc",
+    "to": "/guides/skills/cold-snap-ai",
+    "anchorText": "Cold Snap Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/ball-lightning",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/ball-lightning",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/ball-lightning",
+    "to": "/guides/skills/cold-snap-ai",
+    "anchorText": "Cold Snap Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/chain-lightning",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/chain-lightning",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/chain-lightning",
+    "to": "/guides/skills/cold-snap-ai",
+    "anchorText": "Cold Snap Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/cold-snap-ai",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/cold-snap-ai",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/cold-snap-ai",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/earthshatter",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/earthshatter",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/earthshatter",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/example-ai-generated-guide",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/example-ai-generated-guide",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/example-ai-generated-guide",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/fireball",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/fireball",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/fireball",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/flame-wall",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/flame-wall",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/flame-wall",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/freezing-shards",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/freezing-shards",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/freezing-shards",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/frostbolt-ai",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/frostbolt-ai",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/frostbolt-ai",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/frostbolt",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/frostbolt",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/frostbolt",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/ice-nova",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/ice-nova",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/ice-nova",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/ice-spear",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/ice-spear",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/ice-spear",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/lightning-arrow-ai",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/lightning-arrow-ai",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/lightning-arrow-ai",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/lightning-arrow",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/lightning-arrow",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/lightning-arrow",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/meteor",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/meteor",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/meteor",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/poison-arrow",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/poison-arrow",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/poison-arrow",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/spark",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/spark",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/spark",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/whirlwind",
+    "to": "/guides/skills/arc",
+    "anchorText": "Arc Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/whirlwind",
+    "to": "/guides/skills/ball-lightning",
+    "anchorText": "Ball Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  },
+  {
+    "cluster": "skills",
+    "from": "/guides/skills/whirlwind",
+    "to": "/guides/skills/chain-lightning",
+    "anchorText": "Chain Lightning Skill",
+    "reason": "Same topical cluster",
+    "status": "planned",
+    "createdAt": "2026-05-14T09:13:25.546Z"
+  }
+]
