@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-05-14T14:52:23.983Z",
+  "registryVersion": 1,
+  "systemStatus": "active",
+  "agents": [
+    {
+      "agentId": "refresh-agent",
+      "role": "content_refresh_specialist",
+      "responsibility": "Refresh outdated guides and maintain content freshness.",
+      "assignedTasks": 5,
+      "status": "ready",
+      "currentPriority": "highest"
+    },
+    {
+      "agentId": "serp-agent",
+      "role": "serp_opportunity_specialist",
+      "responsibility": "Capture quick-win keyword opportunities and improve SERP coverage.",
+      "assignedTasks": 5,
+      "status": "ready",
+      "currentPriority": "high"
+    },
+    {
+      "agentId": "authority-agent",
+      "role": "authority_cluster_specialist",
+      "responsibility": "Strengthen authority clusters and build pillar pages.",
+      "assignedTasks": 2,
+      "status": "ready",
+      "currentPriority": "high"
+    },
+    {
+      "agentId": "monitoring-agent",
+      "role": "system_monitoring_specialist",
+      "responsibility": "Monitor SEO evolution, workflow health, and execution progress.",
+      "assignedTasks": 0,
+      "status": "monitoring",
+      "currentPriority": "ongoing"
+    }
+  ],
+  "coordinationStatus": {
+    "operationalDecision": "start_high_priority_execution",
+    "executionPriority": "highest",
+    "totalAgents": 4
+  }
+}
