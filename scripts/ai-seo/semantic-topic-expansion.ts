@@ -13,7 +13,7 @@ const expansions = guides.map((guide) => {
   return {
     slug: guide.path,
     title: guide.metadata.title,
-    category: guide.category,
+    category: guide.path.split("/").filter(Boolean)[1] || "uncategorized",
     topicSeed: baseTitle,
     semanticExpansionIdeas: [
       `${baseTitle} leveling guide`,

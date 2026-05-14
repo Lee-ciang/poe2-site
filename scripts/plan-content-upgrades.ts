@@ -47,7 +47,7 @@ const upgradeCandidates = guides
     return {
       slug: guide.path,
       title: guide.metadata.title,
-      category: guide.category,
+      ccategory: guide.path.split("/").filter(Boolean)[1] || "uncategorized",
       priority,
       status: "planned",
       actions,
