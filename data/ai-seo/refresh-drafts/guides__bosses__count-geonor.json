@@ -1,0 +1,35 @@
+{
+  "slug": "/guides/bosses/count-geonor",
+  "title": "Count Geonor Boss Guide",
+  "refreshPriority": 5,
+  "decayScore": 80,
+  "decaySignals": [
+    "low_content_depth",
+    "outdated_patch_information",
+    "semantic_coverage_gap"
+  ],
+  "status": "refresh_draft_created",
+  "refreshDraft": {
+    "recommendedSections": [
+      "Updated overview",
+      "Beginner explanation",
+      "Recommended support setup",
+      "Gear progression",
+      "Common mistakes",
+      "Patch review note"
+    ],
+    "faqSuggestions": [
+      {
+        "question": "Is Count Geonor Boss still worth using in Path of Exile 2?",
+        "answer": "This guide should be reviewed against the latest patch before publishing. If the core mechanics remain strong, it can still be useful with updated support gems, gear priorities, and defensive recommendations."
+      },
+      {
+        "question": "What should be refreshed first in this Count Geonor Boss?",
+        "answer": "Start by refreshing patch-sensitive information, then expand thin sections such as leveling, support gem reasoning, gear progression, and common mistakes."
+      }
+    ],
+    "internalLinkPlan": "Add contextual links to related skill, build, boss, and cluster pages where they naturally help the reader.",
+    "safetyNote": "This is a draft only. Do not publish until factual accuracy and patch relevance are manually reviewed."
+  },
+  "createdAt": "2026-05-14T09:35:34.728Z"
+}
