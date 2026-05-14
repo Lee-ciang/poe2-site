@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-05-14T09:20:12.098Z",
+  "scheduledChecks": [
+    {
+      "task": "Detect low SEO score guides",
+      "frequency": "daily",
+      "enabled": true
+    },
+    {
+      "task": "Detect outdated patch content",
+      "frequency": "daily",
+      "enabled": true
+    },
+    {
+      "task": "Detect low word count pages",
+      "frequency": "weekly",
+      "enabled": true
+    },
+    {
+      "task": "Detect weak internal linking",
+      "frequency": "weekly",
+      "enabled": true
+    },
+    {
+      "task": "Detect missing semantic coverage",
+      "frequency": "weekly",
+      "enabled": true
+    }
+  ],
+  "triggeredActions": [
+    {
+      "action": "Prioritize high priority content upgrades",
+      "status": "queued",
+      "priority": "medium"
+    },
+    {
+      "action": "Expand low word count guides",
+      "status": "queued",
+      "priority": "medium"
+    },
+    {
+      "action": "Review and approve safe AI drafts",
+      "status": "queued",
+      "priority": "medium"
+    },
+    {
+      "action": "Convert planned internal links into markdown patches",
+      "status": "queued",
+      "priority": "medium"
+    },
+    {
+      "action": "Create pillar pages for major topic clusters",
+      "status": "queued",
+      "priority": "medium"
+    }
+  ],
+  "automationHealth": {
+    "totalChecks": 5,
+    "enabledChecks": 5,
+    "queuedActions": 5,
+    "systemStatus": "healthy"
+  }
+}
