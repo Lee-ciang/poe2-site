@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-05-14T14:46:59.753Z",
+  "status": "coordinated",
+  "sourceReports": [
+    "data/ai-seo/execution-progress-report.json",
+    "data/ai-seo/autonomous-seo-roadmap.json",
+    "data/ai-seo/seo-state-comparison.json"
+  ],
+  "workflowOrder": [
+    {
+      "workflow": "refresh_content",
+      "priority": "highest",
+      "dependency": "execution_tasks_available",
+      "nextScript": "scripts/ai-seo/generate-refresh-drafts.ts",
+      "reason": "Execution progress is still early stage and refresh tasks are available."
+    },
+    {
+      "workflow": "capture_quick_wins",
+      "priority": "high",
+      "dependency": "serp_opportunities_available",
+      "nextScript": "scripts/ai-seo/build-serp-opportunity-model.ts",
+      "reason": "Quick-win keyword opportunities should be targeted early."
+    },
+    {
+      "workflow": "strengthen_authority",
+      "priority": "high",
+      "dependency": "pillar_recommendations_available",
+      "nextScript": "scripts/ai-seo/build-pillar-page-recommendations.ts",
+      "reason": "Weak authority clusters need pillar and supporting pages."
+    },
+    {
+      "workflow": "monitor_progress",
+      "priority": "ongoing",
+      "dependency": "progress_history_available",
+      "nextScript": "scripts/ai-seo/build-seo-progress-history.ts",
+      "reason": "Progress history should be updated after each execution cycle."
+    }
+  ],
+  "coordinationSignals": {
+    "executionHealth": "early_stage",
+    "roadmapStatus": "planned",
+    "snapshotsCompared": 1
+  },
+  "recommendedNextAction": "Start execution with high-priority refresh and quick-win tasks."
+}
