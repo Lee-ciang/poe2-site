@@ -1,0 +1,41 @@
+[
+  {
+    "cluster": "builds",
+    "guideCount": 2,
+    "keywordCoverage": 16,
+    "keywordDensity": 8,
+    "internalLinks": 2,
+    "saturationScore": 48,
+    "saturationTier": "underdeveloped",
+    "expansionRecommendation": "Aggressively expand topical coverage and build pillar authority",
+    "riskAssessment": "Weak topical authority and semantic coverage",
+    "status": "analyzed",
+    "createdAt": "2026-05-14T09:58:28.314Z"
+  },
+  {
+    "cluster": "bosses",
+    "guideCount": 2,
+    "keywordCoverage": 16,
+    "keywordDensity": 8,
+    "internalLinks": 2,
+    "saturationScore": 48,
+    "saturationTier": "underdeveloped",
+    "expansionRecommendation": "Aggressively expand topical coverage and build pillar authority",
+    "riskAssessment": "Weak topical authority and semantic coverage",
+    "status": "analyzed",
+    "createdAt": "2026-05-14T09:58:28.314Z"
+  },
+  {
+    "cluster": "skills",
+    "guideCount": 19,
+    "keywordCoverage": 152,
+    "keywordDensity": 8,
+    "internalLinks": 57,
+    "saturationScore": 494,
+    "saturationTier": "highly_saturated",
+    "expansionRecommendation": "Focus on refreshing, consolidating, and improving conversion paths",
+    "riskAssessment": "Potential over-optimization or content overlap risk",
+    "status": "analyzed",
+    "createdAt": "2026-05-14T09:58:28.314Z"
+  }
+]
