@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-05-14T14:44:35.626Z",
+  "sourceTasksFile": "data/ai-seo/execution-tasks.json",
+  "summary": {
+    "totalTasks": 12,
+    "completedTasks": 0,
+    "inProgressTasks": 0,
+    "blockedTasks": 0,
+    "todoTasks": 12,
+    "completionRate": 0
+  },
+  "priorityBreakdown": {
+    "high": 10,
+    "medium": 2,
+    "low": 0
+  },
+  "statusBreakdown": {
+    "todo": 12,
+    "inProgress": 0,
+    "blocked": 0,
+    "done": 0
+  },
+  "executionHealth": "early_stage",
+  "recommendedNextAction": "Start with the highest priority todo tasks."
+}
