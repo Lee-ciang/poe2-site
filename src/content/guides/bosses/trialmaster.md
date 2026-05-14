@@ -80,3 +80,11 @@ Recommend build archetypes based on mechanics, not generic tier claims.
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication.
 Verify location, rewards, phase behavior, and patch-specific mechanics before publishing as final SEO content.
+
+## Related Guides
+
+- /guides/bosses/count-geonor
+- /guides/builds/frost-monk
+- /guides/skills/lightning-arrow-ai
+- /guides/builds/lightning-ranger
+- /guides/skills/example-ai-generated-guide

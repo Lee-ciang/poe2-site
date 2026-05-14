@@ -73,3 +73,11 @@ A: It is viable but generally requires strong cold penetration and single-target
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication. Some support effects and scaling interactions may need practical testing to confirm synergy and exact benefits.
+
+## Related Guides
+
+- /guides/skills/spark
+- /guides/skills/frostbolt-ai
+- /guides/skills/ice-spear
+- /guides/skills/frostbolt
+- /guides/skills/freezing-shards

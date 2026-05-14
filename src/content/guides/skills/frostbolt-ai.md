@@ -89,3 +89,11 @@ A: Frostbolt performs well in both but requires precise investment for bosses. M
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication. Specific mechanics related to projectile pierce scaling,
+
+## Related Guides
+
+- /guides/skills/ice-nova
+- /guides/skills/cold-snap-ai
+- /guides/skills/freezing-shards
+- /guides/skills/ice-spear
+- /guides/skills/chain-lightning

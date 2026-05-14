@@ -89,3 +89,11 @@ A: Not upgrading weapons regularly and underestimating the animation commitment 
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication.
+
+## Related Guides
+
+- /guides/skills/ice-nova
+- /guides/skills/whirlwind
+- /guides/skills/ice-spear
+- /guides/skills/spark
+- /guides/skills/ball-lightning

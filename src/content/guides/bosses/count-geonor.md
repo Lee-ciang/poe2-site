@@ -44,3 +44,11 @@ Mobile ranged builds and durable melee builds both work well. The best choice is
 ## Content Notes
 
 This Markdown draft is AI-ready placeholder content. Verify phase details, exact rewards, and patch-specific mechanics before publishing as final.
+
+## Related Guides
+
+- /guides/builds/lightning-ranger
+- /guides/bosses/trialmaster
+- /guides/skills/ice-nova
+- /guides/builds/frost-monk
+- /guides/skills/ball-lightning

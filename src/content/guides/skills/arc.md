@@ -72,3 +72,10 @@ A: Lightning Penetration and Faster Casting are generally the most impactful to 
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication.
 
+## Related Guides
+
+- /guides/skills/chain-lightning
+- /guides/skills/spark
+- /guides/skills/fireball
+- /guides/skills/frostbolt
+- /guides/skills/meteor

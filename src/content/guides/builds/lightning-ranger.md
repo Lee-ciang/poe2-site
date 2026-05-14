@@ -44,3 +44,11 @@ Upgrade your bow first if damage feels low. Upgrade life, evasion, and resistanc
 ## Content Notes
 
 This Markdown draft is AI-ready placeholder content. Verify patch-specific support choices, exact mechanics, and endgame recommendations before publishing as final.
+
+## Related Guides
+
+- /guides/bosses/count-geonor
+- /guides/skills/lightning-arrow
+- /guides/skills/poison-arrow
+- /guides/skills/earthshatter
+- /guides/bosses/trialmaster

@@ -74,3 +74,11 @@ A: Yes, but it demands good map awareness and positioning skills. Early minion a
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication.
+
+## Related Guides
+
+- /guides/skills/ball-lightning
+- /guides/skills/ice-spear
+- /guides/skills/meteor
+- /guides/skills/fireball
+- /guides/skills/spark

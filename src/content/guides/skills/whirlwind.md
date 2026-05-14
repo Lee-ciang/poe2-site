@@ -85,3 +85,11 @@ A: Very important for smooth gameplay. Increased movement speed helps maintain m
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication.
+
+## Related Guides
+
+- /guides/skills/poison-arrow
+- /guides/skills/spark
+- /guides/skills/arc
+- /guides/skills/chain-lightning
+- /guides/skills/ice-nova

@@ -44,3 +44,11 @@ Answer with a direct recommendation and explain when beginners should or should 
 ### What should players verify before using this guide?
 
 Players should verify the current patch, skill balance, passive tree interactions, and any item changes before relying on this guide.
+
+## Related Guides
+
+- /guides/builds/frost-monk
+- /guides/bosses/trialmaster
+- /guides/builds/lightning-ranger
+- /guides/skills/lightning-arrow-ai
+- /guides/skills/whirlwind

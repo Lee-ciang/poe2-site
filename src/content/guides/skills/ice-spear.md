@@ -80,3 +80,11 @@ A: Neglecting cast speed and projectile speed upgrades early, which leads to slo
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication. Practical gem interactions, exact damage scaling rates, and new patch mechanics should be tested for accuracy.
+
+## Related Guides
+
+- /guides/skills/spark
+- /guides/skills/chain-lightning
+- /guides/skills/ice-nova
+- /guides/skills/fireball
+- /guides/skills/meteor

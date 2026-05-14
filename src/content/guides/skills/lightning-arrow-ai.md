@@ -65,3 +65,11 @@ It likely excels at clearing groups via lightning damage bursts, but single-targ
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication. All details related to skill mechanics, scaling, supports, builds, and usability are preliminarily indicated as "needs verification" to avoid misinformation. Readers should rely on official patch notes and hands-on testing to refine this guide.
+
+## Related Guides
+
+- /guides/skills/spark
+- /guides/skills/ball-lightning
+- /guides/skills/lightning-arrow
+- /guides/skills/earthshatter
+- /guides/skills/cold-snap-ai

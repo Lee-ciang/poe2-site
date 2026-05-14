@@ -71,3 +71,11 @@ A: Technically yes, but clears will feel slower and less fluid. Chain or pierce 
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication.
+
+## Related Guides
+
+- /guides/skills/arc
+- /guides/skills/chain-lightning
+- /guides/skills/spark
+- /guides/skills/ice-spear
+- /guides/skills/whirlwind

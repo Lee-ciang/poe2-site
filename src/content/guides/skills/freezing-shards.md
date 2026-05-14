@@ -73,3 +73,11 @@ A: Typically yes for clear speed, but it may slightly reduce single-target damag
 ## Content Notes  
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication. Some support gem mechanics and scaling interactions mentioned may require further testing to ensure accuracy.
+
+## Related Guides
+
+- /guides/skills/ice-nova
+- /guides/skills/frostbolt-ai
+- /guides/skills/frostbolt
+- /guides/skills/ice-spear
+- /guides/skills/ball-lightning

@@ -58,3 +58,11 @@ A: With critical scaling and cold penetration, yes. But slower projectiles can m
 
 ## Content Notes  
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication.
+
+## Related Guides
+
+- /guides/skills/spark
+- /guides/skills/ice-nova
+- /guides/skills/fireball
+- /guides/skills/arc
+- /guides/skills/meteor

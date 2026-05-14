@@ -85,3 +85,11 @@ A: Not effectively. Kiting and repositioning are critical to maintain consistent
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication. Some support interactions and scaling nuances, such as exact effects of Vicious Projectiles or how certain map mods affect poison stacking, need further testing to confirm in PoE2’s live environment.
+
+## Related Guides
+
+- /guides/skills/whirlwind
+- /guides/skills/ball-lightning
+- /guides/skills/ice-nova
+- /guides/skills/freezing-shards
+- /guides/skills/arc

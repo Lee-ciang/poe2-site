@@ -58,3 +58,11 @@ A: Prioritize cast speed and fire damage on gear, and upgrade your wand or staff
 
 ## Content Notes  
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication.
+
+## Related Guides
+
+- /guides/skills/ice-spear
+- /guides/skills/arc
+- /guides/skills/spark
+- /guides/skills/frostbolt
+- /guides/skills/chain-lightning

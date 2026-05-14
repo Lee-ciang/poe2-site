@@ -65,3 +65,11 @@ A: Not usually by itself. Many players swap to a dedicated single-target skill o
 ## Content Notes
 
 This is an AI-assisted draft and must be verified against current POE2 patch data before publication.
+
+## Related Guides
+
+- /guides/skills/arc
+- /guides/skills/ice-spear
+- /guides/skills/spark
+- /guides/skills/ice-nova
+- /guides/skills/meteor
