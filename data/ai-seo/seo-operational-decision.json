@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-05-14T14:49:38.833Z",
+  "decisionStatus": "ready",
+  "selectedAction": "start_high_priority_execution",
+  "reasoning": "Execution progress is still at 0%, so the system should start high-priority refresh and quick-win tasks.",
+  "nextWorkflow": {
+    "workflow": "refresh_content",
+    "priority": "highest",
+    "dependency": "execution_tasks_available",
+    "nextScript": "scripts/ai-seo/generate-refresh-drafts.ts",
+    "reason": "Execution progress is still early stage and refresh tasks are available."
+  },
+  "operationalPriority": "highest",
+  "recommendedNextScript": "scripts/ai-seo/generate-refresh-drafts.ts",
+  "status": "decided"
+}
