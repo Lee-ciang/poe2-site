@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-05-14T10:04:55.311Z",
+  "platformStatus": "active",
+  "summary": {
+    "upgradeTasks": 23,
+    "topicClusters": 3,
+    "plannedInternalLinks": 61,
+    "highPriorityTasks": 6,
+    "highRoiContentItems": 6,
+    "quickWinKeywords": 12,
+    "weakAuthorityClusters": 2,
+    "weakMoats": 2
+  },
+  "executivePriorities": [
+    "Build pillar pages for weak authority clusters",
+    "Prioritize high-ROI content refreshes",
+    "Target quick-win SERP opportunities",
+    "Strengthen weak content moats",
+    "Convert planned internal links into publishable patches"
+  ],
+  "strategicRoadmap": [
+    {
+      "phase": "Short term",
+      "focus": "Refresh high-ROI content and capture quick-win keywords"
+    },
+    {
+      "phase": "Mid term",
+      "focus": "Build pillar pages and strengthen weak clusters"
+    },
+    {
+      "phase": "Long term",
+      "focus": "Defend strong moats and expand semantic territory"
+    }
+  ],
+  "riskSummary": {
+    "mainRisk": "Weak authority clusters may be outranked by competitors",
+    "mitigation": "Increase topical depth, publish pillar pages, improve internal links, and refresh outdated content"
+  }
+}
