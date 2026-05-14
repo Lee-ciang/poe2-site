@@ -1,0 +1,417 @@
+[
+  {
+    "slug": "/guides/skills/arc",
+    "title": "Arc Skill Guide",
+    "priority": 70,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "expand_content_depth",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 533,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/lightning-arrow",
+    "title": "Lightning Arrow Skill Guide",
+    "priority": 70,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "expand_content_depth",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 85,
+      "wordCount": 563,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/builds/frost-monk",
+    "title": "Frost Monk Build Guide",
+    "priority": 60,
+    "status": "planned",
+    "actions": [
+      "expand_content_depth",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 95,
+      "wordCount": 169,
+      "faqCount": 2,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/builds/lightning-ranger",
+    "title": "Lightning Ranger Build Guide",
+    "priority": 60,
+    "status": "planned",
+    "actions": [
+      "expand_content_depth",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 100,
+      "wordCount": 219,
+      "faqCount": 2,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/bosses/count-geonor",
+    "title": "Count Geonor Boss Guide",
+    "priority": 60,
+    "status": "planned",
+    "actions": [
+      "expand_content_depth",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 100,
+      "wordCount": 207,
+      "faqCount": 2,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/bosses/trialmaster",
+    "title": "Trialmaster Boss Guide",
+    "priority": 60,
+    "status": "planned",
+    "actions": [
+      "expand_content_depth",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 95,
+      "wordCount": 337,
+      "faqCount": 3,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/ball-lightning",
+    "title": "Ball Lightning Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 742,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/chain-lightning",
+    "title": "Chain Lightning Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 674,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/cold-snap-ai",
+    "title": "Cold Snap Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 85,
+      "wordCount": 764,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/earthshatter",
+    "title": "Earthshatter Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 771,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/fireball",
+    "title": "Fireball Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 656,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/flame-wall",
+    "title": "Flame Wall Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 819,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/freezing-shards",
+    "title": "Freezing Shards Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 719,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/frostbolt-ai",
+    "title": "Frostbolt Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 85,
+      "wordCount": 921,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/frostbolt",
+    "title": "Frostbolt Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 615,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/ice-nova",
+    "title": "Ice Nova Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 777,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/ice-spear",
+    "title": "Ice Spear Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 843,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/lightning-arrow-ai",
+    "title": "Lightning Arrow Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 85,
+      "wordCount": 644,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/meteor",
+    "title": "Meteor Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 604,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/poison-arrow",
+    "title": "Poison Arrow Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 85,
+      "wordCount": 791,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/spark",
+    "title": "Spark Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 732,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/whirlwind",
+    "title": "Whirlwind Skill Guide",
+    "priority": 50,
+    "status": "planned",
+    "actions": [
+      "add_faq",
+      "update_patch_info"
+    ],
+    "metrics": {
+      "seoScore": 90,
+      "wordCount": 649,
+      "faqCount": 1,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": true
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  },
+  {
+    "slug": "/guides/skills/example-ai-generated-guide",
+    "title": "Example AI Generated Guide",
+    "priority": 20,
+    "status": "planned",
+    "actions": [
+      "expand_content_depth"
+    ],
+    "metrics": {
+      "seoScore": 95,
+      "wordCount": 142,
+      "faqCount": 2,
+      "internalLinkCount": 5,
+      "isOutdatedPatch": false
+    },
+    "createdAt": "2026-05-14T06:24:02.546Z"
+  }
+]
