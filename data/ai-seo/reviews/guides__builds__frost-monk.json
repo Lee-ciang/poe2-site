@@ -1,0 +1,21 @@
+{
+  "slug": "/guides/builds/frost-monk",
+  "title": "Frost Monk Build Guide",
+  "status": "needs_human_review",
+  "reviewChecklist": {
+    "factualAccuracyChecked": false,
+    "patchInfoVerified": false,
+    "seoIntentMatched": false,
+    "noUnsupportedClaims": false,
+    "readyToPublish": false
+  },
+  "draftSummary": {
+    "faqCount": 0,
+    "hasContentExpansion": true,
+    "hasPatchUpdateNote": true,
+    "hasInternalLinkSuggestion": false
+  },
+  "sourceDraftFile": "data\\ai-seo\\drafts\\guides__builds__frost-monk.json",
+  "reviewedAt": null,
+  "createdAt": "2026-05-14T06:44:47.687Z"
+}

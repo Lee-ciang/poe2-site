@@ -1,0 +1,21 @@
+{
+  "slug": "/guides/skills/arc",
+  "title": "Arc Skill Guide",
+  "status": "needs_human_review",
+  "reviewChecklist": {
+    "factualAccuracyChecked": false,
+    "patchInfoVerified": false,
+    "seoIntentMatched": false,
+    "noUnsupportedClaims": false,
+    "readyToPublish": false
+  },
+  "draftSummary": {
+    "faqCount": 2,
+    "hasContentExpansion": true,
+    "hasPatchUpdateNote": true,
+    "hasInternalLinkSuggestion": false
+  },
+  "sourceDraftFile": "data\\ai-seo\\drafts\\guides__skills__arc.json",
+  "reviewedAt": null,
+  "createdAt": "2026-05-14T06:44:47.688Z"
+}

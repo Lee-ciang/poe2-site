@@ -1,0 +1,17 @@
+{
+  "slug": "/guides/builds/frost-monk",
+  "title": "Frost Monk Build Guide",
+  "priority": 60,
+  "status": "drafted",
+  "sourceActions": [
+    "expand_content_depth",
+    "update_patch_info"
+  ],
+  "generatedDraft": {
+    "faqSuggestions": [],
+    "contentExpansionSuggestion": "Add a deeper gameplay section explaining leveling priorities, recommended support gem logic, defensive layers, common mistakes, and when the setup starts to feel powerful.",
+    "patchUpdateNote": "Review this guide against the latest Path of Exile 2 patch notes before publishing. Avoid claiming exact balance changes unless verified manually.",
+    "internalLinkSuggestion": ""
+  },
+  "generatedAt": "2026-05-14T06:31:31.442Z"
+}

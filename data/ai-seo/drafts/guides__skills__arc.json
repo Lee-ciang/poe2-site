@@ -1,0 +1,27 @@
+{
+  "slug": "/guides/skills/arc",
+  "title": "Arc Skill Guide",
+  "priority": 70,
+  "status": "drafted",
+  "sourceActions": [
+    "add_faq",
+    "expand_content_depth",
+    "update_patch_info"
+  ],
+  "generatedDraft": {
+    "faqSuggestions": [
+      {
+        "question": "Is Arc Skill good for beginners in Path of Exile 2?",
+        "answer": "Arc Skill can be beginner-friendly when paired with simple support gems, reliable defenses, and a clear leveling path. Players should focus on consistency before optimizing damage."
+      },
+      {
+        "question": "What should I upgrade first for Arc Skill?",
+        "answer": "Start with upgrades that improve survivability, resource sustain, and core damage scaling. After that, improve gear affixes, support gem setup, and passive tree efficiency."
+      }
+    ],
+    "contentExpansionSuggestion": "Add a deeper gameplay section explaining leveling priorities, recommended support gem logic, defensive layers, common mistakes, and when the setup starts to feel powerful.",
+    "patchUpdateNote": "Review this guide against the latest Path of Exile 2 patch notes before publishing. Avoid claiming exact balance changes unless verified manually.",
+    "internalLinkSuggestion": ""
+  },
+  "generatedAt": "2026-05-14T06:31:31.441Z"
+}

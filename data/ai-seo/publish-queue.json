@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "/guides/bosses/count-geonor",
+    "title": "Count Geonor Boss Guide",
+    "status": "blocked_review_required",
+    "readyToPublish": false,
+    "sourceReviewFile": "data\\ai-seo\\reviews\\guides__bosses__count-geonor.json",
+    "sourceDraftFile": "data\\ai-seo\\drafts\\guides__bosses__count-geonor.json",
+    "createdAt": "2026-05-14T06:47:57.291Z"
+  },
+  {
+    "slug": "/guides/builds/frost-monk",
+    "title": "Frost Monk Build Guide",
+    "status": "blocked_review_required",
+    "readyToPublish": false,
+    "sourceReviewFile": "data\\ai-seo\\reviews\\guides__builds__frost-monk.json",
+    "sourceDraftFile": "data\\ai-seo\\drafts\\guides__builds__frost-monk.json",
+    "createdAt": "2026-05-14T06:47:57.292Z"
+  },
+  {
+    "slug": "/guides/builds/lightning-ranger",
+    "title": "Lightning Ranger Build Guide",
+    "status": "blocked_review_required",
+    "readyToPublish": false,
+    "sourceReviewFile": "data\\ai-seo\\reviews\\guides__builds__lightning-ranger.json",
+    "sourceDraftFile": "data\\ai-seo\\drafts\\guides__builds__lightning-ranger.json",
+    "createdAt": "2026-05-14T06:47:57.292Z"
+  },
+  {
+    "slug": "/guides/skills/arc",
+    "title": "Arc Skill Guide",
+    "status": "blocked_review_required",
+    "readyToPublish": false,
+    "sourceReviewFile": "data\\ai-seo\\reviews\\guides__skills__arc.json",
+    "sourceDraftFile": "data\\ai-seo\\drafts\\guides__skills__arc.json",
+    "createdAt": "2026-05-14T06:47:57.292Z"
+  },
+  {
+    "slug": "/guides/skills/lightning-arrow",
+    "title": "Lightning Arrow Skill Guide",
+    "status": "blocked_review_required",
+    "readyToPublish": false,
+    "sourceReviewFile": "data\\ai-seo\\reviews\\guides__skills__lightning-arrow.json",
+    "sourceDraftFile": "data\\ai-seo\\drafts\\guides__skills__lightning-arrow.json",
+    "createdAt": "2026-05-14T06:47:57.292Z"
+  }
+]
