@@ -1,0 +1,53 @@
+[
+  {
+    "cluster": "builds",
+    "pillarPageCandidate": "/guides/builds",
+    "guideCount": 2,
+    "keywordCoverage": 16,
+    "intentCoverage": {
+      "beginnerIntentCount": 2,
+      "progressionIntentCount": 2,
+      "optimizationIntentCount": 6
+    },
+    "internalLinkOpportunities": 2,
+    "authorityScore": 46,
+    "authorityTier": "weak",
+    "recommendedExpansion": "Build pillar page, add supporting guides, and expand semantic coverage",
+    "status": "analyzed",
+    "createdAt": "2026-05-14T09:48:24.318Z"
+  },
+  {
+    "cluster": "bosses",
+    "pillarPageCandidate": "/guides/bosses",
+    "guideCount": 2,
+    "keywordCoverage": 16,
+    "intentCoverage": {
+      "beginnerIntentCount": 2,
+      "progressionIntentCount": 2,
+      "optimizationIntentCount": 0
+    },
+    "internalLinkOpportunities": 2,
+    "authorityScore": 34,
+    "authorityTier": "weak",
+    "recommendedExpansion": "Build pillar page, add supporting guides, and expand semantic coverage",
+    "status": "analyzed",
+    "createdAt": "2026-05-14T09:48:24.318Z"
+  },
+  {
+    "cluster": "skills",
+    "pillarPageCandidate": "/guides/skills",
+    "guideCount": 19,
+    "keywordCoverage": 152,
+    "intentCoverage": {
+      "beginnerIntentCount": 19,
+      "progressionIntentCount": 19,
+      "optimizationIntentCount": 57
+    },
+    "internalLinkOpportunities": 57,
+    "authorityScore": 475,
+    "authorityTier": "strong",
+    "recommendedExpansion": "Strengthen existing content and improve conversion paths",
+    "status": "analyzed",
+    "createdAt": "2026-05-14T09:48:24.318Z"
+  }
+]
