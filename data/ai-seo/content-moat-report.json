@@ -1,0 +1,38 @@
+[
+  {
+    "cluster": "builds",
+    "authorityTier": "weak",
+    "estimatedCompetition": "high_risk",
+    "saturationTier": "underdeveloped",
+    "moatScore": 96,
+    "moatTier": "weak_moat",
+    "defensibility": "This cluster is vulnerable and needs pillar pages, supporting guides, and stronger internal links.",
+    "recommendedMoatStrategy": "Build pillar page, add supporting guides, refresh weak content, and increase topical coverage.",
+    "status": "analyzed",
+    "createdAt": "2026-05-14T10:01:26.342Z"
+  },
+  {
+    "cluster": "bosses",
+    "authorityTier": "weak",
+    "estimatedCompetition": "high_risk",
+    "saturationTier": "underdeveloped",
+    "moatScore": 84,
+    "moatTier": "weak_moat",
+    "defensibility": "This cluster is vulnerable and needs pillar pages, supporting guides, and stronger internal links.",
+    "recommendedMoatStrategy": "Build pillar page, add supporting guides, refresh weak content, and increase topical coverage.",
+    "status": "analyzed",
+    "createdAt": "2026-05-14T10:01:26.342Z"
+  },
+  {
+    "cluster": "skills",
+    "authorityTier": "strong",
+    "estimatedCompetition": "defensible",
+    "saturationTier": "highly_saturated",
+    "moatScore": 1026,
+    "moatTier": "strong_moat",
+    "defensibility": "This cluster has strong defensibility through authority, coverage, and internal links.",
+    "recommendedMoatStrategy": "Maintain freshness, strengthen FAQs, and defend long-tail rankings.",
+    "status": "analyzed",
+    "createdAt": "2026-05-14T10:01:26.342Z"
+  }
+]
