@@ -1,0 +1,1842 @@
+[
+  {
+    "keyword": "Frost Monk Build leveling guide",
+    "sourceSlug": "/guides/builds/frost-monk",
+    "topicSeed": "Frost Monk Build",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.880Z"
+  },
+  {
+    "keyword": "Frost Monk Build best support gems",
+    "sourceSlug": "/guides/builds/frost-monk",
+    "topicSeed": "Frost Monk Build",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frost Monk Build beginner build",
+    "sourceSlug": "/guides/builds/frost-monk",
+    "topicSeed": "Frost Monk Build",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frost Monk Build endgame setup",
+    "sourceSlug": "/guides/builds/frost-monk",
+    "topicSeed": "Frost Monk Build",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frost Monk Build passive tree",
+    "sourceSlug": "/guides/builds/frost-monk",
+    "topicSeed": "Frost Monk Build",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frost Monk Build gear progression",
+    "sourceSlug": "/guides/builds/frost-monk",
+    "topicSeed": "Frost Monk Build",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frost Monk Build bossing setup",
+    "sourceSlug": "/guides/builds/frost-monk",
+    "topicSeed": "Frost Monk Build",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frost Monk Build mapping setup",
+    "sourceSlug": "/guides/builds/frost-monk",
+    "topicSeed": "Frost Monk Build",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Ranger Build leveling guide",
+    "sourceSlug": "/guides/builds/lightning-ranger",
+    "topicSeed": "Lightning Ranger Build",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Ranger Build best support gems",
+    "sourceSlug": "/guides/builds/lightning-ranger",
+    "topicSeed": "Lightning Ranger Build",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Ranger Build beginner build",
+    "sourceSlug": "/guides/builds/lightning-ranger",
+    "topicSeed": "Lightning Ranger Build",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Ranger Build endgame setup",
+    "sourceSlug": "/guides/builds/lightning-ranger",
+    "topicSeed": "Lightning Ranger Build",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Ranger Build passive tree",
+    "sourceSlug": "/guides/builds/lightning-ranger",
+    "topicSeed": "Lightning Ranger Build",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Ranger Build gear progression",
+    "sourceSlug": "/guides/builds/lightning-ranger",
+    "topicSeed": "Lightning Ranger Build",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Ranger Build bossing setup",
+    "sourceSlug": "/guides/builds/lightning-ranger",
+    "topicSeed": "Lightning Ranger Build",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Ranger Build mapping setup",
+    "sourceSlug": "/guides/builds/lightning-ranger",
+    "topicSeed": "Lightning Ranger Build",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Count Geonor Boss leveling guide",
+    "sourceSlug": "/guides/bosses/count-geonor",
+    "topicSeed": "Count Geonor Boss",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Count Geonor Boss best support gems",
+    "sourceSlug": "/guides/bosses/count-geonor",
+    "topicSeed": "Count Geonor Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Count Geonor Boss beginner build",
+    "sourceSlug": "/guides/bosses/count-geonor",
+    "topicSeed": "Count Geonor Boss",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Count Geonor Boss endgame setup",
+    "sourceSlug": "/guides/bosses/count-geonor",
+    "topicSeed": "Count Geonor Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Count Geonor Boss passive tree",
+    "sourceSlug": "/guides/bosses/count-geonor",
+    "topicSeed": "Count Geonor Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Count Geonor Boss gear progression",
+    "sourceSlug": "/guides/bosses/count-geonor",
+    "topicSeed": "Count Geonor Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Count Geonor Boss bossing setup",
+    "sourceSlug": "/guides/bosses/count-geonor",
+    "topicSeed": "Count Geonor Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Count Geonor Boss mapping setup",
+    "sourceSlug": "/guides/bosses/count-geonor",
+    "topicSeed": "Count Geonor Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Trialmaster Boss leveling guide",
+    "sourceSlug": "/guides/bosses/trialmaster",
+    "topicSeed": "Trialmaster Boss",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Trialmaster Boss best support gems",
+    "sourceSlug": "/guides/bosses/trialmaster",
+    "topicSeed": "Trialmaster Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Trialmaster Boss beginner build",
+    "sourceSlug": "/guides/bosses/trialmaster",
+    "topicSeed": "Trialmaster Boss",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Trialmaster Boss endgame setup",
+    "sourceSlug": "/guides/bosses/trialmaster",
+    "topicSeed": "Trialmaster Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Trialmaster Boss passive tree",
+    "sourceSlug": "/guides/bosses/trialmaster",
+    "topicSeed": "Trialmaster Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Trialmaster Boss gear progression",
+    "sourceSlug": "/guides/bosses/trialmaster",
+    "topicSeed": "Trialmaster Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Trialmaster Boss bossing setup",
+    "sourceSlug": "/guides/bosses/trialmaster",
+    "topicSeed": "Trialmaster Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Trialmaster Boss mapping setup",
+    "sourceSlug": "/guides/bosses/trialmaster",
+    "topicSeed": "Trialmaster Boss",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Arc Skill leveling guide",
+    "sourceSlug": "/guides/skills/arc",
+    "topicSeed": "Arc Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Arc Skill best support gems",
+    "sourceSlug": "/guides/skills/arc",
+    "topicSeed": "Arc Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Arc Skill beginner build",
+    "sourceSlug": "/guides/skills/arc",
+    "topicSeed": "Arc Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Arc Skill endgame setup",
+    "sourceSlug": "/guides/skills/arc",
+    "topicSeed": "Arc Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Arc Skill passive tree",
+    "sourceSlug": "/guides/skills/arc",
+    "topicSeed": "Arc Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Arc Skill gear progression",
+    "sourceSlug": "/guides/skills/arc",
+    "topicSeed": "Arc Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Arc Skill bossing setup",
+    "sourceSlug": "/guides/skills/arc",
+    "topicSeed": "Arc Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Arc Skill mapping setup",
+    "sourceSlug": "/guides/skills/arc",
+    "topicSeed": "Arc Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ball Lightning Skill leveling guide",
+    "sourceSlug": "/guides/skills/ball-lightning",
+    "topicSeed": "Ball Lightning Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ball Lightning Skill best support gems",
+    "sourceSlug": "/guides/skills/ball-lightning",
+    "topicSeed": "Ball Lightning Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ball Lightning Skill beginner build",
+    "sourceSlug": "/guides/skills/ball-lightning",
+    "topicSeed": "Ball Lightning Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ball Lightning Skill endgame setup",
+    "sourceSlug": "/guides/skills/ball-lightning",
+    "topicSeed": "Ball Lightning Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ball Lightning Skill passive tree",
+    "sourceSlug": "/guides/skills/ball-lightning",
+    "topicSeed": "Ball Lightning Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ball Lightning Skill gear progression",
+    "sourceSlug": "/guides/skills/ball-lightning",
+    "topicSeed": "Ball Lightning Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ball Lightning Skill bossing setup",
+    "sourceSlug": "/guides/skills/ball-lightning",
+    "topicSeed": "Ball Lightning Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ball Lightning Skill mapping setup",
+    "sourceSlug": "/guides/skills/ball-lightning",
+    "topicSeed": "Ball Lightning Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Chain Lightning Skill leveling guide",
+    "sourceSlug": "/guides/skills/chain-lightning",
+    "topicSeed": "Chain Lightning Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Chain Lightning Skill best support gems",
+    "sourceSlug": "/guides/skills/chain-lightning",
+    "topicSeed": "Chain Lightning Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Chain Lightning Skill beginner build",
+    "sourceSlug": "/guides/skills/chain-lightning",
+    "topicSeed": "Chain Lightning Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Chain Lightning Skill endgame setup",
+    "sourceSlug": "/guides/skills/chain-lightning",
+    "topicSeed": "Chain Lightning Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Chain Lightning Skill passive tree",
+    "sourceSlug": "/guides/skills/chain-lightning",
+    "topicSeed": "Chain Lightning Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Chain Lightning Skill gear progression",
+    "sourceSlug": "/guides/skills/chain-lightning",
+    "topicSeed": "Chain Lightning Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Chain Lightning Skill bossing setup",
+    "sourceSlug": "/guides/skills/chain-lightning",
+    "topicSeed": "Chain Lightning Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Chain Lightning Skill mapping setup",
+    "sourceSlug": "/guides/skills/chain-lightning",
+    "topicSeed": "Chain Lightning Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Cold Snap Skill leveling guide",
+    "sourceSlug": "/guides/skills/cold-snap-ai",
+    "topicSeed": "Cold Snap Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Cold Snap Skill best support gems",
+    "sourceSlug": "/guides/skills/cold-snap-ai",
+    "topicSeed": "Cold Snap Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Cold Snap Skill beginner build",
+    "sourceSlug": "/guides/skills/cold-snap-ai",
+    "topicSeed": "Cold Snap Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Cold Snap Skill endgame setup",
+    "sourceSlug": "/guides/skills/cold-snap-ai",
+    "topicSeed": "Cold Snap Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Cold Snap Skill passive tree",
+    "sourceSlug": "/guides/skills/cold-snap-ai",
+    "topicSeed": "Cold Snap Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Cold Snap Skill gear progression",
+    "sourceSlug": "/guides/skills/cold-snap-ai",
+    "topicSeed": "Cold Snap Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Cold Snap Skill bossing setup",
+    "sourceSlug": "/guides/skills/cold-snap-ai",
+    "topicSeed": "Cold Snap Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Cold Snap Skill mapping setup",
+    "sourceSlug": "/guides/skills/cold-snap-ai",
+    "topicSeed": "Cold Snap Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Earthshatter Skill leveling guide",
+    "sourceSlug": "/guides/skills/earthshatter",
+    "topicSeed": "Earthshatter Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Earthshatter Skill best support gems",
+    "sourceSlug": "/guides/skills/earthshatter",
+    "topicSeed": "Earthshatter Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Earthshatter Skill beginner build",
+    "sourceSlug": "/guides/skills/earthshatter",
+    "topicSeed": "Earthshatter Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Earthshatter Skill endgame setup",
+    "sourceSlug": "/guides/skills/earthshatter",
+    "topicSeed": "Earthshatter Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Earthshatter Skill passive tree",
+    "sourceSlug": "/guides/skills/earthshatter",
+    "topicSeed": "Earthshatter Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Earthshatter Skill gear progression",
+    "sourceSlug": "/guides/skills/earthshatter",
+    "topicSeed": "Earthshatter Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Earthshatter Skill bossing setup",
+    "sourceSlug": "/guides/skills/earthshatter",
+    "topicSeed": "Earthshatter Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Earthshatter Skill mapping setup",
+    "sourceSlug": "/guides/skills/earthshatter",
+    "topicSeed": "Earthshatter Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Example AI Generated leveling guide",
+    "sourceSlug": "/guides/skills/example-ai-generated-guide",
+    "topicSeed": "Example AI Generated",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Example AI Generated best support gems",
+    "sourceSlug": "/guides/skills/example-ai-generated-guide",
+    "topicSeed": "Example AI Generated",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Example AI Generated beginner build",
+    "sourceSlug": "/guides/skills/example-ai-generated-guide",
+    "topicSeed": "Example AI Generated",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Example AI Generated endgame setup",
+    "sourceSlug": "/guides/skills/example-ai-generated-guide",
+    "topicSeed": "Example AI Generated",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Example AI Generated passive tree",
+    "sourceSlug": "/guides/skills/example-ai-generated-guide",
+    "topicSeed": "Example AI Generated",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Example AI Generated gear progression",
+    "sourceSlug": "/guides/skills/example-ai-generated-guide",
+    "topicSeed": "Example AI Generated",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Example AI Generated bossing setup",
+    "sourceSlug": "/guides/skills/example-ai-generated-guide",
+    "topicSeed": "Example AI Generated",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Example AI Generated mapping setup",
+    "sourceSlug": "/guides/skills/example-ai-generated-guide",
+    "topicSeed": "Example AI Generated",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Fireball Skill leveling guide",
+    "sourceSlug": "/guides/skills/fireball",
+    "topicSeed": "Fireball Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Fireball Skill best support gems",
+    "sourceSlug": "/guides/skills/fireball",
+    "topicSeed": "Fireball Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Fireball Skill beginner build",
+    "sourceSlug": "/guides/skills/fireball",
+    "topicSeed": "Fireball Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Fireball Skill endgame setup",
+    "sourceSlug": "/guides/skills/fireball",
+    "topicSeed": "Fireball Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Fireball Skill passive tree",
+    "sourceSlug": "/guides/skills/fireball",
+    "topicSeed": "Fireball Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Fireball Skill gear progression",
+    "sourceSlug": "/guides/skills/fireball",
+    "topicSeed": "Fireball Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Fireball Skill bossing setup",
+    "sourceSlug": "/guides/skills/fireball",
+    "topicSeed": "Fireball Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Fireball Skill mapping setup",
+    "sourceSlug": "/guides/skills/fireball",
+    "topicSeed": "Fireball Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Flame Wall Skill leveling guide",
+    "sourceSlug": "/guides/skills/flame-wall",
+    "topicSeed": "Flame Wall Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Flame Wall Skill best support gems",
+    "sourceSlug": "/guides/skills/flame-wall",
+    "topicSeed": "Flame Wall Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Flame Wall Skill beginner build",
+    "sourceSlug": "/guides/skills/flame-wall",
+    "topicSeed": "Flame Wall Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Flame Wall Skill endgame setup",
+    "sourceSlug": "/guides/skills/flame-wall",
+    "topicSeed": "Flame Wall Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Flame Wall Skill passive tree",
+    "sourceSlug": "/guides/skills/flame-wall",
+    "topicSeed": "Flame Wall Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Flame Wall Skill gear progression",
+    "sourceSlug": "/guides/skills/flame-wall",
+    "topicSeed": "Flame Wall Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Flame Wall Skill bossing setup",
+    "sourceSlug": "/guides/skills/flame-wall",
+    "topicSeed": "Flame Wall Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Flame Wall Skill mapping setup",
+    "sourceSlug": "/guides/skills/flame-wall",
+    "topicSeed": "Flame Wall Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Freezing Shards Skill leveling guide",
+    "sourceSlug": "/guides/skills/freezing-shards",
+    "topicSeed": "Freezing Shards Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Freezing Shards Skill best support gems",
+    "sourceSlug": "/guides/skills/freezing-shards",
+    "topicSeed": "Freezing Shards Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Freezing Shards Skill beginner build",
+    "sourceSlug": "/guides/skills/freezing-shards",
+    "topicSeed": "Freezing Shards Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Freezing Shards Skill endgame setup",
+    "sourceSlug": "/guides/skills/freezing-shards",
+    "topicSeed": "Freezing Shards Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Freezing Shards Skill passive tree",
+    "sourceSlug": "/guides/skills/freezing-shards",
+    "topicSeed": "Freezing Shards Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Freezing Shards Skill gear progression",
+    "sourceSlug": "/guides/skills/freezing-shards",
+    "topicSeed": "Freezing Shards Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Freezing Shards Skill bossing setup",
+    "sourceSlug": "/guides/skills/freezing-shards",
+    "topicSeed": "Freezing Shards Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Freezing Shards Skill mapping setup",
+    "sourceSlug": "/guides/skills/freezing-shards",
+    "topicSeed": "Freezing Shards Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill leveling guide",
+    "sourceSlug": "/guides/skills/frostbolt-ai",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill best support gems",
+    "sourceSlug": "/guides/skills/frostbolt-ai",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill beginner build",
+    "sourceSlug": "/guides/skills/frostbolt-ai",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill endgame setup",
+    "sourceSlug": "/guides/skills/frostbolt-ai",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill passive tree",
+    "sourceSlug": "/guides/skills/frostbolt-ai",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill gear progression",
+    "sourceSlug": "/guides/skills/frostbolt-ai",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill bossing setup",
+    "sourceSlug": "/guides/skills/frostbolt-ai",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill mapping setup",
+    "sourceSlug": "/guides/skills/frostbolt-ai",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill leveling guide",
+    "sourceSlug": "/guides/skills/frostbolt",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill best support gems",
+    "sourceSlug": "/guides/skills/frostbolt",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill beginner build",
+    "sourceSlug": "/guides/skills/frostbolt",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill endgame setup",
+    "sourceSlug": "/guides/skills/frostbolt",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill passive tree",
+    "sourceSlug": "/guides/skills/frostbolt",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill gear progression",
+    "sourceSlug": "/guides/skills/frostbolt",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill bossing setup",
+    "sourceSlug": "/guides/skills/frostbolt",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Frostbolt Skill mapping setup",
+    "sourceSlug": "/guides/skills/frostbolt",
+    "topicSeed": "Frostbolt Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Nova Skill leveling guide",
+    "sourceSlug": "/guides/skills/ice-nova",
+    "topicSeed": "Ice Nova Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Nova Skill best support gems",
+    "sourceSlug": "/guides/skills/ice-nova",
+    "topicSeed": "Ice Nova Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Nova Skill beginner build",
+    "sourceSlug": "/guides/skills/ice-nova",
+    "topicSeed": "Ice Nova Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Nova Skill endgame setup",
+    "sourceSlug": "/guides/skills/ice-nova",
+    "topicSeed": "Ice Nova Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Nova Skill passive tree",
+    "sourceSlug": "/guides/skills/ice-nova",
+    "topicSeed": "Ice Nova Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Nova Skill gear progression",
+    "sourceSlug": "/guides/skills/ice-nova",
+    "topicSeed": "Ice Nova Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Nova Skill bossing setup",
+    "sourceSlug": "/guides/skills/ice-nova",
+    "topicSeed": "Ice Nova Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Nova Skill mapping setup",
+    "sourceSlug": "/guides/skills/ice-nova",
+    "topicSeed": "Ice Nova Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Spear Skill leveling guide",
+    "sourceSlug": "/guides/skills/ice-spear",
+    "topicSeed": "Ice Spear Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Spear Skill best support gems",
+    "sourceSlug": "/guides/skills/ice-spear",
+    "topicSeed": "Ice Spear Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Spear Skill beginner build",
+    "sourceSlug": "/guides/skills/ice-spear",
+    "topicSeed": "Ice Spear Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Spear Skill endgame setup",
+    "sourceSlug": "/guides/skills/ice-spear",
+    "topicSeed": "Ice Spear Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Spear Skill passive tree",
+    "sourceSlug": "/guides/skills/ice-spear",
+    "topicSeed": "Ice Spear Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Spear Skill gear progression",
+    "sourceSlug": "/guides/skills/ice-spear",
+    "topicSeed": "Ice Spear Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Spear Skill bossing setup",
+    "sourceSlug": "/guides/skills/ice-spear",
+    "topicSeed": "Ice Spear Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Ice Spear Skill mapping setup",
+    "sourceSlug": "/guides/skills/ice-spear",
+    "topicSeed": "Ice Spear Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill leveling guide",
+    "sourceSlug": "/guides/skills/lightning-arrow-ai",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill best support gems",
+    "sourceSlug": "/guides/skills/lightning-arrow-ai",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill beginner build",
+    "sourceSlug": "/guides/skills/lightning-arrow-ai",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill endgame setup",
+    "sourceSlug": "/guides/skills/lightning-arrow-ai",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill passive tree",
+    "sourceSlug": "/guides/skills/lightning-arrow-ai",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill gear progression",
+    "sourceSlug": "/guides/skills/lightning-arrow-ai",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill bossing setup",
+    "sourceSlug": "/guides/skills/lightning-arrow-ai",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill mapping setup",
+    "sourceSlug": "/guides/skills/lightning-arrow-ai",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill leveling guide",
+    "sourceSlug": "/guides/skills/lightning-arrow",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill best support gems",
+    "sourceSlug": "/guides/skills/lightning-arrow",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill beginner build",
+    "sourceSlug": "/guides/skills/lightning-arrow",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill endgame setup",
+    "sourceSlug": "/guides/skills/lightning-arrow",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill passive tree",
+    "sourceSlug": "/guides/skills/lightning-arrow",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill gear progression",
+    "sourceSlug": "/guides/skills/lightning-arrow",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill bossing setup",
+    "sourceSlug": "/guides/skills/lightning-arrow",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Lightning Arrow Skill mapping setup",
+    "sourceSlug": "/guides/skills/lightning-arrow",
+    "topicSeed": "Lightning Arrow Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Meteor Skill leveling guide",
+    "sourceSlug": "/guides/skills/meteor",
+    "topicSeed": "Meteor Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Meteor Skill best support gems",
+    "sourceSlug": "/guides/skills/meteor",
+    "topicSeed": "Meteor Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Meteor Skill beginner build",
+    "sourceSlug": "/guides/skills/meteor",
+    "topicSeed": "Meteor Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Meteor Skill endgame setup",
+    "sourceSlug": "/guides/skills/meteor",
+    "topicSeed": "Meteor Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Meteor Skill passive tree",
+    "sourceSlug": "/guides/skills/meteor",
+    "topicSeed": "Meteor Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Meteor Skill gear progression",
+    "sourceSlug": "/guides/skills/meteor",
+    "topicSeed": "Meteor Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Meteor Skill bossing setup",
+    "sourceSlug": "/guides/skills/meteor",
+    "topicSeed": "Meteor Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Meteor Skill mapping setup",
+    "sourceSlug": "/guides/skills/meteor",
+    "topicSeed": "Meteor Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Poison Arrow Skill leveling guide",
+    "sourceSlug": "/guides/skills/poison-arrow",
+    "topicSeed": "Poison Arrow Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Poison Arrow Skill best support gems",
+    "sourceSlug": "/guides/skills/poison-arrow",
+    "topicSeed": "Poison Arrow Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Poison Arrow Skill beginner build",
+    "sourceSlug": "/guides/skills/poison-arrow",
+    "topicSeed": "Poison Arrow Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Poison Arrow Skill endgame setup",
+    "sourceSlug": "/guides/skills/poison-arrow",
+    "topicSeed": "Poison Arrow Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Poison Arrow Skill passive tree",
+    "sourceSlug": "/guides/skills/poison-arrow",
+    "topicSeed": "Poison Arrow Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Poison Arrow Skill gear progression",
+    "sourceSlug": "/guides/skills/poison-arrow",
+    "topicSeed": "Poison Arrow Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Poison Arrow Skill bossing setup",
+    "sourceSlug": "/guides/skills/poison-arrow",
+    "topicSeed": "Poison Arrow Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Poison Arrow Skill mapping setup",
+    "sourceSlug": "/guides/skills/poison-arrow",
+    "topicSeed": "Poison Arrow Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Spark Skill leveling guide",
+    "sourceSlug": "/guides/skills/spark",
+    "topicSeed": "Spark Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Spark Skill best support gems",
+    "sourceSlug": "/guides/skills/spark",
+    "topicSeed": "Spark Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Spark Skill beginner build",
+    "sourceSlug": "/guides/skills/spark",
+    "topicSeed": "Spark Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Spark Skill endgame setup",
+    "sourceSlug": "/guides/skills/spark",
+    "topicSeed": "Spark Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Spark Skill passive tree",
+    "sourceSlug": "/guides/skills/spark",
+    "topicSeed": "Spark Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Spark Skill gear progression",
+    "sourceSlug": "/guides/skills/spark",
+    "topicSeed": "Spark Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Spark Skill bossing setup",
+    "sourceSlug": "/guides/skills/spark",
+    "topicSeed": "Spark Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Spark Skill mapping setup",
+    "sourceSlug": "/guides/skills/spark",
+    "topicSeed": "Spark Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Whirlwind Skill leveling guide",
+    "sourceSlug": "/guides/skills/whirlwind",
+    "topicSeed": "Whirlwind Skill",
+    "intent": "progression_intent",
+    "recommendedContentType": "leveling_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Whirlwind Skill best support gems",
+    "sourceSlug": "/guides/skills/whirlwind",
+    "topicSeed": "Whirlwind Skill",
+    "intent": "commercial_investigation",
+    "recommendedContentType": "best_options_roundup",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Whirlwind Skill beginner build",
+    "sourceSlug": "/guides/skills/whirlwind",
+    "topicSeed": "Whirlwind Skill",
+    "intent": "beginner_intent",
+    "recommendedContentType": "beginner_guide",
+    "priority": "high",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Whirlwind Skill endgame setup",
+    "sourceSlug": "/guides/skills/whirlwind",
+    "topicSeed": "Whirlwind Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Whirlwind Skill passive tree",
+    "sourceSlug": "/guides/skills/whirlwind",
+    "topicSeed": "Whirlwind Skill",
+    "intent": "build_planning_intent",
+    "recommendedContentType": "build_planning_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Whirlwind Skill gear progression",
+    "sourceSlug": "/guides/skills/whirlwind",
+    "topicSeed": "Whirlwind Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Whirlwind Skill bossing setup",
+    "sourceSlug": "/guides/skills/whirlwind",
+    "topicSeed": "Whirlwind Skill",
+    "intent": "bossing_intent",
+    "recommendedContentType": "bossing_section",
+    "priority": "normal",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  },
+  {
+    "keyword": "Whirlwind Skill mapping setup",
+    "sourceSlug": "/guides/skills/whirlwind",
+    "topicSeed": "Whirlwind Skill",
+    "intent": "optimization_intent",
+    "recommendedContentType": "optimization_section",
+    "priority": "medium",
+    "status": "classified",
+    "createdAt": "2026-05-14T09:42:55.881Z"
+  }
+]
