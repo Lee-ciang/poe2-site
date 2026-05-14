@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-05-14T14:39:56.722Z",
+  "snapshotsCompared": 1,
+  "currentSnapshot": "2026-05-14T14:37:59.867Z",
+  "previousSnapshot": "2026-05-14T14:37:59.867Z",
+  "comparison": {
+    "strategicMaturity": {
+      "previous": "advanced",
+      "current": "advanced",
+      "changed": false
+    },
+    "semanticCoverage": {
+      "previous": "broad",
+      "current": "broad",
+      "changed": false
+    },
+    "authorityTrajectory": {
+      "previous": "improving",
+      "current": "improving",
+      "changed": false
+    },
+    "moatTrajectory": {
+      "previous": "stabilizing",
+      "current": "stabilizing",
+      "changed": false
+    },
+    "highRoiContentItems": {
+      "previous": 6,
+      "current": 6,
+      "delta": 0
+    },
+    "quickWinKeywords": {
+      "previous": 12,
+      "current": 12,
+      "delta": 0
+    },
+    "weakAuthorityClusters": {
+      "previous": 2,
+      "current": 2,
+      "delta": 0
+    },
+    "weakContentMoats": {
+      "previous": 2,
+      "current": 2,
+      "delta": 0
+    }
+  },
+  "evolutionAssessment": "Baseline established for future comparisons"
+}
