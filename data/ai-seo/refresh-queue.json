@@ -1,0 +1,312 @@
+[
+  {
+    "slug": "/guides/skills/arc",
+    "title": "Arc Skill Guide",
+    "refreshPriority": 1,
+    "decayScore": 100,
+    "decaySignals": [
+      "low_content_depth",
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/lightning-arrow",
+    "title": "Lightning Arrow Skill Guide",
+    "refreshPriority": 2,
+    "decayScore": 100,
+    "decaySignals": [
+      "low_content_depth",
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/builds/frost-monk",
+    "title": "Frost Monk Build Guide",
+    "refreshPriority": 3,
+    "decayScore": 80,
+    "decaySignals": [
+      "low_content_depth",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/builds/lightning-ranger",
+    "title": "Lightning Ranger Build Guide",
+    "refreshPriority": 4,
+    "decayScore": 80,
+    "decaySignals": [
+      "low_content_depth",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/bosses/count-geonor",
+    "title": "Count Geonor Boss Guide",
+    "refreshPriority": 5,
+    "decayScore": 80,
+    "decaySignals": [
+      "low_content_depth",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/bosses/trialmaster",
+    "title": "Trialmaster Boss Guide",
+    "refreshPriority": 6,
+    "decayScore": 80,
+    "decaySignals": [
+      "low_content_depth",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/ball-lightning",
+    "title": "Ball Lightning Skill Guide",
+    "refreshPriority": 7,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/chain-lightning",
+    "title": "Chain Lightning Skill Guide",
+    "refreshPriority": 8,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/cold-snap-ai",
+    "title": "Cold Snap Skill Guide",
+    "refreshPriority": 9,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/earthshatter",
+    "title": "Earthshatter Skill Guide",
+    "refreshPriority": 10,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/fireball",
+    "title": "Fireball Skill Guide",
+    "refreshPriority": 11,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/flame-wall",
+    "title": "Flame Wall Skill Guide",
+    "refreshPriority": 12,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/freezing-shards",
+    "title": "Freezing Shards Skill Guide",
+    "refreshPriority": 13,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/frostbolt-ai",
+    "title": "Frostbolt Skill Guide",
+    "refreshPriority": 14,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/frostbolt",
+    "title": "Frostbolt Skill Guide",
+    "refreshPriority": 15,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/ice-nova",
+    "title": "Ice Nova Skill Guide",
+    "refreshPriority": 16,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/ice-spear",
+    "title": "Ice Spear Skill Guide",
+    "refreshPriority": 17,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/lightning-arrow-ai",
+    "title": "Lightning Arrow Skill Guide",
+    "refreshPriority": 18,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/meteor",
+    "title": "Meteor Skill Guide",
+    "refreshPriority": 19,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/poison-arrow",
+    "title": "Poison Arrow Skill Guide",
+    "refreshPriority": 20,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/spark",
+    "title": "Spark Skill Guide",
+    "refreshPriority": 21,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  },
+  {
+    "slug": "/guides/skills/whirlwind",
+    "title": "Whirlwind Skill Guide",
+    "refreshPriority": 22,
+    "decayScore": 60,
+    "decaySignals": [
+      "thin_faq_coverage",
+      "outdated_patch_information",
+      "semantic_coverage_gap"
+    ],
+    "status": "queued_for_refresh",
+    "recommendedAction": "Queue this guide for content refresh",
+    "createdAt": "2026-05-14T09:33:17.850Z"
+  }
+]
