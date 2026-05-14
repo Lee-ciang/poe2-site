@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-05-14T09:16:05.532Z",
+  "summary": {
+    "upgradeTasks": 23,
+    "topicClusters": 3,
+    "plannedInternalLinks": 61,
+    "highPriorityTasks": 6,
+    "blockedPublishItems": 23
+  },
+  "clusterHealth": [
+    {
+      "cluster": "builds",
+      "guideCount": 2,
+      "internalLinkOpportunities": 2,
+      "averageSeoScore": 97.5,
+      "averageWordCount": 194
+    },
+    {
+      "cluster": "bosses",
+      "guideCount": 2,
+      "internalLinkOpportunities": 2,
+      "averageSeoScore": 97.5,
+      "averageWordCount": 272
+    },
+    {
+      "cluster": "skills",
+      "guideCount": 19,
+      "internalLinkOpportunities": 57,
+      "averageSeoScore": 88.94736842105263,
+      "averageWordCount": 682.0526315789474
+    }
+  ],
+  "recommendedNextActions": [
+    "Prioritize high priority content upgrades",
+    "Expand low word count guides",
+    "Review and approve safe AI drafts",
+    "Convert planned internal links into markdown patches",
+    "Create pillar pages for major topic clusters"
+  ]
+}
