@@ -1,0 +1,35 @@
+[
+  {
+    "cluster": "builds",
+    "authorityTier": "weak",
+    "authorityScore": 46,
+    "keywordTerritorySize": 16,
+    "estimatedCompetition": "high_risk",
+    "competitiveRisk": "Competitors can outrank this cluster unless pillar and supporting pages are expanded.",
+    "recommendedCompetitiveMove": "Create pillar page, add supporting guides, refresh weak pages, and improve internal links.",
+    "status": "mapped",
+    "createdAt": "2026-05-14T09:52:51.746Z"
+  },
+  {
+    "cluster": "bosses",
+    "authorityTier": "weak",
+    "authorityScore": 34,
+    "keywordTerritorySize": 16,
+    "estimatedCompetition": "high_risk",
+    "competitiveRisk": "Competitors can outrank this cluster unless pillar and supporting pages are expanded.",
+    "recommendedCompetitiveMove": "Create pillar page, add supporting guides, refresh weak pages, and improve internal links.",
+    "status": "mapped",
+    "createdAt": "2026-05-14T09:52:51.746Z"
+  },
+  {
+    "cluster": "skills",
+    "authorityTier": "strong",
+    "authorityScore": 475,
+    "keywordTerritorySize": 152,
+    "estimatedCompetition": "defensible",
+    "competitiveRisk": "Cluster is currently relatively defensible but should keep expanding.",
+    "recommendedCompetitiveMove": "Defend rankings with freshness updates and deeper FAQs.",
+    "status": "mapped",
+    "createdAt": "2026-05-14T09:52:51.746Z"
+  }
+]
