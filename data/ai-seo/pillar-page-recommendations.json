@@ -1,0 +1,189 @@
+[
+  {
+    "cluster": "builds",
+    "recommendedPillarPage": "/guides/builds",
+    "authorityTier": "weak",
+    "authorityScore": 46,
+    "guideCount": 2,
+    "keywordCoverage": 16,
+    "recommendedPageTitle": "Builds Guides Hub",
+    "recommendedSlug": "/guides/builds",
+    "recommendedSections": [
+      "Cluster overview",
+      "Best beginner guides",
+      "Progression path",
+      "Recommended builds or skills",
+      "Bossing and endgame resources",
+      "Related guides",
+      "FAQ"
+    ],
+    "supportingGuides": [
+      {
+        "slug": "/guides/builds/frost-monk",
+        "title": "Frost Monk Build Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/builds/lightning-ranger",
+        "title": "Lightning Ranger Build Guide",
+        "role": "supporting_page"
+      }
+    ],
+    "priority": "high",
+    "status": "recommended",
+    "createdAt": "2026-05-14T09:50:36.051Z"
+  },
+  {
+    "cluster": "bosses",
+    "recommendedPillarPage": "/guides/bosses",
+    "authorityTier": "weak",
+    "authorityScore": 34,
+    "guideCount": 2,
+    "keywordCoverage": 16,
+    "recommendedPageTitle": "Bosses Guides Hub",
+    "recommendedSlug": "/guides/bosses",
+    "recommendedSections": [
+      "Cluster overview",
+      "Best beginner guides",
+      "Progression path",
+      "Recommended builds or skills",
+      "Bossing and endgame resources",
+      "Related guides",
+      "FAQ"
+    ],
+    "supportingGuides": [
+      {
+        "slug": "/guides/bosses/count-geonor",
+        "title": "Count Geonor Boss Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/bosses/trialmaster",
+        "title": "Trialmaster Boss Guide",
+        "role": "supporting_page"
+      }
+    ],
+    "priority": "high",
+    "status": "recommended",
+    "createdAt": "2026-05-14T09:50:36.051Z"
+  },
+  {
+    "cluster": "skills",
+    "recommendedPillarPage": "/guides/skills",
+    "authorityTier": "strong",
+    "authorityScore": 475,
+    "guideCount": 19,
+    "keywordCoverage": 152,
+    "recommendedPageTitle": "Skills Guides Hub",
+    "recommendedSlug": "/guides/skills",
+    "recommendedSections": [
+      "Cluster overview",
+      "Best beginner guides",
+      "Progression path",
+      "Recommended builds or skills",
+      "Bossing and endgame resources",
+      "Related guides",
+      "FAQ"
+    ],
+    "supportingGuides": [
+      {
+        "slug": "/guides/skills/arc",
+        "title": "Arc Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/ball-lightning",
+        "title": "Ball Lightning Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/chain-lightning",
+        "title": "Chain Lightning Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/cold-snap-ai",
+        "title": "Cold Snap Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/earthshatter",
+        "title": "Earthshatter Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/example-ai-generated-guide",
+        "title": "Example AI Generated Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/fireball",
+        "title": "Fireball Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/flame-wall",
+        "title": "Flame Wall Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/freezing-shards",
+        "title": "Freezing Shards Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/frostbolt-ai",
+        "title": "Frostbolt Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/frostbolt",
+        "title": "Frostbolt Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/ice-nova",
+        "title": "Ice Nova Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/ice-spear",
+        "title": "Ice Spear Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/lightning-arrow-ai",
+        "title": "Lightning Arrow Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/lightning-arrow",
+        "title": "Lightning Arrow Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/meteor",
+        "title": "Meteor Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/poison-arrow",
+        "title": "Poison Arrow Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/spark",
+        "title": "Spark Skill Guide",
+        "role": "supporting_page"
+      },
+      {
+        "slug": "/guides/skills/whirlwind",
+        "title": "Whirlwind Skill Guide",
+        "role": "supporting_page"
+      }
+    ],
+    "priority": "normal",
+    "status": "recommended",
+    "createdAt": "2026-05-14T09:50:36.051Z"
+  }
+]
