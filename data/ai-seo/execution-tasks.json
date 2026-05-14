@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-05-14T14:42:04.240Z",
+  "sourceRoadmap": "data/ai-seo/autonomous-seo-roadmap.json",
+  "roadmapStatus": "planned",
+  "taskCount": 12,
+  "tasks": [
+    {
+      "taskId": "refresh-1",
+      "type": "content_refresh",
+      "title": "Refresh Arc Skill Guide",
+      "target": "/guides/skills/arc",
+      "priority": "high",
+      "source": "refresh-queue",
+      "status": "todo",
+      "recommendedAction": "Queue this guide for content refresh",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "refresh-2",
+      "type": "content_refresh",
+      "title": "Refresh Lightning Arrow Skill Guide",
+      "target": "/guides/skills/lightning-arrow",
+      "priority": "high",
+      "source": "refresh-queue",
+      "status": "todo",
+      "recommendedAction": "Queue this guide for content refresh",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "refresh-3",
+      "type": "content_refresh",
+      "title": "Refresh Frost Monk Build Guide",
+      "target": "/guides/builds/frost-monk",
+      "priority": "high",
+      "source": "refresh-queue",
+      "status": "todo",
+      "recommendedAction": "Queue this guide for content refresh",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "refresh-4",
+      "type": "content_refresh",
+      "title": "Refresh Lightning Ranger Build Guide",
+      "target": "/guides/builds/lightning-ranger",
+      "priority": "medium",
+      "source": "refresh-queue",
+      "status": "todo",
+      "recommendedAction": "Queue this guide for content refresh",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "refresh-5",
+      "type": "content_refresh",
+      "title": "Refresh Count Geonor Boss Guide",
+      "target": "/guides/bosses/count-geonor",
+      "priority": "medium",
+      "source": "refresh-queue",
+      "status": "todo",
+      "recommendedAction": "Queue this guide for content refresh",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "serp-quick-win-1",
+      "type": "quick_win_keyword",
+      "title": "Target quick-win keyword: Frost Monk Build leveling guide",
+      "target": "/guides/builds/frost-monk",
+      "priority": "high",
+      "source": "serp-opportunity-model",
+      "status": "todo",
+      "recommendedAction": "Prioritize this keyword for refresh or supporting content creation",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "serp-quick-win-2",
+      "type": "quick_win_keyword",
+      "title": "Target quick-win keyword: Frost Monk Build beginner build",
+      "target": "/guides/builds/frost-monk",
+      "priority": "high",
+      "source": "serp-opportunity-model",
+      "status": "todo",
+      "recommendedAction": "Prioritize this keyword for refresh or supporting content creation",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "serp-quick-win-3",
+      "type": "quick_win_keyword",
+      "title": "Target quick-win keyword: Lightning Ranger Build leveling guide",
+      "target": "/guides/builds/lightning-ranger",
+      "priority": "high",
+      "source": "serp-opportunity-model",
+      "status": "todo",
+      "recommendedAction": "Prioritize this keyword for refresh or supporting content creation",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "serp-quick-win-4",
+      "type": "quick_win_keyword",
+      "title": "Target quick-win keyword: Lightning Ranger Build beginner build",
+      "target": "/guides/builds/lightning-ranger",
+      "priority": "high",
+      "source": "serp-opportunity-model",
+      "status": "todo",
+      "recommendedAction": "Prioritize this keyword for refresh or supporting content creation",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "serp-quick-win-5",
+      "type": "quick_win_keyword",
+      "title": "Target quick-win keyword: Count Geonor Boss leveling guide",
+      "target": "/guides/bosses/count-geonor",
+      "priority": "high",
+      "source": "serp-opportunity-model",
+      "status": "todo",
+      "recommendedAction": "Prioritize this keyword for refresh or supporting content creation",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "pillar-1",
+      "type": "pillar_page",
+      "title": "Create pillar page: Builds Guides Hub",
+      "target": "/guides/builds",
+      "priority": "high",
+      "source": "pillar-page-recommendations",
+      "status": "todo",
+      "recommendedAction": "Create pillar page and connect supporting guides.",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    },
+    {
+      "taskId": "pillar-2",
+      "type": "pillar_page",
+      "title": "Create pillar page: Bosses Guides Hub",
+      "target": "/guides/bosses",
+      "priority": "high",
+      "source": "pillar-page-recommendations",
+      "status": "todo",
+      "recommendedAction": "Create pillar page and connect supporting guides.",
+      "createdAt": "2026-05-14T14:42:04.240Z"
+    }
+  ]
+}
