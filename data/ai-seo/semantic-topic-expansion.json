@@ -1,0 +1,577 @@
+[
+  {
+    "slug": "/guides/builds/frost-monk",
+    "title": "Frost Monk Build Guide",
+    "topicSeed": "Frost Monk Build",
+    "semanticExpansionIdeas": [
+      "Frost Monk Build leveling guide",
+      "Frost Monk Build best support gems",
+      "Frost Monk Build beginner build",
+      "Frost Monk Build endgame setup",
+      "Frost Monk Build passive tree",
+      "Frost Monk Build gear progression",
+      "Frost Monk Build bossing setup",
+      "Frost Monk Build mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.062Z"
+  },
+  {
+    "slug": "/guides/builds/lightning-ranger",
+    "title": "Lightning Ranger Build Guide",
+    "topicSeed": "Lightning Ranger Build",
+    "semanticExpansionIdeas": [
+      "Lightning Ranger Build leveling guide",
+      "Lightning Ranger Build best support gems",
+      "Lightning Ranger Build beginner build",
+      "Lightning Ranger Build endgame setup",
+      "Lightning Ranger Build passive tree",
+      "Lightning Ranger Build gear progression",
+      "Lightning Ranger Build bossing setup",
+      "Lightning Ranger Build mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/bosses/count-geonor",
+    "title": "Count Geonor Boss Guide",
+    "topicSeed": "Count Geonor Boss",
+    "semanticExpansionIdeas": [
+      "Count Geonor Boss leveling guide",
+      "Count Geonor Boss best support gems",
+      "Count Geonor Boss beginner build",
+      "Count Geonor Boss endgame setup",
+      "Count Geonor Boss passive tree",
+      "Count Geonor Boss gear progression",
+      "Count Geonor Boss bossing setup",
+      "Count Geonor Boss mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/bosses/trialmaster",
+    "title": "Trialmaster Boss Guide",
+    "topicSeed": "Trialmaster Boss",
+    "semanticExpansionIdeas": [
+      "Trialmaster Boss leveling guide",
+      "Trialmaster Boss best support gems",
+      "Trialmaster Boss beginner build",
+      "Trialmaster Boss endgame setup",
+      "Trialmaster Boss passive tree",
+      "Trialmaster Boss gear progression",
+      "Trialmaster Boss bossing setup",
+      "Trialmaster Boss mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/arc",
+    "title": "Arc Skill Guide",
+    "topicSeed": "Arc Skill",
+    "semanticExpansionIdeas": [
+      "Arc Skill leveling guide",
+      "Arc Skill best support gems",
+      "Arc Skill beginner build",
+      "Arc Skill endgame setup",
+      "Arc Skill passive tree",
+      "Arc Skill gear progression",
+      "Arc Skill bossing setup",
+      "Arc Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/ball-lightning",
+    "title": "Ball Lightning Skill Guide",
+    "topicSeed": "Ball Lightning Skill",
+    "semanticExpansionIdeas": [
+      "Ball Lightning Skill leveling guide",
+      "Ball Lightning Skill best support gems",
+      "Ball Lightning Skill beginner build",
+      "Ball Lightning Skill endgame setup",
+      "Ball Lightning Skill passive tree",
+      "Ball Lightning Skill gear progression",
+      "Ball Lightning Skill bossing setup",
+      "Ball Lightning Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/chain-lightning",
+    "title": "Chain Lightning Skill Guide",
+    "topicSeed": "Chain Lightning Skill",
+    "semanticExpansionIdeas": [
+      "Chain Lightning Skill leveling guide",
+      "Chain Lightning Skill best support gems",
+      "Chain Lightning Skill beginner build",
+      "Chain Lightning Skill endgame setup",
+      "Chain Lightning Skill passive tree",
+      "Chain Lightning Skill gear progression",
+      "Chain Lightning Skill bossing setup",
+      "Chain Lightning Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/cold-snap-ai",
+    "title": "Cold Snap Skill Guide",
+    "topicSeed": "Cold Snap Skill",
+    "semanticExpansionIdeas": [
+      "Cold Snap Skill leveling guide",
+      "Cold Snap Skill best support gems",
+      "Cold Snap Skill beginner build",
+      "Cold Snap Skill endgame setup",
+      "Cold Snap Skill passive tree",
+      "Cold Snap Skill gear progression",
+      "Cold Snap Skill bossing setup",
+      "Cold Snap Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/earthshatter",
+    "title": "Earthshatter Skill Guide",
+    "topicSeed": "Earthshatter Skill",
+    "semanticExpansionIdeas": [
+      "Earthshatter Skill leveling guide",
+      "Earthshatter Skill best support gems",
+      "Earthshatter Skill beginner build",
+      "Earthshatter Skill endgame setup",
+      "Earthshatter Skill passive tree",
+      "Earthshatter Skill gear progression",
+      "Earthshatter Skill bossing setup",
+      "Earthshatter Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/example-ai-generated-guide",
+    "title": "Example AI Generated Guide",
+    "topicSeed": "Example AI Generated",
+    "semanticExpansionIdeas": [
+      "Example AI Generated leveling guide",
+      "Example AI Generated best support gems",
+      "Example AI Generated beginner build",
+      "Example AI Generated endgame setup",
+      "Example AI Generated passive tree",
+      "Example AI Generated gear progression",
+      "Example AI Generated bossing setup",
+      "Example AI Generated mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/fireball",
+    "title": "Fireball Skill Guide",
+    "topicSeed": "Fireball Skill",
+    "semanticExpansionIdeas": [
+      "Fireball Skill leveling guide",
+      "Fireball Skill best support gems",
+      "Fireball Skill beginner build",
+      "Fireball Skill endgame setup",
+      "Fireball Skill passive tree",
+      "Fireball Skill gear progression",
+      "Fireball Skill bossing setup",
+      "Fireball Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/flame-wall",
+    "title": "Flame Wall Skill Guide",
+    "topicSeed": "Flame Wall Skill",
+    "semanticExpansionIdeas": [
+      "Flame Wall Skill leveling guide",
+      "Flame Wall Skill best support gems",
+      "Flame Wall Skill beginner build",
+      "Flame Wall Skill endgame setup",
+      "Flame Wall Skill passive tree",
+      "Flame Wall Skill gear progression",
+      "Flame Wall Skill bossing setup",
+      "Flame Wall Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/freezing-shards",
+    "title": "Freezing Shards Skill Guide",
+    "topicSeed": "Freezing Shards Skill",
+    "semanticExpansionIdeas": [
+      "Freezing Shards Skill leveling guide",
+      "Freezing Shards Skill best support gems",
+      "Freezing Shards Skill beginner build",
+      "Freezing Shards Skill endgame setup",
+      "Freezing Shards Skill passive tree",
+      "Freezing Shards Skill gear progression",
+      "Freezing Shards Skill bossing setup",
+      "Freezing Shards Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/frostbolt-ai",
+    "title": "Frostbolt Skill Guide",
+    "topicSeed": "Frostbolt Skill",
+    "semanticExpansionIdeas": [
+      "Frostbolt Skill leveling guide",
+      "Frostbolt Skill best support gems",
+      "Frostbolt Skill beginner build",
+      "Frostbolt Skill endgame setup",
+      "Frostbolt Skill passive tree",
+      "Frostbolt Skill gear progression",
+      "Frostbolt Skill bossing setup",
+      "Frostbolt Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/frostbolt",
+    "title": "Frostbolt Skill Guide",
+    "topicSeed": "Frostbolt Skill",
+    "semanticExpansionIdeas": [
+      "Frostbolt Skill leveling guide",
+      "Frostbolt Skill best support gems",
+      "Frostbolt Skill beginner build",
+      "Frostbolt Skill endgame setup",
+      "Frostbolt Skill passive tree",
+      "Frostbolt Skill gear progression",
+      "Frostbolt Skill bossing setup",
+      "Frostbolt Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/ice-nova",
+    "title": "Ice Nova Skill Guide",
+    "topicSeed": "Ice Nova Skill",
+    "semanticExpansionIdeas": [
+      "Ice Nova Skill leveling guide",
+      "Ice Nova Skill best support gems",
+      "Ice Nova Skill beginner build",
+      "Ice Nova Skill endgame setup",
+      "Ice Nova Skill passive tree",
+      "Ice Nova Skill gear progression",
+      "Ice Nova Skill bossing setup",
+      "Ice Nova Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/ice-spear",
+    "title": "Ice Spear Skill Guide",
+    "topicSeed": "Ice Spear Skill",
+    "semanticExpansionIdeas": [
+      "Ice Spear Skill leveling guide",
+      "Ice Spear Skill best support gems",
+      "Ice Spear Skill beginner build",
+      "Ice Spear Skill endgame setup",
+      "Ice Spear Skill passive tree",
+      "Ice Spear Skill gear progression",
+      "Ice Spear Skill bossing setup",
+      "Ice Spear Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/lightning-arrow-ai",
+    "title": "Lightning Arrow Skill Guide",
+    "topicSeed": "Lightning Arrow Skill",
+    "semanticExpansionIdeas": [
+      "Lightning Arrow Skill leveling guide",
+      "Lightning Arrow Skill best support gems",
+      "Lightning Arrow Skill beginner build",
+      "Lightning Arrow Skill endgame setup",
+      "Lightning Arrow Skill passive tree",
+      "Lightning Arrow Skill gear progression",
+      "Lightning Arrow Skill bossing setup",
+      "Lightning Arrow Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/lightning-arrow",
+    "title": "Lightning Arrow Skill Guide",
+    "topicSeed": "Lightning Arrow Skill",
+    "semanticExpansionIdeas": [
+      "Lightning Arrow Skill leveling guide",
+      "Lightning Arrow Skill best support gems",
+      "Lightning Arrow Skill beginner build",
+      "Lightning Arrow Skill endgame setup",
+      "Lightning Arrow Skill passive tree",
+      "Lightning Arrow Skill gear progression",
+      "Lightning Arrow Skill bossing setup",
+      "Lightning Arrow Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/meteor",
+    "title": "Meteor Skill Guide",
+    "topicSeed": "Meteor Skill",
+    "semanticExpansionIdeas": [
+      "Meteor Skill leveling guide",
+      "Meteor Skill best support gems",
+      "Meteor Skill beginner build",
+      "Meteor Skill endgame setup",
+      "Meteor Skill passive tree",
+      "Meteor Skill gear progression",
+      "Meteor Skill bossing setup",
+      "Meteor Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/poison-arrow",
+    "title": "Poison Arrow Skill Guide",
+    "topicSeed": "Poison Arrow Skill",
+    "semanticExpansionIdeas": [
+      "Poison Arrow Skill leveling guide",
+      "Poison Arrow Skill best support gems",
+      "Poison Arrow Skill beginner build",
+      "Poison Arrow Skill endgame setup",
+      "Poison Arrow Skill passive tree",
+      "Poison Arrow Skill gear progression",
+      "Poison Arrow Skill bossing setup",
+      "Poison Arrow Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/spark",
+    "title": "Spark Skill Guide",
+    "topicSeed": "Spark Skill",
+    "semanticExpansionIdeas": [
+      "Spark Skill leveling guide",
+      "Spark Skill best support gems",
+      "Spark Skill beginner build",
+      "Spark Skill endgame setup",
+      "Spark Skill passive tree",
+      "Spark Skill gear progression",
+      "Spark Skill bossing setup",
+      "Spark Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  },
+  {
+    "slug": "/guides/skills/whirlwind",
+    "title": "Whirlwind Skill Guide",
+    "topicSeed": "Whirlwind Skill",
+    "semanticExpansionIdeas": [
+      "Whirlwind Skill leveling guide",
+      "Whirlwind Skill best support gems",
+      "Whirlwind Skill beginner build",
+      "Whirlwind Skill endgame setup",
+      "Whirlwind Skill passive tree",
+      "Whirlwind Skill gear progression",
+      "Whirlwind Skill bossing setup",
+      "Whirlwind Skill mapping setup"
+    ],
+    "contentGapIdeas": [
+      "Add beginner-specific explanation",
+      "Add leveling progression section",
+      "Add support gem reasoning",
+      "Add gear priority section",
+      "Add common mistakes section",
+      "Add bossing vs mapping comparison"
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T08:43:01.063Z"
+  }
+]

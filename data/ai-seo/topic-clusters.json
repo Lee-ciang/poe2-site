@@ -1,0 +1,562 @@
+[
+  {
+    "cluster": "builds",
+    "pillarPageCandidate": "/guides/builds",
+    "guideCount": 2,
+    "guides": [
+      {
+        "slug": "/guides/builds/frost-monk",
+        "title": "Frost Monk Build Guide",
+        "seoScore": 95,
+        "wordCount": 169,
+        "faqCount": 2
+      },
+      {
+        "slug": "/guides/builds/lightning-ranger",
+        "title": "Lightning Ranger Build Guide",
+        "seoScore": 100,
+        "wordCount": 219,
+        "faqCount": 2
+      }
+    ],
+    "internalLinkOpportunities": [
+      {
+        "from": "/guides/builds/frost-monk",
+        "to": "/guides/builds/lightning-ranger",
+        "anchorText": "Lightning Ranger Build",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/builds/lightning-ranger",
+        "to": "/guides/builds/frost-monk",
+        "anchorText": "Frost Monk Build",
+        "reason": "Same topical cluster"
+      }
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T09:08:26.108Z"
+  },
+  {
+    "cluster": "bosses",
+    "pillarPageCandidate": "/guides/bosses",
+    "guideCount": 2,
+    "guides": [
+      {
+        "slug": "/guides/bosses/count-geonor",
+        "title": "Count Geonor Boss Guide",
+        "seoScore": 100,
+        "wordCount": 207,
+        "faqCount": 2
+      },
+      {
+        "slug": "/guides/bosses/trialmaster",
+        "title": "Trialmaster Boss Guide",
+        "seoScore": 95,
+        "wordCount": 337,
+        "faqCount": 3
+      }
+    ],
+    "internalLinkOpportunities": [
+      {
+        "from": "/guides/bosses/count-geonor",
+        "to": "/guides/bosses/trialmaster",
+        "anchorText": "Trialmaster Boss",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/bosses/trialmaster",
+        "to": "/guides/bosses/count-geonor",
+        "anchorText": "Count Geonor Boss",
+        "reason": "Same topical cluster"
+      }
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T09:08:26.108Z"
+  },
+  {
+    "cluster": "skills",
+    "pillarPageCandidate": "/guides/skills",
+    "guideCount": 19,
+    "guides": [
+      {
+        "slug": "/guides/skills/arc",
+        "title": "Arc Skill Guide",
+        "seoScore": 90,
+        "wordCount": 533,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/ball-lightning",
+        "title": "Ball Lightning Skill Guide",
+        "seoScore": 90,
+        "wordCount": 742,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/chain-lightning",
+        "title": "Chain Lightning Skill Guide",
+        "seoScore": 90,
+        "wordCount": 674,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/cold-snap-ai",
+        "title": "Cold Snap Skill Guide",
+        "seoScore": 85,
+        "wordCount": 764,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/earthshatter",
+        "title": "Earthshatter Skill Guide",
+        "seoScore": 90,
+        "wordCount": 771,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/example-ai-generated-guide",
+        "title": "Example AI Generated Guide",
+        "seoScore": 95,
+        "wordCount": 142,
+        "faqCount": 2
+      },
+      {
+        "slug": "/guides/skills/fireball",
+        "title": "Fireball Skill Guide",
+        "seoScore": 90,
+        "wordCount": 656,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/flame-wall",
+        "title": "Flame Wall Skill Guide",
+        "seoScore": 90,
+        "wordCount": 819,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/freezing-shards",
+        "title": "Freezing Shards Skill Guide",
+        "seoScore": 90,
+        "wordCount": 719,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/frostbolt-ai",
+        "title": "Frostbolt Skill Guide",
+        "seoScore": 85,
+        "wordCount": 921,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/frostbolt",
+        "title": "Frostbolt Skill Guide",
+        "seoScore": 90,
+        "wordCount": 615,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/ice-nova",
+        "title": "Ice Nova Skill Guide",
+        "seoScore": 90,
+        "wordCount": 777,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/ice-spear",
+        "title": "Ice Spear Skill Guide",
+        "seoScore": 90,
+        "wordCount": 843,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/lightning-arrow-ai",
+        "title": "Lightning Arrow Skill Guide",
+        "seoScore": 85,
+        "wordCount": 644,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/lightning-arrow",
+        "title": "Lightning Arrow Skill Guide",
+        "seoScore": 85,
+        "wordCount": 563,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/meteor",
+        "title": "Meteor Skill Guide",
+        "seoScore": 90,
+        "wordCount": 604,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/poison-arrow",
+        "title": "Poison Arrow Skill Guide",
+        "seoScore": 85,
+        "wordCount": 791,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/spark",
+        "title": "Spark Skill Guide",
+        "seoScore": 90,
+        "wordCount": 732,
+        "faqCount": 1
+      },
+      {
+        "slug": "/guides/skills/whirlwind",
+        "title": "Whirlwind Skill Guide",
+        "seoScore": 90,
+        "wordCount": 649,
+        "faqCount": 1
+      }
+    ],
+    "internalLinkOpportunities": [
+      {
+        "from": "/guides/skills/arc",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/arc",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/arc",
+        "to": "/guides/skills/cold-snap-ai",
+        "anchorText": "Cold Snap Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/ball-lightning",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/ball-lightning",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/ball-lightning",
+        "to": "/guides/skills/cold-snap-ai",
+        "anchorText": "Cold Snap Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/chain-lightning",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/chain-lightning",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/chain-lightning",
+        "to": "/guides/skills/cold-snap-ai",
+        "anchorText": "Cold Snap Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/cold-snap-ai",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/cold-snap-ai",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/cold-snap-ai",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/earthshatter",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/earthshatter",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/earthshatter",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/example-ai-generated-guide",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/example-ai-generated-guide",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/example-ai-generated-guide",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/fireball",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/fireball",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/fireball",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/flame-wall",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/flame-wall",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/flame-wall",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/freezing-shards",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/freezing-shards",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/freezing-shards",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/frostbolt-ai",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/frostbolt-ai",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/frostbolt-ai",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/frostbolt",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/frostbolt",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/frostbolt",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/ice-nova",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/ice-nova",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/ice-nova",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/ice-spear",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/ice-spear",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/ice-spear",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/lightning-arrow-ai",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/lightning-arrow-ai",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/lightning-arrow-ai",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/lightning-arrow",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/lightning-arrow",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/lightning-arrow",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/meteor",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/meteor",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/meteor",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/poison-arrow",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/poison-arrow",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/poison-arrow",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/spark",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/spark",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/spark",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/whirlwind",
+        "to": "/guides/skills/arc",
+        "anchorText": "Arc Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/whirlwind",
+        "to": "/guides/skills/ball-lightning",
+        "anchorText": "Ball Lightning Skill",
+        "reason": "Same topical cluster"
+      },
+      {
+        "from": "/guides/skills/whirlwind",
+        "to": "/guides/skills/chain-lightning",
+        "anchorText": "Chain Lightning Skill",
+        "reason": "Same topical cluster"
+      }
+    ],
+    "status": "planned",
+    "createdAt": "2026-05-14T09:08:26.108Z"
+  }
+]
