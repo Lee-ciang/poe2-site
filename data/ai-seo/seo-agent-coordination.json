@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-05-14T14:55:58.385Z",
+  "coordinationStatus": "active",
+  "agentsCoordinated": 4,
+  "executionHealth": "early_stage",
+  "sharedObjective": "Start high-priority SEO execution tasks",
+  "coordinationPlan": [
+    {
+      "agentId": "refresh-agent",
+      "role": "content_refresh_specialist",
+      "status": "ready",
+      "assignedTasks": 5,
+      "currentPriority": "highest",
+      "coordinationInstruction": "Coordinate with SERP Agent to include quick-win keywords in refresh drafts."
+    },
+    {
+      "agentId": "serp-agent",
+      "role": "serp_opportunity_specialist",
+      "status": "ready",
+      "assignedTasks": 5,
+      "currentPriority": "high",
+      "coordinationInstruction": "Share quick-win keyword targets with Refresh Agent and Authority Agent."
+    },
+    {
+      "agentId": "authority-agent",
+      "role": "authority_cluster_specialist",
+      "status": "ready",
+      "assignedTasks": 2,
+      "currentPriority": "high",
+      "coordinationInstruction": "Use pillar recommendations and SERP opportunities to strengthen weak clusters."
+    },
+    {
+      "agentId": "monitoring-agent",
+      "role": "system_monitoring_specialist",
+      "status": "monitoring",
+      "assignedTasks": 0,
+      "currentPriority": "ongoing",
+      "coordinationInstruction": "Monitor execution progress and trigger future reporting cycles."
+    }
+  ],
+  "workflowAlignment": [
+    {
+      "workflow": "refresh_content",
+      "priority": "highest",
+      "supportingAgents": [
+        "refresh-agent",
+        "serp-agent"
+      ]
+    },
+    {
+      "workflow": "capture_quick_wins",
+      "priority": "high",
+      "supportingAgents": [
+        "monitoring-agent"
+      ]
+    },
+    {
+      "workflow": "strengthen_authority",
+      "priority": "high",
+      "supportingAgents": [
+        "authority-agent",
+        "serp-agent"
+      ]
+    },
+    {
+      "workflow": "monitor_progress",
+      "priority": "ongoing",
+      "supportingAgents": [
+        "monitoring-agent"
+      ]
+    }
+  ],
+  "nextCoordinationAction": "Begin with Refresh Agent and SERP Agent collaboration on high-priority refresh tasks."
+}
