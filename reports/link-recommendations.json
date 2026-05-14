@@ -1,0 +1,255 @@
+[
+  {
+    "source": "/guides/builds/frost-monk",
+    "title": "Frost Monk Build Guide",
+    "suggestedTargets": [
+      "/guides/skills/example-ai-generated-guide",
+      "/guides/bosses/trialmaster",
+      "/guides/builds/lightning-ranger",
+      "/guides/bosses/count-geonor",
+      "/guides/skills/lightning-arrow-ai"
+    ]
+  },
+  {
+    "source": "/guides/builds/lightning-ranger",
+    "title": "Lightning Ranger Build Guide",
+    "suggestedTargets": [
+      "/guides/bosses/count-geonor",
+      "/guides/skills/lightning-arrow",
+      "/guides/skills/poison-arrow",
+      "/guides/skills/earthshatter",
+      "/guides/bosses/trialmaster"
+    ]
+  },
+  {
+    "source": "/guides/bosses/count-geonor",
+    "title": "Count Geonor Boss Guide",
+    "suggestedTargets": [
+      "/guides/builds/lightning-ranger",
+      "/guides/bosses/trialmaster",
+      "/guides/skills/ice-nova",
+      "/guides/builds/frost-monk",
+      "/guides/skills/ball-lightning"
+    ]
+  },
+  {
+    "source": "/guides/bosses/trialmaster",
+    "title": "Trialmaster Boss Guide",
+    "suggestedTargets": [
+      "/guides/bosses/count-geonor",
+      "/guides/builds/frost-monk",
+      "/guides/skills/lightning-arrow-ai",
+      "/guides/builds/lightning-ranger",
+      "/guides/skills/example-ai-generated-guide"
+    ]
+  },
+  {
+    "source": "/guides/skills/arc",
+    "title": "Arc Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/chain-lightning",
+      "/guides/skills/spark",
+      "/guides/skills/fireball",
+      "/guides/skills/frostbolt",
+      "/guides/skills/meteor"
+    ]
+  },
+  {
+    "source": "/guides/skills/ball-lightning",
+    "title": "Ball Lightning Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/spark",
+      "/guides/skills/ice-spear",
+      "/guides/skills/frostbolt",
+      "/guides/skills/chain-lightning",
+      "/guides/skills/ice-nova"
+    ]
+  },
+  {
+    "source": "/guides/skills/chain-lightning",
+    "title": "Chain Lightning Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/arc",
+      "/guides/skills/ice-spear",
+      "/guides/skills/spark",
+      "/guides/skills/ice-nova",
+      "/guides/skills/meteor"
+    ]
+  },
+  {
+    "source": "/guides/skills/cold-snap-ai",
+    "title": "Cold Snap Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/frostbolt-ai",
+      "/guides/skills/ice-nova",
+      "/guides/skills/freezing-shards",
+      "/guides/skills/frostbolt",
+      "/guides/skills/ice-spear"
+    ]
+  },
+  {
+    "source": "/guides/skills/earthshatter",
+    "title": "Earthshatter Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/ice-nova",
+      "/guides/skills/whirlwind",
+      "/guides/skills/ice-spear",
+      "/guides/skills/spark",
+      "/guides/skills/ball-lightning"
+    ]
+  },
+  {
+    "source": "/guides/skills/example-ai-generated-guide",
+    "title": "Example AI Generated Guide",
+    "suggestedTargets": [
+      "/guides/builds/frost-monk",
+      "/guides/bosses/trialmaster",
+      "/guides/builds/lightning-ranger",
+      "/guides/skills/lightning-arrow-ai",
+      "/guides/skills/whirlwind"
+    ]
+  },
+  {
+    "source": "/guides/skills/fireball",
+    "title": "Fireball Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/ice-spear",
+      "/guides/skills/arc",
+      "/guides/skills/spark",
+      "/guides/skills/frostbolt",
+      "/guides/skills/chain-lightning"
+    ]
+  },
+  {
+    "source": "/guides/skills/flame-wall",
+    "title": "Flame Wall Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/ball-lightning",
+      "/guides/skills/ice-spear",
+      "/guides/skills/meteor",
+      "/guides/skills/fireball",
+      "/guides/skills/spark"
+    ]
+  },
+  {
+    "source": "/guides/skills/freezing-shards",
+    "title": "Freezing Shards Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/ice-nova",
+      "/guides/skills/frostbolt-ai",
+      "/guides/skills/frostbolt",
+      "/guides/skills/ice-spear",
+      "/guides/skills/ball-lightning"
+    ]
+  },
+  {
+    "source": "/guides/skills/frostbolt-ai",
+    "title": "Frostbolt Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/ice-nova",
+      "/guides/skills/cold-snap-ai",
+      "/guides/skills/freezing-shards",
+      "/guides/skills/ice-spear",
+      "/guides/skills/chain-lightning"
+    ]
+  },
+  {
+    "source": "/guides/skills/frostbolt",
+    "title": "Frostbolt Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/spark",
+      "/guides/skills/ice-nova",
+      "/guides/skills/fireball",
+      "/guides/skills/arc",
+      "/guides/skills/meteor"
+    ]
+  },
+  {
+    "source": "/guides/skills/ice-nova",
+    "title": "Ice Nova Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/spark",
+      "/guides/skills/frostbolt-ai",
+      "/guides/skills/ice-spear",
+      "/guides/skills/frostbolt",
+      "/guides/skills/freezing-shards"
+    ]
+  },
+  {
+    "source": "/guides/skills/ice-spear",
+    "title": "Ice Spear Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/spark",
+      "/guides/skills/chain-lightning",
+      "/guides/skills/ice-nova",
+      "/guides/skills/fireball",
+      "/guides/skills/meteor"
+    ]
+  },
+  {
+    "source": "/guides/skills/lightning-arrow-ai",
+    "title": "Lightning Arrow Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/spark",
+      "/guides/skills/ball-lightning",
+      "/guides/skills/lightning-arrow",
+      "/guides/skills/earthshatter",
+      "/guides/skills/cold-snap-ai"
+    ]
+  },
+  {
+    "source": "/guides/skills/lightning-arrow",
+    "title": "Lightning Arrow Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/arc",
+      "/guides/skills/chain-lightning",
+      "/guides/skills/spark",
+      "/guides/skills/ice-spear",
+      "/guides/skills/whirlwind"
+    ]
+  },
+  {
+    "source": "/guides/skills/meteor",
+    "title": "Meteor Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/ice-spear",
+      "/guides/skills/frostbolt",
+      "/guides/skills/arc",
+      "/guides/skills/chain-lightning",
+      "/guides/skills/ice-nova"
+    ]
+  },
+  {
+    "source": "/guides/skills/poison-arrow",
+    "title": "Poison Arrow Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/whirlwind",
+      "/guides/skills/ball-lightning",
+      "/guides/skills/ice-nova",
+      "/guides/skills/freezing-shards",
+      "/guides/skills/arc"
+    ]
+  },
+  {
+    "source": "/guides/skills/spark",
+    "title": "Spark Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/ball-lightning",
+      "/guides/skills/frostbolt",
+      "/guides/skills/ice-spear",
+      "/guides/skills/chain-lightning",
+      "/guides/skills/ice-nova"
+    ]
+  },
+  {
+    "source": "/guides/skills/whirlwind",
+    "title": "Whirlwind Skill Guide",
+    "suggestedTargets": [
+      "/guides/skills/poison-arrow",
+      "/guides/skills/spark",
+      "/guides/skills/arc",
+      "/guides/skills/chain-lightning",
+      "/guides/skills/ice-nova"
+    ]
+  }
+]
