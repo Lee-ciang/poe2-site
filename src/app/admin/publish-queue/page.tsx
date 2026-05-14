@@ -35,13 +35,15 @@ function getDraftStatus(source: string) {
   const frontmatter = parseDraftFrontmatter(source);
 
   if (!frontmatter) {
-    return {
-      status: "blocked",
-      computedStatus: "Blocked",
-      warnings: ["Missing frontmatter"],
-      publishScore: 0,
-    };
-  }
+  return {
+    status: "blocked",
+    computedStatus: "Blocked",
+    warnings: ["Missing frontmatter"],
+    publishScore: 0,
+    autoApprovalEligible: false,
+    availableActions: ["review", "archive"],
+  };
+}
 
   const contentStatus = frontmatter.get("contentStatus") ?? "draft";
   const hasFaq = /## FAQ/i.test(source);
@@ -84,12 +86,20 @@ function getDraftStatus(source: string) {
   const autoApprovalEligible =
   computedStatus === "Publish Ready" && publishScore >= 90;
 
+  const availableActions = [
+  "review",
+  autoApprovalEligible ? "approve" : null,
+  autoApprovalEligible ? "publish" : null,
+  "archive",
+].filter((action): action is string => Boolean(action));
+
   return {
   status: contentStatus,
   computedStatus,
   warnings,
   publishScore,
   autoApprovalEligible,
+  availableActions,
 };
 }
 
@@ -114,6 +124,7 @@ function getDraftFiles() {
   warnings: draftStatus.warnings,
   publishScore: draftStatus.publishScore,
   autoApprovalEligible: draftStatus.autoApprovalEligible,
+  availableActions: draftStatus.availableActions,
 };
     });
 }
@@ -187,6 +198,17 @@ export default function PublishQueuePage() {
                 </div>
 
                 <p className="mt-2 text-sm text-zinc-400">{draft.path}</p>
+
+                <div className="mt-4 flex flex-wrap gap-2">
+                {draft.availableActions.map((action) => (
+                <button
+                key={action}
+                className="rounded-lg border border-zinc-700 bg-black px-4 py-2 text-sm font-bold capitalize text-zinc-200 transition hover:border-orange-500"
+                >
+                {action}
+                </button>
+                 ))}
+                 </div>
               </article>
             ))
           )}

@@ -85,7 +85,9 @@ export default async function SkillTypePage({ params }: SkillTypePageProps) {
   }
 
   const group = skillTypeGroups[type];
-  const groupSkills = skills.filter((skill) => group.slugs.includes(skill.slug));
+  const groupSkillSlugs = new Set<string>(group.slugs);
+
+  const groupSkills = skills.filter((skill) => groupSkillSlugs.has(skill.slug));
 
   return (
     <main className="flex-1 bg-black text-white">

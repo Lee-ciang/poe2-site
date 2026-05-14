@@ -120,7 +120,7 @@ const expansionQueue = [
   skillCount === 0
     ? expansionIdeas[topic as keyof typeof expansionIdeas].skills
     : null,
-].filter((item): item is string => Boolean(item));
+].filter(Boolean) as string[];
 
 const averageQualityScore =
   items.length > 0

@@ -349,6 +349,7 @@ return {
   path: `/guides/${type}/${slug}`,
   faqItems,
   metrics: calculateContentMetrics(parsed.body, parsed.metadata, faqItems),
+  suggestedGuidePaths: [],
 };
 }
 

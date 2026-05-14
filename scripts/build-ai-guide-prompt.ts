@@ -4,7 +4,7 @@ const topic = "fire";
 const guideType: GuideType = "builds";
 const title = "Fire Endgame Build Guide";
 
-const prompt = `
+const guidePrompt = `
 You are creating a Path of Exile 2 SEO guide for POE2 Forge.
 
 Create a markdown guide with YAML frontmatter.
@@ -59,4 +59,4 @@ Answer text.
 Return only the markdown content.
 `.trim();
 
-console.log(prompt);
+console.log(guidePrompt);
