@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-05-14T10:08:24.478Z",
+  "status": "planned",
+  "sourceExecutiveReport": "data/ai-seo/executive-seo-report.json",
+  "roadmapSummary": {
+    "executivePriorities": 5,
+    "highRoiContentItems": 6,
+    "highPriorityPillarPages": 2,
+    "quickWinKeywords": 12
+  },
+  "executionBacklog": [
+    {
+      "phase": "Phase A",
+      "focus": "Capture quick-win SERP opportunities",
+      "priority": "highest",
+      "actions": [
+        "Refresh high-ROI content pages",
+        "Add quick-win keywords into existing sections",
+        "Expand FAQ blocks for beginner and progression intent"
+      ]
+    },
+    {
+      "phase": "Phase B",
+      "focus": "Strengthen weak authority clusters",
+      "priority": "high",
+      "actions": [
+        "Create high-priority pillar pages",
+        "Add supporting content for weak clusters",
+        "Improve internal linking from supporting pages to pillar pages"
+      ]
+    },
+    {
+      "phase": "Phase C",
+      "focus": "Build defensible content moats",
+      "priority": "medium",
+      "actions": [
+        "Deepen semantic coverage",
+        "Refresh outdated patch-sensitive content",
+        "Improve guide depth and comparison sections"
+      ]
+    },
+    {
+      "phase": "Phase D",
+      "focus": "Maintain and monitor strong territories",
+      "priority": "ongoing",
+      "actions": [
+        "Run scheduled SEO checks",
+        "Monitor decay reports",
+        "Update executive SEO report after each cycle"
+      ]
+    }
+  ],
+  "quarterlyStrategy": {
+    "q1": "Stabilize existing guide quality and capture quick-win keyword opportunities.",
+    "q2": "Build pillar pages and strengthen weak topical clusters.",
+    "q3": "Expand supporting content and improve authority circulation through internal links.",
+    "q4": "Defend strong moats, refresh decaying content, and prepare next semantic expansion cycle."
+  }
+}
