@@ -101,6 +101,7 @@ export const skills: Skill[] = ([
       "Scale shock effect and critical multiplier once defenses are stable.",
       "Avoid map modifiers that heavily punish elemental ailments.",
     ],
+    relatedSkills: ["chain-lightning", "spark", "ball-lightning"],
   },
   {
     slug: "flame-wall",
