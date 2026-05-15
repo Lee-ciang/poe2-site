@@ -134,6 +134,7 @@ export const skills: Skill[] = ([
       "Scale exposure and fire penetration for bosses.",
       "Strong as a utility damage layer even when not the main skill.",
     ],
+    relatedSkills: ["ember-fusillade", "firestorm", "incinerate"],
   },
   {
     slug: "poisonous-concoction",
@@ -166,6 +167,7 @@ export const skills: Skill[] = ([
       "Add wither-style effects or chaos resistance reduction.",
       "Keep a clear-focused support setup for dense mapping.",
     ],
+    relatedSkills: ["toxic-rain", "venom-gyre", "cobra-lash"],
   },
   {
     slug: "earthshatter",
@@ -198,6 +200,7 @@ export const skills: Skill[] = ([
       "Scale physical mitigation alongside damage.",
       "Swap supports for single-target encounters when needed.",
     ],
+    relatedSkills: ["ground-slam", "tectonic-slam", "earthquake"],
   },
   {
     slug: "ice-strike",
