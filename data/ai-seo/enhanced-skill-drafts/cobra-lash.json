@@ -1,0 +1,76 @@
+{
+  "slug": "cobra-lash",
+  "name": "Cobra Lash",
+  "status": "enhanced_draft",
+  "verificationRequired": true,
+  "verificationStatus": "pending",
+  "contentQuality": "publishable_structure_pending_verification",
+  "sourceDraftId": "draft-5",
+  "sections": {
+    "summary": "Cobra Lash is a Path of Exile 2 skill draft prepared for verification before publishing.",
+    "scalingStats": [
+      "To be verified",
+      "Avoid unverified numerical scaling claims"
+    ],
+    "bestSupports": [
+      "To be verified",
+      "Use official/community sources before publishing"
+    ],
+    "levelingNotes": [
+      "Add beginner-friendly leveling notes after verification."
+    ],
+    "endgameUse": [
+      "Add endgame use cases after checking current meta discussions."
+    ],
+    "faq": [
+      {
+        "question": "Is Cobra Lash good in Path of Exile 2?",
+        "answer": "This answer requires verification from current patch notes and community gameplay examples before publishing."
+      }
+    ]
+  },
+  "verificationChecklist": [
+    "Check official Path of Exile patch notes",
+    "Check community discussion for current viability",
+    "Check gameplay examples or build videos",
+    "Avoid exact numerical claims unless verified",
+    "Add related skills and builds before publishing"
+  ],
+  "createdAt": "2026-05-15T19:56:13.052Z",
+  "seo": {
+    "title": "Cobra Lash Skill Guide for Path of Exile 2",
+    "description": "Learn how Cobra Lash may fit into Path of Exile 2 builds, leveling setups, support choices, and endgame planning. This draft requires verification before publishing.",
+    "targetKeywords": [
+      "Cobra Lash POE2",
+      "Cobra Lash skill guide",
+      "Path of Exile 2 Cobra Lash",
+      "Cobra Lash build"
+    ]
+  },
+  "enhancedSections": {
+    "introduction": "Cobra Lash is a planned Path of Exile 2 skill guide prepared for SEO expansion. Before publishing, its mechanics, support choices, and current viability should be verified against official and community sources.",
+    "howItWorks": "Explain the skill mechanics here after checking official wording, gameplay examples, or reliable community notes. Avoid exact numerical values unless they are verified.",
+    "bestUseCases": "Describe where this skill appears useful, such as leveling, mapping, bossing, or support roles, only after validation.",
+    "recommendedSupports": "Add support gems or support setups only after verification. Avoid presenting speculative support combinations as facts.",
+    "levelingAdvice": "Add beginner-friendly leveling advice that avoids claiming current meta strength without evidence.",
+    "endgameConsiderations": "Add endgame usage notes after checking current patch discussions, build showcases, or gameplay examples.",
+    "relatedContentPlan": [
+      "Link to related skill pages",
+      "Link to relevant build pages",
+      "Link to boss guides where this skill may be useful"
+    ],
+    "faq": [
+      {
+        "question": "Is Cobra Lash good in Path of Exile 2?",
+        "answer": "This answer requires verification from current patch notes and community gameplay examples before publishing."
+      }
+    ]
+  },
+  "editorialStatus": {
+    "verificationRequired": true,
+    "humanReviewRequired": true,
+    "readyForPublishing": false,
+    "blocker": "Needs factual verification before being converted into a live page."
+  },
+  "enhancedAt": "2026-05-15T20:09:24.387Z"
+}
