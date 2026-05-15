@@ -1,0 +1,236 @@
+{
+  "generatedAt": "2026-05-15T19:50:41.972Z",
+  "totalDrafts": 10,
+  "queuedDrafts": 10,
+  "verificationRequiredDrafts": 10,
+  "drafts": [
+    {
+      "id": "draft-1",
+      "targetSlug": "firestorm",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "source": "flame-wall",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create SEO-friendly skill overview.",
+        "Add leveling notes.",
+        "Add endgame usage.",
+        "Add FAQ section.",
+        "Add related builds and related skills.",
+        "Avoid unverified numerical claims."
+      ]
+    },
+    {
+      "id": "draft-2",
+      "targetSlug": "incinerate",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "source": "flame-wall",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create SEO-friendly skill overview.",
+        "Add leveling notes.",
+        "Add endgame usage.",
+        "Add FAQ section.",
+        "Add related builds and related skills.",
+        "Avoid unverified numerical claims."
+      ]
+    },
+    {
+      "id": "draft-3",
+      "targetSlug": "toxic-rain",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "source": "poisonous-concoction",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create SEO-friendly skill overview.",
+        "Add leveling notes.",
+        "Add endgame usage.",
+        "Add FAQ section.",
+        "Add related builds and related skills.",
+        "Avoid unverified numerical claims."
+      ]
+    },
+    {
+      "id": "draft-4",
+      "targetSlug": "venom-gyre",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "source": "poisonous-concoction",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create SEO-friendly skill overview.",
+        "Add leveling notes.",
+        "Add endgame usage.",
+        "Add FAQ section.",
+        "Add related builds and related skills.",
+        "Avoid unverified numerical claims."
+      ]
+    },
+    {
+      "id": "draft-5",
+      "targetSlug": "cobra-lash",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "source": "poisonous-concoction",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create SEO-friendly skill overview.",
+        "Add leveling notes.",
+        "Add endgame usage.",
+        "Add FAQ section.",
+        "Add related builds and related skills.",
+        "Avoid unverified numerical claims."
+      ]
+    },
+    {
+      "id": "draft-6",
+      "targetSlug": "ground-slam",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "source": "earthshatter",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create SEO-friendly skill overview.",
+        "Add leveling notes.",
+        "Add endgame usage.",
+        "Add FAQ section.",
+        "Add related builds and related skills.",
+        "Avoid unverified numerical claims."
+      ]
+    },
+    {
+      "id": "draft-7",
+      "targetSlug": "tectonic-slam",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "source": "earthshatter",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create SEO-friendly skill overview.",
+        "Add leveling notes.",
+        "Add endgame usage.",
+        "Add FAQ section.",
+        "Add related builds and related skills.",
+        "Avoid unverified numerical claims."
+      ]
+    },
+    {
+      "id": "draft-8",
+      "targetSlug": "earthquake",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "source": "earthshatter",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create SEO-friendly skill overview.",
+        "Add leveling notes.",
+        "Add endgame usage.",
+        "Add FAQ section.",
+        "Add related builds and related skills.",
+        "Avoid unverified numerical claims."
+      ]
+    },
+    {
+      "id": "draft-9",
+      "targetSlug": "lightning-arrow",
+      "type": "semantic_cluster_expansion",
+      "priority": "medium",
+      "source": "lightning-arrow",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create boss mechanics overview.",
+        "Add recommended counter builds.",
+        "Add encounter preparation tips.",
+        "Add related skill links.",
+        "Avoid claiming unverified rewards or drop rates."
+      ]
+    },
+    {
+      "id": "draft-10",
+      "targetSlug": "flame-wall",
+      "type": "semantic_cluster_expansion",
+      "priority": "medium",
+      "source": "flame-wall",
+      "status": "queued",
+      "createdAt": "2026-05-15T19:50:41.972Z",
+      "verificationRequired": true,
+      "verificationSources": [
+        "Official patch notes",
+        "Reddit discussion",
+        "Gameplay examples"
+      ],
+      "draftInstructions": [
+        "Create boss mechanics overview.",
+        "Add recommended counter builds.",
+        "Add encounter preparation tips.",
+        "Add related skill links.",
+        "Avoid claiming unverified rewards or drop rates."
+      ]
+    }
+  ]
+}
