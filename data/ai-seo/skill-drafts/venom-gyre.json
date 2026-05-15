@@ -1,0 +1,40 @@
+{
+  "slug": "venom-gyre",
+  "name": "Venom Gyre",
+  "status": "draft",
+  "verificationRequired": true,
+  "verificationStatus": "pending",
+  "contentQuality": "seed_draft",
+  "sourceDraftId": "draft-4",
+  "sections": {
+    "summary": "Venom Gyre is a Path of Exile 2 skill draft prepared for verification before publishing.",
+    "scalingStats": [
+      "To be verified",
+      "Avoid unverified numerical scaling claims"
+    ],
+    "bestSupports": [
+      "To be verified",
+      "Use official/community sources before publishing"
+    ],
+    "levelingNotes": [
+      "Add beginner-friendly leveling notes after verification."
+    ],
+    "endgameUse": [
+      "Add endgame use cases after checking current meta discussions."
+    ],
+    "faq": [
+      {
+        "question": "Is Venom Gyre good in Path of Exile 2?",
+        "answer": "This answer requires verification from current patch notes and community gameplay examples before publishing."
+      }
+    ]
+  },
+  "verificationChecklist": [
+    "Check official Path of Exile patch notes",
+    "Check community discussion for current viability",
+    "Check gameplay examples or build videos",
+    "Avoid exact numerical claims unless verified",
+    "Add related skills and builds before publishing"
+  ],
+  "createdAt": "2026-05-15T19:56:13.052Z"
+}
