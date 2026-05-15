@@ -1,0 +1,597 @@
+[
+  {
+    "slug": "lightning-arrow",
+    "name": "Lightning Arrow",
+    "damageType": "Lightning",
+    "category": "Attack",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "poisonous-concoction",
+        "name": "Poisonous Concoction",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "earthshatter",
+        "name": "Earthshatter",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "spark",
+        "name": "Spark",
+        "reason": "Same damage type: Lightning"
+      }
+    ]
+  },
+  {
+    "slug": "flame-wall",
+    "name": "Flame Wall",
+    "damageType": "Fire",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "explosive-grenade",
+        "name": "Explosive Grenade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "fireball",
+        "name": "Fireball",
+        "reason": "Same damage type: Fire"
+      }
+    ]
+  },
+  {
+    "slug": "poisonous-concoction",
+    "name": "Poisonous Concoction",
+    "damageType": "Chaos",
+    "category": "Attack",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "earthshatter",
+        "name": "Earthshatter",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "poison-arrow",
+        "name": "Poison Arrow",
+        "reason": "Same damage type: Chaos"
+      }
+    ]
+  },
+  {
+    "slug": "earthshatter",
+    "name": "Earthshatter",
+    "damageType": "Physical",
+    "category": "Attack",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "poisonous-concoction",
+        "name": "Poisonous Concoction",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "poison-arrow",
+        "name": "Poison Arrow",
+        "reason": "Same category: Attack"
+      }
+    ]
+  },
+  {
+    "slug": "ice-strike",
+    "name": "Ice Strike",
+    "damageType": "Cold",
+    "category": "Attack",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "poisonous-concoction",
+        "name": "Poisonous Concoction",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "earthshatter",
+        "name": "Earthshatter",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same damage type: Cold"
+      }
+    ]
+  },
+  {
+    "slug": "explosive-grenade",
+    "name": "Explosive Grenade",
+    "damageType": "Fire",
+    "category": "Grenade",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "fireball",
+        "name": "Fireball",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same damage type: Fire"
+      }
+    ]
+  },
+  {
+    "slug": "tempest-bell",
+    "name": "Tempest Bell",
+    "damageType": "Elemental",
+    "category": "Combo",
+    "suggestedRelatedSkills": []
+  },
+  {
+    "slug": "ember-fusillade",
+    "name": "Ember Fusillade",
+    "damageType": "Fire",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "explosive-grenade",
+        "name": "Explosive Grenade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "fireball",
+        "name": "Fireball",
+        "reason": "Same damage type: Fire"
+      }
+    ]
+  },
+  {
+    "slug": "frostbolt",
+    "name": "Frostbolt",
+    "damageType": "Cold",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same damage type: Cold"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "fireball",
+        "name": "Fireball",
+        "reason": "Same category: Spell"
+      }
+    ]
+  },
+  {
+    "slug": "fireball",
+    "name": "Fireball",
+    "damageType": "Fire",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "explosive-grenade",
+        "name": "Explosive Grenade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same category: Spell"
+      }
+    ]
+  },
+  {
+    "slug": "spark",
+    "name": "Spark",
+    "damageType": "Lightning",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same damage type: Lightning"
+      },
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same category: Spell"
+      }
+    ]
+  },
+  {
+    "slug": "ice-nova",
+    "name": "Ice Nova",
+    "damageType": "Cold",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same damage type: Cold"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same damage type: Cold"
+      }
+    ]
+  },
+  {
+    "slug": "chain-lightning",
+    "name": "Chain Lightning",
+    "damageType": "Lightning",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same damage type: Lightning"
+      },
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same category: Spell"
+      }
+    ]
+  },
+  {
+    "slug": "arc",
+    "name": "Arc",
+    "damageType": "Lightning",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same damage type: Lightning"
+      },
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same category: Spell"
+      }
+    ]
+  },
+  {
+    "slug": "ball-lightning",
+    "name": "Ball Lightning",
+    "damageType": "Lightning",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same damage type: Lightning"
+      },
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same category: Spell"
+      }
+    ]
+  },
+  {
+    "slug": "flame-wall",
+    "name": "Flame Wall",
+    "damageType": "Fire",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "explosive-grenade",
+        "name": "Explosive Grenade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "fireball",
+        "name": "Fireball",
+        "reason": "Same damage type: Fire"
+      }
+    ]
+  },
+  {
+    "slug": "ice-spear",
+    "name": "Ice Spear",
+    "damageType": "Cold",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same damage type: Cold"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same damage type: Cold"
+      }
+    ]
+  },
+  {
+    "slug": "meteor",
+    "name": "Meteor",
+    "damageType": "Fire",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "explosive-grenade",
+        "name": "Explosive Grenade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same damage type: Fire"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same category: Spell"
+      }
+    ]
+  },
+  {
+    "slug": "freezing-shards",
+    "name": "Freezing Shards",
+    "damageType": "Cold",
+    "category": "Spell",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same damage type: Cold"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Same category: Spell"
+      },
+      {
+        "slug": "frostbolt",
+        "name": "Frostbolt",
+        "reason": "Same damage type: Cold"
+      }
+    ]
+  },
+  {
+    "slug": "poison-arrow",
+    "name": "Poison Arrow",
+    "damageType": "Chaos",
+    "category": "Attack",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "poisonous-concoction",
+        "name": "Poisonous Concoction",
+        "reason": "Same damage type: Chaos"
+      },
+      {
+        "slug": "earthshatter",
+        "name": "Earthshatter",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same category: Attack"
+      }
+    ]
+  },
+  {
+    "slug": "earthshatter",
+    "name": "Earthshatter",
+    "damageType": "Physical",
+    "category": "Attack",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "poisonous-concoction",
+        "name": "Poisonous Concoction",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "poison-arrow",
+        "name": "Poison Arrow",
+        "reason": "Same category: Attack"
+      }
+    ]
+  },
+  {
+    "slug": "whirlwind",
+    "name": "Whirlwind",
+    "damageType": "Physical",
+    "category": "Attack",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "poisonous-concoction",
+        "name": "Poisonous Concoction",
+        "reason": "Same category: Attack"
+      },
+      {
+        "slug": "earthshatter",
+        "name": "Earthshatter",
+        "reason": "Same damage type: Physical"
+      },
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Same category: Attack"
+      }
+    ]
+  }
+]
