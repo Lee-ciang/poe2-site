@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-05-15T20:21:06.593Z",
+  "draftsChecked": 8,
+  "publishReadyDrafts": 0,
+  "blockedDrafts": 8,
+  "checks": [
+    {
+      "file": "cobra-lash.md",
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ]
+    },
+    {
+      "file": "earthquake.md",
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ]
+    },
+    {
+      "file": "firestorm.md",
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ]
+    },
+    {
+      "file": "ground-slam.md",
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ]
+    },
+    {
+      "file": "incinerate.md",
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ]
+    },
+    {
+      "file": "tectonic-slam.md",
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ]
+    },
+    {
+      "file": "toxic-rain.md",
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ]
+    },
+    {
+      "file": "venom-gyre.md",
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ]
+    }
+  ]
+}
