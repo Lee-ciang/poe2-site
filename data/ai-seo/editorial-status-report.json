@@ -1,0 +1,125 @@
+{
+  "generatedAt": "2026-05-15T20:26:38.174Z",
+  "summary": {
+    "totalItems": 8,
+    "seedDrafts": 8,
+    "enhancedDrafts": 8,
+    "markdownDrafts": 8,
+    "publishReady": 0,
+    "blocked": 8
+  },
+  "items": [
+    {
+      "slug": "cobra-lash",
+      "hasSeedDraft": true,
+      "hasEnhancedDraft": true,
+      "hasMarkdownDraft": true,
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ],
+      "editorialStage": "markdown_draft_blocked"
+    },
+    {
+      "slug": "earthquake",
+      "hasSeedDraft": true,
+      "hasEnhancedDraft": true,
+      "hasMarkdownDraft": true,
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ],
+      "editorialStage": "markdown_draft_blocked"
+    },
+    {
+      "slug": "firestorm",
+      "hasSeedDraft": true,
+      "hasEnhancedDraft": true,
+      "hasMarkdownDraft": true,
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ],
+      "editorialStage": "markdown_draft_blocked"
+    },
+    {
+      "slug": "ground-slam",
+      "hasSeedDraft": true,
+      "hasEnhancedDraft": true,
+      "hasMarkdownDraft": true,
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ],
+      "editorialStage": "markdown_draft_blocked"
+    },
+    {
+      "slug": "incinerate",
+      "hasSeedDraft": true,
+      "hasEnhancedDraft": true,
+      "hasMarkdownDraft": true,
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ],
+      "editorialStage": "markdown_draft_blocked"
+    },
+    {
+      "slug": "tectonic-slam",
+      "hasSeedDraft": true,
+      "hasEnhancedDraft": true,
+      "hasMarkdownDraft": true,
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ],
+      "editorialStage": "markdown_draft_blocked"
+    },
+    {
+      "slug": "toxic-rain",
+      "hasSeedDraft": true,
+      "hasEnhancedDraft": true,
+      "hasMarkdownDraft": true,
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ],
+      "editorialStage": "markdown_draft_blocked"
+    },
+    {
+      "slug": "venom-gyre",
+      "hasSeedDraft": true,
+      "hasEnhancedDraft": true,
+      "hasMarkdownDraft": true,
+      "publishReady": false,
+      "blockers": [
+        "Draft status is still active.",
+        "Verification is still required.",
+        "readyForPublishing is not true.",
+        "Verification checklist still has unchecked items."
+      ],
+      "editorialStage": "markdown_draft_blocked"
+    }
+  ]
+}
