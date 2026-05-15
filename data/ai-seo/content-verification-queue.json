@@ -1,0 +1,288 @@
+{
+  "generatedAt": "2026-05-15T19:52:36.348Z",
+  "totalVerificationItems": 10,
+  "pendingVerification": 10,
+  "highRiskItems": 8,
+  "verificationQueue": [
+    {
+      "draftId": "draft-1",
+      "targetSlug": "firestorm",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "high_visibility_risk"
+    },
+    {
+      "draftId": "draft-2",
+      "targetSlug": "incinerate",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "high_visibility_risk"
+    },
+    {
+      "draftId": "draft-3",
+      "targetSlug": "toxic-rain",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "high_visibility_risk"
+    },
+    {
+      "draftId": "draft-4",
+      "targetSlug": "venom-gyre",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "high_visibility_risk"
+    },
+    {
+      "draftId": "draft-5",
+      "targetSlug": "cobra-lash",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "high_visibility_risk"
+    },
+    {
+      "draftId": "draft-6",
+      "targetSlug": "ground-slam",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "high_visibility_risk"
+    },
+    {
+      "draftId": "draft-7",
+      "targetSlug": "tectonic-slam",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "high_visibility_risk"
+    },
+    {
+      "draftId": "draft-8",
+      "targetSlug": "earthquake",
+      "type": "missing_skill_page",
+      "priority": "high",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "high_visibility_risk"
+    },
+    {
+      "draftId": "draft-9",
+      "targetSlug": "lightning-arrow",
+      "type": "semantic_cluster_expansion",
+      "priority": "medium",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "moderate_visibility_risk"
+    },
+    {
+      "draftId": "draft-10",
+      "targetSlug": "flame-wall",
+      "type": "semantic_cluster_expansion",
+      "priority": "medium",
+      "verificationStatus": "pending",
+      "requiredChecks": [
+        {
+          "type": "official_patch_verification",
+          "description": "Check official patch notes for outdated mechanics or balance changes."
+        },
+        {
+          "type": "community_validation",
+          "description": "Review Reddit or community discussions for practical viability."
+        },
+        {
+          "type": "build_meta_validation",
+          "description": "Verify whether the build or skill is still commonly used."
+        }
+      ],
+      "recommendedSources": [
+        "Official Path of Exile website",
+        "Path of Exile Reddit",
+        "Gameplay videos",
+        "Community build discussions"
+      ],
+      "riskLevel": "moderate_visibility_risk"
+    }
+  ]
+}
