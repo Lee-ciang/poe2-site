@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-05-15T20:02:14.205Z",
+  "totalDraftsReviewed": 8,
+  "publishReadyDrafts": 8,
+  "averageQualityScore": 100,
+  "reviews": [
+    {
+      "slug": "cobra-lash",
+      "qualityScore": 100,
+      "publishReady": true,
+      "issues": [],
+      "strengths": [
+        "Has FAQ section",
+        "Has endgame usage section",
+        "Includes verification checklist"
+      ],
+      "recommendation": "Ready for human enhancement and publishing review."
+    },
+    {
+      "slug": "earthquake",
+      "qualityScore": 100,
+      "publishReady": true,
+      "issues": [],
+      "strengths": [
+        "Has FAQ section",
+        "Has endgame usage section",
+        "Includes verification checklist"
+      ],
+      "recommendation": "Ready for human enhancement and publishing review."
+    },
+    {
+      "slug": "firestorm",
+      "qualityScore": 100,
+      "publishReady": true,
+      "issues": [],
+      "strengths": [
+        "Has FAQ section",
+        "Has endgame usage section",
+        "Includes verification checklist"
+      ],
+      "recommendation": "Ready for human enhancement and publishing review."
+    },
+    {
+      "slug": "ground-slam",
+      "qualityScore": 100,
+      "publishReady": true,
+      "issues": [],
+      "strengths": [
+        "Has FAQ section",
+        "Has endgame usage section",
+        "Includes verification checklist"
+      ],
+      "recommendation": "Ready for human enhancement and publishing review."
+    },
+    {
+      "slug": "incinerate",
+      "qualityScore": 100,
+      "publishReady": true,
+      "issues": [],
+      "strengths": [
+        "Has FAQ section",
+        "Has endgame usage section",
+        "Includes verification checklist"
+      ],
+      "recommendation": "Ready for human enhancement and publishing review."
+    },
+    {
+      "slug": "tectonic-slam",
+      "qualityScore": 100,
+      "publishReady": true,
+      "issues": [],
+      "strengths": [
+        "Has FAQ section",
+        "Has endgame usage section",
+        "Includes verification checklist"
+      ],
+      "recommendation": "Ready for human enhancement and publishing review."
+    },
+    {
+      "slug": "toxic-rain",
+      "qualityScore": 100,
+      "publishReady": true,
+      "issues": [],
+      "strengths": [
+        "Has FAQ section",
+        "Has endgame usage section",
+        "Includes verification checklist"
+      ],
+      "recommendation": "Ready for human enhancement and publishing review."
+    },
+    {
+      "slug": "venom-gyre",
+      "qualityScore": 100,
+      "publishReady": true,
+      "issues": [],
+      "strengths": [
+        "Has FAQ section",
+        "Has endgame usage section",
+        "Includes verification checklist"
+      ],
+      "recommendation": "Ready for human enhancement and publishing review."
+    }
+  ]
+}
