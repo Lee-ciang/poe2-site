@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-05-15T19:38:34.117Z",
+  "existingContent": {
+    "skills": 22,
+    "builds": 6,
+    "bosses": 6
+  },
+  "gapCount": 8,
+  "highPriorityGaps": 8,
+  "gaps": [
+    {
+      "type": "missing_skill_page",
+      "source": "flame-wall",
+      "missingSlug": "firestorm",
+      "reason": "Referenced as related skill but no skill page exists",
+      "priority": "high"
+    },
+    {
+      "type": "missing_skill_page",
+      "source": "flame-wall",
+      "missingSlug": "incinerate",
+      "reason": "Referenced as related skill but no skill page exists",
+      "priority": "high"
+    },
+    {
+      "type": "missing_skill_page",
+      "source": "poisonous-concoction",
+      "missingSlug": "toxic-rain",
+      "reason": "Referenced as related skill but no skill page exists",
+      "priority": "high"
+    },
+    {
+      "type": "missing_skill_page",
+      "source": "poisonous-concoction",
+      "missingSlug": "venom-gyre",
+      "reason": "Referenced as related skill but no skill page exists",
+      "priority": "high"
+    },
+    {
+      "type": "missing_skill_page",
+      "source": "poisonous-concoction",
+      "missingSlug": "cobra-lash",
+      "reason": "Referenced as related skill but no skill page exists",
+      "priority": "high"
+    },
+    {
+      "type": "missing_skill_page",
+      "source": "earthshatter",
+      "missingSlug": "ground-slam",
+      "reason": "Referenced as related skill but no skill page exists",
+      "priority": "high"
+    },
+    {
+      "type": "missing_skill_page",
+      "source": "earthshatter",
+      "missingSlug": "tectonic-slam",
+      "reason": "Referenced as related skill but no skill page exists",
+      "priority": "high"
+    },
+    {
+      "type": "missing_skill_page",
+      "source": "earthshatter",
+      "missingSlug": "earthquake",
+      "reason": "Referenced as related skill but no skill page exists",
+      "priority": "high"
+    }
+  ]
+}
