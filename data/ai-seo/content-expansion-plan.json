@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-05-15T19:47:16.719Z",
+  "sourceReports": [
+    "data/ai-seo/content-gap-report.json",
+    "data/ai-seo/skill-related-link-suggestions.json"
+  ],
+  "summary": {
+    "totalExpansionItems": 13,
+    "highPriorityItems": 8,
+    "mediumPriorityItems": 5
+  },
+  "nextBatch": [
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "firestorm",
+      "source": "flame-wall",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "incinerate",
+      "source": "flame-wall",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "toxic-rain",
+      "source": "poisonous-concoction",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "venom-gyre",
+      "source": "poisonous-concoction",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "cobra-lash",
+      "source": "poisonous-concoction",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "ground-slam",
+      "source": "earthshatter",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "tectonic-slam",
+      "source": "earthshatter",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "earthquake",
+      "source": "earthshatter",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "semantic_cluster_expansion",
+      "targetSlug": "lightning-arrow",
+      "source": "lightning-arrow",
+      "priority": "medium",
+      "reason": "Skill has multiple semantic relationships and can support deeper cluster content.",
+      "recommendedAction": "Expand this skill page with comparison sections, related skill notes, and cluster FAQ."
+    },
+    {
+      "type": "semantic_cluster_expansion",
+      "targetSlug": "flame-wall",
+      "source": "flame-wall",
+      "priority": "medium",
+      "reason": "Skill has multiple semantic relationships and can support deeper cluster content.",
+      "recommendedAction": "Expand this skill page with comparison sections, related skill notes, and cluster FAQ."
+    }
+  ],
+  "expansionItems": [
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "firestorm",
+      "source": "flame-wall",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "incinerate",
+      "source": "flame-wall",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "toxic-rain",
+      "source": "poisonous-concoction",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "venom-gyre",
+      "source": "poisonous-concoction",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "cobra-lash",
+      "source": "poisonous-concoction",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "ground-slam",
+      "source": "earthshatter",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "tectonic-slam",
+      "source": "earthshatter",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "missing_skill_page",
+      "targetSlug": "earthquake",
+      "source": "earthshatter",
+      "priority": "high",
+      "reason": "Referenced as related skill but no skill page exists",
+      "recommendedAction": "Create a new skill page with verified mechanics, related builds, FAQ, and internal links."
+    },
+    {
+      "type": "semantic_cluster_expansion",
+      "targetSlug": "lightning-arrow",
+      "source": "lightning-arrow",
+      "priority": "medium",
+      "reason": "Skill has multiple semantic relationships and can support deeper cluster content.",
+      "recommendedAction": "Expand this skill page with comparison sections, related skill notes, and cluster FAQ."
+    },
+    {
+      "type": "semantic_cluster_expansion",
+      "targetSlug": "flame-wall",
+      "source": "flame-wall",
+      "priority": "medium",
+      "reason": "Skill has multiple semantic relationships and can support deeper cluster content.",
+      "recommendedAction": "Expand this skill page with comparison sections, related skill notes, and cluster FAQ."
+    },
+    {
+      "type": "semantic_cluster_expansion",
+      "targetSlug": "poisonous-concoction",
+      "source": "poisonous-concoction",
+      "priority": "medium",
+      "reason": "Skill has multiple semantic relationships and can support deeper cluster content.",
+      "recommendedAction": "Expand this skill page with comparison sections, related skill notes, and cluster FAQ."
+    },
+    {
+      "type": "semantic_cluster_expansion",
+      "targetSlug": "earthshatter",
+      "source": "earthshatter",
+      "priority": "medium",
+      "reason": "Skill has multiple semantic relationships and can support deeper cluster content.",
+      "recommendedAction": "Expand this skill page with comparison sections, related skill notes, and cluster FAQ."
+    },
+    {
+      "type": "semantic_cluster_expansion",
+      "targetSlug": "ice-strike",
+      "source": "ice-strike",
+      "priority": "medium",
+      "reason": "Skill has multiple semantic relationships and can support deeper cluster content.",
+      "recommendedAction": "Expand this skill page with comparison sections, related skill notes, and cluster FAQ."
+    }
+  ]
+}
