@@ -253,6 +253,11 @@ export default async function BuildDetailPage({ params }: BuildPageProps) {
 
         <RelatedLinks title="Related Boss Guides" links={relatedBossLinks} />
 
+        <RelatedLinks
+  title="Related Skill Guides"
+  links={relatedSkillLinks}
+/>
+
         <DetailSection title="FAQ">
           <div className="grid gap-4">
             {(build.faq ?? []).map((item) => (
