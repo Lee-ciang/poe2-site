@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "lightning-ranger",
+    "title": "Lightning Ranger Build",
+    "className": "Ranger",
+    "playstyle": "Fast ranged mapper",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "lightning-arrow",
+        "name": "Lightning Arrow",
+        "reason": "Matches core build skill"
+      }
+    ],
+    "suggestedRelatedBosses": []
+  },
+  {
+    "slug": "infernal-witch",
+    "title": "Infernal Witch Build",
+    "className": "Witch",
+    "playstyle": "Fire spell caster",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Matches core build skill"
+      },
+      {
+        "slug": "ember-fusillade",
+        "name": "Ember Fusillade",
+        "reason": "Matches core build skill"
+      },
+      {
+        "slug": "flame-wall",
+        "name": "Flame Wall",
+        "reason": "Matches core build skill"
+      }
+    ],
+    "suggestedRelatedBosses": []
+  },
+  {
+    "slug": "poison-assassin",
+    "title": "Poison Assassin Build",
+    "className": "Shadow",
+    "playstyle": "Mobile damage over time",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "poisonous-concoction",
+        "name": "Poisonous Concoction",
+        "reason": "Matches core build skill"
+      }
+    ],
+    "suggestedRelatedBosses": []
+  },
+  {
+    "slug": "earthshatter-warrior",
+    "title": "Earthshatter Warrior Build",
+    "className": "Warrior",
+    "playstyle": "Heavy melee bruiser",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "earthshatter",
+        "name": "Earthshatter",
+        "reason": "Matches core build skill"
+      },
+      {
+        "slug": "earthshatter",
+        "name": "Earthshatter",
+        "reason": "Matches core build skill"
+      }
+    ],
+    "suggestedRelatedBosses": []
+  },
+  {
+    "slug": "frost-monk",
+    "title": "Frost Monk Build",
+    "className": "Monk",
+    "playstyle": "Control melee hybrid",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "ice-strike",
+        "name": "Ice Strike",
+        "reason": "Matches core build skill"
+      },
+      {
+        "slug": "tempest-bell",
+        "name": "Tempest Bell",
+        "reason": "Matches core build skill"
+      }
+    ],
+    "suggestedRelatedBosses": []
+  },
+  {
+    "slug": "grenade-mercenary",
+    "title": "Grenade Mercenary Build",
+    "className": "Mercenary",
+    "playstyle": "Explosive tactical ranged",
+    "suggestedRelatedSkills": [
+      {
+        "slug": "explosive-grenade",
+        "name": "Explosive Grenade",
+        "reason": "Matches core build skill"
+      }
+    ],
+    "suggestedRelatedBosses": []
+  }
+]
