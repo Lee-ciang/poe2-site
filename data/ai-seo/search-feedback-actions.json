@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-05-16T05:24:08.476Z",
+  "source": "D:\\poe2-site\\data\\ai-seo\\search-console-intelligence.json",
+  "actionItems": 4,
+  "actions": [
+    {
+      "page": "/guides/skills/cobra-lash",
+      "query": "poe2 cobra lash build",
+      "clicks": 0,
+      "impressions": 180,
+      "ctr": 0,
+      "position": 11.8,
+      "opportunityFlags": [
+        "high-impression-low-ctr",
+        "near-page-one-opportunity"
+      ],
+      "recommendedActions": [
+        "Rewrite title/meta description and improve search intent match.",
+        "Refresh content depth, add FAQs, and strengthen internal links."
+      ],
+      "priorityScore": 88
+    },
+    {
+      "page": "/guides/skills/earthquake",
+      "query": "poe2 earthquake warrior guide",
+      "clicks": 2,
+      "impressions": 260,
+      "ctr": 0.0077,
+      "position": 17.4,
+      "opportunityFlags": [
+        "high-impression-low-ctr",
+        "near-page-one-opportunity"
+      ],
+      "recommendedActions": [
+        "Rewrite title/meta description and improve search intent match.",
+        "Refresh content depth, add FAQs, and strengthen internal links."
+      ],
+      "priorityScore": 81
+    },
+    {
+      "page": "/guides/skills/toxic-rain",
+      "query": "poe2 toxic rain leveling",
+      "clicks": 1,
+      "impressions": 140,
+      "ctr": 0.0071,
+      "position": 8.6,
+      "opportunityFlags": [
+        "high-impression-low-ctr"
+      ],
+      "recommendedActions": [
+        "Rewrite title/meta description and improve search intent match."
+      ],
+      "priorityScore": 39
+    },
+    {
+      "page": "/guides/skills/firestorm",
+      "query": "poe2 firestorm build",
+      "clicks": 0,
+      "impressions": 95,
+      "ctr": 0,
+      "position": 23.2,
+      "opportunityFlags": [
+        "content-depth-or-authority-gap"
+      ],
+      "recommendedActions": [
+        "Expand guide sections and add supporting internal links."
+      ],
+      "priorityScore": 35
+    }
+  ]
+}
