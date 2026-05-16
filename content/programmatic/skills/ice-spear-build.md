@@ -93,3 +93,15 @@ Before publishing, verify:
 - [ice-spear skill page](/skills/ice-spear)
 - [Ice Spear Leveling Guide](/guides/skills/ice-spear-leveling)
 
+## Build Direction
+
+A Ice Spear build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
+
+## Practical Build Priorities
+
+- Keep the main skill active as often as possible
+- Use support gems that improve uptime, area coverage, or repeat damage
+- Add defensive layers before pushing into harder encounters
+- Upgrade weapons or spell scaling when damage starts to fall behind
+- Avoid over-investing into a single damage source too early
+

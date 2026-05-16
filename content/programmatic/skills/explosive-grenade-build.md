@@ -94,3 +94,15 @@ Before publishing, verify:
 - [Explosive Grenade Leveling Guide](/guides/skills/explosive-grenade-leveling)
 - [Explosive Grenade Best Support Gems](/guides/skills/explosive-grenade-support-gems)
 
+## Build Direction
+
+A Explosive Grenade build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
+
+## Practical Build Priorities
+
+- Keep the main skill active as often as possible
+- Use support gems that improve uptime, area coverage, or repeat damage
+- Add defensive layers before pushing into harder encounters
+- Upgrade weapons or spell scaling when damage starts to fall behind
+- Avoid over-investing into a single damage source too early
+

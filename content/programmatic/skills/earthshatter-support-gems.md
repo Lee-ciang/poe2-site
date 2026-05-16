@@ -94,3 +94,15 @@ Before publishing, verify:
 - [Earthshatter Build Guide](/guides/skills/earthshatter-build)
 - [Earthshatter Leveling Guide](/guides/skills/earthshatter-leveling)
 
+## Support Gem Priorities
+
+The best support gems for Earthshatter should improve the way the skill naturally plays. Do not only chase tooltip damage. Prioritize supports that improve real combat performance.
+
+## What To Look For
+
+- More reliable hit coverage
+- Better single-target performance
+- Faster clear speed
+- Lower friction during mapping
+- Synergy with the build's main damage type
+

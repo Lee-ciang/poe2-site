@@ -94,3 +94,15 @@ Before publishing, verify:
 - [Explosive Grenade Build Guide](/guides/skills/explosive-grenade-build)
 - [Explosive Grenade Best Support Gems](/guides/skills/explosive-grenade-support-gems)
 
+## Leveling Strategy
+
+When leveling with Explosive Grenade, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
+
+## Campaign Priorities
+
+- Use simple support gems that improve clear speed
+- Keep mana costs manageable
+- Upgrade weapons or skill levels regularly
+- Avoid relying on late-game uniques while leveling
+- Swap supports when bosses feel too slow
+

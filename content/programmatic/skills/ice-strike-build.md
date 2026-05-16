@@ -94,3 +94,15 @@ Before publishing, verify:
 - [Ice Strike Leveling Guide](/guides/skills/ice-strike-leveling)
 - [Ice Strike Best Support Gems](/guides/skills/ice-strike-support-gems)
 
+## Build Direction
+
+A Ice Strike build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
+
+## Practical Build Priorities
+
+- Keep the main skill active as often as possible
+- Use support gems that improve uptime, area coverage, or repeat damage
+- Add defensive layers before pushing into harder encounters
+- Upgrade weapons or spell scaling when damage starts to fall behind
+- Avoid over-investing into a single damage source too early
+

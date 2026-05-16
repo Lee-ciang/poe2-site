@@ -93,3 +93,15 @@ Before publishing, verify:
 - [meteor skill page](/skills/meteor)
 - [Meteor Build Guide](/guides/skills/meteor-build)
 
+## Leveling Strategy
+
+When leveling with Meteor, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
+
+## Campaign Priorities
+
+- Use simple support gems that improve clear speed
+- Keep mana costs manageable
+- Upgrade weapons or skill levels regularly
+- Avoid relying on late-game uniques while leveling
+- Swap supports when bosses feel too slow
+
