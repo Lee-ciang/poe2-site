@@ -1,12 +1,14 @@
 ---
-title: "Earthshatter Best Support Gems"
-description: "Learn how to use Earthshatter Best Support Gems in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/earthshatter-support-gems"
-sourceSkill: "earthshatter"
-opportunityType: "support-gems"
-searchIntent: "support gems"
+title: Earthshatter Best Support Gems
+description: >-
+  Learn how to use Earthshatter Best Support Gems in Path of Exile 2 with
+  practical tips, setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/earthshatter-support-gems
+sourceSkill: earthshatter
+opportunityType: support-gems
+searchIntent: support gems
 priorityScore: 80
-status: "draft"
+status: draft
 ---
 
 # Earthshatter Best Support Gems
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Earthshatter Best Support Gems Guides
+
+- [earthshatter skill overview](/guides/skills/earthshatter)
+- [earthshatter skill page](/skills/earthshatter)
+- [Earthshatter Build Guide](/guides/skills/earthshatter-build)
+- [Earthshatter Leveling Guide](/guides/skills/earthshatter-leveling)
+

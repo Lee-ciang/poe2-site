@@ -1,12 +1,14 @@
 ---
-title: "Earthshatter Leveling Guide"
-description: "Learn how to use Earthshatter Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/earthshatter-leveling"
-sourceSkill: "earthshatter"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Earthshatter Leveling Guide
+description: >-
+  Learn how to use Earthshatter Leveling in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/earthshatter-leveling
+sourceSkill: earthshatter
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Earthshatter Leveling Guide
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Earthshatter Leveling Guide Guides
+
+- [earthshatter skill overview](/guides/skills/earthshatter)
+- [earthshatter skill page](/skills/earthshatter)
+- [Earthshatter Build Guide](/guides/skills/earthshatter-build)
+- [Earthshatter Best Support Gems](/guides/skills/earthshatter-support-gems)
+

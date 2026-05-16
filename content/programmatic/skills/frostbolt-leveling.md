@@ -1,12 +1,14 @@
 ---
-title: "Frostbolt Leveling Guide"
-description: "Learn how to use Frostbolt Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/frostbolt-leveling"
-sourceSkill: "frostbolt"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Frostbolt Leveling Guide
+description: >-
+  Learn how to use Frostbolt Leveling in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/frostbolt-leveling
+sourceSkill: frostbolt
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Frostbolt Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Frostbolt Leveling Guide Guides
+
+- [frostbolt skill overview](/guides/skills/frostbolt)
+- [frostbolt skill page](/skills/frostbolt)
+- [Frostbolt Build Guide](/guides/skills/frostbolt-build)
+

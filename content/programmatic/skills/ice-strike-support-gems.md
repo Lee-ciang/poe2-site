@@ -1,12 +1,14 @@
 ---
-title: "Ice Strike Best Support Gems"
-description: "Learn how to use Ice Strike Best Support Gems in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ice-strike-support-gems"
-sourceSkill: "ice-strike"
-opportunityType: "support-gems"
-searchIntent: "support gems"
+title: Ice Strike Best Support Gems
+description: >-
+  Learn how to use Ice Strike Best Support Gems in Path of Exile 2 with
+  practical tips, setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/ice-strike-support-gems
+sourceSkill: ice-strike
+opportunityType: support-gems
+searchIntent: support gems
 priorityScore: 80
-status: "draft"
+status: draft
 ---
 
 # Ice Strike Best Support Gems
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ice Strike Best Support Gems Guides
+
+- [ice-strike skill overview](/guides/skills/ice-strike)
+- [ice-strike skill page](/skills/ice-strike)
+- [Ice Strike Build Guide](/guides/skills/ice-strike-build)
+- [Ice Strike Leveling Guide](/guides/skills/ice-strike-leveling)
+

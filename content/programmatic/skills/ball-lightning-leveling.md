@@ -1,12 +1,14 @@
 ---
-title: "Ball Lightning Leveling Guide"
-description: "Learn how to use Ball Lightning Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ball-lightning-leveling"
-sourceSkill: "ball-lightning"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Ball Lightning Leveling Guide
+description: >-
+  Learn how to use Ball Lightning Leveling in Path of Exile 2 with practical
+  tips, setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/ball-lightning-leveling
+sourceSkill: ball-lightning
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Ball Lightning Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ball Lightning Leveling Guide Guides
+
+- [ball-lightning skill overview](/guides/skills/ball-lightning)
+- [ball-lightning skill page](/skills/ball-lightning)
+- [Ball Lightning Build Guide](/guides/skills/ball-lightning-build)
+

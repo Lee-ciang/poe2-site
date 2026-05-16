@@ -1,12 +1,14 @@
 ---
-title: "Spark Leveling Guide"
-description: "Learn how to use Spark Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/spark-leveling"
-sourceSkill: "spark"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Spark Leveling Guide
+description: >-
+  Learn how to use Spark Leveling in Path of Exile 2 with practical tips, setup
+  advice, FAQs, and related skill guidance.
+slug: /guides/skills/spark-leveling
+sourceSkill: spark
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Spark Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Spark Leveling Guide Guides
+
+- [spark skill overview](/guides/skills/spark)
+- [spark skill page](/skills/spark)
+- [Spark Build Guide](/guides/skills/spark-build)
+

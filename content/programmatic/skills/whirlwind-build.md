@@ -1,12 +1,14 @@
 ---
-title: "Whirlwind Build Guide"
-description: "Learn how to use Whirlwind Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/whirlwind-build"
-sourceSkill: "whirlwind"
-opportunityType: "build"
-searchIntent: "build"
+title: Whirlwind Build Guide
+description: >-
+  Learn how to use Whirlwind Build in Path of Exile 2 with practical tips, setup
+  advice, FAQs, and related skill guidance.
+slug: /guides/skills/whirlwind-build
+sourceSkill: whirlwind
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Whirlwind Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Whirlwind Build Guide Guides
+
+- [whirlwind skill overview](/guides/skills/whirlwind)
+- [whirlwind skill page](/skills/whirlwind)
+- [Whirlwind Leveling Guide](/guides/skills/whirlwind-leveling)
+

@@ -1,12 +1,14 @@
 ---
-title: "Meteor Leveling Guide"
-description: "Learn how to use Meteor Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/meteor-leveling"
-sourceSkill: "meteor"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Meteor Leveling Guide
+description: >-
+  Learn how to use Meteor Leveling in Path of Exile 2 with practical tips, setup
+  advice, FAQs, and related skill guidance.
+slug: /guides/skills/meteor-leveling
+sourceSkill: meteor
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Meteor Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Meteor Leveling Guide Guides
+
+- [meteor skill overview](/guides/skills/meteor)
+- [meteor skill page](/skills/meteor)
+- [Meteor Build Guide](/guides/skills/meteor-build)
+

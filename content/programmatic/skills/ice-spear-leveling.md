@@ -1,12 +1,14 @@
 ---
-title: "Ice Spear Leveling Guide"
-description: "Learn how to use Ice Spear Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ice-spear-leveling"
-sourceSkill: "ice-spear"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Ice Spear Leveling Guide
+description: >-
+  Learn how to use Ice Spear Leveling in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/ice-spear-leveling
+sourceSkill: ice-spear
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Ice Spear Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ice Spear Leveling Guide Guides
+
+- [ice-spear skill overview](/guides/skills/ice-spear)
+- [ice-spear skill page](/skills/ice-spear)
+- [Ice Spear Build Guide](/guides/skills/ice-spear-build)
+

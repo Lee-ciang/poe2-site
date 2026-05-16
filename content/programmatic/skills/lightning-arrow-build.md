@@ -1,12 +1,14 @@
 ---
-title: "Lightning Arrow Build Guide"
-description: "Learn how to use Lightning Arrow Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/lightning-arrow-build"
-sourceSkill: "lightning-arrow"
-opportunityType: "build"
-searchIntent: "build"
+title: Lightning Arrow Build Guide
+description: >-
+  Learn how to use Lightning Arrow Build in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/lightning-arrow-build
+sourceSkill: lightning-arrow
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Lightning Arrow Build Guide
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Lightning Arrow Build Guide Guides
+
+- [lightning-arrow skill overview](/guides/skills/lightning-arrow)
+- [lightning-arrow skill page](/skills/lightning-arrow)
+- [Lightning Arrow Leveling Guide](/guides/skills/lightning-arrow-leveling)
+- [Lightning Arrow Best Support Gems](/guides/skills/lightning-arrow-support-gems)
+

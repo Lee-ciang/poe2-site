@@ -1,12 +1,14 @@
 ---
-title: "Flame Wall Leveling Guide"
-description: "Learn how to use Flame Wall Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/flame-wall-leveling"
-sourceSkill: "flame-wall"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Flame Wall Leveling Guide
+description: >-
+  Learn how to use Flame Wall Leveling in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/flame-wall-leveling
+sourceSkill: flame-wall
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Flame Wall Leveling Guide
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Flame Wall Leveling Guide Guides
+
+- [flame-wall skill overview](/guides/skills/flame-wall)
+- [flame-wall skill page](/skills/flame-wall)
+- [Flame Wall Build Guide](/guides/skills/flame-wall-build)
+- [Flame Wall Best Support Gems](/guides/skills/flame-wall-support-gems)
+

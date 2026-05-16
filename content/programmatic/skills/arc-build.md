@@ -1,12 +1,14 @@
 ---
-title: "Arc Build Guide"
-description: "Learn how to use Arc Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/arc-build"
-sourceSkill: "arc"
-opportunityType: "build"
-searchIntent: "build"
+title: Arc Build Guide
+description: >-
+  Learn how to use Arc Build in Path of Exile 2 with practical tips, setup
+  advice, FAQs, and related skill guidance.
+slug: /guides/skills/arc-build
+sourceSkill: arc
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Arc Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Arc Build Guide Guides
+
+- [arc skill overview](/guides/skills/arc)
+- [arc skill page](/skills/arc)
+- [Arc Leveling Guide](/guides/skills/arc-leveling)
+

@@ -1,12 +1,14 @@
 ---
-title: "Poison Arrow Build Guide"
-description: "Learn how to use Poison Arrow Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/poison-arrow-build"
-sourceSkill: "poison-arrow"
-opportunityType: "build"
-searchIntent: "build"
+title: Poison Arrow Build Guide
+description: >-
+  Learn how to use Poison Arrow Build in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/poison-arrow-build
+sourceSkill: poison-arrow
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Poison Arrow Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Poison Arrow Build Guide Guides
+
+- [poison-arrow skill overview](/guides/skills/poison-arrow)
+- [poison-arrow skill page](/skills/poison-arrow)
+- [Poison Arrow Leveling Guide](/guides/skills/poison-arrow-leveling)
+

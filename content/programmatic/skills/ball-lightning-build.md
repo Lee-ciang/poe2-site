@@ -1,12 +1,14 @@
 ---
-title: "Ball Lightning Build Guide"
-description: "Learn how to use Ball Lightning Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ball-lightning-build"
-sourceSkill: "ball-lightning"
-opportunityType: "build"
-searchIntent: "build"
+title: Ball Lightning Build Guide
+description: >-
+  Learn how to use Ball Lightning Build in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/ball-lightning-build
+sourceSkill: ball-lightning
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Ball Lightning Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ball Lightning Build Guide Guides
+
+- [ball-lightning skill overview](/guides/skills/ball-lightning)
+- [ball-lightning skill page](/skills/ball-lightning)
+- [Ball Lightning Leveling Guide](/guides/skills/ball-lightning-leveling)
+

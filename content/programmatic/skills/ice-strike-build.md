@@ -1,12 +1,14 @@
 ---
-title: "Ice Strike Build Guide"
-description: "Learn how to use Ice Strike Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ice-strike-build"
-sourceSkill: "ice-strike"
-opportunityType: "build"
-searchIntent: "build"
+title: Ice Strike Build Guide
+description: >-
+  Learn how to use Ice Strike Build in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/ice-strike-build
+sourceSkill: ice-strike
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Ice Strike Build Guide
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ice Strike Build Guide Guides
+
+- [ice-strike skill overview](/guides/skills/ice-strike)
+- [ice-strike skill page](/skills/ice-strike)
+- [Ice Strike Leveling Guide](/guides/skills/ice-strike-leveling)
+- [Ice Strike Best Support Gems](/guides/skills/ice-strike-support-gems)
+

@@ -1,12 +1,14 @@
 ---
-title: "Earthshatter Build Guide"
-description: "Learn how to use Earthshatter Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/earthshatter-build"
-sourceSkill: "earthshatter"
-opportunityType: "build"
-searchIntent: "build"
+title: Earthshatter Build Guide
+description: >-
+  Learn how to use Earthshatter Build in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/earthshatter-build
+sourceSkill: earthshatter
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Earthshatter Build Guide
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Earthshatter Build Guide Guides
+
+- [earthshatter skill overview](/guides/skills/earthshatter)
+- [earthshatter skill page](/skills/earthshatter)
+- [Earthshatter Leveling Guide](/guides/skills/earthshatter-leveling)
+- [Earthshatter Best Support Gems](/guides/skills/earthshatter-support-gems)
+

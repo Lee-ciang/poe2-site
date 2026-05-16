@@ -1,12 +1,14 @@
 ---
-title: "Ice Spear Build Guide"
-description: "Learn how to use Ice Spear Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ice-spear-build"
-sourceSkill: "ice-spear"
-opportunityType: "build"
-searchIntent: "build"
+title: Ice Spear Build Guide
+description: >-
+  Learn how to use Ice Spear Build in Path of Exile 2 with practical tips, setup
+  advice, FAQs, and related skill guidance.
+slug: /guides/skills/ice-spear-build
+sourceSkill: ice-spear
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Ice Spear Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ice Spear Build Guide Guides
+
+- [ice-spear skill overview](/guides/skills/ice-spear)
+- [ice-spear skill page](/skills/ice-spear)
+- [Ice Spear Leveling Guide](/guides/skills/ice-spear-leveling)
+

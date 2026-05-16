@@ -1,12 +1,14 @@
 ---
-title: "Fireball Leveling Guide"
-description: "Learn how to use Fireball Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/fireball-leveling"
-sourceSkill: "fireball"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Fireball Leveling Guide
+description: >-
+  Learn how to use Fireball Leveling in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/fireball-leveling
+sourceSkill: fireball
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Fireball Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Fireball Leveling Guide Guides
+
+- [fireball skill overview](/guides/skills/fireball)
+- [fireball skill page](/skills/fireball)
+- [Fireball Build Guide](/guides/skills/fireball-build)
+

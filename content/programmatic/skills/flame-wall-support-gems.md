@@ -1,12 +1,14 @@
 ---
-title: "Flame Wall Best Support Gems"
-description: "Learn how to use Flame Wall Best Support Gems in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/flame-wall-support-gems"
-sourceSkill: "flame-wall"
-opportunityType: "support-gems"
-searchIntent: "support gems"
+title: Flame Wall Best Support Gems
+description: >-
+  Learn how to use Flame Wall Best Support Gems in Path of Exile 2 with
+  practical tips, setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/flame-wall-support-gems
+sourceSkill: flame-wall
+opportunityType: support-gems
+searchIntent: support gems
 priorityScore: 80
-status: "draft"
+status: draft
 ---
 
 # Flame Wall Best Support Gems
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Flame Wall Best Support Gems Guides
+
+- [flame-wall skill overview](/guides/skills/flame-wall)
+- [flame-wall skill page](/skills/flame-wall)
+- [Flame Wall Build Guide](/guides/skills/flame-wall-build)
+- [Flame Wall Leveling Guide](/guides/skills/flame-wall-leveling)
+

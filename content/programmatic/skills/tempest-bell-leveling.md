@@ -1,12 +1,14 @@
 ---
-title: "Tempest Bell Leveling Guide"
-description: "Learn how to use Tempest Bell Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/tempest-bell-leveling"
-sourceSkill: "tempest-bell"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Tempest Bell Leveling Guide
+description: >-
+  Learn how to use Tempest Bell Leveling in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/tempest-bell-leveling
+sourceSkill: tempest-bell
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Tempest Bell Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Tempest Bell Leveling Guide Guides
+
+- [tempest-bell skill overview](/guides/skills/tempest-bell)
+- [tempest-bell skill page](/skills/tempest-bell)
+- [Tempest Bell Build Guide](/guides/skills/tempest-bell-build)
+

@@ -1,12 +1,14 @@
 ---
-title: "Poisonous Concoction Best Support Gems"
-description: "Learn how to use Poisonous Concoction Best Support Gems in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/poisonous-concoction-support-gems"
-sourceSkill: "poisonous-concoction"
-opportunityType: "support-gems"
-searchIntent: "support gems"
+title: Poisonous Concoction Best Support Gems
+description: >-
+  Learn how to use Poisonous Concoction Best Support Gems in Path of Exile 2
+  with practical tips, setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/poisonous-concoction-support-gems
+sourceSkill: poisonous-concoction
+opportunityType: support-gems
+searchIntent: support gems
 priorityScore: 80
-status: "draft"
+status: draft
 ---
 
 # Poisonous Concoction Best Support Gems
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Poisonous Concoction Best Support Gems Guides
+
+- [poisonous-concoction skill overview](/guides/skills/poisonous-concoction)
+- [poisonous-concoction skill page](/skills/poisonous-concoction)
+- [Poisonous Concoction Build Guide](/guides/skills/poisonous-concoction-build)
+- [Poisonous Concoction Leveling Guide](/guides/skills/poisonous-concoction-leveling)
+

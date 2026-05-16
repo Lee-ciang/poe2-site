@@ -1,12 +1,14 @@
 ---
-title: "Explosive Grenade Leveling Guide"
-description: "Learn how to use Explosive Grenade Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/explosive-grenade-leveling"
-sourceSkill: "explosive-grenade"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Explosive Grenade Leveling Guide
+description: >-
+  Learn how to use Explosive Grenade Leveling in Path of Exile 2 with practical
+  tips, setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/explosive-grenade-leveling
+sourceSkill: explosive-grenade
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Explosive Grenade Leveling Guide
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Explosive Grenade Leveling Guide Guides
+
+- [explosive-grenade skill overview](/guides/skills/explosive-grenade)
+- [explosive-grenade skill page](/skills/explosive-grenade)
+- [Explosive Grenade Build Guide](/guides/skills/explosive-grenade-build)
+- [Explosive Grenade Best Support Gems](/guides/skills/explosive-grenade-support-gems)
+

@@ -1,12 +1,14 @@
 ---
-title: "Chain Lightning Leveling Guide"
-description: "Learn how to use Chain Lightning Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/chain-lightning-leveling"
-sourceSkill: "chain-lightning"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Chain Lightning Leveling Guide
+description: >-
+  Learn how to use Chain Lightning Leveling in Path of Exile 2 with practical
+  tips, setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/chain-lightning-leveling
+sourceSkill: chain-lightning
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Chain Lightning Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Chain Lightning Leveling Guide Guides
+
+- [chain-lightning skill overview](/guides/skills/chain-lightning)
+- [chain-lightning skill page](/skills/chain-lightning)
+- [Chain Lightning Build Guide](/guides/skills/chain-lightning-build)
+

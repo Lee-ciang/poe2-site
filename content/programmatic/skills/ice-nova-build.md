@@ -1,12 +1,14 @@
 ---
-title: "Ice Nova Build Guide"
-description: "Learn how to use Ice Nova Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ice-nova-build"
-sourceSkill: "ice-nova"
-opportunityType: "build"
-searchIntent: "build"
+title: Ice Nova Build Guide
+description: >-
+  Learn how to use Ice Nova Build in Path of Exile 2 with practical tips, setup
+  advice, FAQs, and related skill guidance.
+slug: /guides/skills/ice-nova-build
+sourceSkill: ice-nova
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Ice Nova Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ice Nova Build Guide Guides
+
+- [ice-nova skill overview](/guides/skills/ice-nova)
+- [ice-nova skill page](/skills/ice-nova)
+- [Ice Nova Leveling Guide](/guides/skills/ice-nova-leveling)
+

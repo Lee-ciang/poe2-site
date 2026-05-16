@@ -1,12 +1,14 @@
 ---
-title: "Ember Fusillade Build Guide"
-description: "Learn how to use Ember Fusillade Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ember-fusillade-build"
-sourceSkill: "ember-fusillade"
-opportunityType: "build"
-searchIntent: "build"
+title: Ember Fusillade Build Guide
+description: >-
+  Learn how to use Ember Fusillade Build in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/ember-fusillade-build
+sourceSkill: ember-fusillade
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Ember Fusillade Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ember Fusillade Build Guide Guides
+
+- [ember-fusillade skill overview](/guides/skills/ember-fusillade)
+- [ember-fusillade skill page](/skills/ember-fusillade)
+- [Ember Fusillade Leveling Guide](/guides/skills/ember-fusillade-leveling)
+

@@ -1,12 +1,14 @@
 ---
-title: "Frostbolt Build Guide"
-description: "Learn how to use Frostbolt Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/frostbolt-build"
-sourceSkill: "frostbolt"
-opportunityType: "build"
-searchIntent: "build"
+title: Frostbolt Build Guide
+description: >-
+  Learn how to use Frostbolt Build in Path of Exile 2 with practical tips, setup
+  advice, FAQs, and related skill guidance.
+slug: /guides/skills/frostbolt-build
+sourceSkill: frostbolt
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Frostbolt Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Frostbolt Build Guide Guides
+
+- [frostbolt skill overview](/guides/skills/frostbolt)
+- [frostbolt skill page](/skills/frostbolt)
+- [Frostbolt Leveling Guide](/guides/skills/frostbolt-leveling)
+

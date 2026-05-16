@@ -1,12 +1,14 @@
 ---
-title: "Meteor Build Guide"
-description: "Learn how to use Meteor Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/meteor-build"
-sourceSkill: "meteor"
-opportunityType: "build"
-searchIntent: "build"
+title: Meteor Build Guide
+description: >-
+  Learn how to use Meteor Build in Path of Exile 2 with practical tips, setup
+  advice, FAQs, and related skill guidance.
+slug: /guides/skills/meteor-build
+sourceSkill: meteor
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Meteor Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Meteor Build Guide Guides
+
+- [meteor skill overview](/guides/skills/meteor)
+- [meteor skill page](/skills/meteor)
+- [Meteor Leveling Guide](/guides/skills/meteor-leveling)
+

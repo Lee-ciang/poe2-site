@@ -1,12 +1,14 @@
 ---
-title: "Poison Arrow Leveling Guide"
-description: "Learn how to use Poison Arrow Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/poison-arrow-leveling"
-sourceSkill: "poison-arrow"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Poison Arrow Leveling Guide
+description: >-
+  Learn how to use Poison Arrow Leveling in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/poison-arrow-leveling
+sourceSkill: poison-arrow
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Poison Arrow Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Poison Arrow Leveling Guide Guides
+
+- [poison-arrow skill overview](/guides/skills/poison-arrow)
+- [poison-arrow skill page](/skills/poison-arrow)
+- [Poison Arrow Build Guide](/guides/skills/poison-arrow-build)
+

@@ -1,12 +1,14 @@
 ---
-title: "Lightning Arrow Best Support Gems"
-description: "Learn how to use Lightning Arrow Best Support Gems in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/lightning-arrow-support-gems"
-sourceSkill: "lightning-arrow"
-opportunityType: "support-gems"
-searchIntent: "support gems"
+title: Lightning Arrow Best Support Gems
+description: >-
+  Learn how to use Lightning Arrow Best Support Gems in Path of Exile 2 with
+  practical tips, setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/lightning-arrow-support-gems
+sourceSkill: lightning-arrow
+opportunityType: support-gems
+searchIntent: support gems
 priorityScore: 80
-status: "draft"
+status: draft
 ---
 
 # Lightning Arrow Best Support Gems
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Lightning Arrow Best Support Gems Guides
+
+- [lightning-arrow skill overview](/guides/skills/lightning-arrow)
+- [lightning-arrow skill page](/skills/lightning-arrow)
+- [Lightning Arrow Build Guide](/guides/skills/lightning-arrow-build)
+- [Lightning Arrow Leveling Guide](/guides/skills/lightning-arrow-leveling)
+

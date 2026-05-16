@@ -1,12 +1,14 @@
 ---
-title: "Ice Nova Leveling Guide"
-description: "Learn how to use Ice Nova Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ice-nova-leveling"
-sourceSkill: "ice-nova"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Ice Nova Leveling Guide
+description: >-
+  Learn how to use Ice Nova Leveling in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/ice-nova-leveling
+sourceSkill: ice-nova
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Ice Nova Leveling Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ice Nova Leveling Guide Guides
+
+- [ice-nova skill overview](/guides/skills/ice-nova)
+- [ice-nova skill page](/skills/ice-nova)
+- [Ice Nova Build Guide](/guides/skills/ice-nova-build)
+

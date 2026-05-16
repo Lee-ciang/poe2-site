@@ -1,12 +1,14 @@
 ---
-title: "Poisonous Concoction Leveling Guide"
-description: "Learn how to use Poisonous Concoction Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/poisonous-concoction-leveling"
-sourceSkill: "poisonous-concoction"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Poisonous Concoction Leveling Guide
+description: >-
+  Learn how to use Poisonous Concoction Leveling in Path of Exile 2 with
+  practical tips, setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/poisonous-concoction-leveling
+sourceSkill: poisonous-concoction
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Poisonous Concoction Leveling Guide
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Poisonous Concoction Leveling Guide Guides
+
+- [poisonous-concoction skill overview](/guides/skills/poisonous-concoction)
+- [poisonous-concoction skill page](/skills/poisonous-concoction)
+- [Poisonous Concoction Build Guide](/guides/skills/poisonous-concoction-build)
+- [Poisonous Concoction Best Support Gems](/guides/skills/poisonous-concoction-support-gems)
+

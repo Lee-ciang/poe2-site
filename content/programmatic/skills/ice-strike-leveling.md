@@ -1,12 +1,14 @@
 ---
-title: "Ice Strike Leveling Guide"
-description: "Learn how to use Ice Strike Leveling in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/ice-strike-leveling"
-sourceSkill: "ice-strike"
-opportunityType: "leveling"
-searchIntent: "leveling"
+title: Ice Strike Leveling Guide
+description: >-
+  Learn how to use Ice Strike Leveling in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/ice-strike-leveling
+sourceSkill: ice-strike
+opportunityType: leveling
+searchIntent: leveling
 priorityScore: 85
-status: "draft"
+status: draft
 ---
 
 # Ice Strike Leveling Guide
@@ -84,3 +86,11 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Ice Strike Leveling Guide Guides
+
+- [ice-strike skill overview](/guides/skills/ice-strike)
+- [ice-strike skill page](/skills/ice-strike)
+- [Ice Strike Build Guide](/guides/skills/ice-strike-build)
+- [Ice Strike Best Support Gems](/guides/skills/ice-strike-support-gems)
+

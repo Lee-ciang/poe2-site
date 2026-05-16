@@ -1,12 +1,14 @@
 ---
-title: "Freezing Shards Build Guide"
-description: "Learn how to use Freezing Shards Build in Path of Exile 2 with practical tips, setup advice, FAQs, and related skill guidance."
-slug: "/guides/skills/freezing-shards-build"
-sourceSkill: "freezing-shards"
-opportunityType: "build"
-searchIntent: "build"
+title: Freezing Shards Build Guide
+description: >-
+  Learn how to use Freezing Shards Build in Path of Exile 2 with practical tips,
+  setup advice, FAQs, and related skill guidance.
+slug: /guides/skills/freezing-shards-build
+sourceSkill: freezing-shards
+opportunityType: build
+searchIntent: build
 priorityScore: 90
-status: "draft"
+status: draft
 ---
 
 # Freezing Shards Build Guide
@@ -84,3 +86,10 @@ Before publishing, verify:
 - Support gem recommendations are valid
 - The page is not duplicating another guide
 - Internal links point to live pages
+
+## Related Freezing Shards Build Guide Guides
+
+- [freezing-shards skill overview](/guides/skills/freezing-shards)
+- [freezing-shards skill page](/skills/freezing-shards)
+- [Freezing Shards Leveling Guide](/guides/skills/freezing-shards-leveling)
+
