@@ -79,6 +79,12 @@ const steps: PipelineStep[] = [
   args: [tsxBin, "scripts/generate-sitemap-xml.ts"],
   required: true,
 },
+{
+  name: "Generate robots.txt",
+  command: nodeCommand,
+  args: [tsxBin, "scripts/generate-robots-txt.ts"],
+  required: true,
+},
 ];
 
 function runStep(step: PipelineStep) {
