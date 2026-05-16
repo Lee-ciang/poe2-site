@@ -1,41 +1,198 @@
 {
-  "generatedAt": "2026-05-16T08:45:24.346Z",
-  "totalUrls": 5,
+  "generatedAt": "2026-05-16T09:35:32.726Z",
+  "totalUrls": 24,
   "urls": [
     {
       "url": "/guides/skills/toxic-rain",
       "title": "Toxic Rain Guide",
       "priority": 0.8,
       "changefreq": "weekly",
-      "sitemapStatus": "included"
+      "sitemapStatus": "included",
+      "source": "content-index"
     },
     {
       "url": "/guides/skills/earthquake",
       "title": "Earthquake Guide",
       "priority": 0.8,
       "changefreq": "weekly",
-      "sitemapStatus": "included"
+      "sitemapStatus": "included",
+      "source": "content-index"
     },
     {
       "url": "/guides/skills/cobra-lash",
       "title": "Cobra Lash Guide",
       "priority": 0.6,
       "changefreq": "weekly",
-      "sitemapStatus": "included"
+      "sitemapStatus": "included",
+      "source": "content-index"
     },
     {
       "url": "/guides/skills/venom-gyre",
       "title": "Venom Gyre Guide",
       "priority": 0.6,
       "changefreq": "weekly",
-      "sitemapStatus": "included"
+      "sitemapStatus": "included",
+      "source": "content-index"
     },
     {
       "url": "/guides/skills/tectonic-slam",
       "title": "Tectonic Slam Guide",
       "priority": 0.6,
       "changefreq": "weekly",
-      "sitemapStatus": "included"
+      "sitemapStatus": "included",
+      "source": "content-index"
+    },
+    {
+      "url": "/guides/skills/arc-build",
+      "title": "Arc Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/ball-lightning-build",
+      "title": "Ball Lightning Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/chain-lightning-build",
+      "title": "Chain Lightning Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/earthshatter-build",
+      "title": "Earthshatter Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/ember-fusillade-build",
+      "title": "Ember Fusillade Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/explosive-grenade-build",
+      "title": "Explosive Grenade Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/fireball-build",
+      "title": "Fireball Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/flame-wall-build",
+      "title": "Flame Wall Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/freezing-shards-build",
+      "title": "Freezing Shards Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/frostbolt-build",
+      "title": "Frostbolt Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/ice-nova-build",
+      "title": "Ice Nova Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/ice-spear-build",
+      "title": "Ice Spear Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/ice-strike-build",
+      "title": "Ice Strike Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/lightning-arrow-build",
+      "title": "Lightning Arrow Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/meteor-build",
+      "title": "Meteor Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/poison-arrow-build",
+      "title": "Poison Arrow Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/poisonous-concoction-build",
+      "title": "Poisonous Concoction Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/spark-build",
+      "title": "Spark Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/tempest-bell-build",
+      "title": "Tempest Bell Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
     }
   ]
 }
