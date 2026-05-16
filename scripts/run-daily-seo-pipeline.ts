@@ -49,6 +49,12 @@ const steps: PipelineStep[] = [
     args: [tsxBin, "scripts/generate-topic-cluster-expansion.ts"],
     required: false,
   },
+  {
+  name: "Archive daily SEO snapshot",
+  command: nodeCommand,
+  args: [tsxBin, "scripts/archive-daily-seo-snapshot.ts"],
+  required: true,
+},
 ];
 
 function runStep(step: PipelineStep) {
