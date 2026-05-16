@@ -67,6 +67,12 @@ const steps: PipelineStep[] = [
   args: [tsxBin, "scripts/generate-seo-priority-scoreboard.ts"],
   required: true,
 },
+{
+  name: "Generate SEO sitemap report",
+  command: nodeCommand,
+  args: [tsxBin, "scripts/generate-seo-sitemap-report.ts"],
+  required: true,
+},
 ];
 
 function runStep(step: PipelineStep) {

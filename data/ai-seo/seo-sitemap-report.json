@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-05-16T05:56:48.772Z",
+  "totalUrls": 5,
+  "urls": [
+    {
+      "url": "/guides/skills/toxic-rain",
+      "title": "Toxic Rain Guide",
+      "priority": 0.8,
+      "changefreq": "weekly",
+      "sitemapStatus": "included"
+    },
+    {
+      "url": "/guides/skills/earthquake",
+      "title": "Earthquake Guide",
+      "priority": 0.8,
+      "changefreq": "weekly",
+      "sitemapStatus": "included"
+    },
+    {
+      "url": "/guides/skills/cobra-lash",
+      "title": "Cobra Lash Guide",
+      "priority": 0.6,
+      "changefreq": "weekly",
+      "sitemapStatus": "included"
+    },
+    {
+      "url": "/guides/skills/venom-gyre",
+      "title": "Venom Gyre Guide",
+      "priority": 0.6,
+      "changefreq": "weekly",
+      "sitemapStatus": "included"
+    },
+    {
+      "url": "/guides/skills/tectonic-slam",
+      "title": "Tectonic Slam Guide",
+      "priority": 0.6,
+      "changefreq": "weekly",
+      "sitemapStatus": "included"
+    }
+  ]
+}
