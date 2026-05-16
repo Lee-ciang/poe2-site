@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://poe2site.com/sitemap.xml
+Sitemap: https://poe2-site-roan.vercel.app/sitemap.xml

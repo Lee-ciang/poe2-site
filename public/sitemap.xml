@@ -3,27 +3,27 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://poe2site.com/guides/skills/toxic-rain</loc>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/toxic-rain</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poe2site.com/guides/skills/earthquake</loc>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/earthquake</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poe2site.com/guides/skills/cobra-lash</loc>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/cobra-lash</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://poe2site.com/guides/skills/venom-gyre</loc>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/venom-gyre</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://poe2site.com/guides/skills/tectonic-slam</loc>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/tectonic-slam</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
