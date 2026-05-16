@@ -50,6 +50,12 @@ const steps: PipelineStep[] = [
     required: false,
   },
   {
+  name: "Generate programmatic content opportunities",
+  command: nodeCommand,
+  args: [tsxBin, "scripts/generate-programmatic-content-opportunities.ts"],
+  required: true,
+},
+  {
   name: "Archive daily SEO snapshot",
   command: nodeCommand,
   args: [tsxBin, "scripts/archive-daily-seo-snapshot.ts"],

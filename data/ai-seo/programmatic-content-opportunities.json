@@ -1,0 +1,998 @@
+{
+  "generatedAt": "2026-05-16T08:45:23.326Z",
+  "source": "D:\\poe2-site\\src\\data\\skills.ts",
+  "skillsFound": 22,
+  "opportunitiesFound": 110,
+  "opportunities": [
+    {
+      "slug": "/guides/skills/lightning-arrow-build",
+      "title": "Lightning Arrow Build Guide",
+      "sourceSkill": "lightning-arrow",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Lightning Arrow."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-build",
+      "title": "Flame Wall Build Guide",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/poisonous-concoction-build",
+      "title": "Poisonous Concoction Build Guide",
+      "sourceSkill": "poisonous-concoction",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Poisonous Concoction."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-build",
+      "title": "Earthshatter Build Guide",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/ice-strike-build",
+      "title": "Ice Strike Build Guide",
+      "sourceSkill": "ice-strike",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Ice Strike."
+    },
+    {
+      "slug": "/guides/skills/explosive-grenade-build",
+      "title": "Explosive Grenade Build Guide",
+      "sourceSkill": "explosive-grenade",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Explosive Grenade."
+    },
+    {
+      "slug": "/guides/skills/tempest-bell-build",
+      "title": "Tempest Bell Build Guide",
+      "sourceSkill": "tempest-bell",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Tempest Bell."
+    },
+    {
+      "slug": "/guides/skills/ember-fusillade-build",
+      "title": "Ember Fusillade Build Guide",
+      "sourceSkill": "ember-fusillade",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Ember Fusillade."
+    },
+    {
+      "slug": "/guides/skills/frostbolt-build",
+      "title": "Frostbolt Build Guide",
+      "sourceSkill": "frostbolt",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Frostbolt."
+    },
+    {
+      "slug": "/guides/skills/fireball-build",
+      "title": "Fireball Build Guide",
+      "sourceSkill": "fireball",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Fireball."
+    },
+    {
+      "slug": "/guides/skills/spark-build",
+      "title": "Spark Build Guide",
+      "sourceSkill": "spark",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Spark."
+    },
+    {
+      "slug": "/guides/skills/ice-nova-build",
+      "title": "Ice Nova Build Guide",
+      "sourceSkill": "ice-nova",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Ice Nova."
+    },
+    {
+      "slug": "/guides/skills/chain-lightning-build",
+      "title": "Chain Lightning Build Guide",
+      "sourceSkill": "chain-lightning",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Chain Lightning."
+    },
+    {
+      "slug": "/guides/skills/arc-build",
+      "title": "Arc Build Guide",
+      "sourceSkill": "arc",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Arc."
+    },
+    {
+      "slug": "/guides/skills/ball-lightning-build",
+      "title": "Ball Lightning Build Guide",
+      "sourceSkill": "ball-lightning",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Ball Lightning."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-build",
+      "title": "Flame Wall Build Guide",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/ice-spear-build",
+      "title": "Ice Spear Build Guide",
+      "sourceSkill": "ice-spear",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Ice Spear."
+    },
+    {
+      "slug": "/guides/skills/meteor-build",
+      "title": "Meteor Build Guide",
+      "sourceSkill": "meteor",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Meteor."
+    },
+    {
+      "slug": "/guides/skills/freezing-shards-build",
+      "title": "Freezing Shards Build Guide",
+      "sourceSkill": "freezing-shards",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Freezing Shards."
+    },
+    {
+      "slug": "/guides/skills/poison-arrow-build",
+      "title": "Poison Arrow Build Guide",
+      "sourceSkill": "poison-arrow",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Poison Arrow."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-build",
+      "title": "Earthshatter Build Guide",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/whirlwind-build",
+      "title": "Whirlwind Build Guide",
+      "sourceSkill": "whirlwind",
+      "opportunityType": "build",
+      "searchIntent": "build",
+      "priorityScore": 90,
+      "reason": "Programmatic long-tail expansion for Whirlwind."
+    },
+    {
+      "slug": "/guides/skills/lightning-arrow-leveling",
+      "title": "Lightning Arrow Leveling Guide",
+      "sourceSkill": "lightning-arrow",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Lightning Arrow."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-leveling",
+      "title": "Flame Wall Leveling Guide",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/poisonous-concoction-leveling",
+      "title": "Poisonous Concoction Leveling Guide",
+      "sourceSkill": "poisonous-concoction",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Poisonous Concoction."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-leveling",
+      "title": "Earthshatter Leveling Guide",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/ice-strike-leveling",
+      "title": "Ice Strike Leveling Guide",
+      "sourceSkill": "ice-strike",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Ice Strike."
+    },
+    {
+      "slug": "/guides/skills/explosive-grenade-leveling",
+      "title": "Explosive Grenade Leveling Guide",
+      "sourceSkill": "explosive-grenade",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Explosive Grenade."
+    },
+    {
+      "slug": "/guides/skills/tempest-bell-leveling",
+      "title": "Tempest Bell Leveling Guide",
+      "sourceSkill": "tempest-bell",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Tempest Bell."
+    },
+    {
+      "slug": "/guides/skills/ember-fusillade-leveling",
+      "title": "Ember Fusillade Leveling Guide",
+      "sourceSkill": "ember-fusillade",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Ember Fusillade."
+    },
+    {
+      "slug": "/guides/skills/frostbolt-leveling",
+      "title": "Frostbolt Leveling Guide",
+      "sourceSkill": "frostbolt",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Frostbolt."
+    },
+    {
+      "slug": "/guides/skills/fireball-leveling",
+      "title": "Fireball Leveling Guide",
+      "sourceSkill": "fireball",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Fireball."
+    },
+    {
+      "slug": "/guides/skills/spark-leveling",
+      "title": "Spark Leveling Guide",
+      "sourceSkill": "spark",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Spark."
+    },
+    {
+      "slug": "/guides/skills/ice-nova-leveling",
+      "title": "Ice Nova Leveling Guide",
+      "sourceSkill": "ice-nova",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Ice Nova."
+    },
+    {
+      "slug": "/guides/skills/chain-lightning-leveling",
+      "title": "Chain Lightning Leveling Guide",
+      "sourceSkill": "chain-lightning",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Chain Lightning."
+    },
+    {
+      "slug": "/guides/skills/arc-leveling",
+      "title": "Arc Leveling Guide",
+      "sourceSkill": "arc",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Arc."
+    },
+    {
+      "slug": "/guides/skills/ball-lightning-leveling",
+      "title": "Ball Lightning Leveling Guide",
+      "sourceSkill": "ball-lightning",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Ball Lightning."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-leveling",
+      "title": "Flame Wall Leveling Guide",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/ice-spear-leveling",
+      "title": "Ice Spear Leveling Guide",
+      "sourceSkill": "ice-spear",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Ice Spear."
+    },
+    {
+      "slug": "/guides/skills/meteor-leveling",
+      "title": "Meteor Leveling Guide",
+      "sourceSkill": "meteor",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Meteor."
+    },
+    {
+      "slug": "/guides/skills/freezing-shards-leveling",
+      "title": "Freezing Shards Leveling Guide",
+      "sourceSkill": "freezing-shards",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Freezing Shards."
+    },
+    {
+      "slug": "/guides/skills/poison-arrow-leveling",
+      "title": "Poison Arrow Leveling Guide",
+      "sourceSkill": "poison-arrow",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Poison Arrow."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-leveling",
+      "title": "Earthshatter Leveling Guide",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/whirlwind-leveling",
+      "title": "Whirlwind Leveling Guide",
+      "sourceSkill": "whirlwind",
+      "opportunityType": "leveling",
+      "searchIntent": "leveling",
+      "priorityScore": 85,
+      "reason": "Programmatic long-tail expansion for Whirlwind."
+    },
+    {
+      "slug": "/guides/skills/lightning-arrow-support-gems",
+      "title": "Lightning Arrow Best Support Gems",
+      "sourceSkill": "lightning-arrow",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Lightning Arrow."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-support-gems",
+      "title": "Flame Wall Best Support Gems",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/poisonous-concoction-support-gems",
+      "title": "Poisonous Concoction Best Support Gems",
+      "sourceSkill": "poisonous-concoction",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Poisonous Concoction."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-support-gems",
+      "title": "Earthshatter Best Support Gems",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/ice-strike-support-gems",
+      "title": "Ice Strike Best Support Gems",
+      "sourceSkill": "ice-strike",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Ice Strike."
+    },
+    {
+      "slug": "/guides/skills/explosive-grenade-support-gems",
+      "title": "Explosive Grenade Best Support Gems",
+      "sourceSkill": "explosive-grenade",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Explosive Grenade."
+    },
+    {
+      "slug": "/guides/skills/tempest-bell-support-gems",
+      "title": "Tempest Bell Best Support Gems",
+      "sourceSkill": "tempest-bell",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Tempest Bell."
+    },
+    {
+      "slug": "/guides/skills/ember-fusillade-support-gems",
+      "title": "Ember Fusillade Best Support Gems",
+      "sourceSkill": "ember-fusillade",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Ember Fusillade."
+    },
+    {
+      "slug": "/guides/skills/frostbolt-support-gems",
+      "title": "Frostbolt Best Support Gems",
+      "sourceSkill": "frostbolt",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Frostbolt."
+    },
+    {
+      "slug": "/guides/skills/fireball-support-gems",
+      "title": "Fireball Best Support Gems",
+      "sourceSkill": "fireball",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Fireball."
+    },
+    {
+      "slug": "/guides/skills/spark-support-gems",
+      "title": "Spark Best Support Gems",
+      "sourceSkill": "spark",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Spark."
+    },
+    {
+      "slug": "/guides/skills/ice-nova-support-gems",
+      "title": "Ice Nova Best Support Gems",
+      "sourceSkill": "ice-nova",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Ice Nova."
+    },
+    {
+      "slug": "/guides/skills/chain-lightning-support-gems",
+      "title": "Chain Lightning Best Support Gems",
+      "sourceSkill": "chain-lightning",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Chain Lightning."
+    },
+    {
+      "slug": "/guides/skills/arc-support-gems",
+      "title": "Arc Best Support Gems",
+      "sourceSkill": "arc",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Arc."
+    },
+    {
+      "slug": "/guides/skills/ball-lightning-support-gems",
+      "title": "Ball Lightning Best Support Gems",
+      "sourceSkill": "ball-lightning",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Ball Lightning."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-support-gems",
+      "title": "Flame Wall Best Support Gems",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/ice-spear-support-gems",
+      "title": "Ice Spear Best Support Gems",
+      "sourceSkill": "ice-spear",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Ice Spear."
+    },
+    {
+      "slug": "/guides/skills/meteor-support-gems",
+      "title": "Meteor Best Support Gems",
+      "sourceSkill": "meteor",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Meteor."
+    },
+    {
+      "slug": "/guides/skills/freezing-shards-support-gems",
+      "title": "Freezing Shards Best Support Gems",
+      "sourceSkill": "freezing-shards",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Freezing Shards."
+    },
+    {
+      "slug": "/guides/skills/poison-arrow-support-gems",
+      "title": "Poison Arrow Best Support Gems",
+      "sourceSkill": "poison-arrow",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Poison Arrow."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-support-gems",
+      "title": "Earthshatter Best Support Gems",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/whirlwind-support-gems",
+      "title": "Whirlwind Best Support Gems",
+      "sourceSkill": "whirlwind",
+      "opportunityType": "support-gems",
+      "searchIntent": "support gems",
+      "priorityScore": 80,
+      "reason": "Programmatic long-tail expansion for Whirlwind."
+    },
+    {
+      "slug": "/guides/skills/lightning-arrow-endgame",
+      "title": "Lightning Arrow Endgame Guide",
+      "sourceSkill": "lightning-arrow",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Lightning Arrow."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-endgame",
+      "title": "Flame Wall Endgame Guide",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/poisonous-concoction-endgame",
+      "title": "Poisonous Concoction Endgame Guide",
+      "sourceSkill": "poisonous-concoction",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Poisonous Concoction."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-endgame",
+      "title": "Earthshatter Endgame Guide",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/ice-strike-endgame",
+      "title": "Ice Strike Endgame Guide",
+      "sourceSkill": "ice-strike",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Ice Strike."
+    },
+    {
+      "slug": "/guides/skills/explosive-grenade-endgame",
+      "title": "Explosive Grenade Endgame Guide",
+      "sourceSkill": "explosive-grenade",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Explosive Grenade."
+    },
+    {
+      "slug": "/guides/skills/tempest-bell-endgame",
+      "title": "Tempest Bell Endgame Guide",
+      "sourceSkill": "tempest-bell",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Tempest Bell."
+    },
+    {
+      "slug": "/guides/skills/ember-fusillade-endgame",
+      "title": "Ember Fusillade Endgame Guide",
+      "sourceSkill": "ember-fusillade",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Ember Fusillade."
+    },
+    {
+      "slug": "/guides/skills/frostbolt-endgame",
+      "title": "Frostbolt Endgame Guide",
+      "sourceSkill": "frostbolt",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Frostbolt."
+    },
+    {
+      "slug": "/guides/skills/fireball-endgame",
+      "title": "Fireball Endgame Guide",
+      "sourceSkill": "fireball",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Fireball."
+    },
+    {
+      "slug": "/guides/skills/spark-endgame",
+      "title": "Spark Endgame Guide",
+      "sourceSkill": "spark",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Spark."
+    },
+    {
+      "slug": "/guides/skills/ice-nova-endgame",
+      "title": "Ice Nova Endgame Guide",
+      "sourceSkill": "ice-nova",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Ice Nova."
+    },
+    {
+      "slug": "/guides/skills/chain-lightning-endgame",
+      "title": "Chain Lightning Endgame Guide",
+      "sourceSkill": "chain-lightning",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Chain Lightning."
+    },
+    {
+      "slug": "/guides/skills/arc-endgame",
+      "title": "Arc Endgame Guide",
+      "sourceSkill": "arc",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Arc."
+    },
+    {
+      "slug": "/guides/skills/ball-lightning-endgame",
+      "title": "Ball Lightning Endgame Guide",
+      "sourceSkill": "ball-lightning",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Ball Lightning."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-endgame",
+      "title": "Flame Wall Endgame Guide",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/ice-spear-endgame",
+      "title": "Ice Spear Endgame Guide",
+      "sourceSkill": "ice-spear",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Ice Spear."
+    },
+    {
+      "slug": "/guides/skills/meteor-endgame",
+      "title": "Meteor Endgame Guide",
+      "sourceSkill": "meteor",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Meteor."
+    },
+    {
+      "slug": "/guides/skills/freezing-shards-endgame",
+      "title": "Freezing Shards Endgame Guide",
+      "sourceSkill": "freezing-shards",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Freezing Shards."
+    },
+    {
+      "slug": "/guides/skills/poison-arrow-endgame",
+      "title": "Poison Arrow Endgame Guide",
+      "sourceSkill": "poison-arrow",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Poison Arrow."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-endgame",
+      "title": "Earthshatter Endgame Guide",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/whirlwind-endgame",
+      "title": "Whirlwind Endgame Guide",
+      "sourceSkill": "whirlwind",
+      "opportunityType": "endgame",
+      "searchIntent": "endgame",
+      "priorityScore": 75,
+      "reason": "Programmatic long-tail expansion for Whirlwind."
+    },
+    {
+      "slug": "/guides/skills/lightning-arrow-faq",
+      "title": "Lightning Arrow FAQ",
+      "sourceSkill": "lightning-arrow",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Lightning Arrow."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-faq",
+      "title": "Flame Wall FAQ",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/poisonous-concoction-faq",
+      "title": "Poisonous Concoction FAQ",
+      "sourceSkill": "poisonous-concoction",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Poisonous Concoction."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-faq",
+      "title": "Earthshatter FAQ",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/ice-strike-faq",
+      "title": "Ice Strike FAQ",
+      "sourceSkill": "ice-strike",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Ice Strike."
+    },
+    {
+      "slug": "/guides/skills/explosive-grenade-faq",
+      "title": "Explosive Grenade FAQ",
+      "sourceSkill": "explosive-grenade",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Explosive Grenade."
+    },
+    {
+      "slug": "/guides/skills/tempest-bell-faq",
+      "title": "Tempest Bell FAQ",
+      "sourceSkill": "tempest-bell",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Tempest Bell."
+    },
+    {
+      "slug": "/guides/skills/ember-fusillade-faq",
+      "title": "Ember Fusillade FAQ",
+      "sourceSkill": "ember-fusillade",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Ember Fusillade."
+    },
+    {
+      "slug": "/guides/skills/frostbolt-faq",
+      "title": "Frostbolt FAQ",
+      "sourceSkill": "frostbolt",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Frostbolt."
+    },
+    {
+      "slug": "/guides/skills/fireball-faq",
+      "title": "Fireball FAQ",
+      "sourceSkill": "fireball",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Fireball."
+    },
+    {
+      "slug": "/guides/skills/spark-faq",
+      "title": "Spark FAQ",
+      "sourceSkill": "spark",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Spark."
+    },
+    {
+      "slug": "/guides/skills/ice-nova-faq",
+      "title": "Ice Nova FAQ",
+      "sourceSkill": "ice-nova",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Ice Nova."
+    },
+    {
+      "slug": "/guides/skills/chain-lightning-faq",
+      "title": "Chain Lightning FAQ",
+      "sourceSkill": "chain-lightning",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Chain Lightning."
+    },
+    {
+      "slug": "/guides/skills/arc-faq",
+      "title": "Arc FAQ",
+      "sourceSkill": "arc",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Arc."
+    },
+    {
+      "slug": "/guides/skills/ball-lightning-faq",
+      "title": "Ball Lightning FAQ",
+      "sourceSkill": "ball-lightning",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Ball Lightning."
+    },
+    {
+      "slug": "/guides/skills/flame-wall-faq",
+      "title": "Flame Wall FAQ",
+      "sourceSkill": "flame-wall",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Flame Wall."
+    },
+    {
+      "slug": "/guides/skills/ice-spear-faq",
+      "title": "Ice Spear FAQ",
+      "sourceSkill": "ice-spear",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Ice Spear."
+    },
+    {
+      "slug": "/guides/skills/meteor-faq",
+      "title": "Meteor FAQ",
+      "sourceSkill": "meteor",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Meteor."
+    },
+    {
+      "slug": "/guides/skills/freezing-shards-faq",
+      "title": "Freezing Shards FAQ",
+      "sourceSkill": "freezing-shards",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Freezing Shards."
+    },
+    {
+      "slug": "/guides/skills/poison-arrow-faq",
+      "title": "Poison Arrow FAQ",
+      "sourceSkill": "poison-arrow",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Poison Arrow."
+    },
+    {
+      "slug": "/guides/skills/earthshatter-faq",
+      "title": "Earthshatter FAQ",
+      "sourceSkill": "earthshatter",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Earthshatter."
+    },
+    {
+      "slug": "/guides/skills/whirlwind-faq",
+      "title": "Whirlwind FAQ",
+      "sourceSkill": "whirlwind",
+      "opportunityType": "faq",
+      "searchIntent": "questions",
+      "priorityScore": 60,
+      "reason": "Programmatic long-tail expansion for Whirlwind."
+    }
+  ]
+}
