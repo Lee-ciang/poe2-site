@@ -13,6 +13,7 @@
     "generate-guide:ai": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/generate-guide.ts --ai"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "16.2.6",
     "openai": "^6.37.0",
     "react": "19.2.4",

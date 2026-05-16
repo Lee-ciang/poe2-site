@@ -8,6 +8,10 @@ import {
   getMarkdownGuideParams,
 } from "@/lib/markdown";
 import { createFaqJsonLd, createSeoMetadata, stringifyJsonLd } from "@/lib/seo";
+import {
+  getAllProgrammaticGuides,
+  getProgrammaticGuideBySlug,
+} from "@/lib/programmatic-markdown";
 
 type GuidePageProps = {
   params: Promise<{
@@ -120,7 +124,14 @@ function MarkdownContent({ body }: { body: string }) {
 }
 
 export function generateStaticParams() {
-  return getMarkdownGuideParams();
+  const markdownParams = getMarkdownGuideParams();
+
+  const programmaticParams = getAllProgrammaticGuides().map((guide) => ({
+    type: guide.type,
+    slug: guide.slug,
+  }));
+
+  return [...markdownParams, ...programmaticParams];
 }
 
 export async function generateMetadata({
@@ -134,7 +145,9 @@ export async function generateMetadata({
     };
   }
 
-  const guide = getMarkdownGuide(type, slug);
+  const guide =
+  getMarkdownGuide(type, slug) ??
+  getProgrammaticGuideBySlug(type, slug);
 
   if (!guide) {
     return {
@@ -160,7 +173,9 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
     notFound();
   }
 
-  const guide = getMarkdownGuide(type, slug);
+  const guide =
+  getMarkdownGuide(type, slug) ??
+  getProgrammaticGuideBySlug(type, slug);
 
   if (!guide) {
     notFound();
