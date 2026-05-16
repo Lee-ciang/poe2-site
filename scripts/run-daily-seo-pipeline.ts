@@ -55,6 +55,12 @@ const steps: PipelineStep[] = [
   args: [tsxBin, "scripts/archive-daily-seo-snapshot.ts"],
   required: true,
 },
+{
+  name: "Generate SEO delta report",
+  command: nodeCommand,
+  args: [tsxBin, "scripts/generate-seo-delta-report.ts"],
+  required: false,
+},
 ];
 
 function runStep(step: PipelineStep) {
