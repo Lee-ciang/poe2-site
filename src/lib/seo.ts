@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const siteConfig = {
   name: "POE2 Forge",
-  url: "https://poe2site.com",
+  url: "https://poe2-site-roan.vercel.app",
   description:
     "Path of Exile 2 builds, boss guides, skill explanations, leveling guides, and endgame tools for POE2 players.",
   twitterHandle: "@poe2forge",
