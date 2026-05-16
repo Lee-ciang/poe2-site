@@ -1,0 +1,381 @@
+{
+  "generatedAt": "2026-05-16T05:53:42.259Z",
+  "totalItems": 40,
+  "rankedItems": 40,
+  "scoreboard": [
+    {
+      "page": "/guides/skills/cobra-lash",
+      "type": "refresh",
+      "score": 118,
+      "reasons": [
+        "Near page 1 ranking opportunity",
+        "High impressions with weak CTR",
+        "Receiving impressions but no clicks"
+      ],
+      "source": "refresh-priority-queue.json"
+    },
+    {
+      "page": "/guides/skills/earthquake",
+      "type": "refresh",
+      "score": 116,
+      "reasons": [
+        "Near page 1 ranking opportunity",
+        "High impressions with weak CTR"
+      ],
+      "source": "refresh-priority-queue.json"
+    },
+    {
+      "page": "/guides/skills/cobra-lash",
+      "type": "search-feedback",
+      "score": 88,
+      "reasons": [
+        "high-impression-low-ctr",
+        "near-page-one-opportunity"
+      ],
+      "source": "search-feedback-actions.json"
+    },
+    {
+      "page": "/guides/skills/earthquake",
+      "type": "search-feedback",
+      "score": 81,
+      "reasons": [
+        "high-impression-low-ctr",
+        "near-page-one-opportunity"
+      ],
+      "source": "search-feedback-actions.json"
+    },
+    {
+      "page": "/guides/skills/venom-gyre",
+      "type": "internal-link",
+      "score": 78,
+      "reasons": [
+        "Link to /guides/skills/cobra-lash",
+        "Anchor: poison"
+      ],
+      "source": "internal-link-opportunities.json"
+    },
+    {
+      "page": "/guides/skills/cobra-lash",
+      "type": "internal-link",
+      "score": 76,
+      "reasons": [
+        "Link to /guides/skills/venom-gyre",
+        "Anchor: poison"
+      ],
+      "source": "internal-link-opportunities.json"
+    },
+    {
+      "page": "/guides/skills/cobra-lash",
+      "type": "internal-link",
+      "score": 62,
+      "reasons": [
+        "Link to /guides/skills/toxic-rain",
+        "Anchor: poison"
+      ],
+      "source": "internal-link-opportunities.json"
+    },
+    {
+      "page": "/guides/skills/venom-gyre",
+      "type": "internal-link",
+      "score": 62,
+      "reasons": [
+        "Link to /guides/skills/toxic-rain",
+        "Anchor: poison"
+      ],
+      "source": "internal-link-opportunities.json"
+    },
+    {
+      "page": "/guides/skills/tectonic-slam",
+      "type": "internal-link",
+      "score": 60,
+      "reasons": [
+        "Link to /guides/skills/earthquake",
+        "Anchor: slam"
+      ],
+      "source": "internal-link-opportunities.json"
+    },
+    {
+      "page": "/guides/skills/toxic-rain",
+      "type": "internal-link",
+      "score": 58,
+      "reasons": [
+        "Link to /guides/skills/cobra-lash",
+        "Anchor: poison"
+      ],
+      "source": "internal-link-opportunities.json"
+    },
+    {
+      "page": "/guides/skills/earthquake",
+      "type": "internal-link",
+      "score": 57,
+      "reasons": [
+        "Link to /guides/skills/tectonic-slam",
+        "Anchor: slam"
+      ],
+      "source": "internal-link-opportunities.json"
+    },
+    {
+      "page": "/guides/skills/toxic-rain",
+      "type": "internal-link",
+      "score": 56,
+      "reasons": [
+        "Link to /guides/skills/venom-gyre",
+        "Anchor: poison"
+      ],
+      "source": "internal-link-opportunities.json"
+    },
+    {
+      "page": "/guides/poison-leveling-guide",
+      "type": "topic-expansion",
+      "score": 56,
+      "reasons": [
+        "Expand topical authority for the poison cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/best-poison-skills",
+      "type": "topic-expansion",
+      "score": 56,
+      "reasons": [
+        "Expand topical authority for the poison cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/chaos-poison-build",
+      "type": "topic-expansion",
+      "score": 56,
+      "reasons": [
+        "Expand topical authority for the poison cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/chaos-damage-guide",
+      "type": "topic-expansion",
+      "score": 56,
+      "reasons": [
+        "Expand topical authority for the chaos cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/chaos-resistance-guide",
+      "type": "topic-expansion",
+      "score": 56,
+      "reasons": [
+        "Expand topical authority for the chaos cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/chaos-skill-gems",
+      "type": "topic-expansion",
+      "score": 56,
+      "reasons": [
+        "Expand topical authority for the chaos cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/skills/firestorm",
+      "type": "refresh",
+      "score": 45,
+      "reasons": [
+        "Receiving impressions but no clicks",
+        "Content authority may be insufficient"
+      ],
+      "source": "refresh-priority-queue.json"
+    },
+    {
+      "page": "/guides/skills/toxic-rain",
+      "type": "search-feedback",
+      "score": 39,
+      "reasons": [
+        "high-impression-low-ctr"
+      ],
+      "source": "search-feedback-actions.json"
+    },
+    {
+      "page": "/guides/skills/toxic-rain",
+      "type": "refresh",
+      "score": 39,
+      "reasons": [
+        "High impressions with weak CTR"
+      ],
+      "source": "refresh-priority-queue.json"
+    },
+    {
+      "page": "/guides/slam-skills-guide",
+      "type": "topic-expansion",
+      "score": 37,
+      "reasons": [
+        "Expand topical authority for the slam cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/warrior-slam-build",
+      "type": "topic-expansion",
+      "score": 37,
+      "reasons": [
+        "Expand topical authority for the slam cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/best-slam-support-gems",
+      "type": "topic-expansion",
+      "score": 37,
+      "reasons": [
+        "Expand topical authority for the slam cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/melee-leveling-guide",
+      "type": "topic-expansion",
+      "score": 37,
+      "reasons": [
+        "Expand topical authority for the melee cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/melee-skill-guide",
+      "type": "topic-expansion",
+      "score": 37,
+      "reasons": [
+        "Expand topical authority for the melee cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/best-melee-support-gems",
+      "type": "topic-expansion",
+      "score": 37,
+      "reasons": [
+        "Expand topical authority for the melee cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/skills/firestorm",
+      "type": "search-feedback",
+      "score": 35,
+      "reasons": [
+        "content-depth-or-authority-gap"
+      ],
+      "source": "search-feedback-actions.json"
+    },
+    {
+      "page": "/guides/projectile-skills-guide",
+      "type": "topic-expansion",
+      "score": 34,
+      "reasons": [
+        "Expand topical authority for the projectile cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/projectile-support-gems",
+      "type": "topic-expansion",
+      "score": 34,
+      "reasons": [
+        "Expand topical authority for the projectile cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/projectile-build-guide",
+      "type": "topic-expansion",
+      "score": 34,
+      "reasons": [
+        "Expand topical authority for the projectile cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/bow-guide",
+      "type": "topic-expansion",
+      "score": 22,
+      "reasons": [
+        "Expand topical authority for the bow cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/best-bow-build",
+      "type": "topic-expansion",
+      "score": 22,
+      "reasons": [
+        "Expand topical authority for the bow cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/bow-support-gems",
+      "type": "topic-expansion",
+      "score": 22,
+      "reasons": [
+        "Expand topical authority for the bow cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/warrior-guide",
+      "type": "topic-expansion",
+      "score": 20,
+      "reasons": [
+        "Expand topical authority for the warrior cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/best-warrior-build",
+      "type": "topic-expansion",
+      "score": 20,
+      "reasons": [
+        "Expand topical authority for the warrior cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/warrior-support-gems",
+      "type": "topic-expansion",
+      "score": 20,
+      "reasons": [
+        "Expand topical authority for the warrior cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/fire-damage-guide",
+      "type": "topic-expansion",
+      "score": 17,
+      "reasons": [
+        "Expand topical authority for the fire cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/fire-skill-gems",
+      "type": "topic-expansion",
+      "score": 17,
+      "reasons": [
+        "Expand topical authority for the fire cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    },
+    {
+      "page": "/guides/ignite-build-guide",
+      "type": "topic-expansion",
+      "score": 17,
+      "reasons": [
+        "Expand topical authority for the fire cluster."
+      ],
+      "source": "topic-cluster-expansion.json"
+    }
+  ]
+}

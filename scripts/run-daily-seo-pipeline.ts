@@ -61,6 +61,12 @@ const steps: PipelineStep[] = [
   args: [tsxBin, "scripts/generate-seo-delta-report.ts"],
   required: false,
 },
+{
+  name: "Generate SEO priority scoreboard",
+  command: nodeCommand,
+  args: [tsxBin, "scripts/generate-seo-priority-scoreboard.ts"],
+  required: true,
+},
 ];
 
 function runStep(step: PipelineStep) {
