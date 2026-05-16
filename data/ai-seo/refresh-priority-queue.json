@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-05-16T05:27:34.872Z",
+  "refreshCandidates": 4,
+  "queue": [
+    {
+      "page": "/guides/skills/cobra-lash",
+      "query": "poe2 cobra lash build",
+      "refreshPriority": 118,
+      "reasons": [
+        "Near page 1 ranking opportunity",
+        "High impressions with weak CTR",
+        "Receiving impressions but no clicks"
+      ],
+      "suggestedActions": [
+        "Rewrite SEO title and meta description",
+        "Expand guide depth and FAQ coverage",
+        "Add supporting internal links"
+      ]
+    },
+    {
+      "page": "/guides/skills/earthquake",
+      "query": "poe2 earthquake warrior guide",
+      "refreshPriority": 116,
+      "reasons": [
+        "Near page 1 ranking opportunity",
+        "High impressions with weak CTR"
+      ],
+      "suggestedActions": [
+        "Rewrite SEO title and meta description",
+        "Expand guide depth and FAQ coverage",
+        "Add supporting internal links"
+      ]
+    },
+    {
+      "page": "/guides/skills/firestorm",
+      "query": "poe2 firestorm build",
+      "refreshPriority": 45,
+      "reasons": [
+        "Receiving impressions but no clicks",
+        "Content authority may be insufficient"
+      ],
+      "suggestedActions": [
+        "Increase topical depth and semantic coverage"
+      ]
+    },
+    {
+      "page": "/guides/skills/toxic-rain",
+      "query": "poe2 toxic rain leveling",
+      "refreshPriority": 39,
+      "reasons": [
+        "High impressions with weak CTR"
+      ],
+      "suggestedActions": [
+        "Rewrite SEO title and meta description"
+      ]
+    }
+  ]
+}
