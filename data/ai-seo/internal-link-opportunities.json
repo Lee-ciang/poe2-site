@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-05-16T05:26:15.844Z",
+  "pagesAnalyzed": 5,
+  "opportunitiesFound": 8,
+  "opportunities": [
+    {
+      "source": "/guides/skills/venom-gyre",
+      "target": "/guides/skills/cobra-lash",
+      "sharedKeywords": [
+        "poison",
+        "projectile",
+        "chaos"
+      ],
+      "relevanceScore": 78,
+      "recommendedAnchor": "poison"
+    },
+    {
+      "source": "/guides/skills/cobra-lash",
+      "target": "/guides/skills/venom-gyre",
+      "sharedKeywords": [
+        "poison",
+        "chaos",
+        "projectile"
+      ],
+      "relevanceScore": 76,
+      "recommendedAnchor": "poison"
+    },
+    {
+      "source": "/guides/skills/cobra-lash",
+      "target": "/guides/skills/toxic-rain",
+      "sharedKeywords": [
+        "poison",
+        "chaos"
+      ],
+      "relevanceScore": 62,
+      "recommendedAnchor": "poison"
+    },
+    {
+      "source": "/guides/skills/venom-gyre",
+      "target": "/guides/skills/toxic-rain",
+      "sharedKeywords": [
+        "poison",
+        "chaos"
+      ],
+      "relevanceScore": 62,
+      "recommendedAnchor": "poison"
+    },
+    {
+      "source": "/guides/skills/tectonic-slam",
+      "target": "/guides/skills/earthquake",
+      "sharedKeywords": [
+        "slam",
+        "melee"
+      ],
+      "relevanceScore": 60,
+      "recommendedAnchor": "slam"
+    },
+    {
+      "source": "/guides/skills/toxic-rain",
+      "target": "/guides/skills/cobra-lash",
+      "sharedKeywords": [
+        "poison",
+        "chaos"
+      ],
+      "relevanceScore": 58,
+      "recommendedAnchor": "poison"
+    },
+    {
+      "source": "/guides/skills/earthquake",
+      "target": "/guides/skills/tectonic-slam",
+      "sharedKeywords": [
+        "slam",
+        "melee"
+      ],
+      "relevanceScore": 57,
+      "recommendedAnchor": "slam"
+    },
+    {
+      "source": "/guides/skills/toxic-rain",
+      "target": "/guides/skills/venom-gyre",
+      "sharedKeywords": [
+        "poison",
+        "chaos"
+      ],
+      "relevanceScore": 56,
+      "recommendedAnchor": "poison"
+    }
+  ]
+}

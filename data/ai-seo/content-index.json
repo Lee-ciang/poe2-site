@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "/guides/skills/cobra-lash",
+    "title": "Cobra Lash Guide",
+    "keywords": ["poison", "chaos", "projectile"],
+    "authority": 18
+  },
+  {
+    "slug": "/guides/skills/toxic-rain",
+    "title": "Toxic Rain Guide",
+    "keywords": ["poison", "chaos", "bow"],
+    "authority": 22
+  },
+  {
+    "slug": "/guides/skills/venom-gyre",
+    "title": "Venom Gyre Guide",
+    "keywords": ["poison", "projectile", "chaos"],
+    "authority": 16
+  },
+  {
+    "slug": "/guides/skills/earthquake",
+    "title": "Earthquake Guide",
+    "keywords": ["slam", "melee", "warrior"],
+    "authority": 20
+  },
+  {
+    "slug": "/guides/skills/tectonic-slam",
+    "title": "Tectonic Slam Guide",
+    "keywords": ["slam", "melee", "fire"],
+    "authority": 17
+  }
+]
