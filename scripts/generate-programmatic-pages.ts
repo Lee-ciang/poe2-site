@@ -25,7 +25,7 @@ const outputDir = path.join(
   "skills"
 );
 
-const MAX_PAGES_PER_RUN = 20;
+const MAX_PAGES_PER_RUN = 50;
 
 function ensureDir(dir: string) {
   if (!fs.existsSync(dir)) {

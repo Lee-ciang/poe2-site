@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-16T09:35:32.726Z",
-  "totalUrls": 24,
+  "generatedAt": "2026-05-16T09:39:36.197Z",
+  "totalUrls": 51,
   "urls": [
     {
       "url": "/guides/skills/toxic-rain",
@@ -51,8 +51,24 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/arc-leveling",
+      "title": "Arc Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/ball-lightning-build",
       "title": "Ball Lightning Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/ball-lightning-leveling",
+      "title": "Ball Lightning Leveling Guide",
       "priority": 0.5,
       "changefreq": "weekly",
       "sitemapStatus": "included",
@@ -67,8 +83,32 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/chain-lightning-leveling",
+      "title": "Chain Lightning Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/earthshatter-build",
       "title": "Earthshatter Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/earthshatter-leveling",
+      "title": "Earthshatter Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/earthshatter-support-gems",
+      "title": "Earthshatter Best Support Gems",
       "priority": 0.5,
       "changefreq": "weekly",
       "sitemapStatus": "included",
@@ -83,8 +123,32 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/ember-fusillade-leveling",
+      "title": "Ember Fusillade Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/explosive-grenade-build",
       "title": "Explosive Grenade Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/explosive-grenade-leveling",
+      "title": "Explosive Grenade Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/explosive-grenade-support-gems",
+      "title": "Explosive Grenade Best Support Gems",
       "priority": 0.5,
       "changefreq": "weekly",
       "sitemapStatus": "included",
@@ -99,8 +163,32 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/fireball-leveling",
+      "title": "Fireball Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/flame-wall-build",
       "title": "Flame Wall Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/flame-wall-leveling",
+      "title": "Flame Wall Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/flame-wall-support-gems",
+      "title": "Flame Wall Best Support Gems",
       "priority": 0.5,
       "changefreq": "weekly",
       "sitemapStatus": "included",
@@ -115,8 +203,24 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/freezing-shards-leveling",
+      "title": "Freezing Shards Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/frostbolt-build",
       "title": "Frostbolt Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/frostbolt-leveling",
+      "title": "Frostbolt Leveling Guide",
       "priority": 0.5,
       "changefreq": "weekly",
       "sitemapStatus": "included",
@@ -131,8 +235,24 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/ice-nova-leveling",
+      "title": "Ice Nova Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/ice-spear-build",
       "title": "Ice Spear Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/ice-spear-leveling",
+      "title": "Ice Spear Leveling Guide",
       "priority": 0.5,
       "changefreq": "weekly",
       "sitemapStatus": "included",
@@ -147,8 +267,40 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/ice-strike-leveling",
+      "title": "Ice Strike Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/ice-strike-support-gems",
+      "title": "Ice Strike Best Support Gems",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/lightning-arrow-build",
       "title": "Lightning Arrow Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/lightning-arrow-leveling",
+      "title": "Lightning Arrow Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/lightning-arrow-support-gems",
+      "title": "Lightning Arrow Best Support Gems",
       "priority": 0.5,
       "changefreq": "weekly",
       "sitemapStatus": "included",
@@ -163,8 +315,24 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/meteor-leveling",
+      "title": "Meteor Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/poison-arrow-build",
       "title": "Poison Arrow Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/poison-arrow-leveling",
+      "title": "Poison Arrow Leveling Guide",
       "priority": 0.5,
       "changefreq": "weekly",
       "sitemapStatus": "included",
@@ -179,6 +347,22 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/poisonous-concoction-leveling",
+      "title": "Poisonous Concoction Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/poisonous-concoction-support-gems",
+      "title": "Poisonous Concoction Best Support Gems",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/spark-build",
       "title": "Spark Build Guide",
       "priority": 0.5,
@@ -187,8 +371,40 @@
       "source": "programmatic"
     },
     {
+      "url": "/guides/skills/spark-leveling",
+      "title": "Spark Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
       "url": "/guides/skills/tempest-bell-build",
       "title": "Tempest Bell Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/tempest-bell-leveling",
+      "title": "Tempest Bell Leveling Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/whirlwind-build",
+      "title": "Whirlwind Build Guide",
+      "priority": 0.5,
+      "changefreq": "weekly",
+      "sitemapStatus": "included",
+      "source": "programmatic"
+    },
+    {
+      "url": "/guides/skills/whirlwind-leveling",
+      "title": "Whirlwind Leveling Guide",
       "priority": 0.5,
       "changefreq": "weekly",
       "sitemapStatus": "included",

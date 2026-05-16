@@ -33,7 +33,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/arc-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/ball-lightning-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/ball-lightning-leveling</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -43,7 +53,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/chain-lightning-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/earthshatter-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/earthshatter-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/earthshatter-support-gems</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -53,7 +78,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/ember-fusillade-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/explosive-grenade-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/explosive-grenade-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/explosive-grenade-support-gems</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -63,7 +103,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/fireball-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/flame-wall-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/flame-wall-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/flame-wall-support-gems</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -73,7 +128,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/freezing-shards-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/frostbolt-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/frostbolt-leveling</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -83,7 +148,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/ice-nova-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/ice-spear-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/ice-spear-leveling</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -93,7 +168,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/ice-strike-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/ice-strike-support-gems</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/lightning-arrow-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/lightning-arrow-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/lightning-arrow-support-gems</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -103,7 +198,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/meteor-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/poison-arrow-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/poison-arrow-leveling</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -113,12 +218,42 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/poisonous-concoction-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/poisonous-concoction-support-gems</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/spark-build</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/spark-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://poe2-site-roan.vercel.app/guides/skills/tempest-bell-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/tempest-bell-leveling</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/whirlwind-build</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://poe2-site-roan.vercel.app/guides/skills/whirlwind-leveling</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
