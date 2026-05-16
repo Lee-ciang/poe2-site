@@ -9,7 +9,7 @@ type SitemapUrl = {
   sitemapStatus: string;
 };
 
-const DOMAIN = "https://poe2site.com";
+import { SEO_CONFIG } from "./seo-config";
 
 const sitemapReportPath = path.join(
   process.cwd(),
@@ -59,7 +59,7 @@ function main() {
     .map((item) => {
       return `
   <url>
-    <loc>${escapeXml(DOMAIN + item.url)}</loc>
+    <loc>${escapeXml(SEO_CONFIG.siteUrl + item.url)}</loc>
     <changefreq>${item.changefreq}</changefreq>
     <priority>${item.priority.toFixed(1)}</priority>
   </url>`;

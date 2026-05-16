@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const DOMAIN = "https://poe2site.com";
+import { SEO_CONFIG } from "./seo-config";
 
 const outputDir = path.join(
   process.cwd(),
@@ -21,7 +21,7 @@ function main() {
   const robots = `User-agent: *
 Allow: /
 
-Sitemap: ${DOMAIN}/sitemap.xml
+Sitemap: ${SEO_CONFIG.siteUrl}/sitemap.xml
 `;
 
   fs.writeFileSync(outputPath, robots);
