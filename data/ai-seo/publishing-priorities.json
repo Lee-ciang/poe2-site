@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-05-16T05:05:09.916Z",
+  "totalItems": 8,
+  "topPriority": {
+    "slug": "cobra-lash",
+    "editorialStage": "markdown_draft_blocked",
+    "publishReady": false,
+    "verificationStatus": "pending_verification",
+    "verificationProgress": 0,
+    "blockerCount": 4,
+    "priorityScore": 60,
+    "recommendedAction": "Start verification with official/community source checks."
+  },
+  "priorities": [
+    {
+      "slug": "cobra-lash",
+      "editorialStage": "markdown_draft_blocked",
+      "publishReady": false,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0,
+      "blockerCount": 4,
+      "priorityScore": 60,
+      "recommendedAction": "Start verification with official/community source checks."
+    },
+    {
+      "slug": "earthquake",
+      "editorialStage": "markdown_draft_blocked",
+      "publishReady": false,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0,
+      "blockerCount": 4,
+      "priorityScore": 60,
+      "recommendedAction": "Start verification with official/community source checks."
+    },
+    {
+      "slug": "firestorm",
+      "editorialStage": "markdown_draft_blocked",
+      "publishReady": false,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0,
+      "blockerCount": 4,
+      "priorityScore": 60,
+      "recommendedAction": "Start verification with official/community source checks."
+    },
+    {
+      "slug": "ground-slam",
+      "editorialStage": "markdown_draft_blocked",
+      "publishReady": false,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0,
+      "blockerCount": 4,
+      "priorityScore": 60,
+      "recommendedAction": "Start verification with official/community source checks."
+    },
+    {
+      "slug": "incinerate",
+      "editorialStage": "markdown_draft_blocked",
+      "publishReady": false,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0,
+      "blockerCount": 4,
+      "priorityScore": 60,
+      "recommendedAction": "Start verification with official/community source checks."
+    },
+    {
+      "slug": "tectonic-slam",
+      "editorialStage": "markdown_draft_blocked",
+      "publishReady": false,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0,
+      "blockerCount": 4,
+      "priorityScore": 60,
+      "recommendedAction": "Start verification with official/community source checks."
+    },
+    {
+      "slug": "toxic-rain",
+      "editorialStage": "markdown_draft_blocked",
+      "publishReady": false,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0,
+      "blockerCount": 4,
+      "priorityScore": 60,
+      "recommendedAction": "Start verification with official/community source checks."
+    },
+    {
+      "slug": "venom-gyre",
+      "editorialStage": "markdown_draft_blocked",
+      "publishReady": false,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0,
+      "blockerCount": 4,
+      "priorityScore": 60,
+      "recommendedAction": "Start verification with official/community source checks."
+    }
+  ]
+}

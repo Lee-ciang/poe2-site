@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-05-16T05:07:08.984Z",
+  "queueSize": 3,
+  "strategy": "Small-batch verified publishing to prioritize quality and indexing stability.",
+  "queue": [
+    {
+      "position": 1,
+      "slug": "cobra-lash",
+      "priorityScore": 60,
+      "editorialStage": "markdown_draft_blocked",
+      "verificationStatus": "pending_verification",
+      "recommendedNextStep": "Perform manual verification before publish approval."
+    },
+    {
+      "position": 2,
+      "slug": "earthquake",
+      "priorityScore": 60,
+      "editorialStage": "markdown_draft_blocked",
+      "verificationStatus": "pending_verification",
+      "recommendedNextStep": "Perform manual verification before publish approval."
+    },
+    {
+      "position": 3,
+      "slug": "firestorm",
+      "priorityScore": 60,
+      "editorialStage": "markdown_draft_blocked",
+      "verificationStatus": "pending_verification",
+      "recommendedNextStep": "Perform manual verification before publish approval."
+    }
+  ]
+}

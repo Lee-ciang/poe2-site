@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-05-16T05:13:22.321Z",
+  "simulatedItems": 3,
+  "publishableItems": 0,
+  "blockedItems": 3,
+  "simulations": [
+    {
+      "slug": "cobra-lash",
+      "sourceDraft": "content/drafts/skills/cobra-lash.md",
+      "verificationNote": "content/verification-notes/cobra-lash.md",
+      "targetPath": "content/guides/skills/cobra-lash.md",
+      "canPublish": false,
+      "blockers": [
+        "Final review status is not approved.",
+        "Publish decision is not approve_publish."
+      ]
+    },
+    {
+      "slug": "earthquake",
+      "sourceDraft": "content/drafts/skills/earthquake.md",
+      "verificationNote": "content/verification-notes/earthquake.md",
+      "targetPath": "content/guides/skills/earthquake.md",
+      "canPublish": false,
+      "blockers": [
+        "Final review status is not approved.",
+        "Publish decision is not approve_publish."
+      ]
+    },
+    {
+      "slug": "firestorm",
+      "sourceDraft": "content/drafts/skills/firestorm.md",
+      "verificationNote": "content/verification-notes/firestorm.md",
+      "targetPath": "content/guides/skills/firestorm.md",
+      "canPublish": false,
+      "blockers": [
+        "Final review status is not approved.",
+        "Publish decision is not approve_publish."
+      ]
+    }
+  ]
+}

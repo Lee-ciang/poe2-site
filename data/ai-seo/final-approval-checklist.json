@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-05-16T05:16:06.355Z",
+  "totalItems": 3,
+  "readyForFinalApproval": 0,
+  "blockedItems": 3,
+  "checklistItems": [
+    {
+      "slug": "cobra-lash",
+      "canPublish": false,
+      "blockers": [
+        "Final review status is not approved.",
+        "Publish decision is not approve_publish."
+      ],
+      "finalApprovalChecklist": [
+        {
+          "item": "Verification notes fully completed",
+          "completed": false
+        },
+        {
+          "item": "No unchecked checklist items remain",
+          "completed": false
+        },
+        {
+          "item": "No AI hallucination risks detected",
+          "completed": false
+        },
+        {
+          "item": "SEO metadata manually reviewed",
+          "completed": false
+        },
+        {
+          "item": "Internal links manually reviewed",
+          "completed": false
+        },
+        {
+          "item": "Publish decision approved by human review",
+          "completed": false
+        }
+      ],
+      "finalDecision": "pending"
+    },
+    {
+      "slug": "earthquake",
+      "canPublish": false,
+      "blockers": [
+        "Final review status is not approved.",
+        "Publish decision is not approve_publish."
+      ],
+      "finalApprovalChecklist": [
+        {
+          "item": "Verification notes fully completed",
+          "completed": false
+        },
+        {
+          "item": "No unchecked checklist items remain",
+          "completed": false
+        },
+        {
+          "item": "No AI hallucination risks detected",
+          "completed": false
+        },
+        {
+          "item": "SEO metadata manually reviewed",
+          "completed": false
+        },
+        {
+          "item": "Internal links manually reviewed",
+          "completed": false
+        },
+        {
+          "item": "Publish decision approved by human review",
+          "completed": false
+        }
+      ],
+      "finalDecision": "pending"
+    },
+    {
+      "slug": "firestorm",
+      "canPublish": false,
+      "blockers": [
+        "Final review status is not approved.",
+        "Publish decision is not approve_publish."
+      ],
+      "finalApprovalChecklist": [
+        {
+          "item": "Verification notes fully completed",
+          "completed": false
+        },
+        {
+          "item": "No unchecked checklist items remain",
+          "completed": false
+        },
+        {
+          "item": "No AI hallucination risks detected",
+          "completed": false
+        },
+        {
+          "item": "SEO metadata manually reviewed",
+          "completed": false
+        },
+        {
+          "item": "Internal links manually reviewed",
+          "completed": false
+        },
+        {
+          "item": "Publish decision approved by human review",
+          "completed": false
+        }
+      ],
+      "finalDecision": "pending"
+    }
+  ]
+}

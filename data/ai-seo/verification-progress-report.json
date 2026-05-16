@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-05-15T20:39:43.674Z",
+  "totalItems": 8,
+  "verifiedCandidates": 0,
+  "rewriteRequired": 0,
+  "rejected": 0,
+  "pendingVerification": 8,
+  "items": [
+    {
+      "slug": "cobra-lash",
+      "checkedItems": 0,
+      "uncheckedItems": 12,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0
+    },
+    {
+      "slug": "earthquake",
+      "checkedItems": 0,
+      "uncheckedItems": 12,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0
+    },
+    {
+      "slug": "firestorm",
+      "checkedItems": 0,
+      "uncheckedItems": 12,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0
+    },
+    {
+      "slug": "ground-slam",
+      "checkedItems": 0,
+      "uncheckedItems": 12,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0
+    },
+    {
+      "slug": "incinerate",
+      "checkedItems": 0,
+      "uncheckedItems": 12,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0
+    },
+    {
+      "slug": "tectonic-slam",
+      "checkedItems": 0,
+      "uncheckedItems": 12,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0
+    },
+    {
+      "slug": "toxic-rain",
+      "checkedItems": 0,
+      "uncheckedItems": 12,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0
+    },
+    {
+      "slug": "venom-gyre",
+      "checkedItems": 0,
+      "uncheckedItems": 12,
+      "verificationStatus": "pending_verification",
+      "verificationProgress": 0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-05-16T05:09:53.690Z",
+  "totalFinalReviewItems": 3,
+  "pendingFinalReview": 3,
+  "items": [
+    {
+      "slug": "cobra-lash",
+      "sourceDraft": "content/drafts/skills/cobra-lash.md",
+      "verificationNote": "content/verification-notes/cobra-lash.md",
+      "priorityScore": 60,
+      "finalReviewStatus": "pending",
+      "requiredFinalChecks": [
+        "Confirm verification notes are completed",
+        "Confirm no unchecked verification checklist remains",
+        "Confirm no placeholder text remains",
+        "Confirm SEO title and description are unique",
+        "Confirm internal links are relevant",
+        "Confirm no unverified numerical or meta claims"
+      ],
+      "publishDecision": "not_decided"
+    },
+    {
+      "slug": "earthquake",
+      "sourceDraft": "content/drafts/skills/earthquake.md",
+      "verificationNote": "content/verification-notes/earthquake.md",
+      "priorityScore": 60,
+      "finalReviewStatus": "pending",
+      "requiredFinalChecks": [
+        "Confirm verification notes are completed",
+        "Confirm no unchecked verification checklist remains",
+        "Confirm no placeholder text remains",
+        "Confirm SEO title and description are unique",
+        "Confirm internal links are relevant",
+        "Confirm no unverified numerical or meta claims"
+      ],
+      "publishDecision": "not_decided"
+    },
+    {
+      "slug": "firestorm",
+      "sourceDraft": "content/drafts/skills/firestorm.md",
+      "verificationNote": "content/verification-notes/firestorm.md",
+      "priorityScore": 60,
+      "finalReviewStatus": "pending",
+      "requiredFinalChecks": [
+        "Confirm verification notes are completed",
+        "Confirm no unchecked verification checklist remains",
+        "Confirm no placeholder text remains",
+        "Confirm SEO title and description are unique",
+        "Confirm internal links are relevant",
+        "Confirm no unverified numerical or meta claims"
+      ],
+      "publishDecision": "not_decided"
+    }
+  ]
+}
