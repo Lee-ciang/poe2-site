@@ -283,11 +283,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
 
         <RelatedLinks title="Related Boss Guides" links={relatedBossLinks} />
 
-        <RelatedLinks
-  title="Related Skill Guides"
-  links={relatedSkillLinks}
-/>
-
+       
         <RelatedLinks title="Related Skill Guides" links={relatedSkillLinks} />
 
         <DetailSection title="FAQ">

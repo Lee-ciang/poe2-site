@@ -87,12 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Lightning Arrow Best Support Gems Guides
-
-- [lightning-arrow skill overview](/guides/skills/lightning-arrow)
-- [lightning-arrow skill page](/skills/lightning-arrow)
-- [Lightning Arrow Build Guide](/guides/skills/lightning-arrow-build)
-- [Lightning Arrow Leveling Guide](/guides/skills/lightning-arrow-leveling)
 
 ## Support Gem Priorities
 
@@ -105,4 +99,11 @@ The best support gems for Lightning Arrow should improve the way the skill natur
 - Faster clear speed
 - Lower friction during mapping
 - Synergy with the build's main damage type
+
+## Related Lightning Arrow Best Support Gems Guides
+
+- [lightning-arrow skill overview](/guides/skills/lightning-arrow)
+- [lightning-arrow skill page](/skills/lightning-arrow)
+- [Lightning Arrow Build Guide](/guides/skills/lightning-arrow-build)
+- [Lightning Arrow Leveling Guide](/guides/skills/lightning-arrow-leveling)
 

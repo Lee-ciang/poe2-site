@@ -87,12 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Ice Strike Build Guide Guides
-
-- [ice-strike skill overview](/guides/skills/ice-strike)
-- [ice-strike skill page](/skills/ice-strike)
-- [Ice Strike Leveling Guide](/guides/skills/ice-strike-leveling)
-- [Ice Strike Best Support Gems](/guides/skills/ice-strike-support-gems)
 
 ## Build Direction
 
@@ -105,4 +99,11 @@ A Ice Strike build should focus on making the skill feel reliable before trying 
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
+
+## Related Ice Strike Build Guide Guides
+
+- [ice-strike skill overview](/guides/skills/ice-strike)
+- [ice-strike skill page](/skills/ice-strike)
+- [Ice Strike Leveling Guide](/guides/skills/ice-strike-leveling)
+- [Ice Strike Best Support Gems](/guides/skills/ice-strike-support-gems)
 

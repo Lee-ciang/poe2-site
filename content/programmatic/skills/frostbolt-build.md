@@ -87,11 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Frostbolt Build Guide Guides
-
-- [frostbolt skill overview](/guides/skills/frostbolt)
-- [frostbolt skill page](/skills/frostbolt)
-- [Frostbolt Leveling Guide](/guides/skills/frostbolt-leveling)
 
 ## Build Direction
 
@@ -104,4 +99,10 @@ A Frostbolt build should focus on making the skill feel reliable before trying t
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
+
+## Related Frostbolt Build Guide Guides
+
+- [frostbolt skill overview](/guides/skills/frostbolt)
+- [frostbolt skill page](/skills/frostbolt)
+- [Frostbolt Leveling Guide](/guides/skills/frostbolt-leveling)
 

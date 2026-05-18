@@ -87,11 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Chain Lightning Leveling Guide Guides
-
-- [chain-lightning skill overview](/guides/skills/chain-lightning)
-- [chain-lightning skill page](/skills/chain-lightning)
-- [Chain Lightning Build Guide](/guides/skills/chain-lightning-build)
 
 ## Leveling Strategy
 
@@ -104,4 +99,10 @@ When leveling with Chain Lightning, focus on comfort first. A leveling setup sho
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
+
+## Related Chain Lightning Leveling Guide Guides
+
+- [chain-lightning skill overview](/guides/skills/chain-lightning)
+- [chain-lightning skill page](/skills/chain-lightning)
+- [Chain Lightning Build Guide](/guides/skills/chain-lightning-build)
 

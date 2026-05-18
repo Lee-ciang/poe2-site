@@ -87,11 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Fireball Build Guide Guides
-
-- [fireball skill overview](/guides/skills/fireball)
-- [fireball skill page](/skills/fireball)
-- [Fireball Leveling Guide](/guides/skills/fireball-leveling)
 
 ## Build Direction
 
@@ -104,4 +99,10 @@ A Fireball build should focus on making the skill feel reliable before trying to
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
+
+## Related Fireball Build Guide Guides
+
+- [fireball skill overview](/guides/skills/fireball)
+- [fireball skill page](/skills/fireball)
+- [Fireball Leveling Guide](/guides/skills/fireball-leveling)
 

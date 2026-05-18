@@ -87,11 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Meteor Build Guide Guides
-
-- [meteor skill overview](/guides/skills/meteor)
-- [meteor skill page](/skills/meteor)
-- [Meteor Leveling Guide](/guides/skills/meteor-leveling)
 
 ## Build Direction
 
@@ -104,4 +99,10 @@ A Meteor build should focus on making the skill feel reliable before trying to m
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
+
+## Related Meteor Build Guide Guides
+
+- [meteor skill overview](/guides/skills/meteor)
+- [meteor skill page](/skills/meteor)
+- [Meteor Leveling Guide](/guides/skills/meteor-leveling)
 

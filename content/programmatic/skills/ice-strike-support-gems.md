@@ -87,12 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Ice Strike Best Support Gems Guides
-
-- [ice-strike skill overview](/guides/skills/ice-strike)
-- [ice-strike skill page](/skills/ice-strike)
-- [Ice Strike Build Guide](/guides/skills/ice-strike-build)
-- [Ice Strike Leveling Guide](/guides/skills/ice-strike-leveling)
 
 ## Support Gem Priorities
 
@@ -105,4 +99,11 @@ The best support gems for Ice Strike should improve the way the skill naturally 
 - Faster clear speed
 - Lower friction during mapping
 - Synergy with the build's main damage type
+
+## Related Ice Strike Best Support Gems Guides
+
+- [ice-strike skill overview](/guides/skills/ice-strike)
+- [ice-strike skill page](/skills/ice-strike)
+- [Ice Strike Build Guide](/guides/skills/ice-strike-build)
+- [Ice Strike Leveling Guide](/guides/skills/ice-strike-leveling)
 

@@ -85,7 +85,7 @@ ${lines.join("\n")}
 
 function stripExistingInjectedSection(content: string) {
   return content.replace(
-    /\n## Related [\s\S]*? Guides\n\n(?:- \[[^\]]+\]\([^)]+\)\n?)+/,
+    /\n## Related [\s\S]*? Guides\n\n(?:- \[[^\]]+\]\([^)]+\)\n?)+/g,
     "\n"
   );
 }

@@ -87,11 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Chain Lightning Build Guide Guides
-
-- [chain-lightning skill overview](/guides/skills/chain-lightning)
-- [chain-lightning skill page](/skills/chain-lightning)
-- [Chain Lightning Leveling Guide](/guides/skills/chain-lightning-leveling)
 
 ## Build Direction
 
@@ -104,4 +99,10 @@ A Chain Lightning build should focus on making the skill feel reliable before tr
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
+
+## Related Chain Lightning Build Guide Guides
+
+- [chain-lightning skill overview](/guides/skills/chain-lightning)
+- [chain-lightning skill page](/skills/chain-lightning)
+- [Chain Lightning Leveling Guide](/guides/skills/chain-lightning-leveling)
 

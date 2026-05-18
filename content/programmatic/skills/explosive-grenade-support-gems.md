@@ -87,12 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Explosive Grenade Best Support Gems Guides
-
-- [explosive-grenade skill overview](/guides/skills/explosive-grenade)
-- [explosive-grenade skill page](/skills/explosive-grenade)
-- [Explosive Grenade Build Guide](/guides/skills/explosive-grenade-build)
-- [Explosive Grenade Leveling Guide](/guides/skills/explosive-grenade-leveling)
 
 ## Support Gem Priorities
 
@@ -105,4 +99,11 @@ The best support gems for Explosive Grenade should improve the way the skill nat
 - Faster clear speed
 - Lower friction during mapping
 - Synergy with the build's main damage type
+
+## Related Explosive Grenade Best Support Gems Guides
+
+- [explosive-grenade skill overview](/guides/skills/explosive-grenade)
+- [explosive-grenade skill page](/skills/explosive-grenade)
+- [Explosive Grenade Build Guide](/guides/skills/explosive-grenade-build)
+- [Explosive Grenade Leveling Guide](/guides/skills/explosive-grenade-leveling)
 

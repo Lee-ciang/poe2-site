@@ -87,11 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Arc Leveling Guide Guides
-
-- [arc skill overview](/guides/skills/arc)
-- [arc skill page](/skills/arc)
-- [Arc Build Guide](/guides/skills/arc-build)
 
 ## Leveling Strategy
 
@@ -104,4 +99,10 @@ When leveling with Arc, focus on comfort first. A leveling setup should clear pa
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
+
+## Related Arc Leveling Guide Guides
+
+- [arc skill overview](/guides/skills/arc)
+- [arc skill page](/skills/arc)
+- [Arc Build Guide](/guides/skills/arc-build)
 

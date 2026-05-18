@@ -87,11 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Whirlwind Leveling Guide Guides
-
-- [whirlwind skill overview](/guides/skills/whirlwind)
-- [whirlwind skill page](/skills/whirlwind)
-- [Whirlwind Build Guide](/guides/skills/whirlwind-build)
 
 ## Leveling Strategy
 
@@ -104,4 +99,10 @@ When leveling with Whirlwind, focus on comfort first. A leveling setup should cl
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
+
+## Related Whirlwind Leveling Guide Guides
+
+- [whirlwind skill overview](/guides/skills/whirlwind)
+- [whirlwind skill page](/skills/whirlwind)
+- [Whirlwind Build Guide](/guides/skills/whirlwind-build)
 

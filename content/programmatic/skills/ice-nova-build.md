@@ -87,11 +87,6 @@ Before publishing, verify:
 - The page is not duplicating another guide
 - Internal links point to live pages
 
-## Related Ice Nova Build Guide Guides
-
-- [ice-nova skill overview](/guides/skills/ice-nova)
-- [ice-nova skill page](/skills/ice-nova)
-- [Ice Nova Leveling Guide](/guides/skills/ice-nova-leveling)
 
 ## Build Direction
 
@@ -104,4 +99,10 @@ A Ice Nova build should focus on making the skill feel reliable before trying to
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
+
+## Related Ice Nova Build Guide Guides
+
+- [ice-nova skill overview](/guides/skills/ice-nova)
+- [ice-nova skill page](/skills/ice-nova)
+- [Ice Nova Leveling Guide](/guides/skills/ice-nova-leveling)
 
