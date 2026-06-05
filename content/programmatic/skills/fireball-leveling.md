@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Fireball Leveling Guide Guides
+
+- [fireball skill overview](/guides/skills/fireball)
+- [fireball skill page](/skills/fireball)
+- [Fireball Build Guide](/guides/skills/fireball-build)
+
 ## Leveling Strategy
 
 When leveling with Fireball, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Fireball, focus on comfort first. A leveling setup should cle
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Fireball Leveling Guide Guides
-
-- [fireball skill overview](/guides/skills/fireball)
-- [fireball skill page](/skills/fireball)
-- [Fireball Build Guide](/guides/skills/fireball-build)
 

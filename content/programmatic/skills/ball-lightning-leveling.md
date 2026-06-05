@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Ball Lightning Leveling Guide Guides
+
+- [ball-lightning skill overview](/guides/skills/ball-lightning)
+- [ball-lightning skill page](/skills/ball-lightning)
+- [Ball Lightning Build Guide](/guides/skills/ball-lightning-build)
+
 ## Leveling Strategy
 
 When leveling with Ball Lightning, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Ball Lightning, focus on comfort first. A leveling setup shou
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Ball Lightning Leveling Guide Guides
-
-- [ball-lightning skill overview](/guides/skills/ball-lightning)
-- [ball-lightning skill page](/skills/ball-lightning)
-- [Ball Lightning Build Guide](/guides/skills/ball-lightning-build)
 

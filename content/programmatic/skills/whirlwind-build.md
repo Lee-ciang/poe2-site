@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Whirlwind Build Guide Guides
+
+- [whirlwind skill overview](/guides/skills/whirlwind)
+- [whirlwind skill page](/skills/whirlwind)
+- [Whirlwind Leveling Guide](/guides/skills/whirlwind-leveling)
+
 ## Build Direction
 
 A Whirlwind build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
@@ -99,10 +106,4 @@ A Whirlwind build should focus on making the skill feel reliable before trying t
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
-## Related Whirlwind Build Guide Guides
-
-- [whirlwind skill overview](/guides/skills/whirlwind)
-- [whirlwind skill page](/skills/whirlwind)
-- [Whirlwind Leveling Guide](/guides/skills/whirlwind-leveling)
 

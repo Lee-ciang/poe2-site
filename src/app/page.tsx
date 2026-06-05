@@ -18,19 +18,19 @@ const upcomingSections = [
       "Browse skill scaling, support gems, weapon requirements, and endgame use cases.",
   },
   {
-    id: "tools",
-    title: "Build Tools",
-    href: "/#tools",
-    description:
-      "Coming soon with planners, calculators, and reusable build tooling.",
-  },
-  {
-    id: "guides",
-    title: "Leveling Guides",
-    href: "/#guides",
-    description:
-      "Coming soon with campaign walkthroughs and progression checklists.",
-  },
+  id: "tools",
+  title: "Build Tools",
+  href: "/builds",
+  description:
+    "Browse featured builds, archetypes, and reusable build planning notes.",
+},
+{
+  id: "guides",
+  title: "Leveling Guides",
+  href: "/guides",
+  description:
+    "Browse leveling guides, skill explainers, and progression checklists.",
+},
 ];
 
 export default function HomePage() {

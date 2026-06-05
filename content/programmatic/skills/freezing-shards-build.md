@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Freezing Shards Build Guide Guides
+
+- [freezing-shards skill overview](/guides/skills/freezing-shards)
+- [freezing-shards skill page](/skills/freezing-shards)
+- [Freezing Shards Leveling Guide](/guides/skills/freezing-shards-leveling)
+
 ## Build Direction
 
 A Freezing Shards build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
@@ -99,10 +106,4 @@ A Freezing Shards build should focus on making the skill feel reliable before tr
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
-## Related Freezing Shards Build Guide Guides
-
-- [freezing-shards skill overview](/guides/skills/freezing-shards)
-- [freezing-shards skill page](/skills/freezing-shards)
-- [Freezing Shards Leveling Guide](/guides/skills/freezing-shards-leveling)
 

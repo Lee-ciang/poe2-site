@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Spark Build Guide Guides
+
+- [spark skill overview](/guides/skills/spark)
+- [spark skill page](/skills/spark)
+- [Spark Leveling Guide](/guides/skills/spark-leveling)
+
 ## Build Direction
 
 A Spark build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
@@ -99,10 +106,4 @@ A Spark build should focus on making the skill feel reliable before trying to ma
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
-## Related Spark Build Guide Guides
-
-- [spark skill overview](/guides/skills/spark)
-- [spark skill page](/skills/spark)
-- [Spark Leveling Guide](/guides/skills/spark-leveling)
 

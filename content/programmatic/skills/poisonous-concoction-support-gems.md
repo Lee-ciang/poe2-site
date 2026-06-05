@@ -88,6 +88,14 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Poisonous Concoction Best Support Gems Guides
+
+- [poisonous-concoction skill overview](/guides/skills/poisonous-concoction)
+- [poisonous-concoction skill page](/skills/poisonous-concoction)
+- [Poisonous Concoction Build Guide](/guides/skills/poisonous-concoction-build)
+- [Poisonous Concoction Leveling Guide](/guides/skills/poisonous-concoction-leveling)
+
 ## Support Gem Priorities
 
 The best support gems for Poisonous Concoction should improve the way the skill naturally plays. Do not only chase tooltip damage. Prioritize supports that improve real combat performance.
@@ -99,11 +107,4 @@ The best support gems for Poisonous Concoction should improve the way the skill 
 - Faster clear speed
 - Lower friction during mapping
 - Synergy with the build's main damage type
-
-## Related Poisonous Concoction Best Support Gems Guides
-
-- [poisonous-concoction skill overview](/guides/skills/poisonous-concoction)
-- [poisonous-concoction skill page](/skills/poisonous-concoction)
-- [Poisonous Concoction Build Guide](/guides/skills/poisonous-concoction-build)
-- [Poisonous Concoction Leveling Guide](/guides/skills/poisonous-concoction-leveling)
 

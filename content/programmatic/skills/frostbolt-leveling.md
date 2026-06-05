@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Frostbolt Leveling Guide Guides
+
+- [frostbolt skill overview](/guides/skills/frostbolt)
+- [frostbolt skill page](/skills/frostbolt)
+- [Frostbolt Build Guide](/guides/skills/frostbolt-build)
+
 ## Leveling Strategy
 
 When leveling with Frostbolt, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Frostbolt, focus on comfort first. A leveling setup should cl
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Frostbolt Leveling Guide Guides
-
-- [frostbolt skill overview](/guides/skills/frostbolt)
-- [frostbolt skill page](/skills/frostbolt)
-- [Frostbolt Build Guide](/guides/skills/frostbolt-build)
 

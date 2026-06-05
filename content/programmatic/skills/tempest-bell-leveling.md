@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Tempest Bell Leveling Guide Guides
+
+- [tempest-bell skill overview](/guides/skills/tempest-bell)
+- [tempest-bell skill page](/skills/tempest-bell)
+- [Tempest Bell Build Guide](/guides/skills/tempest-bell-build)
+
 ## Leveling Strategy
 
 When leveling with Tempest Bell, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Tempest Bell, focus on comfort first. A leveling setup should
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Tempest Bell Leveling Guide Guides
-
-- [tempest-bell skill overview](/guides/skills/tempest-bell)
-- [tempest-bell skill page](/skills/tempest-bell)
-- [Tempest Bell Build Guide](/guides/skills/tempest-bell-build)
 

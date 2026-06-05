@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Ball Lightning Build Guide Guides
+
+- [ball-lightning skill overview](/guides/skills/ball-lightning)
+- [ball-lightning skill page](/skills/ball-lightning)
+- [Ball Lightning Leveling Guide](/guides/skills/ball-lightning-leveling)
+
 ## Build Direction
 
 A Ball Lightning build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
@@ -99,10 +106,4 @@ A Ball Lightning build should focus on making the skill feel reliable before try
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
-## Related Ball Lightning Build Guide Guides
-
-- [ball-lightning skill overview](/guides/skills/ball-lightning)
-- [ball-lightning skill page](/skills/ball-lightning)
-- [Ball Lightning Leveling Guide](/guides/skills/ball-lightning-leveling)
 

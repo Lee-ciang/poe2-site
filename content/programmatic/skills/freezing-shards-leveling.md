@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Freezing Shards Leveling Guide Guides
+
+- [freezing-shards skill overview](/guides/skills/freezing-shards)
+- [freezing-shards skill page](/skills/freezing-shards)
+- [Freezing Shards Build Guide](/guides/skills/freezing-shards-build)
+
 ## Leveling Strategy
 
 When leveling with Freezing Shards, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Freezing Shards, focus on comfort first. A leveling setup sho
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Freezing Shards Leveling Guide Guides
-
-- [freezing-shards skill overview](/guides/skills/freezing-shards)
-- [freezing-shards skill page](/skills/freezing-shards)
-- [Freezing Shards Build Guide](/guides/skills/freezing-shards-build)
 

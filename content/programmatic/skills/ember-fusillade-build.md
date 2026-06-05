@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Ember Fusillade Build Guide Guides
+
+- [ember-fusillade skill overview](/guides/skills/ember-fusillade)
+- [ember-fusillade skill page](/skills/ember-fusillade)
+- [Ember Fusillade Leveling Guide](/guides/skills/ember-fusillade-leveling)
+
 ## Build Direction
 
 A Ember Fusillade build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
@@ -99,10 +106,4 @@ A Ember Fusillade build should focus on making the skill feel reliable before tr
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
-## Related Ember Fusillade Build Guide Guides
-
-- [ember-fusillade skill overview](/guides/skills/ember-fusillade)
-- [ember-fusillade skill page](/skills/ember-fusillade)
-- [Ember Fusillade Leveling Guide](/guides/skills/ember-fusillade-leveling)
 

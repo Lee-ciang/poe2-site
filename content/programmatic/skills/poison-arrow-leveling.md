@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Poison Arrow Leveling Guide Guides
+
+- [poison-arrow skill overview](/guides/skills/poison-arrow)
+- [poison-arrow skill page](/skills/poison-arrow)
+- [Poison Arrow Build Guide](/guides/skills/poison-arrow-build)
+
 ## Leveling Strategy
 
 When leveling with Poison Arrow, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Poison Arrow, focus on comfort first. A leveling setup should
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Poison Arrow Leveling Guide Guides
-
-- [poison-arrow skill overview](/guides/skills/poison-arrow)
-- [poison-arrow skill page](/skills/poison-arrow)
-- [Poison Arrow Build Guide](/guides/skills/poison-arrow-build)
 

@@ -88,6 +88,14 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Lightning Arrow Leveling Guide Guides
+
+- [lightning-arrow skill overview](/guides/skills/lightning-arrow)
+- [lightning-arrow skill page](/skills/lightning-arrow)
+- [Lightning Arrow Build Guide](/guides/skills/lightning-arrow-build)
+- [Lightning Arrow Best Support Gems](/guides/skills/lightning-arrow-support-gems)
+
 ## Leveling Strategy
 
 When leveling with Lightning Arrow, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,11 +107,4 @@ When leveling with Lightning Arrow, focus on comfort first. A leveling setup sho
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Lightning Arrow Leveling Guide Guides
-
-- [lightning-arrow skill overview](/guides/skills/lightning-arrow)
-- [lightning-arrow skill page](/skills/lightning-arrow)
-- [Lightning Arrow Build Guide](/guides/skills/lightning-arrow-build)
-- [Lightning Arrow Best Support Gems](/guides/skills/lightning-arrow-support-gems)
 

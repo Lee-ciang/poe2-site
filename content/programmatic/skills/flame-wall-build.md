@@ -88,6 +88,14 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Flame Wall Build Guide Guides
+
+- [flame-wall skill overview](/guides/skills/flame-wall)
+- [flame-wall skill page](/skills/flame-wall)
+- [Flame Wall Leveling Guide](/guides/skills/flame-wall-leveling)
+- [Flame Wall Best Support Gems](/guides/skills/flame-wall-support-gems)
+
 ## Build Direction
 
 A Flame Wall build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
@@ -99,11 +107,4 @@ A Flame Wall build should focus on making the skill feel reliable before trying 
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
-## Related Flame Wall Build Guide Guides
-
-- [flame-wall skill overview](/guides/skills/flame-wall)
-- [flame-wall skill page](/skills/flame-wall)
-- [Flame Wall Leveling Guide](/guides/skills/flame-wall-leveling)
-- [Flame Wall Best Support Gems](/guides/skills/flame-wall-support-gems)
 

@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Ember Fusillade Leveling Guide Guides
+
+- [ember-fusillade skill overview](/guides/skills/ember-fusillade)
+- [ember-fusillade skill page](/skills/ember-fusillade)
+- [Ember Fusillade Build Guide](/guides/skills/ember-fusillade-build)
+
 ## Leveling Strategy
 
 When leveling with Ember Fusillade, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Ember Fusillade, focus on comfort first. A leveling setup sho
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Ember Fusillade Leveling Guide Guides
-
-- [ember-fusillade skill overview](/guides/skills/ember-fusillade)
-- [ember-fusillade skill page](/skills/ember-fusillade)
-- [Ember Fusillade Build Guide](/guides/skills/ember-fusillade-build)
 

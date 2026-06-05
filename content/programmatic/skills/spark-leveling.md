@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Spark Leveling Guide Guides
+
+- [spark skill overview](/guides/skills/spark)
+- [spark skill page](/skills/spark)
+- [Spark Build Guide](/guides/skills/spark-build)
+
 ## Leveling Strategy
 
 When leveling with Spark, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Spark, focus on comfort first. A leveling setup should clear 
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Spark Leveling Guide Guides
-
-- [spark skill overview](/guides/skills/spark)
-- [spark skill page](/skills/spark)
-- [Spark Build Guide](/guides/skills/spark-build)
 

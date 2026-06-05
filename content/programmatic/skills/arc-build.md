@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Arc Build Guide Guides
+
+- [arc skill overview](/guides/skills/arc)
+- [arc skill page](/skills/arc)
+- [Arc Leveling Guide](/guides/skills/arc-leveling)
+
 ## Build Direction
 
 A Arc build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
@@ -99,10 +106,4 @@ A Arc build should focus on making the skill feel reliable before trying to maxi
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
-## Related Arc Build Guide Guides
-
-- [arc skill overview](/guides/skills/arc)
-- [arc skill page](/skills/arc)
-- [Arc Leveling Guide](/guides/skills/arc-leveling)
 

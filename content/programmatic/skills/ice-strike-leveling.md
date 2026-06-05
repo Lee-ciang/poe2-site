@@ -88,6 +88,14 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Ice Strike Leveling Guide Guides
+
+- [ice-strike skill overview](/guides/skills/ice-strike)
+- [ice-strike skill page](/skills/ice-strike)
+- [Ice Strike Build Guide](/guides/skills/ice-strike-build)
+- [Ice Strike Best Support Gems](/guides/skills/ice-strike-support-gems)
+
 ## Leveling Strategy
 
 When leveling with Ice Strike, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,11 +107,4 @@ When leveling with Ice Strike, focus on comfort first. A leveling setup should c
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Ice Strike Leveling Guide Guides
-
-- [ice-strike skill overview](/guides/skills/ice-strike)
-- [ice-strike skill page](/skills/ice-strike)
-- [Ice Strike Build Guide](/guides/skills/ice-strike-build)
-- [Ice Strike Best Support Gems](/guides/skills/ice-strike-support-gems)
 

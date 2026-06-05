@@ -88,6 +88,14 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Flame Wall Leveling Guide Guides
+
+- [flame-wall skill overview](/guides/skills/flame-wall)
+- [flame-wall skill page](/skills/flame-wall)
+- [Flame Wall Build Guide](/guides/skills/flame-wall-build)
+- [Flame Wall Best Support Gems](/guides/skills/flame-wall-support-gems)
+
 ## Leveling Strategy
 
 When leveling with Flame Wall, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,11 +107,4 @@ When leveling with Flame Wall, focus on comfort first. A leveling setup should c
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Flame Wall Leveling Guide Guides
-
-- [flame-wall skill overview](/guides/skills/flame-wall)
-- [flame-wall skill page](/skills/flame-wall)
-- [Flame Wall Build Guide](/guides/skills/flame-wall-build)
-- [Flame Wall Best Support Gems](/guides/skills/flame-wall-support-gems)
 

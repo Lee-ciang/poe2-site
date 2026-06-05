@@ -88,6 +88,14 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Earthshatter Leveling Guide Guides
+
+- [earthshatter skill overview](/guides/skills/earthshatter)
+- [earthshatter skill page](/skills/earthshatter)
+- [Earthshatter Build Guide](/guides/skills/earthshatter-build)
+- [Earthshatter Best Support Gems](/guides/skills/earthshatter-support-gems)
+
 ## Leveling Strategy
 
 When leveling with Earthshatter, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,11 +107,4 @@ When leveling with Earthshatter, focus on comfort first. A leveling setup should
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Earthshatter Leveling Guide Guides
-
-- [earthshatter skill overview](/guides/skills/earthshatter)
-- [earthshatter skill page](/skills/earthshatter)
-- [Earthshatter Build Guide](/guides/skills/earthshatter-build)
-- [Earthshatter Best Support Gems](/guides/skills/earthshatter-support-gems)
 

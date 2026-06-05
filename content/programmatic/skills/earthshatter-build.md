@@ -88,6 +88,14 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Earthshatter Build Guide Guides
+
+- [earthshatter skill overview](/guides/skills/earthshatter)
+- [earthshatter skill page](/skills/earthshatter)
+- [Earthshatter Leveling Guide](/guides/skills/earthshatter-leveling)
+- [Earthshatter Best Support Gems](/guides/skills/earthshatter-support-gems)
+
 ## Build Direction
 
 A Earthshatter build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
@@ -99,11 +107,4 @@ A Earthshatter build should focus on making the skill feel reliable before tryin
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
-## Related Earthshatter Build Guide Guides
-
-- [earthshatter skill overview](/guides/skills/earthshatter)
-- [earthshatter skill page](/skills/earthshatter)
-- [Earthshatter Leveling Guide](/guides/skills/earthshatter-leveling)
-- [Earthshatter Best Support Gems](/guides/skills/earthshatter-support-gems)
 

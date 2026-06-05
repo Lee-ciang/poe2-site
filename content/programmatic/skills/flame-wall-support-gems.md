@@ -88,6 +88,14 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Flame Wall Best Support Gems Guides
+
+- [flame-wall skill overview](/guides/skills/flame-wall)
+- [flame-wall skill page](/skills/flame-wall)
+- [Flame Wall Build Guide](/guides/skills/flame-wall-build)
+- [Flame Wall Leveling Guide](/guides/skills/flame-wall-leveling)
+
 ## Support Gem Priorities
 
 The best support gems for Flame Wall should improve the way the skill naturally plays. Do not only chase tooltip damage. Prioritize supports that improve real combat performance.
@@ -99,11 +107,4 @@ The best support gems for Flame Wall should improve the way the skill naturally 
 - Faster clear speed
 - Lower friction during mapping
 - Synergy with the build's main damage type
-
-## Related Flame Wall Best Support Gems Guides
-
-- [flame-wall skill overview](/guides/skills/flame-wall)
-- [flame-wall skill page](/skills/flame-wall)
-- [Flame Wall Build Guide](/guides/skills/flame-wall-build)
-- [Flame Wall Leveling Guide](/guides/skills/flame-wall-leveling)
 

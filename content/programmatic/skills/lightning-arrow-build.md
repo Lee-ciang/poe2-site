@@ -88,6 +88,14 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Lightning Arrow Build Guide Guides
+
+- [lightning-arrow skill overview](/guides/skills/lightning-arrow)
+- [lightning-arrow skill page](/skills/lightning-arrow)
+- [Lightning Arrow Leveling Guide](/guides/skills/lightning-arrow-leveling)
+- [Lightning Arrow Best Support Gems](/guides/skills/lightning-arrow-support-gems)
+
 ## Build Direction
 
 A Lightning Arrow build should focus on making the skill feel reliable before trying to maximize raw damage. Prioritize smooth clear, enough recovery, and support gems that improve consistency.
@@ -99,11 +107,4 @@ A Lightning Arrow build should focus on making the skill feel reliable before tr
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
-## Related Lightning Arrow Build Guide Guides
-
-- [lightning-arrow skill overview](/guides/skills/lightning-arrow)
-- [lightning-arrow skill page](/skills/lightning-arrow)
-- [Lightning Arrow Leveling Guide](/guides/skills/lightning-arrow-leveling)
-- [Lightning Arrow Best Support Gems](/guides/skills/lightning-arrow-support-gems)
 

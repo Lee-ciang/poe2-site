@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Ice Nova Leveling Guide Guides
+
+- [ice-nova skill overview](/guides/skills/ice-nova)
+- [ice-nova skill page](/skills/ice-nova)
+- [Ice Nova Build Guide](/guides/skills/ice-nova-build)
+
 ## Leveling Strategy
 
 When leveling with Ice Nova, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Ice Nova, focus on comfort first. A leveling setup should cle
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Ice Nova Leveling Guide Guides
-
-- [ice-nova skill overview](/guides/skills/ice-nova)
-- [ice-nova skill page](/skills/ice-nova)
-- [Ice Nova Build Guide](/guides/skills/ice-nova-build)
 

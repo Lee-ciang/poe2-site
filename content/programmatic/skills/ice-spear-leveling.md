@@ -88,6 +88,13 @@ Before publishing, verify:
 - Internal links point to live pages
 
 
+
+## Related Ice Spear Leveling Guide Guides
+
+- [ice-spear skill overview](/guides/skills/ice-spear)
+- [ice-spear skill page](/skills/ice-spear)
+- [Ice Spear Build Guide](/guides/skills/ice-spear-build)
+
 ## Leveling Strategy
 
 When leveling with Ice Spear, focus on comfort first. A leveling setup should clear packs reliably, avoid awkward downtime, and work with gear that is easy to find during the campaign.
@@ -99,10 +106,4 @@ When leveling with Ice Spear, focus on comfort first. A leveling setup should cl
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-
-## Related Ice Spear Leveling Guide Guides
-
-- [ice-spear skill overview](/guides/skills/ice-spear)
-- [ice-spear skill page](/skills/ice-spear)
-- [Ice Spear Build Guide](/guides/skills/ice-spear-build)
 
