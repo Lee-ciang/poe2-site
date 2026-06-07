@@ -65,60 +65,159 @@ function renderInline(text: string) {
   });
 }
 
+function isLegacyRelatedHeading(line: string) {
+  return /^##\s+(Related Guides|Related .* Guides|Related Skill Guides|Internal Link Suggestions)\s*$/i.test(
+    line,
+  );
+}
+
+function extractLegacyRelatedGuidePaths(body: string) {
+  const paths = new Set<string>();
+  const lines = body.replace(/\r\n/g, "\n").split("\n");
+
+  for (let index = 0; index < lines.length; index += 1) {
+    if (!isLegacyRelatedHeading(lines[index].trim())) {
+      continue;
+    }
+
+    for (
+      let sectionIndex = index + 1;
+      sectionIndex < lines.length &&
+      !/^##\s+/.test(lines[sectionIndex].trim());
+      sectionIndex += 1
+    ) {
+      const matches = lines[sectionIndex].matchAll(/\/guides\/[a-z0-9_./-]+/gi);
+
+      for (const match of matches) {
+        paths.add(match[0].replace(/[).,]+$/, ""));
+      }
+    }
+  }
+
+  return [...paths];
+}
+
+function getRenderableLines(body: string) {
+  const sourceLines = body.replace(/\r\n/g, "\n").split("\n");
+  const lines: string[] = [];
+
+  for (let index = 0; index < sourceLines.length; index += 1) {
+    const trimmed = sourceLines[index].trim();
+
+    if (isLegacyRelatedHeading(trimmed)) {
+      while (
+        index + 1 < sourceLines.length &&
+        !/^##\s+/.test(sourceLines[index + 1].trim())
+      ) {
+        index += 1;
+      }
+
+      continue;
+    }
+
+    lines.push(sourceLines[index]);
+  }
+
+  return lines;
+}
+
 function MarkdownContent({ body }: { body: string }) {
-  const blocks = body.split(/\n{2,}/);
+  const lines = getRenderableLines(body);
+  const nodes: React.ReactNode[] = [];
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const trimmed = lines[index].trim();
+
+    if (!trimmed) {
+      continue;
+    }
+
+    if (trimmed.startsWith("### ")) {
+      nodes.push(
+        <h3
+          key={`${trimmed}-${index}`}
+          className="text-xl font-black text-white"
+        >
+          {trimmed.replace(/^### /, "")}
+        </h3>,
+      );
+
+      continue;
+    }
+
+    if (trimmed.startsWith("## ")) {
+      nodes.push(
+        <h2
+          key={`${trimmed}-${index}`}
+          className="pt-4 text-2xl font-black text-white sm:text-3xl"
+        >
+          {trimmed.replace(/^## /, "")}
+        </h2>,
+      );
+
+      continue;
+    }
+
+    if (trimmed.startsWith("# ")) {
+      nodes.push(
+        <h2
+          key={`${trimmed}-${index}`}
+          className="pt-4 text-2xl font-black text-white sm:text-3xl"
+        >
+          {trimmed.replace(/^# /, "")}
+        </h2>,
+      );
+
+      continue;
+    }
+
+    if (trimmed.startsWith("- ")) {
+      const items: string[] = [];
+
+      while (index < lines.length && lines[index].trim().startsWith("- ")) {
+        items.push(lines[index].trim().replace(/^- /, ""));
+        index += 1;
+      }
+
+      index -= 1;
+
+      nodes.push(
+        <ul key={`${trimmed}-${index}`} className="grid gap-3 text-zinc-400">
+          {items.map((item) => (
+            <li key={item} className="flex gap-3 leading-7">
+              <span className="mt-3 size-1.5 shrink-0 rounded-full bg-orange-500" />
+              <span>{renderInline(item)}</span>
+            </li>
+          ))}
+        </ul>,
+      );
+
+      continue;
+    }
+
+    const paragraphLines = [trimmed];
+
+    while (
+      index + 1 < lines.length &&
+      lines[index + 1].trim() &&
+      !lines[index + 1].trim().startsWith("#") &&
+      !lines[index + 1].trim().startsWith("- ") &&
+      !isLegacyRelatedHeading(lines[index + 1].trim())
+    ) {
+      index += 1;
+      paragraphLines.push(lines[index].trim());
+    }
+
+    nodes.push(
+      <p key={`${trimmed}-${index}`} className="leading-8 text-zinc-400">
+        {renderInline(paragraphLines.join(" ").replace(/\s{2,}/g, " "))}
+      </p>,
+    );
+  }
 
   return (
     <div className="grid gap-6">
-      {blocks.map((block, index) => {
-        const trimmed = block.trim();
-
-        if (trimmed.startsWith("## ")) {
-          return (
-            <h2
-              key={`${trimmed}-${index}`}
-              className="pt-4 text-3xl font-black text-white"
-            >
-              {trimmed.replace(/^## /, "")}
-            </h2>
-          );
-        }
-
-        if (trimmed.startsWith("### ")) {
-          return (
-            <h3
-              key={`${trimmed}-${index}`}
-              className="text-xl font-black text-white"
-            >
-              {trimmed.replace(/^### /, "")}
-            </h3>
-          );
-        }
-
-        if (trimmed.includes("\n- ")) {
-          const items = trimmed
-            .split(/\r?\n/)
-            .filter((line) => line.startsWith("- "))
-            .map((line) => line.replace(/^- /, ""));
-
-          return (
-            <ul key={`${trimmed}-${index}`} className="grid gap-3 text-zinc-400">
-              {items.map((item) => (
-                <li key={item} className="flex gap-3 leading-7">
-                  <span className="mt-3 size-1.5 shrink-0 rounded-full bg-orange-500" />
-                  <span>{renderInline(item)}</span>
-                </li>
-              ))}
-            </ul>
-          );
-        }
-
-        return (
-          <p key={`${trimmed}-${index}`} className="leading-8 text-zinc-400">
-            {renderInline(trimmed)}
-          </p>
-        );
-      })}
+      {nodes}
     </div>
   );
 }
@@ -184,9 +283,28 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
   const faqJsonLd =
   guide.faqItems.length > 0 ? createFaqJsonLd(guide.faqItems) : null;
 
-  const suggestedGuides = getAllMarkdownGuides().filter((candidate) =>
-  guide.suggestedGuidePaths.includes(candidate.path),
+  const allGuideCandidates = [
+    ...getAllMarkdownGuides(),
+    ...getAllProgrammaticGuides(),
+  ];
+  const guideCandidateByPath = new Map(
+    allGuideCandidates.map((candidate) => [candidate.path, candidate]),
   );
+  const suggestedGuidePaths = [
+    ...extractLegacyRelatedGuidePaths(guide.body),
+    ...guide.suggestedGuidePaths,
+  ].filter((path, index, paths) => {
+    return (
+      path !== guide.path &&
+      paths.indexOf(path) === index &&
+      guideCandidateByPath.has(path)
+    );
+  });
+  const suggestedGuides = suggestedGuidePaths
+    .map((path) => guideCandidateByPath.get(path))
+    .filter((candidate): candidate is NonNullable<typeof candidate> =>
+      Boolean(candidate),
+    );
 
   return (
     <main className="flex-1 bg-black text-white">
