@@ -1,0 +1,522 @@
+{
+  "createdAt": "2026-06-07T05:16:07.795Z",
+  "files": {
+    "search-console-intelligence.json": {
+      "generatedAt": "2026-06-07T05:16:05.441Z",
+      "source": "D:\\poe2-site\\data\\ai-seo\\search-console-export.json",
+      "rowsImported": 4,
+      "opportunitiesFound": 4,
+      "opportunities": [
+        {
+          "page": "/guides/skills/earthquake",
+          "query": "poe2 earthquake warrior guide",
+          "clicks": 2,
+          "impressions": 260,
+          "ctr": 0.0077,
+          "position": 17.4,
+          "opportunityFlags": [
+            "high-impression-low-ctr",
+            "near-page-one-opportunity"
+          ]
+        },
+        {
+          "page": "/guides/skills/cobra-lash",
+          "query": "poe2 cobra lash build",
+          "clicks": 0,
+          "impressions": 180,
+          "ctr": 0,
+          "position": 11.8,
+          "opportunityFlags": [
+            "high-impression-low-ctr",
+            "near-page-one-opportunity"
+          ]
+        },
+        {
+          "page": "/guides/skills/toxic-rain",
+          "query": "poe2 toxic rain leveling",
+          "clicks": 1,
+          "impressions": 140,
+          "ctr": 0.0071,
+          "position": 8.6,
+          "opportunityFlags": [
+            "high-impression-low-ctr"
+          ]
+        },
+        {
+          "page": "/guides/skills/firestorm",
+          "query": "poe2 firestorm build",
+          "clicks": 0,
+          "impressions": 95,
+          "ctr": 0,
+          "position": 23.2,
+          "opportunityFlags": [
+            "content-depth-or-authority-gap"
+          ]
+        }
+      ]
+    },
+    "search-feedback-actions.json": {
+      "generatedAt": "2026-06-07T05:16:05.817Z",
+      "source": "D:\\poe2-site\\data\\ai-seo\\search-console-intelligence.json",
+      "actionItems": 4,
+      "actions": [
+        {
+          "page": "/guides/skills/cobra-lash",
+          "query": "poe2 cobra lash build",
+          "clicks": 0,
+          "impressions": 180,
+          "ctr": 0,
+          "position": 11.8,
+          "opportunityFlags": [
+            "high-impression-low-ctr",
+            "near-page-one-opportunity"
+          ],
+          "recommendedActions": [
+            "Rewrite title/meta description and improve search intent match.",
+            "Refresh content depth, add FAQs, and strengthen internal links."
+          ],
+          "priorityScore": 88
+        },
+        {
+          "page": "/guides/skills/earthquake",
+          "query": "poe2 earthquake warrior guide",
+          "clicks": 2,
+          "impressions": 260,
+          "ctr": 0.0077,
+          "position": 17.4,
+          "opportunityFlags": [
+            "high-impression-low-ctr",
+            "near-page-one-opportunity"
+          ],
+          "recommendedActions": [
+            "Rewrite title/meta description and improve search intent match.",
+            "Refresh content depth, add FAQs, and strengthen internal links."
+          ],
+          "priorityScore": 81
+        },
+        {
+          "page": "/guides/skills/toxic-rain",
+          "query": "poe2 toxic rain leveling",
+          "clicks": 1,
+          "impressions": 140,
+          "ctr": 0.0071,
+          "position": 8.6,
+          "opportunityFlags": [
+            "high-impression-low-ctr"
+          ],
+          "recommendedActions": [
+            "Rewrite title/meta description and improve search intent match."
+          ],
+          "priorityScore": 39
+        },
+        {
+          "page": "/guides/skills/firestorm",
+          "query": "poe2 firestorm build",
+          "clicks": 0,
+          "impressions": 95,
+          "ctr": 0,
+          "position": 23.2,
+          "opportunityFlags": [
+            "content-depth-or-authority-gap"
+          ],
+          "recommendedActions": [
+            "Expand guide sections and add supporting internal links."
+          ],
+          "priorityScore": 35
+        }
+      ]
+    },
+    "refresh-priority-queue.json": {
+      "generatedAt": "2026-06-07T05:16:06.209Z",
+      "refreshCandidates": 4,
+      "queue": [
+        {
+          "page": "/guides/skills/cobra-lash",
+          "query": "poe2 cobra lash build",
+          "refreshPriority": 118,
+          "reasons": [
+            "Near page 1 ranking opportunity",
+            "High impressions with weak CTR",
+            "Receiving impressions but no clicks"
+          ],
+          "suggestedActions": [
+            "Rewrite SEO title and meta description",
+            "Expand guide depth and FAQ coverage",
+            "Add supporting internal links"
+          ]
+        },
+        {
+          "page": "/guides/skills/earthquake",
+          "query": "poe2 earthquake warrior guide",
+          "refreshPriority": 116,
+          "reasons": [
+            "Near page 1 ranking opportunity",
+            "High impressions with weak CTR"
+          ],
+          "suggestedActions": [
+            "Rewrite SEO title and meta description",
+            "Expand guide depth and FAQ coverage",
+            "Add supporting internal links"
+          ]
+        },
+        {
+          "page": "/guides/skills/firestorm",
+          "query": "poe2 firestorm build",
+          "refreshPriority": 45,
+          "reasons": [
+            "Receiving impressions but no clicks",
+            "Content authority may be insufficient"
+          ],
+          "suggestedActions": [
+            "Increase topical depth and semantic coverage"
+          ]
+        },
+        {
+          "page": "/guides/skills/toxic-rain",
+          "query": "poe2 toxic rain leveling",
+          "refreshPriority": 39,
+          "reasons": [
+            "High impressions with weak CTR"
+          ],
+          "suggestedActions": [
+            "Rewrite SEO title and meta description"
+          ]
+        }
+      ]
+    },
+    "internal-link-opportunities.json": {
+      "generatedAt": "2026-06-07T05:16:06.634Z",
+      "pagesAnalyzed": 5,
+      "opportunitiesFound": 8,
+      "opportunities": [
+        {
+          "source": "/guides/skills/venom-gyre",
+          "target": "/guides/skills/cobra-lash",
+          "sharedKeywords": [
+            "poison",
+            "projectile",
+            "chaos"
+          ],
+          "relevanceScore": 78,
+          "recommendedAnchor": "poison"
+        },
+        {
+          "source": "/guides/skills/cobra-lash",
+          "target": "/guides/skills/venom-gyre",
+          "sharedKeywords": [
+            "poison",
+            "chaos",
+            "projectile"
+          ],
+          "relevanceScore": 76,
+          "recommendedAnchor": "poison"
+        },
+        {
+          "source": "/guides/skills/cobra-lash",
+          "target": "/guides/skills/toxic-rain",
+          "sharedKeywords": [
+            "poison",
+            "chaos"
+          ],
+          "relevanceScore": 62,
+          "recommendedAnchor": "poison"
+        },
+        {
+          "source": "/guides/skills/venom-gyre",
+          "target": "/guides/skills/toxic-rain",
+          "sharedKeywords": [
+            "poison",
+            "chaos"
+          ],
+          "relevanceScore": 62,
+          "recommendedAnchor": "poison"
+        },
+        {
+          "source": "/guides/skills/tectonic-slam",
+          "target": "/guides/skills/earthquake",
+          "sharedKeywords": [
+            "slam",
+            "melee"
+          ],
+          "relevanceScore": 60,
+          "recommendedAnchor": "slam"
+        },
+        {
+          "source": "/guides/skills/toxic-rain",
+          "target": "/guides/skills/cobra-lash",
+          "sharedKeywords": [
+            "poison",
+            "chaos"
+          ],
+          "relevanceScore": 58,
+          "recommendedAnchor": "poison"
+        },
+        {
+          "source": "/guides/skills/earthquake",
+          "target": "/guides/skills/tectonic-slam",
+          "sharedKeywords": [
+            "slam",
+            "melee"
+          ],
+          "relevanceScore": 57,
+          "recommendedAnchor": "slam"
+        },
+        {
+          "source": "/guides/skills/toxic-rain",
+          "target": "/guides/skills/venom-gyre",
+          "sharedKeywords": [
+            "poison",
+            "chaos"
+          ],
+          "relevanceScore": 56,
+          "recommendedAnchor": "poison"
+        }
+      ]
+    },
+    "topic-cluster-expansion.json": {
+      "generatedAt": "2026-06-07T05:16:07.046Z",
+      "clustersFound": 8,
+      "expansions": [
+        {
+          "cluster": "poison",
+          "currentPages": [
+            "/guides/skills/cobra-lash",
+            "/guides/skills/toxic-rain",
+            "/guides/skills/venom-gyre"
+          ],
+          "supportingKeywords": [
+            "poe2 poison leveling guide",
+            "poe2 best poison skills",
+            "poe2 chaos poison build"
+          ],
+          "authorityScore": 56,
+          "suggestedPages": [
+            {
+              "slug": "/guides/poison-leveling-guide",
+              "title": "Poison Leveling Guide",
+              "reason": "Expand topical authority for the poison cluster."
+            },
+            {
+              "slug": "/guides/best-poison-skills",
+              "title": "Best Poison Skills",
+              "reason": "Expand topical authority for the poison cluster."
+            },
+            {
+              "slug": "/guides/chaos-poison-build",
+              "title": "Chaos Poison Build",
+              "reason": "Expand topical authority for the poison cluster."
+            }
+          ]
+        },
+        {
+          "cluster": "chaos",
+          "currentPages": [
+            "/guides/skills/cobra-lash",
+            "/guides/skills/toxic-rain",
+            "/guides/skills/venom-gyre"
+          ],
+          "supportingKeywords": [
+            "poe2 chaos damage guide",
+            "poe2 chaos resistance guide",
+            "poe2 chaos skill gems"
+          ],
+          "authorityScore": 56,
+          "suggestedPages": [
+            {
+              "slug": "/guides/chaos-damage-guide",
+              "title": "Chaos Damage Guide",
+              "reason": "Expand topical authority for the chaos cluster."
+            },
+            {
+              "slug": "/guides/chaos-resistance-guide",
+              "title": "Chaos Resistance Guide",
+              "reason": "Expand topical authority for the chaos cluster."
+            },
+            {
+              "slug": "/guides/chaos-skill-gems",
+              "title": "Chaos Skill Gems",
+              "reason": "Expand topical authority for the chaos cluster."
+            }
+          ]
+        },
+        {
+          "cluster": "slam",
+          "currentPages": [
+            "/guides/skills/earthquake",
+            "/guides/skills/tectonic-slam"
+          ],
+          "supportingKeywords": [
+            "poe2 slam skills guide",
+            "poe2 warrior slam build",
+            "poe2 best slam support gems"
+          ],
+          "authorityScore": 37,
+          "suggestedPages": [
+            {
+              "slug": "/guides/slam-skills-guide",
+              "title": "Slam Skills Guide",
+              "reason": "Expand topical authority for the slam cluster."
+            },
+            {
+              "slug": "/guides/warrior-slam-build",
+              "title": "Warrior Slam Build",
+              "reason": "Expand topical authority for the slam cluster."
+            },
+            {
+              "slug": "/guides/best-slam-support-gems",
+              "title": "Best Slam Support Gems",
+              "reason": "Expand topical authority for the slam cluster."
+            }
+          ]
+        },
+        {
+          "cluster": "melee",
+          "currentPages": [
+            "/guides/skills/earthquake",
+            "/guides/skills/tectonic-slam"
+          ],
+          "supportingKeywords": [
+            "poe2 melee leveling guide",
+            "poe2 melee skill guide",
+            "poe2 best melee support gems"
+          ],
+          "authorityScore": 37,
+          "suggestedPages": [
+            {
+              "slug": "/guides/melee-leveling-guide",
+              "title": "Melee Leveling Guide",
+              "reason": "Expand topical authority for the melee cluster."
+            },
+            {
+              "slug": "/guides/melee-skill-guide",
+              "title": "Melee Skill Guide",
+              "reason": "Expand topical authority for the melee cluster."
+            },
+            {
+              "slug": "/guides/best-melee-support-gems",
+              "title": "Best Melee Support Gems",
+              "reason": "Expand topical authority for the melee cluster."
+            }
+          ]
+        },
+        {
+          "cluster": "projectile",
+          "currentPages": [
+            "/guides/skills/cobra-lash",
+            "/guides/skills/venom-gyre"
+          ],
+          "supportingKeywords": [
+            "poe2 projectile skills guide",
+            "poe2 projectile support gems",
+            "poe2 projectile build guide"
+          ],
+          "authorityScore": 34,
+          "suggestedPages": [
+            {
+              "slug": "/guides/projectile-skills-guide",
+              "title": "Projectile Skills Guide",
+              "reason": "Expand topical authority for the projectile cluster."
+            },
+            {
+              "slug": "/guides/projectile-support-gems",
+              "title": "Projectile Support Gems",
+              "reason": "Expand topical authority for the projectile cluster."
+            },
+            {
+              "slug": "/guides/projectile-build-guide",
+              "title": "Projectile Build Guide",
+              "reason": "Expand topical authority for the projectile cluster."
+            }
+          ]
+        },
+        {
+          "cluster": "bow",
+          "currentPages": [
+            "/guides/skills/toxic-rain"
+          ],
+          "supportingKeywords": [
+            "poe2 bow guide",
+            "poe2 best bow build",
+            "poe2 bow support gems"
+          ],
+          "authorityScore": 22,
+          "suggestedPages": [
+            {
+              "slug": "/guides/bow-guide",
+              "title": "Bow Guide",
+              "reason": "Expand topical authority for the bow cluster."
+            },
+            {
+              "slug": "/guides/best-bow-build",
+              "title": "Best Bow Build",
+              "reason": "Expand topical authority for the bow cluster."
+            },
+            {
+              "slug": "/guides/bow-support-gems",
+              "title": "Bow Support Gems",
+              "reason": "Expand topical authority for the bow cluster."
+            }
+          ]
+        },
+        {
+          "cluster": "warrior",
+          "currentPages": [
+            "/guides/skills/earthquake"
+          ],
+          "supportingKeywords": [
+            "poe2 warrior guide",
+            "poe2 best warrior build",
+            "poe2 warrior support gems"
+          ],
+          "authorityScore": 20,
+          "suggestedPages": [
+            {
+              "slug": "/guides/warrior-guide",
+              "title": "Warrior Guide",
+              "reason": "Expand topical authority for the warrior cluster."
+            },
+            {
+              "slug": "/guides/best-warrior-build",
+              "title": "Best Warrior Build",
+              "reason": "Expand topical authority for the warrior cluster."
+            },
+            {
+              "slug": "/guides/warrior-support-gems",
+              "title": "Warrior Support Gems",
+              "reason": "Expand topical authority for the warrior cluster."
+            }
+          ]
+        },
+        {
+          "cluster": "fire",
+          "currentPages": [
+            "/guides/skills/tectonic-slam"
+          ],
+          "supportingKeywords": [
+            "poe2 fire damage guide",
+            "poe2 fire skill gems",
+            "poe2 ignite build guide"
+          ],
+          "authorityScore": 17,
+          "suggestedPages": [
+            {
+              "slug": "/guides/fire-damage-guide",
+              "title": "Fire Damage Guide",
+              "reason": "Expand topical authority for the fire cluster."
+            },
+            {
+              "slug": "/guides/fire-skill-gems",
+              "title": "Fire Skill Gems",
+              "reason": "Expand topical authority for the fire cluster."
+            },
+            {
+              "slug": "/guides/ignite-build-guide",
+              "title": "Ignite Build Guide",
+              "reason": "Expand topical authority for the fire cluster."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
