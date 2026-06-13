@@ -15,6 +15,9 @@ type BossPageProps = {
   params: Promise<{ slug: string }>;
 };
 
+const frontendTrustSignalPattern =
+  /\b(AI Draft|AI-assisted|AI assisted|AI-generated|AI generated|Verification Notes|Content Notes|Must be verified|Verify against patch|Verify against current patch|Outdated Patch|Early Access|Patch verification required)\b/i;
+
 export function generateStaticParams() {
   return bosses.map((boss) => ({
     slug: boss.slug,
@@ -153,6 +156,14 @@ export default async function BossDetailPage({ params }: BossPageProps) {
       label: skill.name,
       href: `/skills/${skill.slug}`,
     }));
+  const overviewRows = [
+    ["Location", boss.location],
+    ["Difficulty", boss.difficulty],
+    ["Damage Types", boss.damageTypes.join(", ")],
+    ["Weaknesses", boss.weaknesses.join(", ")],
+    ["Patch", boss.patchVersion ?? "Not specified"],
+    ["Last Updated", boss.lastUpdated ?? "Not specified"],
+  ].filter(([, value]) => !frontendTrustSignalPattern.test(value));
 
   return (
     <main className="flex-1 bg-black text-white">
@@ -200,14 +211,7 @@ export default async function BossDetailPage({ params }: BossPageProps) {
       <div className="mx-auto grid max-w-7xl gap-6 px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         <DetailSection title="Overview">
           <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              ["Location", boss.location],
-              ["Difficulty", boss.difficulty],
-              ["Damage Types", boss.damageTypes.join(", ")],
-              ["Weaknesses", boss.weaknesses.join(", ")],
-              ["Patch", boss.patchVersion ?? "Not specified"],
-              ["Last Updated", boss.lastUpdated ?? "Not specified"],
-            ].map(([label, value]) => (
+            {overviewRows.map(([label, value]) => (
               <div
                 key={label}
                 className="rounded-xl border border-zinc-800 bg-black p-4"
@@ -280,12 +284,6 @@ export default async function BossDetailPage({ params }: BossPageProps) {
             ))}
           </div>
         </DetailSection>
-
-        {boss.contentNotes ? (
-          <DetailSection title="Content Notes">
-            <p className="leading-7 text-zinc-400">{boss.contentNotes}</p>
-          </DetailSection>
-        ) : null}
       </div>
     </main>
   );

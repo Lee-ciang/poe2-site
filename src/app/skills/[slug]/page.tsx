@@ -15,6 +15,9 @@ type SkillPageProps = {
   params: Promise<{ slug: string }>;
 };
 
+const frontendTrustSignalPattern =
+  /\b(AI Draft|AI-assisted|AI assisted|AI-generated|AI generated|Verification Notes|Content Notes|Must be verified|Verify against patch|Verify against current patch|Outdated Patch|Early Access|Patch verification required)\b/i;
+
 export function generateStaticParams() {
   return skills.map((skill) => ({
     slug: skill.slug,
@@ -162,6 +165,13 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
     label: `${relatedSkill.name} Skill Guide`,
     href: `/guides/skills/${relatedSkill.slug}`,
   }));
+  const overviewRows = [
+    ["Category", skill.category],
+    ["Damage Type", skill.damageType],
+    ["Weapon Requirement", skill.weaponRequirement],
+    ["Patch", skill.patchVersion ?? "Not specified"],
+    ["Last Updated", skill.lastUpdated ?? "Not specified"],
+  ].filter(([, value]) => !frontendTrustSignalPattern.test(value));
 
   return (
     <main className="flex-1 bg-black text-white">
@@ -211,13 +221,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
       <div className="mx-auto grid max-w-7xl gap-6 px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         <DetailSection title="Overview">
           <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              ["Category", skill.category],
-              ["Damage Type", skill.damageType],
-              ["Weapon Requirement", skill.weaponRequirement],
-              ["Patch", skill.patchVersion ?? "Not specified"],
-              ["Last Updated", skill.lastUpdated ?? "Not specified"],
-            ].map(([label, value]) => (
+            {overviewRows.map(([label, value]) => (
               <div
                 key={label}
                 className="rounded-xl border border-zinc-800 bg-black p-4"
@@ -299,12 +303,6 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
             ))}
           </div>
         </DetailSection>
-
-        {skill.contentNotes ? (
-          <DetailSection title="Content Notes">
-            <p className="leading-7 text-zinc-400">{skill.contentNotes}</p>
-          </DetailSection>
-        ) : null}
       </div>
     </main>
   );

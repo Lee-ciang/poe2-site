@@ -120,7 +120,7 @@ function parseFrontmatter(source: string) {
 }
 
 function extractFaqItems(body: string): FaqItem[] {
-  const faqMatch = body.match(/## FAQ\s*([\s\S]*)$/i);
+  const faqMatch = body.match(/## FAQ\s*([\s\S]*?)(?=\n##\s+|$)/i);
 
   if (!faqMatch) {
     return [];

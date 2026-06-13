@@ -32,6 +32,9 @@ const relatedLabels = {
   relatedSkills: "Related Skills",
 } as const;
 
+const frontendTrustSignalPattern =
+  /\b(AI Draft|AI-assisted|AI assisted|AI-generated|AI generated|Verification Notes|Content Notes|Must be verified|Verify against patch|Verify against current patch|Outdated Patch|Early Access|Patch verification required)\b/i;
+
 function isGuideType(type: string): type is GuideType {
   return type === "builds" || type === "bosses" || type === "skills";
 }
@@ -71,6 +74,28 @@ function isLegacyRelatedHeading(line: string) {
   );
 }
 
+function isFrontendTrustHeading(line: string) {
+  return /^##\s+(Verification Notes|Content Notes)\s*$/i.test(line);
+}
+
+function isFrontendTrustSignal(value: string | undefined) {
+  return Boolean(value && frontendTrustSignalPattern.test(value));
+}
+
+function cleanFrontendText(value: string | undefined) {
+  if (!value) {
+    return value;
+  }
+
+  return value
+    .replace(/,?\s*and content verification notes/gi, "")
+    .replace(frontendTrustSignalPattern, "")
+    .replace(/,\s*\./g, ".")
+    .replace(/\s+\./g, ".")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 function extractLegacyRelatedGuidePaths(body: string) {
   const paths = new Set<string>();
   const lines = body.replace(/\r\n/g, "\n").split("\n");
@@ -104,7 +129,7 @@ function getRenderableLines(body: string) {
   for (let index = 0; index < sourceLines.length; index += 1) {
     const trimmed = sourceLines[index].trim();
 
-    if (isLegacyRelatedHeading(trimmed)) {
+    if (isLegacyRelatedHeading(trimmed) || isFrontendTrustHeading(trimmed)) {
       while (
         index + 1 < sourceLines.length &&
         !/^##\s+/.test(sourceLines[index + 1].trim())
@@ -254,14 +279,18 @@ export async function generateMetadata({
     };
   }
   
+  const metadataTitle =
+    cleanFrontendText(guide.metadata.seoTitle ?? guide.metadata.title) ??
+    guide.metadata.title;
+
   return createSeoMetadata({
-    title: guide.metadata.seoTitle ?? guide.metadata.title,
+    title: metadataTitle,
     description:
-      guide.metadata.seoDescription ??
+      cleanFrontendText(guide.metadata.seoDescription) ??
       `Read the ${guide.metadata.title} guide for Path of Exile 2.`,
     path: guide.path,
     type: "article",
-    keywords: [guide.metadata.title, guide.metadata.type, "POE2 Markdown guide"],
+    keywords: [metadataTitle, guide.metadata.type, "POE2 Markdown guide"],
   });
 }
 
@@ -305,6 +334,11 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
     .filter((candidate): candidate is NonNullable<typeof candidate> =>
       Boolean(candidate),
     );
+  const heroDescription = cleanFrontendText(guide.metadata.seoDescription);
+  const displayTitle = cleanFrontendText(guide.metadata.title) ?? guide.metadata.title;
+  const shouldShowPatchVersion = !isFrontendTrustSignal(
+    guide.metadata.patchVersion,
+  );
 
   return (
     <main className="flex-1 bg-black text-white">
@@ -329,7 +363,7 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
             <span className="rounded-full border border-orange-500/20 bg-orange-500/10 px-3 py-1 text-xs font-bold text-orange-400">
               {guide.metadata.type}
             </span>
-            {guide.metadata.patchVersion ? (
+            {shouldShowPatchVersion && guide.metadata.patchVersion ? (
               <span className="rounded-full border border-orange-500/20 bg-orange-500/10 px-3 py-1 text-xs font-bold text-orange-400">
                 {guide.metadata.patchVersion}
               </span>
@@ -350,19 +384,16 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
               Needs update
              </span>
             ) : null}
-            {guide.metrics.isOutdatedPatch ? (
-            <span className="rounded-full border border-red-500/30 bg-red-500/10 px-3 py-1 text-xs font-bold text-red-300">
-            Outdated patch
-            </span>
-            ) : null}
           </div>
 
           <h1 className="mt-5 max-w-5xl text-4xl font-black tracking-tight sm:text-6xl">
-            {guide.metadata.title}
+            {displayTitle}
           </h1>
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-400">
-            {guide.metadata.seoDescription}
-          </p>
+          {heroDescription ? (
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-400">
+              {heroDescription}
+            </p>
+          ) : null}
         </div>
       </section>
 
@@ -442,12 +473,15 @@ export default async function MarkdownGuidePage({ params }: GuidePageProps) {
           </div>
 
           <h3 className="mt-4 text-xl font-black text-white">
-            {suggestedGuide.metadata.title}
+            {cleanFrontendText(suggestedGuide.metadata.title) ??
+              suggestedGuide.metadata.title}
           </h3>
 
-          <p className="mt-3 text-sm leading-6 text-zinc-400">
-            {suggestedGuide.metadata.seoDescription}
-          </p>
+          {cleanFrontendText(suggestedGuide.metadata.seoDescription) ? (
+            <p className="mt-3 text-sm leading-6 text-zinc-400">
+              {cleanFrontendText(suggestedGuide.metadata.seoDescription)}
+            </p>
+          ) : null}
         </Link>
       ))}
     </div>
