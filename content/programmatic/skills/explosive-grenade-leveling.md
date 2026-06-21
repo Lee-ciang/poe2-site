@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/explosive-grenade
+- /skills/explosive-grenade
 - /skills/explosive-grenade
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Explosive Grenade Leveling Guide Guides
 
-- [explosive-grenade skill overview](/guides/skills/explosive-grenade)
+- [explosive-grenade skill overview](/skills/explosive-grenade)
 - [explosive-grenade skill page](/skills/explosive-grenade)
 - [Explosive Grenade Build Guide](/guides/skills/explosive-grenade-build)
 - [Explosive Grenade Best Support Gems](/guides/skills/explosive-grenade-support-gems)
@@ -107,4 +107,3 @@ When leveling with Explosive Grenade, focus on comfort first. A leveling setup s
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-

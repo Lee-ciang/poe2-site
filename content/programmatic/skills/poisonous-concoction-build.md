@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/poisonous-concoction
+- /skills/poisonous-concoction
 - /skills/poisonous-concoction
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Poisonous Concoction Build Guide Guides
 
-- [poisonous-concoction skill overview](/guides/skills/poisonous-concoction)
+- [poisonous-concoction skill overview](/skills/poisonous-concoction)
 - [poisonous-concoction skill page](/skills/poisonous-concoction)
 - [Poisonous Concoction Leveling Guide](/guides/skills/poisonous-concoction-leveling)
 - [Poisonous Concoction Best Support Gems](/guides/skills/poisonous-concoction-support-gems)
@@ -107,4 +107,3 @@ A Poisonous Concoction build should focus on making the skill feel reliable befo
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-

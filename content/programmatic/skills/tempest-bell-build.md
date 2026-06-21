@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/tempest-bell
+- /skills/tempest-bell
 - /skills/tempest-bell
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Tempest Bell Build Guide Guides
 
-- [tempest-bell skill overview](/guides/skills/tempest-bell)
+- [tempest-bell skill overview](/skills/tempest-bell)
 - [tempest-bell skill page](/skills/tempest-bell)
 - [Tempest Bell Leveling Guide](/guides/skills/tempest-bell-leveling)
 
@@ -106,4 +106,3 @@ A Tempest Bell build should focus on making the skill feel reliable before tryin
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-

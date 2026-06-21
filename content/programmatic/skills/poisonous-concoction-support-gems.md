@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/poisonous-concoction
+- /skills/poisonous-concoction
 - /skills/poisonous-concoction
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Poisonous Concoction Best Support Gems Guides
 
-- [poisonous-concoction skill overview](/guides/skills/poisonous-concoction)
+- [poisonous-concoction skill overview](/skills/poisonous-concoction)
 - [poisonous-concoction skill page](/skills/poisonous-concoction)
 - [Poisonous Concoction Build Guide](/guides/skills/poisonous-concoction-build)
 - [Poisonous Concoction Leveling Guide](/guides/skills/poisonous-concoction-leveling)
@@ -107,4 +107,3 @@ The best support gems for Poisonous Concoction should improve the way the skill 
 - Faster clear speed
 - Lower friction during mapping
 - Synergy with the build's main damage type
-

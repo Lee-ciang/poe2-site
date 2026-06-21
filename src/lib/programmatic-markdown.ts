@@ -51,7 +51,7 @@ export function getAllProgrammaticGuides(): ProgrammaticGuide[] {
           "This page is part of the programmatic SEO content system and should be reviewed with updated gameplay information.",
       },
     ],
-    suggestedGuidePaths: [`/guides/skills/${page.sourceSkill}`],
+    suggestedGuidePaths: [`/skills/${page.sourceSkill}`],
     metrics: {
       readingTimeMinutes: 4,
       qualityScore: Math.max(60, page.priorityScore),

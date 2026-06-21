@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/ember-fusillade
+- /skills/ember-fusillade
 - /skills/ember-fusillade
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Ember Fusillade Build Guide Guides
 
-- [ember-fusillade skill overview](/guides/skills/ember-fusillade)
+- [ember-fusillade skill overview](/skills/ember-fusillade)
 - [ember-fusillade skill page](/skills/ember-fusillade)
 - [Ember Fusillade Leveling Guide](/guides/skills/ember-fusillade-leveling)
 
@@ -106,4 +106,3 @@ A Ember Fusillade build should focus on making the skill feel reliable before tr
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-

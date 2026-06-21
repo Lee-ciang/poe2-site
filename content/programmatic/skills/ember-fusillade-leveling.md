@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/ember-fusillade
+- /skills/ember-fusillade
 - /skills/ember-fusillade
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Ember Fusillade Leveling Guide Guides
 
-- [ember-fusillade skill overview](/guides/skills/ember-fusillade)
+- [ember-fusillade skill overview](/skills/ember-fusillade)
 - [ember-fusillade skill page](/skills/ember-fusillade)
 - [Ember Fusillade Build Guide](/guides/skills/ember-fusillade-build)
 
@@ -106,4 +106,3 @@ When leveling with Ember Fusillade, focus on comfort first. A leveling setup sho
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-

@@ -163,7 +163,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
   )
   .map((relatedSkill) => ({
     label: `${relatedSkill.name} Skill Guide`,
-    href: `/guides/skills/${relatedSkill.slug}`,
+    href: `/skills/${relatedSkill.slug}`,
   }));
   const overviewRows = [
     ["Category", skill.category],

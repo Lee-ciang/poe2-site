@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/ice-strike
+- /skills/ice-strike
 - /skills/ice-strike
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Ice Strike Leveling Guide Guides
 
-- [ice-strike skill overview](/guides/skills/ice-strike)
+- [ice-strike skill overview](/skills/ice-strike)
 - [ice-strike skill page](/skills/ice-strike)
 - [Ice Strike Build Guide](/guides/skills/ice-strike-build)
 - [Ice Strike Best Support Gems](/guides/skills/ice-strike-support-gems)
@@ -107,4 +107,3 @@ When leveling with Ice Strike, focus on comfort first. A leveling setup should c
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-

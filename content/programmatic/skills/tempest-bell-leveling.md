@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/tempest-bell
+- /skills/tempest-bell
 - /skills/tempest-bell
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Tempest Bell Leveling Guide Guides
 
-- [tempest-bell skill overview](/guides/skills/tempest-bell)
+- [tempest-bell skill overview](/skills/tempest-bell)
 - [tempest-bell skill page](/skills/tempest-bell)
 - [Tempest Bell Build Guide](/guides/skills/tempest-bell-build)
 
@@ -106,4 +106,3 @@ When leveling with Tempest Bell, focus on comfort first. A leveling setup should
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-

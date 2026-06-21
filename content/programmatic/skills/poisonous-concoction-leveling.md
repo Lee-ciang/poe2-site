@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/poisonous-concoction
+- /skills/poisonous-concoction
 - /skills/poisonous-concoction
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Poisonous Concoction Leveling Guide Guides
 
-- [poisonous-concoction skill overview](/guides/skills/poisonous-concoction)
+- [poisonous-concoction skill overview](/skills/poisonous-concoction)
 - [poisonous-concoction skill page](/skills/poisonous-concoction)
 - [Poisonous Concoction Build Guide](/guides/skills/poisonous-concoction-build)
 - [Poisonous Concoction Best Support Gems](/guides/skills/poisonous-concoction-support-gems)
@@ -107,4 +107,3 @@ When leveling with Poisonous Concoction, focus on comfort first. A leveling setu
 - Upgrade weapons or skill levels regularly
 - Avoid relying on late-game uniques while leveling
 - Swap supports when bosses feel too slow
-

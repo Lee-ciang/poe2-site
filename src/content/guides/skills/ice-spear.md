@@ -6,85 +6,115 @@ seoTitle: "Ice Spear Skill Guide - POE2 Skill Guide"
 seoDescription: "Read this POE2 skill guide for practical strategy, strengths, weaknesses, FAQs, related guides, and content verification notes."
 patchVersion: "Early Access"
 lastUpdated: "2026-05-12"
-relatedBuilds: []
-relatedBosses: []
-relatedSkills: [frostbolt, ice-nova, freezing-shards]
+relatedBuilds: [frost-monk, infernal-witch]
+relatedBosses: [king-in-the-mists, fire-warden, endgame-titan]
+relatedSkills: [frostbolt, ice-nova, freezing-shards, flame-wall, spark]
 contentStatus: draft
 ---
 
-## Overview
+## Skill Overview
 
-Ice Spear is a cold-based spell that excels in long-range single-target damage and critical freezing effects. It requires precise projectile placement and positioning to maximize impact, especially against bosses and priority targets. While it can feel somewhat slow in clearing large groups compared to other cold area spells, its reliable freeze application makes it a strong choice for focused encounters and boss fights where controlling or locking down enemies is critical.
+Ice Spear is a cold projectile spell built for players who want controlled, long-range damage rather than reckless close-range clearing. Its value comes from hitting priority enemies from a safer distance, building cold pressure, and giving caster builds a focused option for rares, bosses, and dangerous targets that should not be fought inside melee range. Compared with [Ice Nova](/guides/skills/ice-nova), Ice Spear asks for more aim and positioning, but it rewards that discipline with cleaner single-target uptime.
 
-## Skill Category
+The skill fits naturally into cold caster setups that already care about cold damage, spell damage, projectile scaling, cast speed, and critical strikes. It also works as a complementary bossing tool beside broader clear skills such as [Frostbolt](/guides/skills/frostbolt) or [Freezing Shards](/guides/skills/freezing-shards). If a build has enough area coverage from another skill, Ice Spear can take the role of the precise damage button used when an enemy needs to be pinned down quickly.
 
-Ice Spear is classified as a Spell, relying on wand or staff weapons to cast and scale properly. It is designed around projectile mechanics rather than melee or area effects, emphasizing accuracy and timing over brute force AoE damage.
+Ice Spear is not the easiest campaign skill for every player. It can feel narrow when enemies swarm from several directions, and it can feel awkward if cast speed is low. The payoff is that it teaches strong habits: stay at range, line up casts, move before enemies close the gap, and reserve burst windows for moments when a boss is locked into an animation. Those habits translate well into harder encounters such as [King in the Mists](/bosses/king-in-the-mists) and [Endgame Titan](/bosses/endgame-titan).
 
-## Damage Type
+## Mechanics Explanation
 
-Cold damage is the core damage type for Ice Spear, offering strong synergy with cold penetration and freeze chance modifiers. This damage type allows the skill to leverage chill and freeze status effects to control enemy movement.
+Ice Spear should be treated as a precision projectile spell. The projectile path matters, the cast rhythm matters, and your distance from the target changes how safe the skill feels. In practice, the player wants to create a lane, fire through that lane, then reposition before enemies collapse into close range. This is different from a point-blank cold spell, where the player can stand near the pack and let the area hit everything around them.
 
-## Weapon Requirement
+The skill rewards three mechanical priorities. First, projectile alignment: every cast should be aimed through the most valuable target, not simply thrown into the edge of a pack. Second, cold resistance pressure: cold penetration and exposure-style effects make the skill much more reliable against bosses and resistant rares. Third, cast recovery: because Ice Spear is strongest when the player can fire and move repeatedly, cast speed and animation comfort matter almost as much as raw damage.
 
-This skill requires either a wand or a staff to cast effectively. The weapon choice impacts your build’s gear progression, with wands often favoring faster casting and staffs providing more raw spell damage or defensive stats. Selecting the right weapon to match your cast speed and critical chance priorities is crucial.
+Freeze and chill are also part of the skill identity. Against normal monsters, freezing or chilling can turn dangerous packs into manageable lanes. Against bosses, control effects may be less reliable, so the player should think of cold ailments as a safety bonus rather than the whole plan. The best Ice Spear setups still need defenses, movement, and a backup clear pattern.
 
-## Scaling Stats
+## Best Support Gems
 
-Ice Spear scales primarily with cold damage, making cold damage increases your baseline damage bonus. Spell damage further enhances overall output, while projectile damage is vital to boost the damage of each spear individually. Critical strike chance is a key stat to improve as the skill’s potential heavily leans on critical hits triggering freeze reliably. Cast speed reduces downtime between casts and smooths skill flow, especially important for boss fights with little downtime.
+- Cold Penetration is the most important bossing support when enemies resist cold damage. It improves the value of every hit and keeps damage from falling flat in harder encounters.
+- Faster Casting smooths the skill more than many players expect. Faster casts mean cleaner burst windows, easier repositioning, and less time standing still.
+- Increased Critical Damage is strong once the build has enough critical strike chance to make it consistent. It is better as a scaling support than as the first fix for a weak early setup.
+- Controlled Destruction can be powerful for raw spell damage, but players should evaluate it against their critical strike plan. If the build depends heavily on crit consistency, compare it carefully with alternatives.
+- Hypothermia-style damage against chilled enemies works well when the build keeps chill uptime high. It is especially attractive in cold-heavy setups that already slow enemies before Ice Spear lands.
+- Projectile or focused-damage supports can be used when the skill is dedicated to bossing. Avoid overloading the setup with clear-speed supports if another skill already handles packs.
 
-## Best Supports
+## Strengths
 
-- **Cold Penetration:** Breaks through enemy cold resistance to amplify your damage substantially.
-- **Controlled Destruction:** Increases spell damage, crucial for boosting non-critical strikes; however, it reduces critical strike chance, so the interaction must be tested for your build’s crit setup.
-- **Increased Critical Damage:** Essential for maximizing crit-focused builds, pushing Ice Spear’s burst potential.
-- **Faster Casting:** Improves cast speed, which smooths out skill rhythm and projectile flow, especially during boss encounters.
+- Excellent focused damage against rares and bosses that can be attacked safely from range.
+- Strong synergy with cold penetration, critical scaling, chill, and freeze-focused caster trees.
+- Safer than close-range cold skills when the player maintains distance and lines up casts.
+- Works well as a single-target partner for broader cold clear skills.
+- Teaches useful endgame habits around spacing, cast timing, and damage windows.
 
-Each support gem enhances a different facet of the skill, and adjusting between them depending on the encounter or your build’s stats will optimize performance.
+## Weaknesses
 
-## Recommended Builds
+- Narrower coverage than [Ice Nova](/guides/skills/ice-nova), [Spark](/guides/skills/spark), or wide projectile clear setups.
+- Can feel clunky before cast speed and projectile comfort improve.
+- Requires aim; missed casts are a real damage loss.
+- Less forgiving in small arenas where enemies quickly close distance.
+- Boss performance depends on uptime, support choices, and safe positioning rather than damage alone.
 
-- **Crit Frost Mage:** This build leverages high critical strike chance combined with spell and projectile scaling stats to deliver rapid, lethal Ice Spear hits that reliably freeze bosses.
-- **Cold Projectile Sorceress:** Focused on projectile enhancements and cold damage scaling, this build maximizes freeze uptime and single-target penetration, ideal for controlling challenging bosses.
+## Leveling Advice
 
-Both builds rely on positioning and projectile accuracy to excel, trading wider area clear speed for precision and control.
+During leveling, Ice Spear feels best when paired with a smoother clear tool. Use it to delete magic monsters, rares, and bosses while letting a broader skill handle scattered packs. Early upgrades should focus on cast speed, cold damage, spell damage, and enough defense to survive while repositioning. A weapon with useful caster stats often matters more than a small passive damage increase, because a better weapon improves both clear and boss pressure.
 
-## Leveling Use
+Do not tunnel on critical strike too early. Critical scaling becomes valuable once the build has a stable base, but campaign progression usually wants reliability first: enough damage to avoid long fights, enough cast speed to move comfortably, and enough life or energy shield to survive mistakes. If Ice Spear feels slow, fix the rhythm before adding complicated scaling.
 
-During leveling, prioritize cast speed and critical scaling gradually. Early on, players often feel Ice Spear lacks clear speed and raw damage compared to wide-area cold spells, leading to frustrating progression in densely populated maps. This usually improves significantly once you begin acquiring fast casting gear and critical strike chance boosts, as projectile speed also becomes faster. Positioning and careful aiming become noticeably smoother with these upgrades, reducing skill downtime.
+For players building toward [Frost Monk](/builds/frost-monk) or another cold-themed setup, Ice Spear can act as the controlled ranged option while melee or area tools handle close enemies. If you are leaning into fire or lightning later, use this guide mainly as a cold projectile reference and compare with [Flame Wall](/guides/skills/flame-wall) or [Lightning Arrow](/skills/lightning-arrow) for other archetypes.
 
-New players commonly underestimate the importance of projectile alignment, which can lead to wasted casts or low hit rates on mobile enemies.
+## Endgame Usage
 
-## Endgame Use
+In endgame, Ice Spear is strongest when assigned a clear role. It should either be the dedicated bossing skill in a cold caster package or a priority-target tool used beside a faster mapper. Trying to make it solve every problem can lead to awkward compromises: too much clear investment weakens single target, while too much boss investment leaves packs feeling slow.
 
-Ice Spear shines in the endgame when used in crit-focused cold caster builds for bossing and priority target encounters. Its strength lies in consistent long-range damage with high crit potential, combined with reliable freeze application allowing safe positioning. However, it is less efficient on maps or fights emphasizing packed enemy waves or wide-clear. Experienced players often swap support gems or supplement with faster clear skills for those scenarios.
+For bosses, play at range and cast after telegraphed attacks. Against [Fire Warden](/bosses/fire-warden), the value is staying outside dangerous zones while continuing cold pressure. Against [King in the Mists](/bosses/king-in-the-mists), the value is controlled uptime during mechanic windows. Against [Endgame Titan](/bosses/endgame-titan), the value is not standing in front of the boss for too long.
 
-Positioning remains critical; players who fail to maintain safe distance or alignment often suffer unnecessary damage or kill slowdowns.
+Map modifiers and arena shape matter. Small arenas punish narrow projectiles if enemies rush from multiple directions. Open arenas reward long lanes and clean aim. When a map becomes too dense, pair Ice Spear with a separate clear button or swap support priorities so the build does not feel trapped by its own precision.
+
+## Common Mistakes
+
+- Using Ice Spear as the only clear tool before the build has enough cast speed or coverage.
+- Standing still to finish a cast sequence after the boss has already started a dangerous attack.
+- Over-investing in critical damage before critical chance, cast speed, and defenses are stable.
+- Ignoring cold penetration against resistant enemies.
+- Firing at the nearest monster instead of lining casts through the highest-value target.
+- Treating freeze as guaranteed boss defense instead of a useful bonus.
 
 ## FAQ
 
-**Q: Can I use Ice Spear for clear speed?**  
-A: Not efficiently. Its strength is single-target damage and crowd control through freezing, not wide-area clear. Expect slower clears compared to cone or area cold spells.
+### Is Ice Spear good for leveling?
 
-**Q: Does cold penetration greatly improve Ice Spear?**  
-A: Yes, penetration is a core damage multiplier by overcoming enemy cold resistances, directly boosting your damage output.
+Yes, but it is best when used with a broader clear skill. It handles rares and bosses well once cast speed and cold damage improve, but it can feel narrow if it is forced to clear every pack alone.
 
-**Q: Is faster casting always worth it?**  
-A: Generally yes, as it smooths casts and increases DPS uptime, but assess your cast speed cap and adjust accordingly.
+### What stats matter most for Ice Spear?
 
-**Q: Should I focus on crit or more raw damage?**  
-A: Ice Spear rewards crit investment with freeze consistency and high bursts, but pure raw damage scaling can be viable depending on your other gear and build constraints.
+Prioritize cold damage, spell damage, cast speed, cold penetration, and then critical strike scaling. Projectile damage is also valuable when the build is fully committed to Ice Spear as a damage skill.
 
-**Q: What common mistake do players make when leveling Ice Spear?**  
-A: Neglecting cast speed and projectile speed upgrades early, which leads to slow animations and clunky gameplay.
+### Which support gem should I add first?
 
-## Content Notes
+Cold Penetration is the safest damage support for hard enemies, while Faster Casting is often the best comfort support. If the skill feels clunky, fix cast speed before chasing advanced damage scaling.
 
-This is an AI-assisted draft and must be verified against current POE2 patch data before publication. Practical gem interactions, exact damage scaling rates, and new patch mechanics should be tested for accuracy.
+### Is Ice Spear better than Ice Nova?
+
+They solve different problems. Ice Spear is better for precise ranged pressure, while [Ice Nova](/guides/skills/ice-nova) is better for close-range area control and dense pack clearing.
+
+### Can Ice Spear freeze bosses?
+
+It can contribute to cold control, but players should not build their entire defense plan around guaranteed boss freezes. Treat freeze as a bonus and maintain normal movement and defensive discipline.
+
+### What builds should use Ice Spear?
+
+Cold caster builds, crit-focused frost setups, and hybrid cold builds that need a ranged bossing option are the best fits. It can also support cold-oriented characters that already use [Frostbolt](/guides/skills/frostbolt) or [Freezing Shards](/guides/skills/freezing-shards).
+
+### What is the biggest Ice Spear mistake?
+
+The biggest mistake is casting from unsafe positions. The skill is strongest when the player creates distance, fires through a clear lane, and moves before enemies or boss mechanics punish the cast.
 
 ## Related Guides
 
-- /guides/skills/spark
-- /guides/skills/chain-lightning
-- /guides/skills/ice-nova
-- /guides/skills/fireball
-- /guides/skills/meteor
+- [Frostbolt Skill Guide](/guides/skills/frostbolt)
+- [Ice Nova Skill Guide](/guides/skills/ice-nova)
+- [Freezing Shards Skill Guide](/guides/skills/freezing-shards)
+- [Flame Wall Skill Guide](/guides/skills/flame-wall)
+- [Lightning Arrow Skill Page](/skills/lightning-arrow)
+- [Frost Monk Build](/builds/frost-monk)
+- [King in the Mists Boss Guide](/bosses/king-in-the-mists)
+- [Fire Warden Boss Guide](/bosses/fire-warden)

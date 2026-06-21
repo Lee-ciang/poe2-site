@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/ice-strike
+- /skills/ice-strike
 - /skills/ice-strike
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Ice Strike Best Support Gems Guides
 
-- [ice-strike skill overview](/guides/skills/ice-strike)
+- [ice-strike skill overview](/skills/ice-strike)
 - [ice-strike skill page](/skills/ice-strike)
 - [Ice Strike Build Guide](/guides/skills/ice-strike-build)
 - [Ice Strike Leveling Guide](/guides/skills/ice-strike-leveling)
@@ -107,4 +107,3 @@ The best support gems for Ice Strike should improve the way the skill naturally 
 - Faster clear speed
 - Lower friction during mapping
 - Synergy with the build's main damage type
-

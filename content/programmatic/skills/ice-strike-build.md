@@ -71,7 +71,7 @@ Explain whether it fits melee, projectile, elemental, poison, spell, minion, or 
 
 ## Internal Link Suggestions
 
-- /guides/skills/ice-strike
+- /skills/ice-strike
 - /skills/ice-strike
 - /guides
 
@@ -91,7 +91,7 @@ Before publishing, verify:
 
 ## Related Ice Strike Build Guide Guides
 
-- [ice-strike skill overview](/guides/skills/ice-strike)
+- [ice-strike skill overview](/skills/ice-strike)
 - [ice-strike skill page](/skills/ice-strike)
 - [Ice Strike Leveling Guide](/guides/skills/ice-strike-leveling)
 - [Ice Strike Best Support Gems](/guides/skills/ice-strike-support-gems)
@@ -107,4 +107,3 @@ A Ice Strike build should focus on making the skill feel reliable before trying 
 - Add defensive layers before pushing into harder encounters
 - Upgrade weapons or spell scaling when damage starts to fall behind
 - Avoid over-investing into a single damage source too early
-
