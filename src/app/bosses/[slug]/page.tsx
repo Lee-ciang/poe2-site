@@ -156,6 +156,19 @@ export default async function BossDetailPage({ params }: BossPageProps) {
       label: skill.name,
       href: `/skills/${skill.slug}`,
     }));
+  const relatedBossLinks = (boss.relatedBosses ?? [])
+    .map((slug) => getBossBySlug(slug))
+    .filter((relatedBoss): relatedBoss is (typeof bosses)[number] =>
+      Boolean(relatedBoss),
+    )
+    .map((relatedBoss) => ({
+      label: `${relatedBoss.name} Boss Guide`,
+      href: `/bosses/${relatedBoss.slug}`,
+    }));
+  const relatedGuideLinks = (boss.relatedGuides ?? []).map((guide) => ({
+    label: guide.title,
+    href: guide.href,
+  }));
   const overviewRows = [
     ["Location", boss.location],
     ["Difficulty", boss.difficulty],
@@ -270,6 +283,10 @@ export default async function BossDetailPage({ params }: BossPageProps) {
         <RelatedLinks title="Related Builds" links={relatedBuildLinks} />
 
         <RelatedLinks title="Related Skills" links={relatedSkillLinks} />
+
+        <RelatedLinks title="Related Boss Guides" links={relatedBossLinks} />
+
+        <RelatedLinks title="Related Guides" links={relatedGuideLinks} />
 
         <DetailSection title="FAQ">
           <div className="grid gap-4">
