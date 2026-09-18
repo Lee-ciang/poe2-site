@@ -13,7 +13,7 @@ const recommendedPaths = [
   {
     title: "Browse Builds",
     href: "/builds",
-    description: "Compare practical archetypes for mapping, bossing, and progression.",
+    description: "Compare Poison Assassin and other practical builds for mapping, bossing, and progression.",
   },
   {
     title: "Study Bosses",
@@ -33,12 +33,12 @@ const recommendedPaths = [
   {
     title: "Executioner Boss Guide",
     href: "/bosses/executioner",
-    description: "Start with the indexed boss guide and learn a clean melee fight plan.",
+    description: "Learn The Executioner's attack windows and prepare a safe damage-and-dodge routine.",
   },
   {
     title: "Lightning Arrow",
     href: "/skills/lightning-arrow",
-    description: "Open the strongest typed skill page for bow clear and boss setup notes.",
+    description: "Explore a direct-damage bow alternative to poison, with clearing and boss setup advice.",
   },
   {
     title: "Ice Spear Guide",
@@ -194,9 +194,9 @@ export default function HomePage() {
               POE2 Forge is built to help players move from a question to a
               playable plan: choose a build, understand the skills that power it,
               prepare for key bosses, and use guide pages when a mechanic needs
-              more detail. The homepage now connects the strongest skill and boss
-              resources first so new visitors and crawlers can reach the main
-              clusters quickly.
+              more detail. Start with Poison Assassin for mobile damage over
+              time, or study The Executioner&apos;s attack windows before your next
+              boss attempt.
             </p>
           </div>
         </div>
@@ -262,7 +262,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Authority Guides"
           title="Popular Authority Guides"
-          description="Jump into upgraded skill and boss pages that anchor the strongest current POE2 Forge content clusters."
+          description="Plan your damage with a skill guide, then prepare for the attacks and movement each boss demands."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -303,7 +303,6 @@ export default function HomePage() {
           eyebrow="Builds"
           title="Featured Builds"
           description="Starter-friendly and endgame-ready setups for clear speed, survivability, and boss damage."
-          meta="Updated for latest patch"
         />
 
         <div className="grid gap-6 md:grid-cols-3">
@@ -347,7 +346,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Guides"
           title="Leveling, Skills, and Tools"
-          description="Expandable guide sections are ready for campaign walkthroughs, skill explainers, build planners, and DPS tools."
+          description="Choose a skill, compare build options, and plan your next campaign or boss upgrade."
         />
 
         <div className="grid gap-6 md:grid-cols-3">

@@ -212,6 +212,41 @@ export default async function BuildDetailPage({ params }: BuildPageProps) {
 
       <div className="mx-auto grid max-w-7xl gap-6 px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         <DetailSection title="Overview">
+          {build.slug === "poison-assassin" && (
+            <div className="mb-6 max-w-3xl space-y-4 leading-7 text-zinc-400">
+              <p>
+                Poison Assassin is our name for a mobile ranged poison playstyle.
+                This Path of Exile 2 poison assassin build uses Ranger as its
+                starting point. Apply poison, leave room to dodge, and invest in
+                damage that remains useful while you reposition.
+              </p>
+              <p>
+                Use the{" "}
+                <Link
+                  href="/guides/skills/poison-arrow"
+                  className="text-orange-400 underline hover:text-orange-300"
+                >
+                  Poison Arrow guide
+                </Link>{" "}
+                for related ranged poison planning. If you prefer direct bow
+                damage, compare the{" "}
+                <Link
+                  href="/skills/lightning-arrow"
+                  className="text-orange-400 underline hover:text-orange-300"
+                >
+                  Lightning Arrow skill
+                </Link>{" "}
+                and the{" "}
+                <Link
+                  href="/builds/lightning-ranger"
+                  className="text-orange-400 underline hover:text-orange-300"
+                >
+                  Lightning Ranger build
+                </Link>{" "}
+                before changing gear or passives.
+              </p>
+            </div>
+          )}
           <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {overviewRows.map(([label, value]) => (
               <div
@@ -258,9 +293,24 @@ export default async function BuildDetailPage({ params }: BuildPageProps) {
         <RelatedLinks title="Related Boss Guides" links={relatedBossLinks} />
 
         <RelatedLinks
-  title="Related Skill Guides"
-  links={relatedSkillLinks}
-/>
+          title={
+            build.slug === "poison-assassin"
+              ? "Build Planning Resources"
+              : "Related Skill Guides"
+          }
+          links={
+            build.slug === "poison-assassin"
+              ? [
+                  { label: "Compare POE2 builds", href: "/builds" },
+                  { label: "Browse skill mechanics", href: "/skills" },
+                  {
+                    label: "Explore progression and skill guides",
+                    href: "/guides",
+                  },
+                ]
+              : relatedSkillLinks
+          }
+        />
 
         <DetailSection title="FAQ">
           <div className="grid gap-4">

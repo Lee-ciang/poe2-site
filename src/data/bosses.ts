@@ -43,7 +43,7 @@ const bossRelatedContent: Record<
     ],
   },
   executioner: {
-    relatedBuilds: ["lightning-ranger", "grenade-mercenary", "earthshatter-warrior"],
+    relatedBuilds: ["lightning-ranger", "grenade-mercenary", "earthshatter-warrior", "poison-assassin"],
     relatedSkills: ["lightning-arrow", "explosive-grenade", "earthshatter"],
     relatedBosses: ["count-geonor", "endgame-titan", "chimera-abomination"],
     relatedGuides: [
@@ -138,7 +138,7 @@ export const bosses: Boss[] = ([
     damageTypes: ["Physical", "Bleed"],
     weaknesses: ["Evasion", "Stun recovery", "Ranged uptime"],
     summary:
-      "A heavy-hitting melee boss built around axe slams, bleed pressure, and obvious but lethal attack windows.",
+      "Learn how to beat The Executioner in POE2 by recognizing his committed attacks, keeping a clear dodge route, and using recovery windows for damage. This Executioner boss guide focuses on positioning and short, repeatable attack sequences.",
     phases: [
       "Opening phase uses slow cleaves and overhead chops.",
       "Below half health, slam patterns become faster and bleed uptime increases.",
@@ -159,6 +159,7 @@ export const bosses: Boss[] = ([
       "Circle behind the boss after overhead attacks.",
       "Bring bleed removal or enough recovery to stabilize.",
       "Avoid attacking through axe windups.",
+      "For a Poison Assassin setup, apply poison after a committed attack finishes, then reposition while it deals damage. Do not extend an attack sequence just to refresh poison during the next windup; use the related Poison Assassin Build guide to plan application and defenses.",
     ],
   },
   {
@@ -326,7 +327,7 @@ export const bosses: Boss[] = ([
   seoTitle: `${boss.name} Boss Guide - POE2 Mechanics and Tips`,
   seoDescription: `${boss.summary} Learn phases, weaknesses, damage types, rewards, recommended builds, FAQs, and practical POE2 fight tips.`,
   patchVersion: "Early Access",
-  lastUpdated: "2026-07-16",
+  lastUpdated: boss.slug === "executioner" ? "2026-09-18" : "2026-07-16",
   faq: [
     {
       question: `Where do you find ${boss.name}?`,

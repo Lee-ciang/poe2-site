@@ -38,8 +38,8 @@ const buildRelatedContent: Record<
     relatedBosses: ["fire-warden", "chimera-abomination"],
   },
   "poison-assassin": {
-    relatedSkills: ["poisonous-concoction"],
-    relatedBosses: ["chimera-abomination", "king-in-the-mists"],
+    relatedSkills: [],
+    relatedBosses: ["executioner", "count-geonor"],
   },
   "earthshatter-warrior": {
     relatedSkills: ["earthshatter"],
@@ -138,38 +138,71 @@ export const builds: Build[] = ([
   {
     slug: "poison-assassin",
     title: "Poison Assassin Build",
-    className: "Shadow",
-    tier: "S Tier",
+    className: "Ranger",
+    tier: "Poison specialist",
     playstyle: "Mobile damage over time",
     difficulty: "Advanced",
     summary:
-      "A quick melee or projectile poison build that stacks damage over time, avoids retaliation, and excels at sustained boss pressure.",
+      "This POE2 Poison Assassin build uses ranged poison application and deliberate movement to maintain damage between attack windows. Plan a Ranger around poison-capable bow skills, reliable defenses, and a repeatable boss routine.",
     strengths: [
-      "Very high sustained damage once poison stacks ramp.",
-      "Strong mobility supports aggressive boss positioning.",
-      "Excellent scaling from chaos damage and damage over time multipliers.",
+      "Play this build when you enjoy applying damage, repositioning, and watching the enemy rather than holding an attack through every mechanic. Poison can keep dealing damage while you move, provided its duration has not expired. That gives you time to cross an arena or avoid a telegraph without treating every moment away from attacking as wasted time.",
+      "Ranged application lets you start a fight with room to retreat. Against packs, approach from an open edge and keep enemies in front of you. Against a single target, choose an angle that leaves an exit after the shot. The advantage comes from maintaining a safe attack rhythm, not from assuming poison makes your character durable.",
+      "The build offers clear ways to diagnose weak damage: look at application reliability, the damage that contributes to poison, poison magnitude, and the number of active poisons your setup actually permits. Improve the weakest part first. Buying an expensive damage item before solving missed applications or resource starvation can leave the build feeling almost unchanged.",
     ],
     weaknesses: [
-      "Ramp-up damage can feel weaker on short-lived enemies.",
-      "Requires cleaner positioning than many ranged builds.",
-      "Gear pressure is higher because offense and defense both matter.",
+      "Short-lived enemies can die before a longer poison pays off. A setup built only for sustained boss damage may feel slow when clearing scattered packs. Judge mapping by how quickly you can apply damage and move on, and judge bossing by damage maintained during real mechanics. Those are different tests and may favor different supports.",
+      "Movement is an active defense, so cramped arenas and enemies arriving from several directions demand attention. Evasion does not replace life, resistances, recovery, or learning dangerous attacks. If you repeatedly die before poison finishes its work, the next upgrade should protect your character rather than add another offensive modifier.",
+      "Additional poison capacity is useful only when you can fill it and keep it active. Do not assume every hit adds unlimited stacks. Long duration also has little value when a target dies quickly or becomes unavailable. Spending passives on theoretical maximum damage can weaken a character that rarely gets the required uninterrupted attack time.",
     ],
-    coreSkills: ["Poisonous Concoction", "Viper Strike", "Plague Bearer", "Dash"],
+    coreSkills: [
+      "Poisonburst Arrow: the poison-focused bow option around which to establish your application routine.",
+      "Gas Arrow: an alternative area-coverage option; build around its poison behavior rather than mixing in a separate explosion plan unintentionally.",
+      "Despair: optional chaos-resistance utility when you meet its requirements and can afford the extra cast in your rotation.",
+    ],
     recommendedGear: [
-      "Fast weapon or flask setup with chaos scaling",
-      "Evasion pieces with life and suppression-style defenses",
-      "Chaos damage rings",
-      "Belt with flask sustain and resistances",
+      "Start with a bow whose damage supports the poison skill you are using. Compare the skill's own damage details before and after an upgrade instead of shopping by total elemental weapon damage. Accuracy and a comfortable attack animation matter when your application relies on a hit. An impressive weapon tooltip is not enough if attacks regularly fail to apply poison.",
+      "Use armor and jewelry to maintain life and resistances, then improve evasion and recovery as part of the same defensive plan. Movement speed on boots helps you reach a safe position before the next attack. Avoid replacing a dependable defensive item with an offensive one unless you can cover the resistance or attribute gap elsewhere.",
+      "For damage upgrades, distinguish the physical or chaos damage feeding the poison from modifiers that explicitly affect poison magnitude or duration. Poison deals chaos damage over time, but that does not make every chaos modifier equally useful for every skill. Chaos penetration is not a general poison upgrade: penetration applies to hits. Read the affected damage component before spending currency.",
+      "Keep your mana recovery and flask setup comfortable through a whole boss attempt, not just one pack. Test a support change against a durable enemy while watching resource use. If repeated attacks exhaust mana, reduce unnecessary skill use or improve sustain before adding more attack speed. Reliable access to your main attack is part of your damage plan.",
     ],
     levelingTips: [
-      "Use whichever poison skill has the smoothest early support links.",
-      "Take life and evasion nodes before pushing too deep into damage.",
-      "Refresh weapons frequently if using attack-based poison skills.",
+      "Begin with the bow attack you can equip and sustain, then move into your poison setup as its gems and requirements become available. Keep one main damage skill well supported rather than spreading limited upgrades across several competing attacks. You do not need a complete endgame rotation to learn the basic rhythm of applying damage and moving.",
+      "Select support gems by function. First make application dependable; then consider poison magnitude or a suitable damage modifier. Add duration when it helps poison persist through movement, and coverage when packs require too many separate shots. Check compatibility in the skill panel and read each penalty: a support that improves one part of the skill can weaken another.",
+      "Replace gear when campaign progress exposes a specific weakness. Slow kills with comfortable survival suggest reviewing the bow, gem level, and supports. Sudden deaths call for life, resistances, and safer positioning. Change one piece or support at a time, then repeat a familiar encounter so you can tell whether the adjustment actually helped.",
+      "Practice bosses with a short routine: wait for a committed attack to finish, apply poison from a safe angle, then move before the next windup. Start with a brief attack window rather than trying to maintain every possible stack. Expand the window only after you can repeat it without being hit. This habit remains useful when damage and enemy pressure increase.",
     ],
     endgameNotes: [
-      "Scale poison duration only after damage and defenses are stable.",
-      "Add chaos penetration or wither-style effects for pinnacle bosses.",
-      "Avoid overcommitting during ramp windows in lethal encounters.",
+      "For bossing, prioritize damage you can sustain while responding to mechanics. Apply your main skill during recovery windows and refresh before poisons expire when it is safe. Use Despair only when the casting commitment fits the opening. Skipping a utility cast is preferable to losing the attempt while trying to complete an elaborate sequence.",
+      "For mapping, test whether coverage or application speed matters more than extra duration. Do not stay beside a poisoned pack simply to watch it die, but do not run blindly into the next group either. Clear an escape lane, move into known space, and return to dangerous survivors from an angle where you can see their attacks.",
+      "Avoid confusing poison application with poison consumption. Acidic Concoction consumes poison and cannot serve as the poison applicator; it replaced the older Poisonous Concoction skill. A consumption setup needs a separate application plan and changes your rhythm. Keep the bow routine simple before adding a payoff skill that removes the damage you intended to leave ticking.",
+      "Common mistakes include buying hit penetration for poison damage, assuming more attacks always mean more active poisons, and copying support names without reading their restrictions. Another trap is sacrificing every defensive slot to chase a damage estimate. Assess progress using repeatable kills, flask use, and survival, not an untested tier label or a promised damage number.",
+    ],
+    lastUpdated: "2026-09-18",
+    faq: [
+      {
+        question: "Is Poison Assassin a class or an ascendancy requirement?",
+        answer: "Poison Assassin is the name of this mobile poison playstyle guide. The setup described here starts from Ranger and bow skills; it does not require selecting an ascendancy named Assassin. Choose your ascendancy for the poison, utility, and defensive tools you intend to use, rather than treating the guide title as a character-creation option.",
+      },
+      {
+        question: "What should I improve first if poison damage feels low?",
+        answer: "Confirm that your main skill applies poison reliably, then inspect the damage feeding that poison and your poison magnitude. Check whether you can maintain the active poisons your setup allows. More duration will not solve an application problem, and faster attacks will not compensate for running out of mana halfway through the fight.",
+      },
+      {
+        question: "Which support gems should I prioritize?",
+        answer: "Choose compatible supports that solve a specific problem: dependable application, stronger poison, useful duration, or pack coverage. Compare the skill details after each change and test against the same enemy. Keep a boss arrangement focused on sustained damage and a clearing arrangement focused on practical coverage; do not assume one combination is best for both.",
+      },
+      {
+        question: "Can I level with this POE2 poison build?",
+        answer: "Yes, build toward the ranged poison routine while using skills available at your level. Keep your bow, defenses, and main supports current before investing in optional utility. If the transition feels weaker than your previous attack, identify whether gem access, application, accuracy, or mana is the limiting factor before committing more resources.",
+      },
+      {
+        question: "How should I approach The Executioner with poison?",
+        answer: "Use short application windows after a committed attack finishes, then reposition with an escape route in mind. Existing poison can work while you move, but it does not make a dangerous windup safe to attack through. Learn the dodge timing first and add more attacks only when you can repeat the opening cleanly.",
+      },
+      {
+        question: "Should I switch to Lightning Arrow for faster clearing?",
+        answer: "Compare the playstyles before spending on a conversion. Lightning Arrow emphasizes a different damage plan, so your poison supports and passive choices are not automatically a good match. First try improving coverage and sustain on the poison setup. Switch when you prefer the alternative playstyle and can support its gear and passive requirements.",
+      },
     ],
   },
   {
@@ -293,8 +326,8 @@ export const builds: Build[] = ([
   seoTitle: `${build.title} Guide - POE2 ${build.className} Build`,
   seoDescription: `${build.summary} Includes skills, gear priorities, leveling tips, endgame notes, FAQs, and related POE2 guides.`,
   patchVersion: "Early Access",
-  lastUpdated: "2026-05-11",
-  faq: [
+  lastUpdated: build.lastUpdated ?? "2026-05-11",
+  faq: build.faq ?? [
     {
       question: `Is ${build.title} beginner friendly?`,
       answer: `${build.title} is rated ${build.difficulty}. Use that rating with the weaknesses section to decide how much gear and fight knowledge you need before committing.`,
