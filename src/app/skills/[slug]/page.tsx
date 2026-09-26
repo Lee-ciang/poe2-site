@@ -210,7 +210,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
           </div>
 
           <h1 className="mt-5 max-w-5xl text-4xl font-black tracking-tight sm:text-6xl">
-            {skill.name} Skill Guide
+            {skill.name} {skill.slug === "lightning-arrow" ? "Skill Reference" : "Skill Guide"}
           </h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-zinc-400">
             {skill.summary}
@@ -257,7 +257,7 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
           <BulletList items={skill.scalingStats} />
         </DetailSection>
 
-        <DetailSection title="Best Supports">
+        <DetailSection title={skill.slug === "lightning-arrow" ? "Support Choices and Trade-offs" : "Best Supports"}>
           <BulletList items={skill.bestSupports} />
         </DetailSection>
 
@@ -282,6 +282,49 @@ export default async function SkillDetailPage({ params }: SkillPageProps) {
         <DetailSection title="Endgame Use">
           <BulletList items={skill.endgameUse} />
         </DetailSection>
+
+        {skill.slug === "lightning-arrow" && (
+          <DetailSection title="Practical Example: Packs Versus One Target">
+            <div className="max-w-3xl space-y-4 leading-7 text-zinc-400">
+              <p>
+                Keep the same bow and Lightning Arrow gem for both tests. In a
+                familiar area, fire into a grouped pack, move to cleared ground,
+                and note whether survivors are scattered or simply taking too
+                long to die. Scattered survivors suggest a coverage question;
+                healthy enemies after clean hits suggest a damage question.
+              </p>
+              <p>
+                Next, fight a familiar durable enemy with the same arrangement.
+                After a completed attack, fire briefly and move again. Notice
+                whether mana lasts and whether you can finish that sequence
+                safely. Replace one coverage support with a compatible
+                hit-focused support and repeat. Keep the change only if the
+                encounter becomes more comfortable; do not change the bow at the
+                same time and attribute every improvement to the support.
+              </p>
+              <p>
+                Use the <Link href="/builds/lightning-ranger" className="text-orange-400 underline hover:text-orange-300">Lightning Ranger build</Link>{" "}
+                to turn that test into a progression plan. The{" "}
+                <Link href="/guides/skills/lightning-arrow" className="text-orange-400 underline hover:text-orange-300">longer Lightning Arrow guide</Link>{" "}
+                covers broader leveling choices. For encounter timing, read{" "}
+                <Link href="/bosses/count-geonor" className="text-orange-400 underline hover:text-orange-300">Count Geonor</Link>{" "}
+                or <Link href="/bosses/executioner" className="text-orange-400 underline hover:text-orange-300">The Executioner</Link>{" "}
+                before treating an interrupted shot as a damage problem.
+              </p>
+              <p>
+                Prefer damage that continues while you move? Compare{" "}
+                <Link href="/builds/poison-assassin" className="text-orange-400 underline hover:text-orange-300">Poison Assassin</Link>.
+                Prefer casting to using a bow? The{" "}
+                <Link href="/guides/skills/spark" className="text-orange-400 underline hover:text-orange-300">Spark guide</Link>{" "}
+                is a spell comparison, not a list of interchangeable supports.
+              </p>
+              <p className="text-sm">
+                Mechanics reference: <a href="https://poe2db.tw/us/Lightning_Arrow" className="text-orange-400 underline hover:text-orange-300">Lightning Arrow skill data</a>{" "}
+                and <a href="https://poe2db.tw/us/Lightning_Rod" className="text-orange-400 underline hover:text-orange-300">Lightning Rod skill data</a>.
+              </p>
+            </div>
+          </DetailSection>
+        )}
 
         <RelatedLinks title="Related Builds" links={relatedBuildLinks} />
 

@@ -173,7 +173,7 @@ export default async function BossDetailPage({ params }: BossPageProps) {
     ["Location", boss.location],
     ["Difficulty", boss.difficulty],
     ["Damage Types", boss.damageTypes.join(", ")],
-    ["Weaknesses", boss.weaknesses.join(", ")],
+    [boss.slug === "count-geonor" ? "Defensive Priorities" : "Weaknesses", boss.weaknesses.join(", ")],
     ["Patch", boss.patchVersion ?? "Not specified"],
     ["Last Updated", boss.lastUpdated ?? "Not specified"],
   ].filter(([, value]) => !frontendTrustSignalPattern.test(value));
@@ -255,7 +255,7 @@ export default async function BossDetailPage({ params }: BossPageProps) {
             <BulletList items={boss.damageTypes} />
           </DetailSection>
 
-          <DetailSection title="Weaknesses">
+          <DetailSection title={boss.slug === "count-geonor" ? "Defensive Priorities" : "Weaknesses"}>
             <BulletList items={boss.weaknesses} />
           </DetailSection>
         </div>
@@ -279,6 +279,35 @@ export default async function BossDetailPage({ params }: BossPageProps) {
         <DetailSection title="Tips">
           <BulletList items={boss.tips} />
         </DetailSection>
+
+        {boss.slug === "count-geonor" && (
+          <DetailSection title="Choose Your Fight Plan">
+            <div className="max-w-3xl space-y-4 leading-7 text-zinc-400">
+              <p>
+                Coming from <Link href="/bosses/executioner" className="text-orange-400 underline hover:text-orange-300">The Executioner</Link>?
+                Keep the short punish windows, but make cold defense and mist
+                awareness part of your preparation. The{" "}
+                <Link href="/builds/lightning-ranger" className="text-orange-400 underline hover:text-orange-300">Lightning Ranger plan</Link>{" "}
+                and <Link href="/skills/lightning-arrow" className="text-orange-400 underline hover:text-orange-300">Lightning Arrow reference</Link>{" "}
+                separate pack clearing from safe damage against one boss.
+              </p>
+              <p>
+                For a different movement rhythm, compare{" "}
+                <Link href="/builds/poison-assassin" className="text-orange-400 underline hover:text-orange-300">Poison Assassin</Link>.
+                Already playing a caster? Use the{" "}
+                <Link href="/guides/skills/ice-nova" className="text-orange-400 underline hover:text-orange-300">Ice Nova guide</Link>{" "}
+                for close-range cold planning or the{" "}
+                <Link href="/guides/skills/flame-wall" className="text-orange-400 underline hover:text-orange-300">Flame Wall guide</Link>{" "}
+                for placement decisions, without assuming either skill lets you
+                ignore Geonor&apos;s next attack.
+              </p>
+              <p className="text-sm">
+                Encounter references: <a href="https://poe2db.tw/us/Count_Geonor" className="text-orange-400 underline hover:text-orange-300">Count Geonor encounter data</a>{" "}
+                and <a href="https://poe2db.tw/Geonor%2C_the_Putrid_Wolf" className="text-orange-400 underline hover:text-orange-300">wolf attack and audio data</a>.
+              </p>
+            </div>
+          </DetailSection>
+        )}
 
         <RelatedLinks title="Related Builds" links={relatedBuildLinks} />
 

@@ -7,6 +7,7 @@ type SkillCardProps = {
   weaponRequirement: string;
   summary: string;
   href: string;
+  linkLabel?: string;
 };
 
 export function SkillCard({
@@ -16,6 +17,7 @@ export function SkillCard({
   weaponRequirement,
   summary,
   href,
+  linkLabel = "View Skill",
 }: SkillCardProps) {
   return (
     <article className="group rounded-2xl border border-zinc-800 bg-zinc-900/80 p-6 shadow-xl shadow-black/20 transition duration-300 hover:-translate-y-1 hover:border-orange-500 hover:bg-zinc-900">
@@ -41,7 +43,7 @@ export function SkillCard({
         href={href}
         className="mt-6 inline-flex font-bold text-orange-500 transition group-hover:text-orange-400"
       >
-        View Skill -&gt;
+        {linkLabel} -&gt;
       </Link>
     </article>
   );

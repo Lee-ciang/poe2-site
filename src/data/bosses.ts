@@ -94,6 +94,80 @@ const bossRelatedContent: Record<
   },
 };
 
+// Only this encounter bypasses the shared expansion below.
+const countGeonorEncounter: Pick<
+  Boss,
+  "summary" | "weaknesses" | "phases" | "keyMechanics" | "recommendedBuilds" |
+  "rewards" | "tips" | "faq" | "seoDescription" | "lastUpdated"
+> = {
+  summary:
+    "Count Geonor closes the Ogham Manor campaign encounter with sword pressure, a wolf transformation, and cold hazards. Prepare for a fight that changes rhythm: readable melee openings give way to mist, incoming charges, and less room to focus only on damage.",
+  weaknesses: [
+    "Cold resistance",
+    "Life and physical-hit protection",
+    "Recovery and movement speed",
+  ],
+  phases: [
+    "Opening encounter: read the sword before committing. Geonor can alternate between human and wolf actions before the later transformation, so do not treat every change of shape as the end of a phase. Watch the direction of the next attack and keep enough room beside you to move off its line.",
+    "Sword sequences: a brief pause between swings is not the same as a completed combo. Stop attacking when he starts preparing another strike. Once the sequence has finished, use a short attack or cast, then look at his posture again. Increase the length of that opening only after you can repeat it without trading hits.",
+    "Transformed encounter: the larger wolf brings cold pressure and faster repositioning. A landing or charge can change where your next safe shot comes from. Follow the arena, not just the health bar; when the space ahead becomes hazardous, abandon the intended attack and move to a clearer angle.",
+    "Mist sequence: smaller enemies compete for your attention while Geonor threatens charges from outside clear view. Listen for his voice cues, clear enough enemies to retain movement space, and watch for the incoming attack. Treat this as a survival sequence rather than chasing the boss into obscured ground.",
+  ],
+  keyMechanics: [
+    "Sword lunge and frontal pressure: step away from the line he is facing when the attack commits. Retreating straight backward can leave you in the same corridor. A lateral move into open ground is a better starting response than holding the attack button and hoping distance alone will protect you.",
+    "Slams and landing attacks: leave the marked or threatened area rather than rolling in place. An animation can finish while a ground effect remains dangerous. Before punishing the landing, look at your character's feet and your exit path; a safe destination matters more than the dodge animation itself.",
+    "Cold breath and ground pressure: move out of the threatened lane and stop trying to finish a long damage sequence. Do not circle blindly through a cold effect to reach his back. Recover your position first, then decide whether there is still time to attack before the next action.",
+    "Mist charges: voice lines are useful warning cues, but avoid relying on a memorized second count. Keep the next charge in mind while clearing the smaller enemies. Repeated panic rolls can leave you committed when you actually need to change direction; use deliberate movement and respond to the incoming threat.",
+    "Cold and physical damage require different answers. Cold resistance helps with cold hits, but it does not make sword attacks harmless. Likewise, evasion or armour alone should not be treated as permission to stand in ground hazards. Keep life and recovery in the plan alongside the relevant resistance.",
+  ],
+  recommendedBuilds: [
+    "Lightning Ranger: use short bow sequences after the sword or wolf attack has resolved. Lightning Arrow can help with grouped smaller enemies, but stop clearing long enough to read a mist charge. Place any optional damage setup only when the arena gives you time to finish it.",
+    "Earthshatter Warrior and other deliberate melee setups: wait for Geonor to finish a committed action before stepping in. Begin with one attack rather than a complete damage sequence. If he moves away, let the missed opportunity go instead of following through a cold hazard to recover it.",
+    "Frost Monk and other close-range control setups: treat chill or freeze as help when it occurs, not a guaranteed opening. Maintain a plan for the next attack even when the boss appears controlled. Avoid committing a long combo on the assumption that the control will outlast your animation.",
+    "Poison or persistent-damage setups: apply damage when the boss is accessible, then prioritize survival during movement-heavy patterns. Do not stand in danger to refresh an effect early. A ground-based damage zone only helps while Geonor remains in it, so be willing to reposition it after he moves.",
+  ],
+  rewards: [
+    "Campaign progression beyond the Ogham Manor encounter.",
+    "Encounter loot varies; do not plan a build around a guaranteed named drop from this fight.",
+  ],
+  tips: [
+    "Before entering, inspect cold resistance, life, recovery, and movement speed. If one equipment swap creates an attribute or resistance gap elsewhere, repair that gap first. Carry a skill arrangement you can sustain through more than the opening sword exchanges.",
+    "For a first clear, choose one recovery window to practice. Avoid adding several utility actions to it at once. If a single bow shot or melee attack is consistently safe, try another action on a later attempt; if you are hit, return to the shorter sequence.",
+    "After taking a hit, stop trying to recover lost damage immediately. Move into visible open space, use recovery when needed, and rejoin the fight after the next committed attack. Staying in front of Geonor while watching your life bar can turn one mistake into a second hit.",
+    "If mist repeatedly ends the attempt, practice prioritizing the charge over the smaller enemies. Remove enemies that block your movement, but do not chase the last survivor across the safe area. Keep enough attention on Geonor's cues to interrupt your own attack sequence.",
+    "If you survive but run out of recovery, identify which part of the encounter causes repeated chip damage. Losing resources to sword exchanges calls for shorter openings; struggling with cold pressure calls for both resistance and better pathing. Buying damage alone may leave the same failure unchanged.",
+  ],
+  lastUpdated: "2026-09-26",
+  seoDescription:
+    "Prepare for Count Geonor in Ogham Manor: sword openings, wolf and mist pressure, cold defenses, and practical ranged or melee responses.",
+  faq: [
+    {
+      question: "Where is this Count Geonor encounter?",
+      answer: "This guide covers the campaign fight in Ogham Manor. Use the campaign arena as the context for the strategy rather than assuming a later encounter variant has identical damage or timing.",
+    },
+    {
+      question: "Should I change my build to fire damage?",
+      answer: "Not simply because cold is prominent in the fight. Start by making your current skill dependable and protecting your character from incoming damage. Changing your entire damage plan can cost more than correcting positioning, resistance, or a weak weapon.",
+    },
+    {
+      question: "What should I do during the mist?",
+      answer: "Keep space to move, remove nearby enemies that threaten to surround you, and listen for the boss's cues. Be ready to stop attacking and avoid a charge. Do not follow him into poor visibility just to maintain damage.",
+    },
+    {
+      question: "Is maximum range safest for a bow character?",
+      answer: "Not automatically. You still need to see the approach and have a clear path beside you. Choose a distance where you can read Geonor and land a short sequence without being pushed against an edge or into a hazard.",
+    },
+    {
+      question: "When can a slow melee build attack?",
+      answer: "Start after a committed sequence or landing has finished and the ground is safe. Use a short punish, then reassess. Missing an opening is better than chasing him into the next cold pattern while locked in a long animation.",
+    },
+    {
+      question: "How does this differ from practicing The Executioner?",
+      answer: "The habit of waiting for a committed attack still transfers, but Geonor adds changing forms, cold pressure, and mist distractions. Keep the disciplined timing while learning those separate responses rather than reusing one dodge rhythm for the entire fight.",
+    },
+  ],
+};
+
 export const bosses: Boss[] = ([
   {
     slug: "count-geonor",
@@ -366,6 +440,7 @@ export const bosses: Boss[] = ([
   relatedGuides: bossRelatedContent[boss.slug]?.relatedGuides ?? [],
   contentNotes:
     "AI-assisted placeholder boss guide data. Verify phase names, rewards, damage types, and patch-specific mechanics with current gameplay before final publication.",
+  ...(boss.slug === "count-geonor" ? countGeonorEncounter : {}),
 }));
 
 export function getBossBySlug(slug: string) {

@@ -51,7 +51,7 @@ export async function generateMetadata({
       keywords: [
         build.title,
         build.className,
-        build.tier,
+        ...(build.slug === "lightning-ranger" ? [] : [build.tier]),
         build.playstyle,
         "POE2 build guide",
       ],
@@ -137,9 +137,9 @@ export default async function BuildDetailPage({ params }: BuildPageProps) {
     keywords: [
       build.title,
       build.className,
-      build.tier,
+      ...(build.slug === "lightning-ranger" ? [] : [build.tier]),
       build.playstyle,
-      ...build.coreSkills,
+      ...(build.slug === "lightning-ranger" ? ["Lightning Arrow", "Lightning Rod"] : build.coreSkills),
     ],
   });
   const relatedSkillLinks = (build.relatedSkills ?? [])
@@ -163,7 +163,10 @@ export default async function BuildDetailPage({ params }: BuildPageProps) {
     ["Difficulty", build.difficulty],
     ["Patch", build.patchVersion ?? "Not specified"],
     ["Last Updated", build.lastUpdated ?? "Not specified"],
-  ].filter(([, value]) => !frontendTrustSignalPattern.test(value));
+  ].filter(([label, value]) =>
+    !frontendTrustSignalPattern.test(value) &&
+    !(build.slug === "lightning-ranger" && label === "Tier"),
+  );
 
   return (
     <main className="flex-1 bg-black text-white">
@@ -189,7 +192,9 @@ export default async function BuildDetailPage({ params }: BuildPageProps) {
           </Link>
 
           <div className="mt-8 flex flex-wrap gap-2">
-            {[build.tier, build.className, build.playstyle, build.difficulty].map(
+            {(build.slug === "lightning-ranger"
+              ? [build.className, build.playstyle, build.difficulty]
+              : [build.tier, build.className, build.playstyle, build.difficulty]).map(
               (item) => (
                 <span
                   key={item}
@@ -212,6 +217,31 @@ export default async function BuildDetailPage({ params }: BuildPageProps) {
 
       <div className="mx-auto grid max-w-7xl gap-6 px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         <DetailSection title="Overview">
+          {build.slug === "lightning-ranger" && (
+            <div className="mb-6 max-w-3xl space-y-4 leading-7 text-zinc-400">
+              <p>
+                Start with the <Link href="/skills/lightning-arrow" className="text-orange-400 underline hover:text-orange-300">Lightning Arrow reference</Link>{" "}
+                for arrow and beam behavior, then use this page for a connected
+                gear and combat routine. The{" "}
+                <Link href="/guides/skills/lightning-arrow" className="text-orange-400 underline hover:text-orange-300">longer skill guide</Link>{" "}
+                offers broader progression comparisons. This plan favors simple
+                decisions you can repeat over a fixed damage target.
+              </p>
+              <p>
+                Use <Link href="/bosses/executioner" className="text-orange-400 underline hover:text-orange-300">The Executioner</Link>{" "}
+                to practice short attack windows, then prepare separately for{" "}
+                <Link href="/bosses/count-geonor" className="text-orange-400 underline hover:text-orange-300">Count Geonor&apos;s cold and mist pressure</Link>.
+                Compare <Link href="/builds/poison-assassin" className="text-orange-400 underline hover:text-orange-300">Poison Assassin</Link>{" "}
+                before changing to a damage-over-time playstyle; the two builds
+                do not share every damage investment.
+              </p>
+              <p className="text-sm">
+                Skill interaction references:{" "}
+                <a href="https://poe2db.tw/us/Lightning_Arrow" className="text-orange-400 underline hover:text-orange-300">Lightning Arrow data</a>{" "}
+                and <a href="https://poe2db.tw/us/Lightning_Rod" className="text-orange-400 underline hover:text-orange-300">Lightning Rod data</a>.
+              </p>
+            </div>
+          )}
           {build.slug === "poison-assassin" && (
             <div className="mb-6 max-w-3xl space-y-4 leading-7 text-zinc-400">
               <p>
@@ -294,12 +324,12 @@ export default async function BuildDetailPage({ params }: BuildPageProps) {
 
         <RelatedLinks
           title={
-            build.slug === "poison-assassin"
+            build.slug === "poison-assassin" || build.slug === "lightning-ranger"
               ? "Build Planning Resources"
               : "Related Skill Guides"
           }
           links={
-            build.slug === "poison-assassin"
+            build.slug === "poison-assassin" || build.slug === "lightning-ranger"
               ? [
                   { label: "Compare POE2 builds", href: "/builds" },
                   { label: "Browse skill mechanics", href: "/skills" },

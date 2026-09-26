@@ -31,7 +31,7 @@ const skillRelatedContent: Record<
   }
 > = {
   "lightning-arrow": {
-    relatedBuilds: ["lightning-ranger", "grenade-mercenary"],
+    relatedBuilds: ["lightning-ranger", "poison-assassin"],
     relatedBosses: [
       "count-geonor",
       "executioner",
@@ -77,101 +77,69 @@ export const skills: Skill[] = ([
     damageType: "Lightning",
     weaponRequirement: "Bow",
     summary:
-      "A fast bow attack that turns projectile uptime into lightning chains, shock pressure, and smooth mapping momentum for ranged characters.",
+      "A bow attack for clearing nearby groups with lightning beams. Use this reference to separate arrow and beam behavior, choose supports by purpose, and diagnose weak single-target damage.",
     scalingStats: [
-      "Weapon elemental damage is the first major priority because Lightning Arrow still needs a strong bow base before support gems and passive scaling can carry the setup.",
-      "Attack speed improves clear, shock uptime, and boss damage windows because the skill depends on repeated hits rather than a single slow burst.",
-      "Lightning damage increases both pack clear and single-target pressure, especially when paired with penetration or shock-focused scaling.",
-      "Critical strike chance and critical multiplier become stronger after weapon damage, attack speed, and basic defenses are already stable.",
-      "Projectile and chain investment improve mapping coverage, but they should be balanced against single-target needs so bosses do not feel slow.",
-      "Mana sustain, accuracy, life, evasion, and resistances are part of the real scaling package because a bow build that cannot keep attacking safely loses damage immediately.",
+      "Start with the bow's attack damage. Lightning Arrow converts physical damage to lightning, so physical weapon damage can contribute alongside added lightning damage. Compare the skill's damage breakdown instead of choosing a bow by its name or total elemental damage alone.",
+      "Accuracy and affordable attack speed make attacks dependable. Faster firing is useful only while mana lasts and your character has time to move. Check resource use against a durable enemy, not only a pack that dies immediately.",
+      "Separate the initial projectile from the lightning beams in the skill panel. The arrow does not chain; the beams do. A modifier aimed at one component is not automatically an equal improvement to both.",
+      "Lightning hit damage and suitable resistance penetration can help against resistant targets. Shock is an additional consideration, not a guarantee on every hit. Do not build a damage estimate around an ailment you cannot reliably apply.",
     ],
     bestSupports: [
-      "Chain-style support is the clear-speed backbone, letting one shot carry lightning damage through packs and making the skill feel like a true mapper.",
-      "Elemental Damage support is a stable damage multiplier when the bow and gear already provide enough elemental attack value.",
-      "Lightning Penetration is the bossing support that keeps damage from collapsing against resistant rares and endgame enemies.",
-      "Faster Attacks improves the entire feel of the skill by increasing shock application, movement rhythm, and recovery after missed shots.",
-      "Added Lightning or shock-focused supports are useful when the build wants stronger ailment pressure and more consistent follow-up damage.",
-      "Single-target swaps should be considered for bosses when clear supports produce great mapping but leave rare enemies alive too long.",
+      "For coverage, consider Chain where compatible with the beam component. Lightning Arrow already has beam coverage, so compare how many enemies remain alive before spending a support slot on more reach. Extra chains are not proof of repeated hits on one isolated boss.",
+      "For reliable hit damage, choose a compatible attack or lightning damage support and read its penalties. Avoid importing a spell support just because another lightning skill uses it. The skill panel must show that the support affects your actual attack.",
+      "For resistance, consider a compatible lightning penetration support when resistant enemies are the problem. Penetration addresses lightning hits; it does not solve missed attacks, insufficient bow damage, or an empty mana pool.",
+      "For sustained use, compare attack-speed options with a cost-reduction option available to your character. Keep the arrangement that lets you complete a whole damage window and still reposition. There is no universal support order independent of gear and gem access.",
     ],
     recommendedBuilds: [
-      "Lightning Ranger Build is the main home for Lightning Arrow because it combines bow scaling, movement, ranged uptime, and shock pressure.",
-      "Grenade Mercenary Build can use Lightning Arrow ideas as a ranged comparison point, especially when evaluating projectile uptime and safe spacing.",
-      "Fast bow leveling setups can use Lightning Arrow as the primary pack clearer while reserving a focused support setup for bosses.",
-      "Hybrid elemental bow characters can use Lightning Arrow when they want reliable mapping and enough range to learn dangerous encounters safely.",
-      "Players who like cold or fire casters should compare Lightning Arrow with Ice Spear and Flame Wall to decide whether they prefer bow mobility or spell control.",
+      "Lightning Ranger uses the bow attack as its main clear tool and supplies a leveling, defensive, and bossing plan. Start there when you need a character setup rather than an individual skill explanation.",
+      "Poison Assassin is a playstyle comparison, not a support package to copy. Its damage application and scaling priorities differ from direct lightning hits.",
     ],
     strengths: [
-      "Excellent pack clear when chain, projectile coverage, and attack speed are kept current.",
-      "Strong shock pressure gives the build a clear damage identity and rewards repeated hits.",
-      "Very comfortable mapping pattern because the player can fire from range and keep moving between packs.",
-      "Scales well with weapon upgrades, elemental attack damage, lightning damage, and critical investment.",
-      "Pairs naturally with mobile ranged play, making it easier to learn bosses without standing in melee range.",
-      "Flexible enough to use a clear-focused setup for maps and a more focused setup for bossing.",
+      "Nearby packs provide targets for the beams, letting a well-placed shot cover more than the enemy you aimed at.",
+      "Short attack sequences fit a ranged movement rhythm. You can stop firing to read an enemy rather than committing to a long rotation.",
+      "Changes to your bow, accuracy, supports, and mana sustain can be tested separately, making progression problems easier to identify.",
     ],
     weaknesses: [
-      "Single-target damage can fall behind if the build keeps only clear-speed supports equipped.",
-      "Weapon upgrades matter a great deal; an outdated bow makes the whole setup feel weak.",
-      "Mana sustain can become strained once attack speed and support costs rise.",
-      "Fragile gearing is punished quickly because bow builds often rely on movement instead of standing defenses.",
-      "Heavy lightning resistance or shock-resistant enemies may require penetration and better damage planning.",
-      "Players who overfire while standing still lose the main advantage of a ranged attack build.",
+      "Pack coverage does not translate directly into isolated-target damage. A clearing setup may need a separate boss plan.",
+      "A bow that falls behind can make both parts of the attack disappointing. More coverage cannot rescue inadequate damage per hit.",
+      "Repeated firing exposes you to incoming attacks and consumes resources. Range is not a substitute for life, resistances, and an escape route.",
     ],
     levelingNotes: [
-      "Upgrade bows frequently; a better bow is usually the fastest way to fix both clear speed and boss damage.",
-      "Use chain, pierce, or projectile coverage while leveling so packs die before they force you into awkward retreat paths.",
-      "Add defensive passives and gear when ranged positioning starts feeling unsafe, especially before harder bosses.",
-      "Do not ignore mana sustain. If the skill stops firing smoothly, damage drops even when the tooltip looks fine.",
-      "Use Lightning Arrow for packs and keep a more focused damage setup available for rares or bosses that survive the initial clear.",
-      "Practice firing, moving, and firing again instead of planting in place. The skill is strongest when movement is part of the rotation.",
-      "Compare progression with related skill guides such as Chain Lightning, Spark, and Ball Lightning if you are deciding between bow and caster lightning styles.",
+      "Use Lightning Arrow when you have a suitable bow and can sustain it. Establish one damage support before adding extra coverage, and keep enough attributes to equip the next gem or weapon.",
+      "When a new area feels slower, first identify whether attacks miss, enemies survive clean hits, or mana runs out. Those symptoms call for different changes. Avoid replacing several items and supports at once.",
+      "Learn to aim through an accessible part of the pack, then move into cleared space. Shooting at a straggler while the main group surrounds you wastes the skill's coverage.",
     ],
     endgameUse: [
-      "Best used as a high-speed mapping skill with support swaps or a supplemental plan for tougher bosses.",
-      "Scale shock effect, critical multiplier, lightning penetration, and projectile damage only after life, evasion, and resistances feel stable.",
-      "For Count Geonor and Executioner-style encounters, stay at range, attack after telegraphs, and avoid spending the entire fight in greedy attack sequences.",
-      "For Endgame Titan or Fire Warden-style pressure, prioritize safe uptime over raw standing damage. A dead bow character has zero uptime.",
-      "Use clear supports in maps, then shift toward penetration or single-target supports when the encounter is no longer about pack density.",
-      "Avoid map modifiers that heavily punish elemental ailments, projectile attacks, recovery, or mana sustain unless the build has a clear answer.",
-      "Keep internal comparisons in mind: Ice Spear offers precise cold bossing, Flame Wall offers persistent fire zoning, and Lightning Arrow offers mobile lightning mapping.",
+      "For clearing, measure progress by safe pack removal and fewer return trips for survivors. Stop adding coverage when your usual packs already disappear in a comfortable attack sequence.",
+      "For bosses, compare a hit-focused support arrangement with your clearing arrangement under the same conditions. Count interrupted attacks and recovery use, not only the damage displayed in town.",
+      "Lightning Rod is a possible complementary bow skill: its placed arrows interact with chaining lightning beams. Treat placement and boss movement as part of the cost. Do not assume unlimited overlapping bursts or a fixed damage multiplier.",
     ],
-    relatedSkills: [
-      "chain-lightning",
-      "spark",
-      "ball-lightning",
-      "ice-spear",
-      "flame-wall",
-    ],
+    relatedSkills: ["spark", "ball-lightning"],
+    lastUpdated: "2026-09-26",
     faq: [
       {
-        question: "Is Lightning Arrow good for leveling in POE2?",
-        answer:
-          "Yes. Lightning Arrow is strong for leveling when the bow is upgraded often and the setup includes enough projectile coverage for packs. It becomes weaker when players keep an outdated weapon or ignore mana sustain.",
+        question: "Is Lightning Arrow an attack or a spell?",
+        answer: "It is a bow attack. Start with a suitable weapon and attack-compatible supports. Lightning damage alone does not make it scale like Spark or another spell; check the damage component named by each modifier.",
       },
       {
-        question: "What stats should Lightning Arrow prioritize first?",
-        answer:
-          "Prioritize bow damage, attack speed, lightning damage, elemental attack scaling, and enough accuracy or resource sustain to keep attacks consistent. Critical scaling is best after the basic damage and defensive foundation is stable.",
+        question: "Why does the skill say the arrow cannot chain?",
+        answer: "The initial arrow and the beams are separate components. The projectile does not chain, while its lightning beams can. Read the component details before judging a chain support from the headline description.",
       },
       {
-        question: "Why does Lightning Arrow feel weak against bosses?",
-        answer:
-          "Most boss problems come from using a pure clear setup, missing penetration, or standing still too long. Swap toward single-target damage, add lightning penetration, and attack during safe boss recovery windows.",
+        question: "Do I need Chain for my first setup?",
+        answer: "No. Begin with damage and resource use that feel dependable. Add coverage when clustered enemies are surviving outside your useful reach. A boss standing alone is not the same test as a dense pack.",
       },
       {
-        question: "Which builds use Lightning Arrow best?",
-        answer:
-          "Lightning Ranger is the main fit because it supports bow scaling, mobility, shock pressure, and fast mapping. Other ranged elemental builds can borrow the same principles if they have enough bow and projectile support.",
+        question: "Why is my boss damage much worse than my clear?",
+        answer: "Check whether supports mostly improve coverage, whether the bow is adequate, and whether you can land attacks without being interrupted. Fix one limitation at a time. More beams on a pack do not establish a single-target damage multiplier.",
       },
       {
-        question: "Is Chain always required for Lightning Arrow?",
-        answer:
-          "Chain-style coverage is excellent for mapping, but it is not always the best bossing choice. Use chain for packs, then consider more focused supports when a fight is mostly single-target.",
+        question: "Should I add Lightning Rod immediately?",
+        answer: "Only if you can place it safely and sustain both skills. Try a short placement-and-fire sequence against a familiar enemy. If the boss moves away or you run out of mana, simplify the setup before adding more actions.",
       },
       {
-        question: "What is the biggest Lightning Arrow mistake?",
-        answer:
-          "The biggest mistake is treating range as a reason to stand still. Lightning Arrow performs best when the player fires, moves, keeps shock pressure active, and avoids greedy attack sequences during boss mechanics.",
+        question: "Which page should I use for a complete Ranger plan?",
+        answer: "Use the Lightning Ranger build for progression, defenses, and a repeatable combat routine. The longer Lightning Arrow guide discusses broader progression choices; this reference focuses on component behavior and support decisions.",
       },
     ],
   },
@@ -1000,10 +968,14 @@ endgameUse: [
 },
 ] satisfies Skill[]).map((skill) => ({
   ...skill,
-  seoTitle: `${skill.name} Skill Guide - POE2 Supports and Builds`,
-  seoDescription: `${skill.summary} Learn scaling stats, best supports, recommended builds, leveling notes, endgame use, FAQs, and related POE2 guides.`,
+  seoTitle: skill.slug === "lightning-arrow"
+    ? "Lightning Arrow Reference - POE2 Mechanics and Support Choices"
+    : `${skill.name} Skill Guide - POE2 Supports and Builds`,
+  seoDescription: skill.slug === "lightning-arrow"
+    ? "Understand Lightning Arrow's arrow and beam behavior, support trade-offs, clear versus boss damage, and a practical bow test in Path of Exile 2."
+    : `${skill.summary} Learn scaling stats, best supports, recommended builds, leveling notes, endgame use, FAQs, and related POE2 guides.`,
   patchVersion: "Early Access",
-  lastUpdated: "2026-05-11",
+  lastUpdated: skill.lastUpdated ?? "2026-05-11",
   faq: skill.faq ?? [
     {
       question: `Is ${skill.name} good for leveling?`,

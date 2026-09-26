@@ -31,7 +31,7 @@ const buildRelatedContent: Record<
 > = {
   "lightning-ranger": {
     relatedSkills: ["lightning-arrow"],
-    relatedBosses: ["count-geonor", "endgame-titan"],
+    relatedBosses: ["count-geonor", "executioner", "endgame-titan"],
   },
   "infernal-witch": {
     relatedSkills: ["flame-wall", "ember-fusillade"],
@@ -61,41 +61,71 @@ export const builds: Build[] = ([
     title: "Lightning Ranger Build",
     className: "Ranger",
     tier: "S Tier",
-    playstyle: "Fast ranged mapper",
+    playstyle: "Mobile lightning bow",
     difficulty: "Beginner",
     summary:
-      "A high-speed bow build focused on lightning damage, shock uptime, and smooth clear for campaign and early endgame mapping.",
+      "A Ranger bow plan built around Lightning Arrow for packs, a deliberate setup for durable targets, and short attack windows that leave room to move. Progress through weapon, resource, and defensive upgrades before adding more skills.",
     strengths: [
-      "Excellent clear speed with chaining lightning skills.",
-      "Strong mobility makes dangerous encounters easier to reposition around.",
-      "Scales well with attack speed, elemental damage, and critical strikes.",
+      "Choose this build if you enjoy aiming from range and alternating attacks with movement. The main clearing skill can remain consistent while you learn how each encounter changes your positioning. You do not need to manage several competing damage skills just to establish the basic campaign routine.",
+      "The setup has clear upgrade questions. When hits feel weak, examine the bow and relevant damage supports. When firing stops, examine mana use. When you lose an encounter while damage feels adequate, improve defenses or shorten your attack sequence. Those separate checks make a failed attempt more informative.",
+      "Lightning Arrow's coverage suits grouped enemies. You can aim into an accessible part of a pack and move into space it clears, instead of walking directly through the group. A simple clearing routine also leaves attention available for dangerous rare enemies and incoming attacks.",
     ],
     weaknesses: [
-      "Can feel fragile before defensive gear comes online.",
-      "Single-target damage depends on keeping uptime during boss movement.",
-      "Mana sustain may need early support from gear or passive choices.",
+      "Clearing a pack quickly does not prove the setup can kill an isolated boss comfortably. Coverage supports, a weak weapon, and interrupted attacks can all produce that mismatch. Expect to evaluate your single-target routine separately rather than assuming every mapping improvement also improves boss damage.",
+      "This is an active bow playstyle, not a plan for standing still through attacks. Evasion helps against appropriate threats but cannot replace a life pool, resistances, recovery, or leaving ground hazards. If constant retreat prevents all damage, examine positioning and defenses before buying more attack speed.",
+      "Adding a second skill creates another resource and timing cost. A placement skill that looks strong on a stationary target can contribute little when the boss immediately moves. Keep the routine simple enough to execute under pressure; optional utility should earn its place through actual encounters.",
     ],
     coreSkills: [
-      "Lightning Arrow",
-      "Escape Shot",
-      "Stormcaller Arrow",
-      "Wind Dancer",
+      "Lightning Arrow is the main attack. Use a bow that supports its damage and a compatible damage support you can sustain. Its arrow and beam components do not behave identically, so inspect the skill panel rather than copying a support list from a lightning spell character.",
+      "Lightning Rod is the complementary option for durable enemies. Place rods near the area where the target is likely to remain, then use Lightning Arrow while you have a safe opening. The rods interact with chaining lightning beams. Start with a short placement sequence; spending the whole opening placing rods leaves no time to fire or evade.",
+      "For Lightning Arrow supports, prioritize dependable hit damage first. Consider additional beam coverage when packs remain spread out, and a compatible penetration option when lightning resistance is the relevant obstacle. Read every cost and penalty. A support that reduces a damage component you rely on may make an impressive-looking arrangement worse.",
+      "For the secondary skill, favor an arrangement you can place quickly and afford alongside your main attack. Do not spend scarce upgrades on several alternative boss tools before testing this pair. If the target moves out of the setup, resume safe direct attacks rather than repeatedly rebuilding the whole field in danger.",
+      "Keep movement as part of the rotation. Dodge away from an incoming path, fire during the resulting opening, then reassess. An optional utility skill must fit between those decisions. Neither an extra button nor a larger tooltip number is worth repeatedly losing the opportunity to move.",
     ],
     recommendedGear: [
-      "High physical or elemental DPS bow",
-      "Quiver with attack speed and added lightning damage",
-      "Evasion armor with life and resistances",
-      "Rings with mana sustain and elemental damage",
+      "Bow: compare the damage your actual skill gains, not only an item's overall damage total. Physical damage can feed Lightning Arrow's conversion, and added lightning damage can also help. Keep accuracy and attack speed in view, and test a prospective upgrade with the same supports before deciding which modifier made the difference.",
+      "Quiver and jewelry: use these slots to fix missing attributes, accuracy, resources, or useful attack damage without breaking resistance coverage. Spell damage is not a general improvement to a bow attack. A low-cost item that closes a real gap can be more useful than an expensive offensive item with requirements you cannot meet.",
+      "Armour slots: establish life and elemental resistances, then improve evasion and other defensive layers appropriate to the character. Check the complete equipment set after each swap. Removing the only item covering a resistance or attribute requirement can make a damage upgrade a net loss during the next area.",
+      "Boots and recovery: comfortable movement helps you leave telegraphs without abandoning the whole damage window. Keep recovery appropriate to the content and inspect mana over repeated attacks. Do not assume a flask that carries one short pack will sustain a long boss attempt with an additional placement skill.",
     ],
     levelingTips: [
-      "Prioritize bow damage and movement speed while leveling.",
-      "Upgrade your weapon often; bow DPS carries the campaign.",
-      "Use defensive support gems if bosses start forcing repeated deaths.",
+      "Early progression: use the bow skill you can equip, then establish Lightning Arrow with a modest, sustainable support arrangement. Keep one main attack current before spreading upgrades across optional skills. If you cannot meet a gem requirement comfortably, continue with the working setup while fixing the specific attribute or equipment gap.",
+      "As tougher enemies appear, add Lightning Rod only after the main attack feels dependable. Practice placement on a familiar durable target, then fire and move. Compare that sequence with simply using Lightning Arrow. Keep the extra skill when it produces useful damage without exhausting mana or causing avoidable hits.",
+      "Before Count Geonor, check cold resistance alongside life and physical-hit protection. During sword exchanges, use short openings; during mist pressure, prioritize room to move. A successful preparation change should help you survive the same pattern more reliably, not merely increase the damage shown while standing in town.",
+      "When progression stalls, repeat a familiar area and change one variable: bow, support, resource recovery, or a defensive slot. Note whether enemies need fewer clean attack sequences, whether mana lasts, and whether you finish with recovery remaining. This gives you a reason for the next upgrade instead of rebuilding the character after every death.",
     ],
     endgameNotes: [
-      "Add ailment effect and critical multiplier once defenses feel stable.",
-      "Keep resistances capped before pushing higher-tier maps.",
-      "Swap supports for tougher bosses when clear speed is less important.",
+      "Clear-speed plan: approach packs from visible ground, fire into the group, and move only after an escape lane opens. Return to dangerous survivors from a readable angle. If ordinary packs already fall comfortably, prioritize safety and sustained movement before adding more projectiles or coverage at the expense of damage.",
+      "Bossing plan: wait for a committed attack to finish, place the secondary skill if the boss is likely to remain there, then fire a short sequence. Skip placement in a small opening. After the boss moves, choose between direct attacks and replacing the setup; chasing an old placement is not a reason to cross a dangerous area.",
+      "Defensive plan: treat life, resistances, recovery, and positioning as one system. If you repeatedly lose health while firing, reduce the sequence length. If one hit ends the attempt, inspect defenses and the attack itself. Extra damage is useful only after you can reach and repeat your chosen opening.",
+      "Common mistakes: copying spell supports onto an attack, assuming extra chains multiply damage on one target, placing too many rods while a boss prepares an attack, and buying attack speed that the mana supply cannot support. Another trap is measuring clear speed in an easy area while ignoring deaths and recovery use in the content you actually want to complete.",
+    ],
+    lastUpdated: "2026-09-26",
+    faq: [
+      {
+        question: "Who should play Lightning Ranger?",
+        answer: "Players who want a bow character with a simple clearing skill and active movement. Choose it for that combat rhythm, not a promise that it will outperform every alternative. You should be comfortable interrupting your own attacks when a boss starts a dangerous action.",
+      },
+      {
+        question: "Do I need a particular unique item or ascendancy?",
+        answer: "The progression routine here does not depend on a named unique or a single ascendancy. Establish the bow attack, resource use, and defenses first. When choosing an ascendancy, compare what it contributes to the attack and defensive plan you are actually using.",
+      },
+      {
+        question: "What is the first upgrade when damage feels low?",
+        answer: "Check whether attacks land and whether the bow provides useful damage to Lightning Arrow. Then inspect compatible supports. If attacks are frequently interrupted or mana runs out, those are uptime problems; buying another damage modifier may leave them unresolved.",
+      },
+      {
+        question: "Can I use Lightning Arrow without Lightning Rod?",
+        answer: "Yes. Establish the main attack first and use it alone when placement would be unsafe or the target will not stay nearby. The second skill is a practical option for durable targets, not a requirement to complete every attack sequence.",
+      },
+      {
+        question: "Should boss supports be the same as clearing supports?",
+        answer: "Not necessarily. Compare a hit-focused arrangement with your clearing arrangement on the same familiar encounter. Change one support, keep the weapon constant, and watch both resources and survival. Retain the version that performs better during real openings.",
+      },
+      {
+        question: "How is this different from Poison Assassin?",
+        answer: "This plan focuses on direct lightning bow damage and a possible placed-skill interaction. Poison Assassin emphasizes applying damage that continues while repositioning. Its poison-specific supports and passive priorities are not a ready-made conversion to this setup.",
+      },
     ],
   },
   {
@@ -324,7 +354,9 @@ export const builds: Build[] = ([
 ] satisfies Build[]).map((build) => ({
   ...build,
   seoTitle: `${build.title} Guide - POE2 ${build.className} Build`,
-  seoDescription: `${build.summary} Includes skills, gear priorities, leveling tips, endgame notes, FAQs, and related POE2 guides.`,
+  seoDescription: build.slug === "lightning-ranger"
+    ? "Build a practical Lightning Arrow Ranger: skill and support choices, bow upgrades, leveling, defenses, and a repeatable Lightning Rod boss routine."
+    : `${build.summary} Includes skills, gear priorities, leveling tips, endgame notes, FAQs, and related POE2 guides.`,
   patchVersion: "Early Access",
   lastUpdated: build.lastUpdated ?? "2026-05-11",
   faq: build.faq ?? [

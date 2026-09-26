@@ -28,6 +28,7 @@ const filters = [
 
 const skillGroups = {
   Lightning: [
+    "lightning-arrow",
     "arc",
     "spark",
     "chain-lightning",
@@ -117,6 +118,7 @@ export default function SkillsPage() {
               weaponRequirement={skill.weaponRequirement}
               summary={skill.summary}
               href={`/skills/${skill.slug}`}
+              linkLabel={skill.slug === "lightning-arrow" ? "Lightning Arrow reference" : undefined}
             />
           ))}
         </div>
